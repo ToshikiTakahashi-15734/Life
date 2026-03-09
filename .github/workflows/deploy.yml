@@ -1,0 +1,60 @@
+name: Daily IT Trend Deploy
+
+on:
+  schedule:
+    # 毎日 7:00 JST (= 22:00 UTC 前日)
+    - cron: '0 22 * * *'
+  workflow_dispatch: # 手動実行も可能
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  collect-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect trends
+        run: python scripts/collector.py
+
+      - name: Generate HTML
+        run: python scripts/generate_html.py
+
+      - name: Commit new data back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ public/
+          git diff --staged --quiet || git commit -m "Auto-update: $(date -u +%Y-%m-%d) trends data"
+          git push
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './public'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
