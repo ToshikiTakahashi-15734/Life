@@ -3,6 +3,7 @@
 
 import json
 import os
+import re
 import sys
 import hashlib
 from datetime import datetime, timezone, timedelta
@@ -12,6 +13,8 @@ import requests
 import feedparser
 from bs4 import BeautifulSoup
 
+from urllib.parse import urlparse
+
 JST = timezone(timedelta(hours=9))
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
@@ -20,6 +23,150 @@ TODAY = datetime.now(JST).strftime("%Y-%m-%d")
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 }
+
+# --- Security Filters ---
+
+ALLOWED_SCHEMES = {"http", "https"}
+
+DANGEROUS_EXTENSIONS = {
+    ".exe", ".msi", ".bat", ".cmd", ".scr", ".pif", ".com", ".vbs", ".vbe",
+    ".js", ".jse", ".wsf", ".wsh", ".ps1", ".psm1", ".reg", ".inf", ".hta",
+    ".cpl", ".msc", ".jar", ".apk", ".dmg", ".iso", ".img", ".torrent",
+}
+
+MALICIOUS_URL_PATTERNS = [
+    re.compile(r"bit\.ly/", re.IGNORECASE),
+    re.compile(r"tinyurl\.com/", re.IGNORECASE),
+    re.compile(r"t\.co/", re.IGNORECASE),
+    re.compile(r"adf\.ly/", re.IGNORECASE),
+    re.compile(r"goo\.gl/", re.IGNORECASE),
+]
+
+XSS_PATTERNS = [
+    re.compile(r"<\s*script", re.IGNORECASE),
+    re.compile(r"javascript\s*:", re.IGNORECASE),
+    re.compile(r"on\w+\s*=", re.IGNORECASE),
+    re.compile(r"<\s*iframe", re.IGNORECASE),
+    re.compile(r"<\s*object", re.IGNORECASE),
+    re.compile(r"<\s*embed", re.IGNORECASE),
+    re.compile(r"<\s*form", re.IGNORECASE),
+    re.compile(r"data\s*:\s*text/html", re.IGNORECASE),
+    re.compile(r"vbscript\s*:", re.IGNORECASE),
+    re.compile(r"expression\s*\(", re.IGNORECASE),
+    re.compile(r"url\s*\(\s*['\"]?\s*javascript", re.IGNORECASE),
+]
+
+CONTROL_CHAR_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f\u200b-\u200f\u202a-\u202e\u2060\ufeff]")
+
+
+def is_safe_url(url):
+    """URLが安全かチェック"""
+    if not url or not isinstance(url, str):
+        return False
+    try:
+        parsed = urlparse(url)
+    except Exception:
+        return False
+
+    # スキームチェック
+    if parsed.scheme.lower() not in ALLOWED_SCHEMES:
+        return False
+
+    # ホスト名が空
+    if not parsed.hostname:
+        return False
+
+    # IPアドレス直打ち (プライベートIP) のブロック
+    hostname = parsed.hostname.lower()
+    if re.match(r"^\d+\.\d+\.\d+\.\d+$", hostname):
+        parts = hostname.split(".")
+        try:
+            first = int(parts[0])
+            if first == 10 or first == 127:
+                return False
+            if first == 172 and 16 <= int(parts[1]) <= 31:
+                return False
+            if first == 192 and int(parts[1]) == 168:
+                return False
+            if first == 0:
+                return False
+        except (ValueError, IndexError):
+            return False
+
+    # 危険なファイル拡張子の直リンク
+    path_lower = parsed.path.lower()
+    for ext in DANGEROUS_EXTENSIONS:
+        if path_lower.endswith(ext):
+            return False
+
+    # 短縮URL (リダイレクト先が不明)
+    for pattern in MALICIOUS_URL_PATTERNS:
+        if pattern.search(url):
+            return False
+
+    return True
+
+
+def sanitize_text(text):
+    """テキストからXSS・制御文字・不審な文字列を除去"""
+    if not text or not isinstance(text, str):
+        return ""
+
+    # 制御文字・不可視文字の除去
+    text = CONTROL_CHAR_RE.sub("", text)
+
+    # XSSパターンの除去
+    for pattern in XSS_PATTERNS:
+        text = pattern.sub("[removed]", text)
+
+    # HTMLタグを全除去 (プレーンテキストのみ残す)
+    text = re.sub(r"<[^>]+>", "", text)
+
+    return text.strip()
+
+
+def sanitize_article(article):
+    """記事データ全体をサニタイズ。安全でなければNoneを返す"""
+    url = article.get("url", "")
+    if not is_safe_url(url):
+        print(f"    [BLOCKED] Unsafe URL: {url[:80]}")
+        return None
+
+    article["title"] = sanitize_text(article.get("title", ""))
+    article["summary"] = sanitize_text(article.get("summary", ""))
+
+    # タイトルが空または極端に短い場合は除外
+    if not article["title"] or len(article["title"]) < 3:
+        print(f"    [BLOCKED] Empty/invalid title for: {url[:80]}")
+        return None
+
+    return article
+
+
+def summarize_from_url(url):
+    """URLからページのmeta descriptionやog:descriptionを取得して備考にする"""
+    if not is_safe_url(url):
+        return ""
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=8)
+        if resp.status_code != 200:
+            return ""
+        soup = BeautifulSoup(resp.text, "html.parser")
+        # og:description > meta description > 最初のpタグ
+        og = soup.find("meta", property="og:description")
+        if og and og.get("content"):
+            return og["content"].strip()[:120]
+        meta = soup.find("meta", attrs={"name": "description"})
+        if meta and meta.get("content"):
+            return meta["content"].strip()[:120]
+        p = soup.find("p")
+        if p:
+            text = p.get_text(strip=True)
+            if len(text) > 15:
+                return text[:120]
+    except Exception:
+        pass
+    return ""
 
 
 def fetch_hackernews():
@@ -37,9 +184,12 @@ def fetch_hackernews():
             )
             story = r.json()
             if story and story.get("title"):
+                url = story.get("url", f"https://news.ycombinator.com/item?id={sid}")
+                summary = summarize_from_url(url)
                 items.append({
                     "title": story["title"],
-                    "url": story.get("url", f"https://news.ycombinator.com/item?id={sid}"),
+                    "url": url,
+                    "summary": summary,
                     "score": story.get("score", 0),
                     "comments": story.get("descendants", 0),
                     "source": "Hacker News",
@@ -67,9 +217,12 @@ def fetch_hatena():
                 if entry.link in seen:
                     continue
                 seen.add(entry.link)
+                summary = getattr(entry, "summary", "") or ""
+                summary = BeautifulSoup(summary, "html.parser").get_text(strip=True)[:120] if summary else ""
                 items.append({
                     "title": entry.title,
                     "url": entry.link,
+                    "summary": summary,
                     "score": 0,
                     "comments": 0,
                     "source": "はてなブログ",
@@ -100,9 +253,13 @@ def fetch_reddit():
                 d = post["data"]
                 if d.get("stickied"):
                     continue
+                summary = (d.get("selftext") or "")[:120]
+                if not summary:
+                    summary = d.get("link_flair_text") or ""
                 items.append({
                     "title": d["title"],
                     "url": d.get("url", f"https://reddit.com{d['permalink']}"),
+                    "summary": summary,
                     "score": d.get("ups", 0),
                     "comments": d.get("num_comments", 0),
                     "source": f"Reddit r/{sub}",
@@ -130,10 +287,17 @@ def fetch_aikido_security():
                 if not title or len(title) < 10 or title in ("Blog", "Read more"):
                     continue
                 url = href if href.startswith("http") else f"https://www.aikido.dev{href}"
-                uid = hashlib.md5(url.encode()).hexdigest()
+                # 親要素からdescription的なテキストを探す
+                parent = a.find_parent()
+                summary = ""
+                if parent:
+                    p = parent.find_next_sibling("p") or parent.find("p")
+                    if p:
+                        summary = p.get_text(strip=True)[:120]
                 items.append({
                     "title": title,
                     "url": url,
+                    "summary": summary,
                     "score": 0,
                     "comments": 0,
                     "source": "Aikido Security",
@@ -169,9 +333,16 @@ def fetch_wiz_research():
                 if not title or len(title) < 10:
                     continue
                 url = href if href.startswith("http") else f"https://www.wiz.io{href}"
+                parent = a.find_parent()
+                summary = ""
+                if parent:
+                    p = parent.find_next_sibling("p") or parent.find("p")
+                    if p:
+                        summary = p.get_text(strip=True)[:120]
                 items.append({
                     "title": title,
                     "url": url,
+                    "summary": summary,
                     "score": 0,
                     "comments": 0,
                     "source": "Wiz Research",
@@ -203,10 +374,19 @@ def collect_all():
         fetch_wiz_research,
     ]
 
+    blocked_count = 0
     for collector in collectors:
         items = collector()
-        all_items.extend(items)
+        for item in items:
+            safe = sanitize_article(item)
+            if safe:
+                all_items.append(safe)
+            else:
+                blocked_count += 1
         print()
+
+    if blocked_count:
+        print(f"  [Security] {blocked_count} articles blocked\n")
 
     # 日付ディレクトリにJSON保存
     date_dir = DATA_DIR / TODAY

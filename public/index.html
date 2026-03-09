@@ -12,37 +12,66 @@ header{background:linear-gradient(135deg,#1a1c2e,#2d1b4e);padding:24px 32px;
   border-bottom:1px solid #2a2d3e}
 header h1{font-size:1.6rem;color:#fff}
 header p{color:#9ca3af;font-size:.85rem;margin-top:4px}
-.container{max-width:1200px;margin:0 auto;padding:24px}
-.source-section{margin-bottom:32px}
-.source-title{font-size:1.15rem;color:#c4b5fd;margin-bottom:12px;
-  padding-bottom:6px;border-bottom:1px solid #2a2d3e;display:flex;align-items:center;gap:8px}
-.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px}
-.card{background:#1a1c2e;border:1px solid #2a2d3e;border-radius:8px;padding:14px 16px;
-  transition:border-color .2s,transform .15s}
-.card:hover{border-color:#7c3aed;transform:translateY(-2px)}
-.card a{color:#e2e8f0;text-decoration:none;font-size:.93rem;font-weight:500;
-  display:block;margin-bottom:6px}
-.card a:hover{color:#a78bfa}
-.card-meta{display:flex;gap:12px;font-size:.78rem;color:#6b7280}
-.card-meta .score{color:#f59e0b}
-.card-meta .comments{color:#60a5fa}
-.card-meta .source{color:#9ca3af}
-nav.archives{margin-top:32px;padding:20px;background:#1a1c2e;border-radius:8px;
-  border:1px solid #2a2d3e}
-nav.archives h2{font-size:1rem;color:#c4b5fd;margin-bottom:10px}
-nav.archives a{color:#60a5fa;text-decoration:none;margin-right:14px;font-size:.88rem}
-nav.archives a:hover{text-decoration:underline}
+.container{max-width:1400px;margin:0 auto;padding:24px}
+.stats{display:flex;gap:20px;margin-top:8px}
+.stats span{background:#1e2033;padding:4px 12px;border-radius:20px;font-size:.8rem;color:#9ca3af}
+
+/* Source section */
+.source-section{margin-bottom:28px}
+.source-title{font-size:1.1rem;color:#c4b5fd;margin-bottom:8px;padding-bottom:6px;
+  border-bottom:1px solid #2a2d3e;display:flex;align-items:center;gap:8px}
+.source-title .count{font-size:.8rem;color:#6b7280;font-weight:normal}
+
+/* Table */
+.trend-table{width:100%;border-collapse:collapse;font-size:.88rem}
+.trend-table thead{background:#161829}
+.trend-table th{text-align:left;padding:8px 12px;color:#9ca3af;font-weight:600;
+  border-bottom:2px solid #2a2d3e;white-space:nowrap;font-size:.78rem;text-transform:uppercase;letter-spacing:.5px}
+.trend-table td{padding:7px 12px;border-bottom:1px solid #1e2033;vertical-align:top}
+.trend-table tbody tr:hover{background:#1a1c2e}
+.col-num{width:36px;color:#4b5563;text-align:center}
+.col-source{width:140px;white-space:nowrap}
+.col-title{min-width:280px}
+.col-summary{color:#9ca3af;font-size:.82rem;max-width:360px}
+.source-badge{font-size:.78rem;color:#9ca3af}
+.trend-table a{color:#e2e8f0;text-decoration:none}
+.trend-table a:hover{color:#a78bfa;text-decoration:underline}
+.score{color:#f59e0b;font-size:.75rem;margin-left:8px}
+.comments{color:#60a5fa;font-size:.75rem}
+
+/* Calendar Archive */
+.archive-section{margin-top:36px}
+.archive-section>h2{font-size:1.1rem;color:#c4b5fd;margin-bottom:16px}
+.cal-grid{display:flex;flex-wrap:wrap;gap:20px}
+.cal-month{background:#1a1c2e;border:1px solid #2a2d3e;border-radius:8px;padding:16px;min-width:280px}
+.cal-month h3{font-size:.9rem;color:#e2e8f0;margin-bottom:8px;text-align:center}
+.cal-table{width:100%;border-collapse:collapse;font-size:.82rem}
+.cal-table th{padding:4px;text-align:center;color:#6b7280;font-weight:normal;font-size:.72rem}
+.cal-table td{padding:4px;text-align:center;height:28px}
+.cal-day{color:#4b5563}
+.cal-has-data{background:#1e1040;border-radius:4px}
+.cal-has-data a{color:#a78bfa;text-decoration:none;font-weight:600;display:block}
+.cal-has-data a:hover{color:#c4b5fd;background:#2d1b4e;border-radius:4px}
+.cal-has-data:hover{background:#2d1b4e}
+.cal-weekend{color:#4b5563}
+.cal-empty{color:transparent}
+
+/* Recent list */
+.recent-list{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.recent-list a{display:inline-block;padding:6px 14px;background:#1e2033;border:1px solid #2a2d3e;
+  border-radius:6px;color:#60a5fa;text-decoration:none;font-size:.82rem;transition:all .2s}
+.recent-list a:hover{background:#2d1b4e;border-color:#7c3aed;color:#c4b5fd}
+.recent-list a.today{background:#2d1b4e;border-color:#7c3aed;color:#c4b5fd;font-weight:600}
+
 .empty{text-align:center;padding:60px 20px;color:#6b7280}
 .back-link{display:inline-block;margin-bottom:16px;color:#60a5fa;text-decoration:none;font-size:.9rem}
 .back-link:hover{text-decoration:underline}
-.stats{display:flex;gap:20px;margin-top:8px}
-.stats span{background:#1e2033;padding:4px 12px;border-radius:20px;font-size:.8rem;color:#9ca3af}
 </style>
 </head>
 <body>
 <header>
   <h1>IT Trend Dashboard</h1>
-  <p>2026-03-09 | Updated: 2026-03-09 12:18:01 JST</p>
+  <p>2026/03/09 (月) | Updated: 2026-03-09 12:59:24 JST</p>
   <div class="stats">
   <span>Total: 84 articles</span>
   <span>Sources: 7</span>
@@ -50,620 +79,618 @@ nav.archives a:hover{text-decoration:underline}
 </header>
 <main class="container">
 <section class="source-section">
-  <h2 class="source-title">🟠 Hacker News</h2>
-  <div class="cards"><article class="card">
-  <a href="https://agent-safehouse.dev/" target="_blank" rel="noopener">Agent Safehouse – macOS-native sandboxing for local agents</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 372</span> <span class="comments">&#128172; 86</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.youtube.com/watch?v=qZuR-772cks" target="_blank" rel="noopener">Microscopes can see video on a laserdisc</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 279</span> <span class="comments">&#128172; 23</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://github.com/Dieu-de-l-elec/AngstromIO-devboard" target="_blank" rel="noopener">PCB devboard the size of a USB-C plug</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 75</span> <span class="comments">&#128172; 16</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/" target="_blank" rel="noopener">We should revisit literate programming in the agent era</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 153</span> <span class="comments">&#128172; 83</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://news.ycombinator.com/item?id=47303111" target="_blank" rel="noopener">Ask HN: What Are You Working On? (March 2026)</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 63</span> <span class="comments">&#128172; 174</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://bret.dk/every-single-board-computer-i-tested-in-2025/" target="_blank" rel="noopener">Every single board computer I tested in 2025</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 116</span> <span class="comments">&#128172; 31</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://fb.edoo.gg" target="_blank" rel="noopener">FrameBook</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 368</span> <span class="comments">&#128172; 65</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://github.com/blacksky-algorithms/atproto" target="_blank" rel="noopener">Blacksky AppView</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 110</span> <span class="comments">&#128172; 65</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://offlinemark.com/an-obscure-quirk-of-proc/" target="_blank" rel="noopener">Linux Internals: How /proc/self/mem writes to unwritable memory (2021)</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 37</span> <span class="comments">&#128172; 6</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://github.com/Rabrg/artificial-life" target="_blank" rel="noopener">Artificial-life: A simple (300 lines of code) reproduction of Computational Life</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 73</span> <span class="comments">&#128172; 8</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://bryananthonio.com/blog/my-homelab-setup/" target="_blank" rel="noopener">My Homelab Setup</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 158</span> <span class="comments">&#128172; 128</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://mufeedvh.com/posts/i-made-a-programming-language-with-mnms/" target="_blank" rel="noopener">I made a programming language with M&amp;Ms</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 51</span> <span class="comments">&#128172; 19</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://github.com/bostrot/wsl2-distro-manager" target="_blank" rel="noopener">WSL Manager</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 76</span> <span class="comments">&#128172; 43</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.ethanhein.com/wp/2019/why-cant-you-tune-your-guitar/" target="_blank" rel="noopener">Why can&#x27;t you tune your guitar? (2019)</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 180</span> <span class="comments">&#128172; 130</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://jonathan-frere.com/posts/reactivity-algorithms/" target="_blank" rel="noopener">Pushing and Pulling: Three reactivity algorithms</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 70</span> <span class="comments">&#128172; 15</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.youtube.com/watch?v=yRV8fSw6HaE" target="_blank" rel="noopener">Living human brain cells play DOOM on a CL1 [video]</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 152</span> <span class="comments">&#128172; 139</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://skir.build/" target="_blank" rel="noopener">Show HN: Skir – like Protocol Buffer but better</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 62</span> <span class="comments">&#128172; 42</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://github.com/BigBodyCobain/Shadowbroker" target="_blank" rel="noopener">Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 185</span> <span class="comments">&#128172; 84</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://utcc.utoronto.ca/~cks/space/blog/programming/LogMessagesAreForOperation" target="_blank" rel="noopener">Log messages are mostly for the people operating your software</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 114</span> <span class="comments">&#128172; 57</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://dailydot.com/mojave-phone-booth-back-number" target="_blank" rel="noopener">The legendary Mojave Phone Booth is back (2013)</a>
-  <div class="card-meta">
-    <span class="source">🟠 Hacker News</span>
-    <span class="score">&#9650; 12</span> <span class="comments">&#128172; 3</span>
-  </div>
-</article></div>
-</section>
-<section class="source-section">
-  <h2 class="source-title">📘 はてなブログ</h2>
-  <div class="cards"><article class="card">
-  <a href="https://note.com/joho_no_todai/n/n0ee446fdff40" target="_blank" rel="noopener">AIがオープンソースの「鍵」を壊す日――chardet騒動の本質｜情報の灯台</a>
-  <div class="card-meta">
-    <span class="source">📘 はてなブログ</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://qiita.com/NF0000/items/66510f959b1c22f011a7" target="_blank" rel="noopener">Claude Codeにバックドア入りOSSを渡したら、何の疑いもなく実装した - Qiita</a>
-  <div class="card-meta">
-    <span class="source">📘 はてなブログ</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://type.jp/et/feature/30605/" target="_blank" rel="noopener">南場智子「ますます“速さ”が命題に」DeNA AI Day2026全文書き起こし - エンジニアtype | 転職type</a>
-  <div class="card-meta">
-    <span class="source">📘 はてなブログ</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://zenn.dev/r57ty7/articles/879db0530ad899" target="_blank" rel="noopener">並列開発を支えるtmux, git, zsh設定集</a>
-  <div class="card-meta">
-    <span class="source">📘 はてなブログ</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://retro-gamer.jp/?p=42528" target="_blank" rel="noopener">バンダイのPS1用ゲーム『魔女っ子大作戦』はなんでこんな作品になったのか？ 開発者が「最も奇妙なゲーム開発体験だった」と語る誕生の経緯</a>
-  <div class="card-meta">
-    <span class="source">📘 はてなブログ</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://note.com/simplearchitect/n/nf00d38494ac3" target="_blank" rel="noopener">ジュニアエンジニアの人、AI後はこうしたらええんちゃう？という話｜牛尾　剛</a>
-  <div class="card-meta">
-    <span class="source">📘 はてなブログ</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.publickey1.jp/blog/26/awsawsopenclawvpsamazon_lightsail.html" target="_blank" rel="noopener">AWS、AWS上ですぐ使えるOpenClawを提供開始。仮想プライベートサーバ（VPS）「Amazon Lightsail」のインスタンスイメージとして</a>
-  <div class="card-meta">
-    <span class="source">📘 はてなブログ</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://gigazine.net/news/20260308-llmfit/" target="_blank" rel="noopener">システムのメモリ・CPU・GPUに合わせて適切なAIモデルを教えてくれるターミナルツール「llmfit」</a>
-  <div class="card-meta">
-    <span class="source">📘 はてなブログ</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://shujisado.com/2026/03/09/license_change_for_aigenerated_reimplementation_of_chardet/" target="_blank" rel="noopener">AI生成によるchardet再実装におけるライセンス変更の是非に関するメモ</a>
-  <div class="card-meta">
-    <span class="source">📘 はてなブログ</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.publickey1.jp/blog/26/claude_codeai.html" target="_blank" rel="noopener">Claude Codeが「音声モード」搭載。AIに話しかけながらのコーディングが可能に</a>
-  <div class="card-meta">
-    <span class="source">📘 はてなブログ</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.publickey1.jp/blog/26/openaicodex_for_windowswindowsaiwsl.html" target="_blank" rel="noopener">OpenAI、「Codex for Windows」正式リリース。Windowsサンドボックス内で安全にAIエージェントを実行、WSLにも対応</a>
-  <div class="card-meta">
-    <span class="source">📘 はてなブログ</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://qiita.com/YASUHARA-Wataru/items/5a8a16a2b7e91c3536a8" target="_blank" rel="noopener">Pandasはもう古い？2026年のPythonデータ分析ライブラリを整理してみた - Qiita</a>
-  <div class="card-meta">
-    <span class="source">📘 はてなブログ</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://speakerdeck.com/kenichiota0711/claudecodedemaketanoke-ti-wojie-jue-suru" target="_blank" rel="noopener">ClaudeCodeでマーケターの課題を解決する</a>
-  <div class="card-meta">
-    <span class="source">📘 はてなブログ</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://zenn.dev/uniquevision/articles/625e00137b75af" target="_blank" rel="noopener">アーキテクチャ図、コードで書こう - C4モデル入門</a>
-  <div class="card-meta">
-    <span class="source">📘 はてなブログ</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://togetter.com/li/2672448" target="_blank" rel="noopener">「それよりもギターに目が行く」娘のスマホを契約した人が「小さいテレビをお付けしますね」と言われ、もらったテレビが全然小さくはなかった</a>
-  <div class="card-meta">
-    <span class="source">📘 はてなブログ</span>
-    
-  </div>
-</article></div>
-</section>
-<section class="source-section">
-  <h2 class="source-title">🔴 Reddit r/technology</h2>
-  <div class="cards"><article class="card">
-  <a href="https://www.techdirt.com/2026/03/06/were-training-students-to-write-worse-to-prove-theyre-not-robots-and-its-pushing-them-to-use-more-ai/" target="_blank" rel="noopener">We’re Training Students To Write Worse To Prove They’re Not Robots, And It’s Pushing Them To Use More AI</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/technology</span>
-    <span class="score">&#9650; 5321</span> <span class="comments">&#128172; 390</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.tomshardware.com/tech-industry/jensen-huang-set-to-receive-usd4-million-bonus-from-nvidia-0-002-percent-of-his-usd164-billion-net-worth-a-small-incentive-for-one-of-the-richest-people-on-earth" target="_blank" rel="noopener">CEO Jensen Huang set to receive $4 million bonus from Nvidia, 0.002% of his $164 billion net worth — a small incentive for one of the richest people on earth</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/technology</span>
-    <span class="score">&#9650; 3616</span> <span class="comments">&#128172; 375</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.livemint.com/companies/news/oracle-layoffs-tech-giant-to-slash-30-000-jobs-as-banks-pull-out-from-financing-ai-data-centres-11769996619410.html" target="_blank" rel="noopener">Oracle Layoffs: Tech giant to slash 30,000 jobs as banks pull out from financing AI data centers</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/technology</span>
-    <span class="score">&#9650; 23326</span> <span class="comments">&#128172; 1079</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/" target="_blank" rel="noopener">OpenAI on Surveillance and Autonomous Killings: You’re Going to Have to Trust Us</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/technology</span>
-    <span class="score">&#9650; 2120</span> <span class="comments">&#128172; 258</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.cnbc.com/2026/03/08/social-media-child-safety-internet-ai-surveillance.html" target="_blank" rel="noopener">Online age-verification tools spread across U.S. for child safety, but adults are being surveilled</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/technology</span>
-    <span class="score">&#9650; 3363</span> <span class="comments">&#128172; 291</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.techradar.com/pro/the-american-people-should-not-be-footing-the-bill-for-the-benefit-of-private-companies-tech-giants-sign-white-house-pledge-to-not-pass-on-data-center-electricity-costs-to-consumers-heres-everything-you-need-to-know" target="_blank" rel="noopener">‘The American people should not be footing the bill for the benefit of private companies&#x27;: Tech giants sign White House pledge to not pass on data center electricity to customers</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/technology</span>
-    <span class="score">&#9650; 6908</span> <span class="comments">&#128172; 477</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.theatlantic.com/ideas/2026/03/anthropic-pentagon-contract-openai/686285/" target="_blank" rel="noopener">Anthropic’s Ethical Stand Could Be Paying Off</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/technology</span>
-    <span class="score">&#9650; 625</span> <span class="comments">&#128172; 37</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.cbr.com/crunchyroll-sued-fans-anime-viewing-secrets/" target="_blank" rel="noopener">Crunchyroll Sued Over Allegedly Leaking Fans&#x27; Anime Viewing Secrets After $16M Settlement</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/technology</span>
-    <span class="score">&#9650; 1514</span> <span class="comments">&#128172; 145</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.tomshardware.com/tech-industry/nasa-successfully-deflected-a-small-asteroid-with-its-dart-rocket-kinetic-strike-ejected-a-significant-amount-of-debris-from-the-asteroid-impact-nudges-the-orbit-of-the-small-astronomical-body-affecting-the-larger-cosmic-object-as-well" target="_blank" rel="noopener">NASA successfully deflected a small asteroid with its DART rocket, kinetic strike ejected a significant amount of debris from the asteroid — impact nudges the orbit of the small astronomical body, affecting the larger cosmic object as well</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/technology</span>
-    <span class="score">&#9650; 337</span> <span class="comments">&#128172; 15</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.tomshardware.com/pc-components/gpus/nvidia-dominates-discrete-gpu-market-as-sales-of-amd-radeon-graphics-cards-hit-historical-low" target="_blank" rel="noopener">Nvidia dominates gaming GPU market with 95 percent share as sales of AMD Radeon graphics plummet to a historical low of 5 percent</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/technology</span>
-    <span class="score">&#9650; 1327</span> <span class="comments">&#128172; 252</span>
-  </div>
-</article></div>
-</section>
-<section class="source-section">
-  <h2 class="source-title">🔴 Reddit r/programming</h2>
-  <div class="cards"><article class="card">
-  <a href="https://richwhitehouse.com/index.php?postid=77" target="_blank" rel="noopener">Open Sores - an essay on how programmers spent decades building a culture of open collaboration, and how they&#x27;re being punished for it</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/programming</span>
-    <span class="score">&#9650; 491</span> <span class="comments">&#128172; 74</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.phoronix.com/news/Chardet-LLM-Rewrite-Relicense" target="_blank" rel="noopener">LLM-driven large code rewrites with relicensing are the latest AI concern</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/programming</span>
-    <span class="score">&#9650; 454</span> <span class="comments">&#128172; 201</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://blog.skacekamen.dev/posts/nest-js-is-not-really-good/" target="_blank" rel="noopener">NestJS is a bad Typescript framework</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/programming</span>
-    <span class="score">&#9650; 107</span> <span class="comments">&#128172; 99</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.scientificamerican.com/article/why-developers-using-ai-are-working-longer-hours/" target="_blank" rel="noopener">Why developers using AI are working longer hours</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/programming</span>
-    <span class="score">&#9650; 972</span> <span class="comments">&#128172; 318</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://youtu.be/g9VHUEhHgpU" target="_blank" rel="noopener">I have been coding this engine for a while, take a look and see my process let me know what y’all think</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/programming</span>
-    <span class="score">&#9650; 3</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://testing.googleblog.com/2026/03/set-safe-defaults-for-flags.html" target="_blank" rel="noopener">Set Safe Defaults for Flags</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/programming</span>
-    <span class="score">&#9650; 5</span> <span class="comments">&#128172; 3</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://research.ibm.com/blog/half-mobius-molecule" target="_blank" rel="noopener">Quantum simulates properties of the first-ever half-Möbius molecule, designed by IBM and researchers</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/programming</span>
-    <span class="score">&#9650; 20</span> <span class="comments">&#128172; 2</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://wingolog.org/archives/2026/02/18/two-mechanisms-for-dynamic-type-checks" target="_blank" rel="noopener">Two mechanisms for dynamic type checks</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/programming</span>
-    <span class="score">&#9650; 5</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.nsa.gov/helpful-links/nsa-foia/declassification-transparency-initiatives/historical-releases/view/article/3880193/capt-grace-hopper-on-future-possibilities-data-hardware-software-and-people-1982/" target="_blank" rel="noopener">Capt. Grace Hopper on Future Possibilities: Data, Hardware, Software, and People (1982)</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/programming</span>
-    <span class="score">&#9650; 17</span> <span class="comments">&#128172; 1</span>
-  </div>
-</article></div>
-</section>
-<section class="source-section">
-  <h2 class="source-title">🔴 Reddit r/netsec</h2>
-  <div class="cards"><article class="card">
-  <a href="https://www.neuracybintel.com/articles/fake-claude-code-install-guides-spread-amatera-infostealer-in-new-installfix-malvertising-campaign" target="_blank" rel="noopener">Fake Claude Code Install Guides Spread Amatera Infostealer in New “InstallFix” Malvertising Campaign</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/netsec</span>
-    <span class="score">&#9650; 50</span> <span class="comments">&#128172; 1</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://monxresearch-sec.github.io/shotbird-extension-malware-report/" target="_blank" rel="noopener">From Chrome Extension Supply-Chain Compromise to Host Malware: Technical Breakdown of the ShotBird Campaign</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/netsec</span>
-    <span class="score">&#9650; 9</span> <span class="comments">&#128172; 2</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.ndss-symposium.org/wp-content/uploads/2026-f1282-paper.pdf" target="_blank" rel="noopener">AirSnitch: Demystifying and Breaking Client Isolation in Wi-Fi Networks</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/netsec</span>
-    <span class="score">&#9650; 1</span>
-  </div>
-</article>
-<article class="card">
-  <a href="http://arxiv.org/abs/2602.20021" target="_blank" rel="noopener">38 researchers red-teamed AI agents for 2 weeks. Here&#x27;s what broke. (Agents of Chaos, Feb 2026)
-AI Security</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/netsec</span>
-    <span class="score">&#9650; 113</span> <span class="comments">&#128172; 32</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://blog.calif.io/p/a-race-within-a-race-exploiting-cve" target="_blank" rel="noopener">A Race Within A Race: Exploiting CVE-2025-38617 in Linux Packet Sockets</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/netsec</span>
-    <span class="score">&#9650; 28</span> <span class="comments">&#128172; 2</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://blog.doyensec.com/2026/03/05/mcp-nightmare.html" target="_blank" rel="noopener">Model Context Protocol (MCP) Authentication and Authorization</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/netsec</span>
-    <span class="score">&#9650; 54</span> <span class="comments">&#128172; 11</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/" target="_blank" rel="noopener">Hardening Firefox with Anthropic’s Red Team</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/netsec</span>
-    <span class="score">&#9650; 24</span>
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.codeant.ai/security-research/pac4j-jwt-authentication-bypass-public-key" target="_blank" rel="noopener">we at codeant found a bug in pac4j-jwt (auth bypass)</a>
-  <div class="card-meta">
-    <span class="source">🔴 Reddit r/netsec</span>
-    <span class="score">&#9650; 223</span> <span class="comments">&#128172; 7</span>
-  </div>
-</article></div>
-</section>
-<section class="source-section">
-  <h2 class="source-title">🥋 Aikido Security</h2>
-  <div class="cards"><article class="card">
-  <a href="https://www.aikido.dev/blog/continuous-pentesting-requirements" target="_blank" rel="noopener">What continuous pentesting actually requiresContinuous pentesting: how it works and what it requiresContinuous pentesting promises real-time security validation, but most implementations fall short. Here’s what continuous pentesting actually requires—from change-aware testing to exploit validation and remediation loops.Continuous pentesting is widely discussed, but rarely defined clearly. This piece breaks down what it is, what it isn’t, and what it actually requires.Guides &amp; Best PracticesSooraj Shah</a>
-  <div class="card-meta">
-    <span class="source">🥋 Aikido Security</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.aikido.dev/blog/token-efficiency-secrets-scan" target="_blank" rel="noopener">Rare Not Random: Using Token Efficiency for Secrets ScanningRare Not Random: Using Token Efficiency for Secrets ScanningEntropy often struggles with generic secrets and short strings. We look at how token efficiency can better identify strings that don’t look like normal text.Entropy is great at spotting randomness. But secrets aren’t always random. They’re just strings that don’t show up in normal code or text. We explore using BPE tokenization to measure that difference.Guides &amp; Best PracticesZach Rice</a>
-  <div class="card-meta">
-    <span class="source">🥋 Aikido Security</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.aikido.dev/blog/why-determinism-is-necessary" target="_blank" rel="noopener">Why Determinism Is Still a Necessity in SecurityWhy Determinism Is Still a Necessity in SecurityAI scanning finds what rules miss. Deterministic scanning finds it every time. Here&#x27;s why the best security pipelines don&#x27;t choose between them.AI-powered security tools are getting better at finding vulnerabilities. But deterministic tools give you the consistency that pipelines, compliance, and audit trails depend on. We look at what deterministic scanning does well, where AI takes over, and how the two work together for effective security.EngineeringDania Durnas</a>
-  <div class="card-meta">
-    <span class="source">🥋 Aikido Security</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.aikido.dev/blog/waf-rasp-adr" target="_blank" rel="noopener">WAF vs. RASP vs. ADRWAF vs. RASP vs. ADR: How Runtime Application Security WorksWAF, RASP, and ADR protect your app in completely different ways. Here&#x27;s what each layer actually does, where it falls short, and which ones you need.WAF, RASP, ADR, eBPF — We&#x27;re clearing up the terminology around runtime application security. Here&#x27;s what each layer actually does, how they overlap, and how they fit togetherGuidesDania Durnas</a>
-  <div class="card-meta">
-    <span class="source">🥋 Aikido Security</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.aikido.dev/blog/introducing-aikido-infinite" target="_blank" rel="noopener">Introducing Aikido Infinite: A new model of self-securing softwareAikido Infinite: Continuous AI Pentesting for Every ReleaseAikido Infinite runs AI penetration testing on every code change, validates exploitability, generates patches, and retests fixes before code hits production, making self-securing software a reality.AikidoMadeline Lawrence</a>
-  <div class="card-meta">
-    <span class="source">🥋 Aikido Security</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.aikido.dev/blog/storybooks-websockets-attack" target="_blank" rel="noopener">Persistent XSS/RCE using WebSockets in Storybook’s dev serverPersistent XSS/RCE using WebSockets in Storybook (CVE-2026-27148)CVE-2026-27148 exposes a WebSocket hijacking flaw in Storybook that can escalate into supply chain compromise. Learn the attack path, impact, and how to remediate.Aikido Attack found a WebSocket hijacking vulnerability in Storybook&#x27;s dev server that can lead to persistent XSS, remote code execution, and, in the worst case, supply chain compromise. We walk through how an attacker can exploit this without any user interaction at all, and a developer just has to visit the wrong website while to run into this attack.Vulnerabilities &amp; ThreatsRobbe Verwilghen</a>
-  <div class="card-meta">
-    <span class="source">🥋 Aikido Security</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.aikido.dev/blog/ai-pentesting-agent-security" target="_blank" rel="noopener">How Aikido secures AI pentesting agents by designHow Aikido Secures AI Pentesting Agents and Prevents Scope DriftLearn how Aikido secures AI pentesting agents with architectural isolation, runtime scope enforcement, and network-level controls to prevent production drift and data leakage.AI agents are built to explore. In cybersecurity, that exploration needs strict boundaries. This article explains how Aikido secures AI pentesting agents through architectural isolation, runtime scope enforcement, and layered controls that contain risk by design.Product &amp; Company UpdatesSooraj Shah</a>
-  <div class="card-meta">
-    <span class="source">🥋 Aikido Security</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.aikido.dev/blog/astro-full-read-ssrf-via-host-header-injection" target="_blank" rel="noopener">Astro Full-Read SSRF via Host Header InjectionAstro SSRF Vulnerability: Host Header Injection in SSR Error Pages (CVE-2026-25545)Aikido Security&#x27;s AI pentesting agent discovered a Server-Side Request Forgery vulnerability in Astro&#x27;s SSR implementation. Learn how Host header injection in prerendered error pages allowed full internal network access.Aikido&#x27;s AI pentesting agent discovered an SSRF vulnerability in Astro&#x27;s Node.js adapter. We&#x27;ll look at how by injecting a malicious Host: header, attackers could redirect an internal request to any URL on the local network.Vulnerabilities &amp; ThreatsJorian Woltjer</a>
-  <div class="card-meta">
-    <span class="source">🥋 Aikido Security</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.aikido.dev/blog/how-to-get-your-board-to-care-about-security" target="_blank" rel="noopener">How to Get Your Board to Care About Security (Before a Breach Forces the Issue)How to Get Your Board to Care About Security Before a BreachBoards don’t fund security because it’s important. They fund defensible decisions. Here’s how to frame risk, reduce ambiguity, and win real support before a breach forces the issue.GuidesMike Wilkes</a>
-  <div class="card-meta">
-    <span class="source">🥋 Aikido Security</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.aikido.dev/blog/slopsquatting-ai-package-hallucination-attacks" target="_blank" rel="noopener">What is Slopsquatting? The AI Package Hallucination Attack Already HappeningSlopsquatting: The AI Package Hallucination Attack Already HappeningAI models hallucinate npm package names. Attackers register them first. Here&#x27;s what slopsquatting is, how it&#x27;s spreading through agent skills, and how to protect yourself.AI models hallucinate package names — and attackers are registering them before anyone notices. Slopsquatting is the AI-era evolution of typosquatting, and unlike its predecessor, npm&#x27;s existing protections don&#x27;t work. We look at the real-world research showing it&#x27;s already happening, from confirmed malicious packages still pulling hundreds of weekly downloads to a hallucinated package name that spread to 237 repositories through AI agent skill files.Guides &amp; Best PracticesDania Durnas</a>
-  <div class="card-meta">
-    <span class="source">🥋 Aikido Security</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.aikido.dev/blog/wiz-code-alternatives" target="_blank" rel="noopener">Top 6 Wiz Code AlternativesWiz Code Alternatives (2026): 6 Tools Compared and Best Developer-First OptionLooking for Wiz Code alternatives? Compare 6 tools across SAST, DAST, SCA, pricing, and developer experience to find the best AppSec platform for 2026.This guide compares Wiz Code against six alternatives: Aikido Security, Snyk, Checkmarx, GitHub Advanced Security, Mend, and Veracode, evaluated on coverage, developer experience, AI-powered triage, pricing transparency, and deployment speed. Aikido Security comes out on top for teams wanting a developer-first platform with broad coverage, 85% false positive reduction, AI AutoFix across SAST, IaC and containers, native DAST, and transparent pricing at roughly one-tenth the cost of Wiz.Guides &amp; Best PracticesDania Durnas</a>
-  <div class="card-meta">
-    <span class="source">🥋 Aikido Security</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.aikido.dev/blog/latio-2026-appsec-report-aikido-platform-leader" target="_blank" rel="noopener">Aikido recognized as Platform Leader in Latio Tech&#x27;s 2026 Application Security ReportAikido Named AppSec Platform Leader in Latio 2026 ReportAikido Security recognized as Platform Leader, AI Pentesting Innovator, and Supply Chain Innovator in Latio Tech’s 2026 AppSec Report.Latio Tech’s 2026 AppSec Report names Aikido a Platform Leader and AI Innovator. Here’s what the report reveals about the future of application security.NewsSooraj Shah</a>
-  <div class="card-meta">
-    <span class="source">🥋 Aikido Security</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.aikido.dev/blog/zen-stops-idor-vulnerabilities" target="_blank" rel="noopener">From detection to prevention: How Zen stops IDOR vulnerabilities at runtimeFrom Detection to Prevention: Zen Stops IDOR at Runtime | AikidoIDOR vulnerabilities are one of the most common causes of cross-tenant data leaks in multi-tenant SaaS. Learn how Zen enforces tenant isolation at runtime by analyzing SQL queries and preventing unsafe access before it ships.IDOR vulnerabilities are a leading cause of cross-tenant data leaks in multi-tenant applications. In this post, we explain how Zen moves beyond detection and enforces tenant isolation at runtime, making cross-tenant access impossible to ship by accident.Product &amp; Company UpdatesHans Ott</a>
-  <div class="card-meta">
-    <span class="source">🥋 Aikido Security</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.aikido.dev/blog/npm-backdoor-lets-hackers-hijack-gambling-outcomes" target="_blank" rel="noopener">npm backdoor lets hackers hijack gambling outcomesnpm supply chain attack hijacks game backend to rig gambling outcomesA targeted npm supply chain attack installs an Express backdoor, enables remote SQL/file access, and rewrites gambling balances while keeping logs consistent.We uncovered malicious npm packages that can modify gambling transactions in production, and keep the database internally consistent afterward.Vulnerabilities &amp; ThreatsIlyas Makari</a>
-  <div class="card-meta">
-    <span class="source">🥋 Aikido Security</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.aikido.dev/blog/why-trying-to-secure-openclaw-is-ridiculous" target="_blank" rel="noopener">Why Trying to Secure OpenClaw is RidiculousWhy Trying to Secure OpenClaw is RidiculousOpenClaw&#x27;s security issues explained: malware in ClawHub, exposed instances, and why hardening guides miss the point. Can you use the AI agent safely??NewsDania Durnas</a>
-  <div class="card-meta">
-    <span class="source">🥋 Aikido Security</span>
-    
-  </div>
-</article></div>
-</section>
-<section class="source-section">
-  <h2 class="source-title">🔮 Wiz Research</h2>
-  <div class="cards"><article class="card">
-  <a href="https://www.wiz.io/blog/tag/news" target="_blank" rel="noopener">Product &amp; Company News</a>
-  <div class="card-meta">
-    <span class="source">🔮 Wiz Research</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.wiz.io/blog/tag/public-sector" target="_blank" rel="noopener">Public Sector</a>
-  <div class="card-meta">
-    <span class="source">🔮 Wiz Research</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.wiz.io/blog/tag/datasecurity" target="_blank" rel="noopener">Data Security</a>
-  <div class="card-meta">
-    <span class="source">🔮 Wiz Research</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.wiz.io/blog/wiz-tenant-manager-multi-tenant-security" target="_blank" rel="noopener">Introducing Wiz Tenant Manager: Multi-Tenant Management for Federated Organizations</a>
-  <div class="card-meta">
-    <span class="source">🔮 Wiz Research</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.wiz.io/blog/fedramp-incident-response" target="_blank" rel="noopener">The Agile FedRAMP Playbook, Part 4: Reactive Risk Management through Enriched Incident Response</a>
-  <div class="card-meta">
-    <span class="source">🔮 Wiz Research</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.wiz.io/blog/wiz-cpstic-certification" target="_blank" rel="noopener">Wiz Achieves CPSTIC Certification in Spain</a>
-  <div class="card-meta">
-    <span class="source">🔮 Wiz Research</span>
-    
-  </div>
-</article>
-<article class="card">
-  <a href="https://www.wiz.io/blog/complete-ai-application-visibility-wiz" target="_blank" rel="noopener">Seeing AI Clearly: Building Visibility Across Modern AI Applications</a>
-  <div class="card-meta">
-    <span class="source">🔮 Wiz Research</span>
-    
-  </div>
-</article></div>
-</section>
+  <h2 class="source-title">🟠 Hacker News <span class="count">(20)</span></h2>
+  <table class="trend-table">
+    <thead>
+      <tr>
+        <th class="col-num">#</th>
+        <th class="col-source">Source</th>
+        <th class="col-title">Title</th>
+        <th class="col-summary">Summary</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr>
+  <td class="col-num">1</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://agent-safehouse.dev/" target="_blank" rel="noopener">Agent Safehouse – macOS-native sandboxing for local agents</a><span class="score">&#9650;402</span> <span class="comments">&#128172;92</span></td>
+  <td class="col-summary">Sandbox your LLM coding agents on macOS. Kernel-level enforcement via sandbox-exec â deny-first, composable, zero depe</td>
+</tr>
+<tr>
+  <td class="col-num">2</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://www.youtube.com/watch?v=qZuR-772cks" target="_blank" rel="noopener">Microscopes can see video on a laserdisc</a><span class="score">&#9650;295</span> <span class="comments">&#128172;24</span></td>
+  <td class="col-summary">I was messing around with a microscope and some random samples and found out I could see some interesting things. And th</td>
+</tr>
+<tr>
+  <td class="col-num">3</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://github.com/Dieu-de-l-elec/AngstromIO-devboard" target="_blank" rel="noopener">PCB devboard the size of a USB-C plug</a><span class="score">&#9650;84</span> <span class="comments">&#128172;17</span></td>
+  <td class="col-summary">AngstromIO, one of the smallest devboards out there, barely longer than a USB C connector, based on the Attiny1616 MCU.</td>
+</tr>
+<tr>
+  <td class="col-num">4</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/" target="_blank" rel="noopener">We should revisit literate programming in the agent era</a><span class="score">&#9650;168</span> <span class="comments">&#128172;90</span></td>
+  <td class="col-summary">Literate programming is the idea that code should be intermingled with prose such that an uninformed reader could read a</td>
+</tr>
+<tr>
+  <td class="col-num">5</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://news.ycombinator.com/item?id=47303111" target="_blank" rel="noopener">Ask HN: What Are You Working On? (March 2026)</a><span class="score">&#9650;72</span> <span class="comments">&#128172;206</span></td>
+  <td class="col-summary">I started developing a city builder called Metropolis 1998 [1], but wanted to take the genre in new directions, building</td>
+</tr>
+<tr>
+  <td class="col-num">6</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://bret.dk/every-single-board-computer-i-tested-in-2025/" target="_blank" rel="noopener">Every single board computer I tested in 2025</a><span class="score">&#9650;123</span> <span class="comments">&#128172;32</span></td>
+  <td class="col-summary">I benchmarked 15 SBCs released in 2025 across every price point. Here&#x27;s what stood out, what disappointed, and what the</td>
+</tr>
+<tr>
+  <td class="col-num">7</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://fb.edoo.gg" target="_blank" rel="noopener">FrameBook</a><span class="score">&#9650;378</span> <span class="comments">&#128172;65</span></td>
+  <td class="col-summary">me when FrameBook.</td>
+</tr>
+<tr>
+  <td class="col-num">8</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://offlinemark.com/an-obscure-quirk-of-proc/" target="_blank" rel="noopener">Linux Internals: How /proc/self/mem writes to unwritable memory (2021)</a><span class="score">&#9650;42</span> <span class="comments">&#128172;9</span></td>
+  <td class="col-summary">Introduction An obscure quirk of the /proc/*/mem pseudofile is its “punch through” semantics. Writes performed through t</td>
+</tr>
+<tr>
+  <td class="col-num">9</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://bryananthonio.com/blog/my-homelab-setup/" target="_blank" rel="noopener">My Homelab Setup</a><span class="score">&#9650;167</span> <span class="comments">&#128172;128</span></td>
+  <td class="col-summary">How I repurposed my old gaming PC to set up a home server for data storage, backups, and self-hosted apps.</td>
+</tr>
+<tr>
+  <td class="col-num">10</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://github.com/Rabrg/artificial-life" target="_blank" rel="noopener">Artificial-life: A simple (300 lines of code) reproduction of Computational Life</a><span class="score">&#9650;77</span> <span class="comments">&#128172;9</span></td>
+  <td class="col-summary">A simple (300 lines of code) reproduction of Computational Life: How Well-formed, Self-replicating Programs Emerge from</td>
+</tr>
+<tr>
+  <td class="col-num">11</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://github.com/blacksky-algorithms/atproto" target="_blank" rel="noopener">Blacksky AppView</a><span class="score">&#9650;111</span> <span class="comments">&#128172;71</span></td>
+  <td class="col-summary">Blacksky fork of bluesky-social/atproto with AppView performance optimizations, caching, and community features - blacks</td>
+</tr>
+<tr>
+  <td class="col-num">12</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://mufeedvh.com/posts/i-made-a-programming-language-with-mnms/" target="_blank" rel="noopener">I made a programming language with M&amp;Ms</a><span class="score">&#9650;56</span> <span class="comments">&#128172;21</span></td>
+  <td class="col-summary">I built a tiny programming language where programs are candy grids, complete with a renderer, photo decoder, AST tree, a</td>
+</tr>
+<tr>
+  <td class="col-num">13</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://twitter.com/robertwrighter/status/2030482402628214841" target="_blank" rel="noopener">Claude helped select targets for Iran strikes, possibly including school</a><span class="score">&#9650;29</span> <span class="comments">&#128172;21</span></td>
+  <td class="col-summary">We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to</td>
+</tr>
+<tr>
+  <td class="col-num">14</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://www.ethanhein.com/wp/2019/why-cant-you-tune-your-guitar/" target="_blank" rel="noopener">Why can&#x27;t you tune your guitar? (2019)</a><span class="score">&#9650;182</span> <span class="comments">&#128172;132</span></td>
+  <td class="col-summary">Short answer: because math. Longer answer: because prime numbers don’t divide into each other evenly. To understand what</td>
+</tr>
+<tr>
+  <td class="col-num">15</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://github.com/bostrot/wsl2-distro-manager" target="_blank" rel="noopener">WSL Manager</a><span class="score">&#9650;81</span> <span class="comments">&#128172;45</span></td>
+  <td class="col-summary">A GUI to quickly manage your WSL2 instances. Contribute to bostrot/wsl2-distro-manager development by creating an accoun</td>
+</tr>
+<tr>
+  <td class="col-num">16</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://jonathan-frere.com/posts/reactivity-algorithms/" target="_blank" rel="noopener">Pushing and Pulling: Three reactivity algorithms</a><span class="score">&#9650;73</span> <span class="comments">&#128172;15</span></td>
+  <td class="col-summary">It’s looking like I’m going to need to build a reactive engine for work, so I’m going to prepare for that by writing dow</td>
+</tr>
+<tr>
+  <td class="col-num">17</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://www.youtube.com/watch?v=yRV8fSw6HaE" target="_blank" rel="noopener">Living human brain cells play DOOM on a CL1 [video]</a><span class="score">&#9650;158</span> <span class="comments">&#128172;146</span></td>
+  <td class="col-summary">Credits: Dr. Alon Loeffler, Dr. Brett Kagan, David Hogan, Dr. Azin Azadi, Frank Yang, Sean ColeA big thank you and ackno</td>
+</tr>
+<tr>
+  <td class="col-num">18</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://skir.build/" target="_blank" rel="noopener">Show HN: Skir – like Protocol Buffer but better</a><span class="score">&#9650;64</span> <span class="comments">&#128172;42</span></td>
+  <td class="col-summary">A descriptive language for representing data types, constants, and APIs.</td>
+</tr>
+<tr>
+  <td class="col-num">19</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://utcc.utoronto.ca/~cks/space/blog/programming/LogMessagesAreForOperation" target="_blank" rel="noopener">Log messages are mostly for the people operating your software</a><span class="score">&#9650;115</span> <span class="comments">&#128172;61</span></td>
+  <td class="col-summary">You&#x27;re probably reading this page because you&#x27;ve attempted to
+access some part ofmy blog (Wandering
+Thoughts)orCSpace, t</td>
+</tr>
+<tr>
+  <td class="col-num">20</td>
+  <td class="col-source"><span class="source-badge">🟠 Hacker News</span></td>
+  <td class="col-title"><a href="https://leancrew.com/all-this/2025/12/some-lotto-math/" target="_blank" rel="noopener">Some Lotto Math</a><span class="score">&#9650;4</span></td>
+  <td class="col-summary">Next postPrevious post</td>
+</tr>
+    </tbody>
+  </table>
+</section><section class="source-section">
+  <h2 class="source-title">📘 はてなブログ <span class="count">(15)</span></h2>
+  <table class="trend-table">
+    <thead>
+      <tr>
+        <th class="col-num">#</th>
+        <th class="col-source">Source</th>
+        <th class="col-title">Title</th>
+        <th class="col-summary">Summary</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr>
+  <td class="col-num">1</td>
+  <td class="col-source"><span class="source-badge">📘 はてなブログ</span></td>
+  <td class="col-title"><a href="https://note.com/joho_no_todai/n/n0ee446fdff40" target="_blank" rel="noopener">AIがオープンソースの「鍵」を壊す日――chardet騒動の本質｜情報の灯台</a></td>
+  <td class="col-summary">月間1億3,000万ダウンロードを超えるPythonライブラリが、AIで丸ごと書き換えられた。ライセンスごと。オープンソースの根幹を揺るがす問いが、いま目の前にある。 5日間で書き換えられた12年Pythonの文字エンコーディング検出ライブ</td>
+</tr>
+<tr>
+  <td class="col-num">2</td>
+  <td class="col-source"><span class="source-badge">📘 はてなブログ</span></td>
+  <td class="col-title"><a href="https://retro-gamer.jp/?p=42528" target="_blank" rel="noopener">バンダイのPS1用ゲーム『魔女っ子大作戦』はなんでこんな作品になったのか？ 開発者が「最も奇妙なゲーム開発体験だった」と語る誕生の経緯</a></td>
+  <td class="col-summary">先日、つい目に止まったゲームがあります。それが、1999年2月4日にバンダイより発売されたPlayStation用ゲームの『魔女っ子大作戦』です。キャラクター的にもてっきりライト層向けの内容で、きっと『対戦ぱずるだま』のようなポップな作品な</td>
+</tr>
+<tr>
+  <td class="col-num">3</td>
+  <td class="col-source"><span class="source-badge">📘 はてなブログ</span></td>
+  <td class="col-title"><a href="https://qiita.com/NF0000/items/66510f959b1c22f011a7" target="_blank" rel="noopener">Claude Codeにバックドア入りOSSを渡したら、何の疑いもなく実装した - Qiita</a></td>
+  <td class="col-summary">はじめに バックドアが仕込まれたOSSをClaude Codeに渡して「機能追加して」と頼んだら、何の疑いもなく、バックドアごと踏襲して実装しました。 前回の記事では、プロンプトインジェクションによる.env漏洩を検証しました。今回はもっと</td>
+</tr>
+<tr>
+  <td class="col-num">4</td>
+  <td class="col-source"><span class="source-badge">📘 はてなブログ</span></td>
+  <td class="col-title"><a href="https://zenn.dev/r57ty7/articles/879db0530ad899" target="_blank" rel="noopener">並列開発を支えるtmux, git, zsh設定集</a></td>
+  <td class="col-summary">私は普段 Alacritty + tmux + Neovim で開発しています。 ターミナルから離れずに複数リポジトリやworktreeを行き来したりgit操作を楽にするため、キーバインドやutilityをいろいろ作り込んでいます。 今回の</td>
+</tr>
+<tr>
+  <td class="col-num">5</td>
+  <td class="col-source"><span class="source-badge">📘 はてなブログ</span></td>
+  <td class="col-title"><a href="https://type.jp/et/feature/30605/" target="_blank" rel="noopener">南場智子「ますます“速さ”が命題に」DeNA AI Day2026全文書き起こし - エンジニアtype | 転職type</a></td>
+  <td class="col-summary">NEW! 2026.03.08 ITニュース DeNA生成AIAI 「開発エンジニアの人生が一変した1年」だった――。 2025年に「AIオールイン」を宣言したDeNA。あれから1年、会長の南場智子さんは劇的な変化をそう切り出した。 コーデ</td>
+</tr>
+<tr>
+  <td class="col-num">6</td>
+  <td class="col-source"><span class="source-badge">📘 はてなブログ</span></td>
+  <td class="col-title"><a href="https://note.com/simplearchitect/n/nf00d38494ac3" target="_blank" rel="noopener">ジュニアエンジニアの人、AI後はこうしたらええんちゃう？という話｜牛尾　剛</a></td>
+  <td class="col-summary">先日、たまたま、Microsoft のキャンパスで大学生の皆さんと話す機会があって、こんなことを聞かれました。 私は大学生で１年ぐらい前からエンジニアになったのですが、世の中は AI の世界ですけど、どうやって学んでいけばよいのですか？AI</td>
+</tr>
+<tr>
+  <td class="col-num">7</td>
+  <td class="col-source"><span class="source-badge">📘 はてなブログ</span></td>
+  <td class="col-title"><a href="https://shujisado.com/2026/03/09/license_change_for_aigenerated_reimplementation_of_chardet/" target="_blank" rel="noopener">AI生成によるchardet再実装におけるライセンス変更の是非に関するメモ</a></td>
+  <td class="col-summary">AIによって特定のソフトウェアとほぼ同じ機能を再実装させ、その結果としてライセンスまで変える、いわゆるライセンスウォッシュとも評され得る行為ができるのか？という論点は以前から繰り返し語られてきた。しかし、研究目的の再実装の議論はさておき、こ</td>
+</tr>
+<tr>
+  <td class="col-num">8</td>
+  <td class="col-source"><span class="source-badge">📘 はてなブログ</span></td>
+  <td class="col-title"><a href="https://www.publickey1.jp/blog/26/awsawsopenclawvpsamazon_lightsail.html" target="_blank" rel="noopener">AWS、AWS上ですぐ使えるOpenClawを提供開始。仮想プライベートサーバ（VPS）「Amazon Lightsail」のインスタンスイメージとして</a></td>
+  <td class="col-summary">Amazon Web Services（AWS）は、仮想プライベートサーバ（VPS）のAmazon Lightsailで簡単にOpenClawが導入できる、事前設定されたOpenClawインスタンスイメージの提供を開始しました。 Amazo</td>
+</tr>
+<tr>
+  <td class="col-num">9</td>
+  <td class="col-source"><span class="source-badge">📘 はてなブログ</span></td>
+  <td class="col-title"><a href="https://www.publickey1.jp/blog/26/openaicodex_for_windowswindowsaiwsl.html" target="_blank" rel="noopener">OpenAI、「Codex for Windows」正式リリース。Windowsサンドボックス内で安全にAIエージェントを実行、WSLにも対応</a></td>
+  <td class="col-summary">OpenAI、「Codex for Windows」正式リリース。Windowsサンドボックス内で安全にAIエージェントを実行、WSLにも対応 OpenAIは、Windows対応のAIエージェントによる開発環境「Codex for Wind</td>
+</tr>
+<tr>
+  <td class="col-num">10</td>
+  <td class="col-source"><span class="source-badge">📘 はてなブログ</span></td>
+  <td class="col-title"><a href="https://www.publickey1.jp/blog/26/claude_codeai.html" target="_blank" rel="noopener">Claude Codeが「音声モード」搭載。AIに話しかけながらのコーディングが可能に</a></td>
+  <td class="col-summary">Anthropicが提供するAIコーディングツールであるClaude Codeに、新たに「音声モード」が搭載されることが明らかになりました。 AnthropicでClaude Codeを担当するエンジニアThariq Shihipar氏が次</td>
+</tr>
+<tr>
+  <td class="col-num">11</td>
+  <td class="col-source"><span class="source-badge">📘 はてなブログ</span></td>
+  <td class="col-title"><a href="https://gigazine.net/news/20260308-llmfit/" target="_blank" rel="noopener">システムのメモリ・CPU・GPUに合わせて適切なAIモデルを教えてくれるターミナルツール「llmfit」</a></td>
+  <td class="col-summary">生成AIの話題に欠くことのない昨今、ある程度のパワーを有するPCが手元にある方は一度ならず「ローカルで生成AIを動かしてみたい」という思いに駆られた事があるのではないでしょうか。とはいえ余程AIモデルに関する知識が深くなければどのAIモデル</td>
+</tr>
+<tr>
+  <td class="col-num">12</td>
+  <td class="col-source"><span class="source-badge">📘 はてなブログ</span></td>
+  <td class="col-title"><a href="https://qiita.com/YASUHARA-Wataru/items/5a8a16a2b7e91c3536a8" target="_blank" rel="noopener">Pandasはもう古い？2026年のPythonデータ分析ライブラリを整理してみた - Qiita</a></td>
+  <td class="col-summary">はじめに Pythonを使い始めてはや十数年。他の言語も覚えないと思いつつ、研究、PoC用途で使う、簡単な解析や簡単なシミュレーションに使ってきました。 表計算で広く使われるPandasですが、Pandasを最近あまり使わなくなったというS</td>
+</tr>
+<tr>
+  <td class="col-num">13</td>
+  <td class="col-source"><span class="source-badge">📘 はてなブログ</span></td>
+  <td class="col-title"><a href="https://zenn.dev/acntechjp/articles/c1296f425baf03" target="_blank" rel="noopener">Claude Code が RAG を捨てた理由 -「Agentic Search」という選択肢</a></td>
+  <td class="col-summary">先日、YouTube で公開された技術チャンネル The Pragmatic Engineer のインタビュー動画（2026年3月公開）を見ていて、興味深い話を耳にしました。ゲストは Claude Code の中心的な開発者である Bori</td>
+</tr>
+<tr>
+  <td class="col-num">14</td>
+  <td class="col-source"><span class="source-badge">📘 はてなブログ</span></td>
+  <td class="col-title"><a href="https://speakerdeck.com/kenichiota0711/claudecodedemaketanoke-ti-wojie-jue-suru" target="_blank" rel="noopener">ClaudeCodeでマーケターの課題を解決する</a></td>
+  <td class="col-summary">Claude Codeを活用してマーケターの方の課題を解決するエピソードをまとめました。 事業会社のデザイナーやマーケターの方に読んでいただきたいです。 ＜主な内容＞ ・自社課題、AI技術、構想の接続 ・AIツール選定 ・3つの構造について</td>
+</tr>
+<tr>
+  <td class="col-num">15</td>
+  <td class="col-source"><span class="source-badge">📘 はてなブログ</span></td>
+  <td class="col-title"><a href="https://pc.watch.impress.co.jp/docs/topic/feature/2090806.html" target="_blank" rel="noopener">【特集】 今さら聞けない「ローカルLLM」。LM Studioなら自分のPCで手軽に試せます！</a></td>
+  <td class="col-summary"></td>
+</tr>
+    </tbody>
+  </table>
+</section><section class="source-section">
+  <h2 class="source-title">🔴 Reddit r/technology <span class="count">(10)</span></h2>
+  <table class="trend-table">
+    <thead>
+      <tr>
+        <th class="col-num">#</th>
+        <th class="col-source">Source</th>
+        <th class="col-title">Title</th>
+        <th class="col-summary">Summary</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr>
+  <td class="col-num">1</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/technology</span></td>
+  <td class="col-title"><a href="https://www.techdirt.com/2026/03/06/were-training-students-to-write-worse-to-prove-theyre-not-robots-and-its-pushing-them-to-use-more-ai/" target="_blank" rel="noopener">We’re Training Students To Write Worse To Prove They’re Not Robots, And It’s Pushing Them To Use More AI</a><span class="score">&#9650;5805</span> <span class="comments">&#128172;436</span></td>
+  <td class="col-summary">Artificial Intelligence</td>
+</tr>
+<tr>
+  <td class="col-num">2</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/technology</span></td>
+  <td class="col-title"><a href="https://www.tomshardware.com/tech-industry/jensen-huang-set-to-receive-usd4-million-bonus-from-nvidia-0-002-percent-of-his-usd164-billion-net-worth-a-small-incentive-for-one-of-the-richest-people-on-earth" target="_blank" rel="noopener">CEO Jensen Huang set to receive $4 million bonus from Nvidia, 0.002% of his $164 billion net worth — a small incentive for one of the richest people on earth</a><span class="score">&#9650;3728</span> <span class="comments">&#128172;381</span></td>
+  <td class="col-summary">Business</td>
+</tr>
+<tr>
+  <td class="col-num">3</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/technology</span></td>
+  <td class="col-title"><a href="https://www.livemint.com/companies/news/oracle-layoffs-tech-giant-to-slash-30-000-jobs-as-banks-pull-out-from-financing-ai-data-centres-11769996619410.html" target="_blank" rel="noopener">Oracle Layoffs: Tech giant to slash 30,000 jobs as banks pull out from financing AI data centers</a><span class="score">&#9650;23605</span> <span class="comments">&#128172;1081</span></td>
+  <td class="col-summary">Business</td>
+</tr>
+<tr>
+  <td class="col-num">4</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/technology</span></td>
+  <td class="col-title"><a href="https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/" target="_blank" rel="noopener">OpenAI on Surveillance and Autonomous Killings: You’re Going to Have to Trust Us</a><span class="score">&#9650;2224</span> <span class="comments">&#128172;266</span></td>
+  <td class="col-summary">Artificial Intelligence</td>
+</tr>
+<tr>
+  <td class="col-num">5</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/technology</span></td>
+  <td class="col-title"><a href="https://www.cnbc.com/2026/03/08/social-media-child-safety-internet-ai-surveillance.html" target="_blank" rel="noopener">Online age-verification tools spread across U.S. for child safety, but adults are being surveilled</a><span class="score">&#9650;3500</span> <span class="comments">&#128172;295</span></td>
+  <td class="col-summary">Privacy</td>
+</tr>
+<tr>
+  <td class="col-num">6</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/technology</span></td>
+  <td class="col-title"><a href="https://www.techradar.com/pro/the-american-people-should-not-be-footing-the-bill-for-the-benefit-of-private-companies-tech-giants-sign-white-house-pledge-to-not-pass-on-data-center-electricity-costs-to-consumers-heres-everything-you-need-to-know" target="_blank" rel="noopener">‘The American people should not be footing the bill for the benefit of private companies&#x27;: Tech giants sign White House pledge to not pass on data center electricity to customers</a><span class="score">&#9650;7053</span> <span class="comments">&#128172;480</span></td>
+  <td class="col-summary">Business</td>
+</tr>
+<tr>
+  <td class="col-num">7</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/technology</span></td>
+  <td class="col-title"><a href="https://www.theatlantic.com/ideas/2026/03/anthropic-pentagon-contract-openai/686285/" target="_blank" rel="noopener">Anthropic’s Ethical Stand Could Be Paying Off</a><span class="score">&#9650;684</span> <span class="comments">&#128172;38</span></td>
+  <td class="col-summary">Artificial Intelligence</td>
+</tr>
+<tr>
+  <td class="col-num">8</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/technology</span></td>
+  <td class="col-title"><a href="https://www.cbr.com/crunchyroll-sued-fans-anime-viewing-secrets/" target="_blank" rel="noopener">Crunchyroll Sued Over Allegedly Leaking Fans&#x27; Anime Viewing Secrets After $16M Settlement</a><span class="score">&#9650;1576</span> <span class="comments">&#128172;148</span></td>
+  <td class="col-summary">Privacy</td>
+</tr>
+<tr>
+  <td class="col-num">9</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/technology</span></td>
+  <td class="col-title"><a href="https://www.tomshardware.com/tech-industry/nasa-successfully-deflected-a-small-asteroid-with-its-dart-rocket-kinetic-strike-ejected-a-significant-amount-of-debris-from-the-asteroid-impact-nudges-the-orbit-of-the-small-astronomical-body-affecting-the-larger-cosmic-object-as-well" target="_blank" rel="noopener">NASA successfully deflected a small asteroid with its DART rocket, kinetic strike ejected a significant amount of debris from the asteroid — impact nudges the orbit of the small astronomical body, affecting the larger cosmic object as well</a><span class="score">&#9650;382</span> <span class="comments">&#128172;16</span></td>
+  <td class="col-summary">Space</td>
+</tr>
+<tr>
+  <td class="col-num">10</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/technology</span></td>
+  <td class="col-title"><a href="https://www.tomshardware.com/pc-components/gpus/nvidia-dominates-discrete-gpu-market-as-sales-of-amd-radeon-graphics-cards-hit-historical-low" target="_blank" rel="noopener">Nvidia dominates gaming GPU market with 95 percent share as sales of AMD Radeon graphics plummet to a historical low of 5 percent</a><span class="score">&#9650;1369</span> <span class="comments">&#128172;256</span></td>
+  <td class="col-summary">Hardware</td>
+</tr>
+    </tbody>
+  </table>
+</section><section class="source-section">
+  <h2 class="source-title">🔴 Reddit r/programming <span class="count">(9)</span></h2>
+  <table class="trend-table">
+    <thead>
+      <tr>
+        <th class="col-num">#</th>
+        <th class="col-source">Source</th>
+        <th class="col-title">Title</th>
+        <th class="col-summary">Summary</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr>
+  <td class="col-num">1</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/programming</span></td>
+  <td class="col-title"><a href="https://richwhitehouse.com/index.php?postid=77" target="_blank" rel="noopener">Open Sores - an essay on how programmers spent decades building a culture of open collaboration, and how they&#x27;re being punished for it</a><span class="score">&#9650;508</span> <span class="comments">&#128172;80</span></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">2</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/programming</span></td>
+  <td class="col-title"><a href="https://www.phoronix.com/news/Chardet-LLM-Rewrite-Relicense" target="_blank" rel="noopener">LLM-driven large code rewrites with relicensing are the latest AI concern</a><span class="score">&#9650;467</span> <span class="comments">&#128172;201</span></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">3</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/programming</span></td>
+  <td class="col-title"><a href="https://blog.skacekamen.dev/posts/nest-js-is-not-really-good/" target="_blank" rel="noopener">NestJS is a bad Typescript framework</a><span class="score">&#9650;103</span> <span class="comments">&#128172;101</span></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">4</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/programming</span></td>
+  <td class="col-title"><a href="https://youtu.be/g9VHUEhHgpU" target="_blank" rel="noopener">I have been coding this engine for a while, take a look and see my process let me know what y’all think</a><span class="score">&#9650;5</span></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">5</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/programming</span></td>
+  <td class="col-title"><a href="https://www.scientificamerican.com/article/why-developers-using-ai-are-working-longer-hours/" target="_blank" rel="noopener">Why developers using AI are working longer hours</a><span class="score">&#9650;988</span> <span class="comments">&#128172;319</span></td>
+  <td class="col-summary">I find this interesting. The articles states that, 
 
-<nav class="archives">
+*&quot;AI tools don’t automatically shorten the workday. In some workpla</td>
+</tr>
+<tr>
+  <td class="col-num">6</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/programming</span></td>
+  <td class="col-title"><a href="https://testing.googleblog.com/2026/03/set-safe-defaults-for-flags.html" target="_blank" rel="noopener">Set Safe Defaults for Flags</a><span class="score">&#9650;7</span> <span class="comments">&#128172;3</span></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">7</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/programming</span></td>
+  <td class="col-title"><a href="https://research.ibm.com/blog/half-mobius-molecule" target="_blank" rel="noopener">Quantum simulates properties of the first-ever half-Möbius molecule, designed by IBM and researchers</a><span class="score">&#9650;21</span> <span class="comments">&#128172;2</span></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">8</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/programming</span></td>
+  <td class="col-title"><a href="https://wingolog.org/archives/2026/02/18/two-mechanisms-for-dynamic-type-checks" target="_blank" rel="noopener">Two mechanisms for dynamic type checks</a><span class="score">&#9650;4</span></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">9</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/programming</span></td>
+  <td class="col-title"><a href="https://www.nsa.gov/helpful-links/nsa-foia/declassification-transparency-initiatives/historical-releases/view/article/3880193/capt-grace-hopper-on-future-possibilities-data-hardware-software-and-people-1982/" target="_blank" rel="noopener">Capt. Grace Hopper on Future Possibilities: Data, Hardware, Software, and People (1982)</a><span class="score">&#9650;20</span> <span class="comments">&#128172;1</span></td>
+  <td class="col-summary"></td>
+</tr>
+    </tbody>
+  </table>
+</section><section class="source-section">
+  <h2 class="source-title">🔴 Reddit r/netsec <span class="count">(8)</span></h2>
+  <table class="trend-table">
+    <thead>
+      <tr>
+        <th class="col-num">#</th>
+        <th class="col-source">Source</th>
+        <th class="col-title">Title</th>
+        <th class="col-summary">Summary</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr>
+  <td class="col-num">1</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/netsec</span></td>
+  <td class="col-title"><a href="https://www.neuracybintel.com/articles/fake-claude-code-install-guides-spread-amatera-infostealer-in-new-installfix-malvertising-campaign" target="_blank" rel="noopener">Fake Claude Code Install Guides Spread Amatera Infostealer in New “InstallFix” Malvertising Campaign</a><span class="score">&#9650;58</span> <span class="comments">&#128172;1</span></td>
+  <td class="col-summary">Cybersecurity researchers have uncovered a new malware distribution campaign in which attackers impersonate legitimate c</td>
+</tr>
+<tr>
+  <td class="col-num">2</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/netsec</span></td>
+  <td class="col-title"><a href="https://monxresearch-sec.github.io/shotbird-extension-malware-report/" target="_blank" rel="noopener">From Chrome Extension Supply-Chain Compromise to Host Malware: Technical Breakdown of the ShotBird Campaign</a><span class="score">&#9650;7</span> <span class="comments">&#128172;2</span></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">3</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/netsec</span></td>
+  <td class="col-title"><a href="https://www.ndss-symposium.org/wp-content/uploads/2026-f1282-paper.pdf" target="_blank" rel="noopener">AirSnitch: Demystifying and Breaking Client Isolation in Wi-Fi Networks</a><span class="score">&#9650;1</span></td>
+  <td class="col-summary">PDF</td>
+</tr>
+<tr>
+  <td class="col-num">4</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/netsec</span></td>
+  <td class="col-title"><a href="http://arxiv.org/abs/2602.20021" target="_blank" rel="noopener">38 researchers red-teamed AI agents for 2 weeks. Here&#x27;s what broke. (Agents of Chaos, Feb 2026)
+AI Security</a><span class="score">&#9650;113</span> <span class="comments">&#128172;32</span></td>
+  <td class="col-summary">*A new paper from Northeastern, Harvard, Stanford, MIT, CMU, and a bunch of other institutions. 38 researchers, 84 pages</td>
+</tr>
+<tr>
+  <td class="col-num">5</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/netsec</span></td>
+  <td class="col-title"><a href="https://blog.calif.io/p/a-race-within-a-race-exploiting-cve" target="_blank" rel="noopener">A Race Within A Race: Exploiting CVE-2025-38617 in Linux Packet Sockets</a><span class="score">&#9650;28</span> <span class="comments">&#128172;2</span></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">6</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/netsec</span></td>
+  <td class="col-title"><a href="https://blog.doyensec.com/2026/03/05/mcp-nightmare.html" target="_blank" rel="noopener">Model Context Protocol (MCP) Authentication and Authorization</a><span class="score">&#9650;57</span> <span class="comments">&#128172;11</span></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">7</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/netsec</span></td>
+  <td class="col-title"><a href="https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/" target="_blank" rel="noopener">Hardening Firefox with Anthropic’s Red Team</a><span class="score">&#9650;27</span></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">8</td>
+  <td class="col-source"><span class="source-badge">🔴 Reddit r/netsec</span></td>
+  <td class="col-title"><a href="https://www.codeant.ai/security-research/pac4j-jwt-authentication-bypass-public-key" target="_blank" rel="noopener">we at codeant found a bug in pac4j-jwt (auth bypass)</a><span class="score">&#9650;221</span> <span class="comments">&#128172;7</span></td>
+  <td class="col-summary">We started auditing popular OSS security libraries as an experiment. first week, we found a critical auth bypass in pac4</td>
+</tr>
+    </tbody>
+  </table>
+</section><section class="source-section">
+  <h2 class="source-title">🥋 Aikido Security <span class="count">(15)</span></h2>
+  <table class="trend-table">
+    <thead>
+      <tr>
+        <th class="col-num">#</th>
+        <th class="col-source">Source</th>
+        <th class="col-title">Title</th>
+        <th class="col-summary">Summary</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr>
+  <td class="col-num">1</td>
+  <td class="col-source"><span class="source-badge">🥋 Aikido Security</span></td>
+  <td class="col-title"><a href="https://www.aikido.dev/blog/continuous-pentesting-requirements" target="_blank" rel="noopener">What continuous pentesting actually requiresContinuous pentesting: how it works and what it requiresContinuous pentesting promises real-time security validation, but most implementations fall short. Here’s what continuous pentesting actually requires—from change-aware testing to exploit validation and remediation loops.Continuous pentesting is widely discussed, but rarely defined clearly. This piece breaks down what it is, what it isn’t, and what it actually requires.Guides &amp; Best PracticesSooraj Shah</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">2</td>
+  <td class="col-source"><span class="source-badge">🥋 Aikido Security</span></td>
+  <td class="col-title"><a href="https://www.aikido.dev/blog/token-efficiency-secrets-scan" target="_blank" rel="noopener">Rare Not Random: Using Token Efficiency for Secrets ScanningRare Not Random: Using Token Efficiency for Secrets ScanningEntropy often struggles with generic secrets and short strings. We look at how token efficiency can better identify strings that don’t look like normal text.Entropy is great at spotting randomness. But secrets aren’t always random. They’re just strings that don’t show up in normal code or text. We explore using BPE tokenization to measure that difference.Guides &amp; Best PracticesZach Rice</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">3</td>
+  <td class="col-source"><span class="source-badge">🥋 Aikido Security</span></td>
+  <td class="col-title"><a href="https://www.aikido.dev/blog/why-determinism-is-necessary" target="_blank" rel="noopener">Why Determinism Is Still a Necessity in SecurityWhy Determinism Is Still a Necessity in SecurityAI scanning finds what rules miss. Deterministic scanning finds it every time. Here&#x27;s why the best security pipelines don&#x27;t choose between them.AI-powered security tools are getting better at finding vulnerabilities. But deterministic tools give you the consistency that pipelines, compliance, and audit trails depend on. We look at what deterministic scanning does well, where AI takes over, and how the two work together for effective security.EngineeringDania Durnas</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">4</td>
+  <td class="col-source"><span class="source-badge">🥋 Aikido Security</span></td>
+  <td class="col-title"><a href="https://www.aikido.dev/blog/waf-rasp-adr" target="_blank" rel="noopener">WAF vs. RASP vs. ADRWAF vs. RASP vs. ADR: How Runtime Application Security WorksWAF, RASP, and ADR protect your app in completely different ways. Here&#x27;s what each layer actually does, where it falls short, and which ones you need.WAF, RASP, ADR, eBPF — We&#x27;re clearing up the terminology around runtime application security. Here&#x27;s what each layer actually does, how they overlap, and how they fit togetherGuidesDania Durnas</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">5</td>
+  <td class="col-source"><span class="source-badge">🥋 Aikido Security</span></td>
+  <td class="col-title"><a href="https://www.aikido.dev/blog/introducing-aikido-infinite" target="_blank" rel="noopener">Introducing Aikido Infinite: A new model of self-securing softwareAikido Infinite: Continuous AI Pentesting for Every ReleaseAikido Infinite runs AI penetration testing on every code change, validates exploitability, generates patches, and retests fixes before code hits production, making self-securing software a reality.AikidoMadeline Lawrence</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">6</td>
+  <td class="col-source"><span class="source-badge">🥋 Aikido Security</span></td>
+  <td class="col-title"><a href="https://www.aikido.dev/blog/storybooks-websockets-attack" target="_blank" rel="noopener">Persistent XSS/RCE using WebSockets in Storybook’s dev serverPersistent XSS/RCE using WebSockets in Storybook (CVE-2026-27148)CVE-2026-27148 exposes a WebSocket hijacking flaw in Storybook that can escalate into supply chain compromise. Learn the attack path, impact, and how to remediate.Aikido Attack found a WebSocket hijacking vulnerability in Storybook&#x27;s dev server that can lead to persistent XSS, remote code execution, and, in the worst case, supply chain compromise. We walk through how an attacker can exploit this without any user interaction at all, and a developer just has to visit the wrong website while to run into this attack.Vulnerabilities &amp; ThreatsRobbe Verwilghen</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">7</td>
+  <td class="col-source"><span class="source-badge">🥋 Aikido Security</span></td>
+  <td class="col-title"><a href="https://www.aikido.dev/blog/ai-pentesting-agent-security" target="_blank" rel="noopener">How Aikido secures AI pentesting agents by designHow Aikido Secures AI Pentesting Agents and Prevents Scope DriftLearn how Aikido secures AI pentesting agents with architectural isolation, runtime scope enforcement, and network-level controls to prevent production drift and data leakage.AI agents are built to explore. In cybersecurity, that exploration needs strict boundaries. This article explains how Aikido secures AI pentesting agents through architectural isolation, runtime scope enforcement, and layered controls that contain risk by design.Product &amp; Company UpdatesSooraj Shah</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">8</td>
+  <td class="col-source"><span class="source-badge">🥋 Aikido Security</span></td>
+  <td class="col-title"><a href="https://www.aikido.dev/blog/astro-full-read-ssrf-via-host-header-injection" target="_blank" rel="noopener">Astro Full-Read SSRF via Host Header InjectionAstro SSRF Vulnerability: Host Header Injection in SSR Error Pages (CVE-2026-25545)Aikido Security&#x27;s AI pentesting agent discovered a Server-Side Request Forgery vulnerability in Astro&#x27;s SSR implementation. Learn how Host header injection in prerendered error pages allowed full internal network access.Aikido&#x27;s AI pentesting agent discovered an SSRF vulnerability in Astro&#x27;s Node.js adapter. We&#x27;ll look at how by injecting a malicious Host: header, attackers could redirect an internal request to any URL on the local network.Vulnerabilities &amp; ThreatsJorian Woltjer</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">9</td>
+  <td class="col-source"><span class="source-badge">🥋 Aikido Security</span></td>
+  <td class="col-title"><a href="https://www.aikido.dev/blog/how-to-get-your-board-to-care-about-security" target="_blank" rel="noopener">How to Get Your Board to Care About Security (Before a Breach Forces the Issue)How to Get Your Board to Care About Security Before a BreachBoards don’t fund security because it’s important. They fund defensible decisions. Here’s how to frame risk, reduce ambiguity, and win real support before a breach forces the issue.GuidesMike Wilkes</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">10</td>
+  <td class="col-source"><span class="source-badge">🥋 Aikido Security</span></td>
+  <td class="col-title"><a href="https://www.aikido.dev/blog/slopsquatting-ai-package-hallucination-attacks" target="_blank" rel="noopener">What is Slopsquatting? The AI Package Hallucination Attack Already HappeningSlopsquatting: The AI Package Hallucination Attack Already HappeningAI models hallucinate npm package names. Attackers register them first. Here&#x27;s what slopsquatting is, how it&#x27;s spreading through agent skills, and how to protect yourself.AI models hallucinate package names — and attackers are registering them before anyone notices. Slopsquatting is the AI-era evolution of typosquatting, and unlike its predecessor, npm&#x27;s existing protections don&#x27;t work. We look at the real-world research showing it&#x27;s already happening, from confirmed malicious packages still pulling hundreds of weekly downloads to a hallucinated package name that spread to 237 repositories through AI agent skill files.Guides &amp; Best PracticesDania Durnas</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">11</td>
+  <td class="col-source"><span class="source-badge">🥋 Aikido Security</span></td>
+  <td class="col-title"><a href="https://www.aikido.dev/blog/wiz-code-alternatives" target="_blank" rel="noopener">Top 6 Wiz Code AlternativesWiz Code Alternatives (2026): 6 Tools Compared and Best Developer-First OptionLooking for Wiz Code alternatives? Compare 6 tools across SAST, DAST, SCA, pricing, and developer experience to find the best AppSec platform for 2026.This guide compares Wiz Code against six alternatives: Aikido Security, Snyk, Checkmarx, GitHub Advanced Security, Mend, and Veracode, evaluated on coverage, developer experience, AI-powered triage, pricing transparency, and deployment speed. Aikido Security comes out on top for teams wanting a developer-first platform with broad coverage, 85% false positive reduction, AI AutoFix across SAST, IaC and containers, native DAST, and transparent pricing at roughly one-tenth the cost of Wiz.Guides &amp; Best PracticesDania Durnas</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">12</td>
+  <td class="col-source"><span class="source-badge">🥋 Aikido Security</span></td>
+  <td class="col-title"><a href="https://www.aikido.dev/blog/latio-2026-appsec-report-aikido-platform-leader" target="_blank" rel="noopener">Aikido recognized as Platform Leader in Latio Tech&#x27;s 2026 Application Security ReportAikido Named AppSec Platform Leader in Latio 2026 ReportAikido Security recognized as Platform Leader, AI Pentesting Innovator, and Supply Chain Innovator in Latio Tech’s 2026 AppSec Report.Latio Tech’s 2026 AppSec Report names Aikido a Platform Leader and AI Innovator. Here’s what the report reveals about the future of application security.NewsSooraj Shah</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">13</td>
+  <td class="col-source"><span class="source-badge">🥋 Aikido Security</span></td>
+  <td class="col-title"><a href="https://www.aikido.dev/blog/zen-stops-idor-vulnerabilities" target="_blank" rel="noopener">From detection to prevention: How Zen stops IDOR vulnerabilities at runtimeFrom Detection to Prevention: Zen Stops IDOR at Runtime | AikidoIDOR vulnerabilities are one of the most common causes of cross-tenant data leaks in multi-tenant SaaS. Learn how Zen enforces tenant isolation at runtime by analyzing SQL queries and preventing unsafe access before it ships.IDOR vulnerabilities are a leading cause of cross-tenant data leaks in multi-tenant applications. In this post, we explain how Zen moves beyond detection and enforces tenant isolation at runtime, making cross-tenant access impossible to ship by accident.Product &amp; Company UpdatesHans Ott</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">14</td>
+  <td class="col-source"><span class="source-badge">🥋 Aikido Security</span></td>
+  <td class="col-title"><a href="https://www.aikido.dev/blog/npm-backdoor-lets-hackers-hijack-gambling-outcomes" target="_blank" rel="noopener">npm backdoor lets hackers hijack gambling outcomesnpm supply chain attack hijacks game backend to rig gambling outcomesA targeted npm supply chain attack installs an Express backdoor, enables remote SQL/file access, and rewrites gambling balances while keeping logs consistent.We uncovered malicious npm packages that can modify gambling transactions in production, and keep the database internally consistent afterward.Vulnerabilities &amp; ThreatsIlyas Makari</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">15</td>
+  <td class="col-source"><span class="source-badge">🥋 Aikido Security</span></td>
+  <td class="col-title"><a href="https://www.aikido.dev/blog/why-trying-to-secure-openclaw-is-ridiculous" target="_blank" rel="noopener">Why Trying to Secure OpenClaw is RidiculousWhy Trying to Secure OpenClaw is RidiculousOpenClaw&#x27;s security issues explained: malware in ClawHub, exposed instances, and why hardening guides miss the point. Can you use the AI agent safely??NewsDania Durnas</a></td>
+  <td class="col-summary"></td>
+</tr>
+    </tbody>
+  </table>
+</section><section class="source-section">
+  <h2 class="source-title">🔮 Wiz Research <span class="count">(7)</span></h2>
+  <table class="trend-table">
+    <thead>
+      <tr>
+        <th class="col-num">#</th>
+        <th class="col-source">Source</th>
+        <th class="col-title">Title</th>
+        <th class="col-summary">Summary</th>
+      </tr>
+    </thead>
+    <tbody>
+<tr>
+  <td class="col-num">1</td>
+  <td class="col-source"><span class="source-badge">🔮 Wiz Research</span></td>
+  <td class="col-title"><a href="https://www.wiz.io/blog/tag/news" target="_blank" rel="noopener">Product &amp; Company News</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">2</td>
+  <td class="col-source"><span class="source-badge">🔮 Wiz Research</span></td>
+  <td class="col-title"><a href="https://www.wiz.io/blog/tag/public-sector" target="_blank" rel="noopener">Public Sector</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">3</td>
+  <td class="col-source"><span class="source-badge">🔮 Wiz Research</span></td>
+  <td class="col-title"><a href="https://www.wiz.io/blog/tag/datasecurity" target="_blank" rel="noopener">Data Security</a></td>
+  <td class="col-summary"></td>
+</tr>
+<tr>
+  <td class="col-num">4</td>
+  <td class="col-source"><span class="source-badge">🔮 Wiz Research</span></td>
+  <td class="col-title"><a href="https://www.wiz.io/blog/wiz-tenant-manager-multi-tenant-security" target="_blank" rel="noopener">Introducing Wiz Tenant Manager: Multi-Tenant Management for Federated Organizations</a></td>
+  <td class="col-summary">Experience full Wiz security with zero friction, managing multiple tenants in a single console</td>
+</tr>
+<tr>
+  <td class="col-num">5</td>
+  <td class="col-source"><span class="source-badge">🔮 Wiz Research</span></td>
+  <td class="col-title"><a href="https://www.wiz.io/blog/fedramp-incident-response" target="_blank" rel="noopener">The Agile FedRAMP Playbook, Part 4: Reactive Risk Management through Enriched Incident Response</a></td>
+  <td class="col-summary">In the final part of our series, we explore Reactive Risk Management. Discover how Wiz for U.S. Government transforms cl</td>
+</tr>
+<tr>
+  <td class="col-num">6</td>
+  <td class="col-source"><span class="source-badge">🔮 Wiz Research</span></td>
+  <td class="col-title"><a href="https://www.wiz.io/blog/wiz-cpstic-certification" target="_blank" rel="noopener">Wiz Achieves CPSTIC Certification in Spain</a></td>
+  <td class="col-summary">Strengthening secure cloud modernization for Spain’s public sector through CPSTIC certification.</td>
+</tr>
+<tr>
+  <td class="col-num">7</td>
+  <td class="col-source"><span class="source-badge">🔮 Wiz Research</span></td>
+  <td class="col-title"><a href="https://www.wiz.io/blog/complete-ai-application-visibility-wiz" target="_blank" rel="noopener">Seeing AI Clearly: Building Visibility Across Modern AI Applications</a></td>
+  <td class="col-summary">AI applications span models, agents, and cloud environments in ways traditional security tools weren’t designed to under</td>
+</tr>
+    </tbody>
+  </table>
+</section>
+<section class="archive-section">
   <h2>Archive</h2>
-  <div><a href="archive/2026-03-09.html">2026-03-09</a></div>
-</nav>
+  <div class="recent-list"><a href="archive/2026-03-09.html" class="today">2026/03/09 (月)</a></div>
+  <div class="cal-grid"><div class="cal-month"><h3>2026年3月</h3><table class="cal-table"><thead><tr><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th class="cal-weekend">土</th><th class="cal-weekend">日</th></tr></thead><tbody><tr><td class="cal-empty"></td><td class="cal-empty"></td><td class="cal-empty"></td><td class="cal-empty"></td><td class="cal-empty"></td><td class="cal-empty"></td><td class="cal-day cal-weekend">1</td></tr><tr><td class="cal-day">2</td><td class="cal-day">3</td><td class="cal-day">4</td><td class="cal-day">5</td><td class="cal-day">6</td><td class="cal-day cal-weekend">7</td><td class="cal-day cal-weekend">8</td></tr><tr><td class="cal-day cal-has-data"><a href="archive/2026-03-09.html">9</a></td><td class="cal-day">10</td><td class="cal-day">11</td><td class="cal-day">12</td><td class="cal-day">13</td><td class="cal-day cal-weekend">14</td><td class="cal-day cal-weekend">15</td></tr><tr><td class="cal-day">16</td><td class="cal-day">17</td><td class="cal-day">18</td><td class="cal-day">19</td><td class="cal-day">20</td><td class="cal-day cal-weekend">21</td><td class="cal-day cal-weekend">22</td></tr><tr><td class="cal-day">23</td><td class="cal-day">24</td><td class="cal-day">25</td><td class="cal-day">26</td><td class="cal-day">27</td><td class="cal-day cal-weekend">28</td><td class="cal-day cal-weekend">29</td></tr><tr><td class="cal-day">30</td><td class="cal-day">31</td><td class="cal-empty"></td><td class="cal-empty"></td><td class="cal-empty"></td><td class="cal-empty"></td><td class="cal-empty"></td></tr></tbody></table></div></div>
+</section>
 </main>
 </body>
 </html>
