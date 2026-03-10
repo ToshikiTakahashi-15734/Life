@@ -1,0 +1,763 @@
+{
+  "date": "2026-03-10",
+  "collected_at": "2026-03-10T09:56:09.221258+09:00",
+  "total_count": 84,
+  "articles": [
+    {
+      "title": "Building a Procedural Hex Map with Wave Function Collapse",
+      "url": "https://felixturner.github.io/hex-map-wfc/article/",
+      "summary": "Procedural medieval islands from 4,100 hex tiles, built with WebGPU and a lot of backtracking.",
+      "score": 372,
+      "comments": 52,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "It looks like the “JVG algorithm” only wins on tiny numbers",
+      "url": "https://scottaaronson.blog/?p=9615",
+      "summary": "Sorry to interrupt your regular programming about the AI apocalypse, etc., and return to the traditional beat of this bl",
+      "score": 5,
+      "comments": 0,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "JSLinux Now Supports x86_64",
+      "url": "https://bellard.org/jslinux/",
+      "summary": "The following emulated systems are available:CPUOSUserInterfaceVFsyncaccessStartupLinkTEMUConfigCommentx86_64Alpine Linu",
+      "score": 232,
+      "comments": 67,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: Remotely use my guitar tuner",
+      "url": "https://realtuner.online/",
+      "summary": "Real guitarists use real tuner.",
+      "score": 39,
+      "comments": 8,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Is legal the same as legitimate: AI reimplementation and the erosion of copyleft",
+      "url": "https://writings.hongminhee.org/2026/03/legal-vs-legitimate/",
+      "summary": "Last week, Dan Blanchard, the maintainer of chardet—a Python library for detecting text encodings used by roughly 130 mi",
+      "score": 324,
+      "comments": 361,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Two Years of Emacs Solo: 35 Modules, Zero External Packages, and a Full Refactor",
+      "url": "https://www.rahuljuliato.com/posts/emacs-solo-two-years",
+      "summary": "Rahul's Blog",
+      "score": 4,
+      "comments": 0,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "DARPA’s new X-76",
+      "url": "https://www.darpa.mil/news/2026/darpa-new-x-76-speed-of-jet-freedom-of-helicopter",
+      "summary": "SPRINTâs experimental aircraft is now being built by Bell Textron, Inc. following a successful Critical Design Review.",
+      "score": 147,
+      "comments": 146,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "The first airplane fatality",
+      "url": "https://www.amusingplanet.com/2026/03/thomas-selfridge-first-airplane-fatality.html",
+      "summary": "On the evening of 17 September 1908, a young American officer named Thomas Selfridge climbed into a fragile wooden aircr",
+      "score": 49,
+      "comments": 11,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: The Mog Programming Language",
+      "url": "https://moglang.org",
+      "summary": "Mog language guide: full language tutorial and reference.",
+      "score": 112,
+      "comments": 55,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Launch HN: Terminal Use (YC W26) – Vercel for filesystem-based agents",
+      "url": "https://news.ycombinator.com/item?id=47311657",
+      "summary": "Here's a demo:https://www.youtube.com/watch?v=ttMl96l9xPA.Our biggest pain point with hosting agents was that you'd need",
+      "score": 80,
+      "comments": 54,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Oracle is building yesterday's data centers with tomorrow's debt",
+      "url": "https://www.cnbc.com/2026/03/09/oracle-is-building-yesterdays-data-centers-with-tomorrows-debt.html",
+      "summary": "The OpenAI deal fallout exposes the fundamental danger of being the most leveraged player in a market where the chip cyc",
+      "score": 188,
+      "comments": 94,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Bluesky CEO Jay Graber is stepping down",
+      "url": "https://bsky.social/about/blog/03-09-2026-a-new-chapter-for-bluesky",
+      "summary": "After several intense and incredible years building Bluesky from the ground up, I've decided to step back as CEO and tra",
+      "score": 287,
+      "comments": 247,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Florida judge rules red light camera tickets are unconstitutional",
+      "url": "https://cbs12.com/news/local/florida-news-judge-rules-red-light-camera-tickets-unconstitutional",
+      "summary": "A Broward County judge has dismissed a red-light camera ticket.",
+      "score": 304,
+      "comments": 428,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "So you want to write an “app” (2025)",
+      "url": "https://arcanenibble.github.io/so-you-want-to-write-an-app.html",
+      "summary": "I touched \"every\" OS so you don't have to",
+      "score": 42,
+      "comments": 16,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "FontCrafter: Turn your handwriting into a real font",
+      "url": "https://arcade.pirillo.com/fontcrafter.html",
+      "summary": "Convert your scanned handwriting into custom OTF, TTF, and WOFF2 fonts with local browser processing and vectorization.",
+      "score": 425,
+      "comments": 133,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: DenchClaw – Local CRM on Top of OpenClaw",
+      "url": "https://github.com/DenchHQ/DenchClaw",
+      "summary": "Fully Managed OpenClaw Framework for all knowledge work ever. CRM Automation and Outreach agents. The only local product",
+      "score": 84,
+      "comments": 83,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Fixfest is a global gathering of repairers, tinkerers, and activists",
+      "url": "https://fixfest.therestartproject.org/",
+      "summary": "Fixfest is a regular global gathering of repairers and tinkerers, activists, policy-makers, thinkers, and companies from",
+      "score": 140,
+      "comments": 16,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Notes on Baking at the South Pole",
+      "url": "https://www.newyorker.com/culture/the-weekend-essay/the-most-beautiful-freezer-in-the-world",
+      "summary": "Notes on baking at the South Pole.",
+      "score": 32,
+      "comments": 9,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Restoring a Sun SPARCstation IPX part 1: PSU and NVRAM (2020)",
+      "url": "https://www.rs-online.com/designspark/restoring-a-sun-sparcstation-ipx-part-1-psu-and-nvram",
+      "summary": "Repairing a dead power supply and replacing the NVRAM in a vintage UNIX workstation.",
+      "score": 92,
+      "comments": 49,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "An opinionated take on how to do important research that matters",
+      "url": "https://nicholas.carlini.com/writing/2026/how-to-win-a-best-paper-award.html",
+      "summary": "An opinionated perspective on how to do important research that makes a difference (and sometimes win awards).",
+      "score": 74,
+      "comments": 15,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Code Review for Claude Code | Claude",
+      "url": "https://claude.com/blog/code-review",
+      "summary": "Today we're introducing Code Review, which dispatches a team of agents on every PR to catch the bugs that skims miss, bu",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "「GPTやめる」軍事利用でOpenAIに逆風　幹部離脱、アプリ削除4倍 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN09AN90Z00C26A3000000/",
+      "summary": "【シリコンバレー=山田遼太郎】人工知能（AI）の軍事利用について米国防総省と結んだ契約を巡り、米オープンAIに逆風が強まっている。同社のロボット部門の幹部が反発して退社し、社内には亀裂が生まれた。「QuitGPT（GPTをやめる）」と称する",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Microsoft、アンソロピックのAI「Cowork」で資料作成自動に　「365」に搭載 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOGN093KY0Z00C26A3000000/",
+      "summary": "【シリコンバレー=山田遼太郎】米マイクロソフトは9日、業務ソフト群「マイクロソフト365」上で米新興アンソロピックの人工知能（AI）ツール「Cowork（コワーク）」の提供を始めると発表した。企業がクラウドに保存している電子メールや各種ファ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "ノア・スミス「誰も語っていないAIバブル崩壊の第三シナリオ」（2025年12月9日）｜経済学101",
+      "url": "https://note.com/econ101_/n/n3a9a87ab3c7f",
+      "summary": "Art by Nano Banana ProAI がモノになるとしても，そして，すごく急速に採用がすすんだとしても，利益はうまないかもしれない 実は，AIバブルとその崩壊の可能性についてはすでにたくさん記事を書いてきた．8月には，データーセ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "[石川温の「スマホ業界 Watch」] 「iPhone 17e」実機レビュー：10万円切りで子供のスマホデビューに最適？ 春を彩る「ピンク」も",
+      "url": "https://k-tai.watch.impress.co.jp/docs/column/ishikawa/2091861.html",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Google Antigravityを触ってみる- MAGI風アプリを作ってみた - Qiita",
+      "url": "https://qiita.com/Alysa/items/0372aaa9023ef557a296",
+      "summary": "Deleted articles cannot be recovered. Draft of this article would be also deleted. Are you sure you want to delete this",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Claude Code / Codex ユーザーのための誰でもわかるHarness Engineeringベストプラクティス",
+      "url": "https://nyosegawa.github.io/posts/harness-engineering-best-practices-2026/",
+      "summary": "こんにちは！逆瀬川ちゃん (@gyakuse) です！ 今日はHarness Engineering(ハーネスエンジニアリング)について、2026年3月時点のベストプラクティスを徹底的にまとめていきたいと思います。 Harness Engi",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Microsoft 365 Copilotが「Claude」対応。PC作業をAI代行",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2091826.html",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "頭のいい人だけが知っている、ChatGPTの「便利すぎる使い方」・ベスト1",
+      "url": "https://diamond.jp/articles/-/385321",
+      "summary": "AIが「使えるかどうか」は、人間側の「使い方」で決まります。 そう語るのは、グーグル、マイクロソフト、NTTドコモ、富士通、KDDIなどを含む600社以上、のべ2万人以上に思考・発想の研修をしてきた石井力重氏だ。そのノウハウをAIで誰でも実",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "専用OS「Windows CPC」を搭載した「クラウドPC」デバイスがDellとASUSから登場",
+      "url": "https://www.publickey1.jp/blog/26/oswindows_cpcpcdellasus.html",
+      "summary": "マイクロソフトは、デスクトップ仮想化の技術を用いてWindows環境をクラウドから配信する「Windows 365 クラウドPC」専用のクライアントデバイスがDellとASUSから登場することを発表しました。 Announcing new",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "コーディングエージェントに対する「エンジニア」たちの反応の変遷",
+      "url": "https://anond.hatelabo.jp/20260310082806",
+      "summary": "「コピペのつぎはぎしか出せない。使いものにならない」 →「せいぜい簡単なコード補完まで。実務では無理」 →「一見それっぽいけど、設計が甘い。複雑なものは作れない」 →「動くものは出せても、保守できるものは出せない」 →「結局、熟練者が横で見",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Claude CodeとGitHub Projectsで、チーム開発のコンテキスト共有とタスク管理を自動化する | DevelopersIO",
+      "url": "https://dev.classmethod.jp/articles/claude-github-gemini/",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "かくして我々はOpenAIのAIに監視されることになった » p2ptk[.]org",
+      "url": "https://p2ptk.org/privacy/5454",
+      "summary": "以下の文章は、電子フロンティア財団の「Weasel Words: OpenAI’s Pentagon Deal Won’t Stop AI‑Powered Surveillance」という記事を翻訳したものである。 誤解なきよう予め補足して",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Bplus75_開発物語_五岩.indd",
+      "url": "https://www.jstage.jst.go.jp/article/bplus/19/3/19_254/_pdf",
+      "summary": "ⓒ 2025 電子情報通信学会 １. 概要 SoftEther VPN は，オープンソースの複数プラ ットホーム及び複数 VPN プロトコル対応 VPN ソ フトウェアである．SoftEther VPN は，Windows， Linux，M",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Bplus76_開発物語・SoftEther後編_再久.indd",
+      "url": "https://www.jstage.jst.go.jp/article/bplus/19/4/19_357/_pdf",
+      "summary": "ⓒ 2026 電子情報通信学会 １. 技術の問題の解決 SoftEther VPN の開発においては，前編で説明 したような方法で，IPA（独立行政法人情報処理推 進機構）の予算のほか，中古機器や廃棄物品などを 拾い集め，失敗許容性が高い装",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Uber is letting women avoid male drivers and riders in the US",
+      "url": "https://www.dexerto.com/entertainment/uber-is-letting-women-avoid-male-drivers-and-riders-in-the-us-3229899/",
+      "summary": "Business",
+      "score": 16959,
+      "comments": 3664,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "People really hate artificial intelligence, according to the latest NBC poll: 46% of respondents said they hold negative feelings towards the concept of AI, and only 26% reported positive connotations, while 27% were neutral.",
+      "url": "https://gizmodo.com/people-hate-ai-even-more-than-they-hate-ice-poll-finds-2000731438",
+      "summary": "Artificial Intelligence",
+      "score": 6321,
+      "comments": 543,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "AI Error Likely Led to Girl’s School Bombing in Iran",
+      "url": "https://thisweekinworcester.com/exclusive-ai-error-girls-school-bombing/",
+      "summary": "Artificial Intelligence",
+      "score": 3400,
+      "comments": 381,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "“It doesn’t feel safe”—Many international game developers plan to skip GDC in US | Stories of border issues lead to pervasive travel fears across the worldwide industry",
+      "url": "https://arstechnica.com/gaming/2026/03/it-doesnt-feel-safe-many-international-game-developers-plan-to-skip-gdc-in-us/",
+      "summary": "Business",
+      "score": 4671,
+      "comments": 219,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Workers report watching Ray-Ban Meta-shot footage of people using the bathroom",
+      "url": "https://arstechnica.com/gadgets/2026/03/workers-report-watching-ray-ban-meta-shot-footage-of-people-using-the-bathroom/",
+      "summary": "Business",
+      "score": 3961,
+      "comments": 325,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Privacy-Focused Proton Mail Aids FBI in Uncovering ‘Stop Cop City’ Protester’s True Identity",
+      "url": "https://www.gadgetreview.com/privacy-focused-proton-mail-aids-fbi-in-uncovering-stop-cop-city-protesters-true-identity",
+      "summary": "Business",
+      "score": 4730,
+      "comments": 585,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "“It doesn't feel safe”—Many international game developers plan to skip GDC in US",
+      "url": "https://arstechnica.com/gaming/2026/03/it-doesnt-feel-safe-many-international-game-developers-plan-to-skip-gdc-in-us/?comments-page=1#comments",
+      "summary": "Software",
+      "score": 1506,
+      "comments": 128,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Oracle is building yesterday’s data centers with tomorrow’s debt",
+      "url": "https://www.cnbc.com/2026/03/09/oracle-is-building-yesterdays-data-centers-with-tomorrows-debt.html",
+      "summary": "Business",
+      "score": 611,
+      "comments": 39,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Declines in Instagram, LinkedIn, and Threads Engagement",
+      "url": "https://www.globaldatinginsights.com/featured/buffer-report-declines-in-instagram-linkedin-threads-engagement/",
+      "summary": "Social Media",
+      "score": 1066,
+      "comments": 138,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Anthropic Claims Pentagon Feud Could Cost It Billions",
+      "url": "https://www.wired.com/story/anthropic-claims-business-is-in-peril-due-to-supply-chain-risk-designation/",
+      "summary": "Politics",
+      "score": 289,
+      "comments": 54,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "RuView - See through walls with WiFi - top trending project of the month on Github. And it's a scam.",
+      "url": "https://github.com/ruvnet/RuView",
+      "summary": "",
+      "score": 477,
+      "comments": 100,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "The hidden cost of 'lightweight' frameworks: Our journey from Tauri to native Rust",
+      "url": "https://gethopp.app/blog/hate-webkit",
+      "summary": "My experience working with WebKit, and why we are almost ditching it at Hopp",
+      "score": 25,
+      "comments": 23,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Returning To Rails in 2026",
+      "url": "https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/",
+      "summary": "",
+      "score": 14,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Building a strict RFC 8259 JSON parser: what most parsers silently accept and why it matters for deterministic systems",
+      "url": "https://lattice-substrate.github.io/blog/2026/02/26/strict-rfc8259-json-parser/",
+      "summary": "Most JSON parsers make deliberate compatibility choices: lone surrogates get replaced, duplicate keys get silently resol",
+      "score": 53,
+      "comments": 6,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Media over QUIC: On a Boat",
+      "url": "https://moq.dev/blog/on-a-boat/",
+      "summary": "",
+      "score": 9,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Open Sores - an essay on how programmers spent decades building a culture of open collaboration, and how they're being punished for it",
+      "url": "https://richwhitehouse.com/index.php?postid=77",
+      "summary": "",
+      "score": 946,
+      "comments": 183,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Removing recursion via explicit callstack simulation",
+      "url": "https://jnkr.tech/blog/removing-recursion",
+      "summary": "This is about a technique I stumbled into while converting some tough recursive code into stack-safe form. I hope it's h",
+      "score": 6,
+      "comments": 1,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Why glibc is faster on some Github Actions Runners",
+      "url": "https://codspeed.io/blog/why-glibc-faster-github-actions",
+      "summary": "",
+      "score": 19,
+      "comments": 2,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "So you want to write an \"app\"",
+      "url": "https://arcanenibble.github.io/so-you-want-to-write-an-app.html",
+      "summary": "",
+      "score": 5,
+      "comments": 1,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Sign in with ANY password into Rocket.Chat EE (CVE-2026-28514) and other vulnerabilities we’ve found with our open source AI framework",
+      "url": "https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/",
+      "summary": "Hey! I’m one of the authors of this blog post. We (the GitHub Security Lab) developed an open-source AI-framework that s",
+      "score": 43,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Using cookies to hack into a tech college's admission system",
+      "url": "https://eaton-works.com/2026/03/09/skcet-hack/",
+      "summary": "",
+      "score": 17,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Mobile spyware campaign impersonates Israel's Red Alert rocket warning system",
+      "url": "https://www.acronis.com/en/tru/posts/mobile-spyware-campaign-impersonates-israels-red-alert-rocket-warning-system/",
+      "summary": "",
+      "score": 6,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Fake Claude Code Install Guides Spread Amatera Infostealer in New “InstallFix” Malvertising Campaign",
+      "url": "https://www.neuracybintel.com/articles/fake-claude-code-install-guides-spread-amatera-infostealer-in-new-installfix-malvertising-campaign",
+      "summary": "Cybersecurity researchers have uncovered a new malware distribution campaign in which attackers impersonate legitimate c",
+      "score": 101,
+      "comments": 3,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Autonomous agent traffic as an emerging attack surface",
+      "url": "http://www.usevigil.dev",
+      "summary": "Wanted to raise something I haven’t seen much discussion about in this community yet. I’ve also been building a tool aro",
+      "score": 0,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "InferShield v1.0 – Zero-Custody OAuth Proxy: Client-Side Token Encryption for AI Workflows",
+      "url": "https://blog.infershield.io",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "AirSnitch: Demystifying and Breaking Client Isolation in Wi-Fi Networks",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f1282-paper.pdf",
+      "summary": "PDF",
+      "score": 12,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Unpinched - Instant point-in-time detection of PinchTab and agentic browser bridge artifacts.",
+      "url": "https://helixar.ai/about/labs/",
+      "summary": "Didn't expect this, Helixar\\_ai published a free scanner for PinchTab, the agentic stealth browser tool your EDR can't s",
+      "score": 0,
+      "comments": 1,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "How does AI Pentesting Work with Compliance?How does AI Pentesting Work with Compliance?AI pentesting is being accepted for SOC 2, ISO 27001, HIPAA, and PCI DSS. Here's what auditors actually look for, and where the real limitations are.AI pentesting is being accepted for SOC 2, ISO 27001, HIPAA, and PCI DSS. Here's what auditors actually look for, and where the real limitations are.ComplianceDania Durnas",
+      "url": "https://www.aikido.dev/blog/ai-pentesting-compliance",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Trump’s 2026 cybersecurity strategy: From compliance to consequenceTrump’s 2026 Cybersecurity Strategy: From Compliance to ConsequenceThe Trump administration’s 2026 cybersecurity strategy shifts the focus from compliance checklists to real consequences for cybercriminals. Here’s what CISOs need to know.NewsMike Wilkes",
+      "url": "https://www.aikido.dev/blog/trump-cybersecurity-strategy-2026",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "What continuous pentesting actually requiresContinuous pentesting: how it works and what it requiresContinuous pentesting promises real-time security validation, but most implementations fall short. Here’s what continuous pentesting actually requires—from change-aware testing to exploit validation and remediation loops.Continuous pentesting is widely discussed, but rarely defined clearly. This piece breaks down what it is, what it isn’t, and what it actually requires.Guides & Best PracticesSooraj Shah",
+      "url": "https://www.aikido.dev/blog/continuous-pentesting-requirements",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Rare Not Random: Using Token Efficiency for Secrets ScanningRare Not Random: Using Token Efficiency for Secrets ScanningEntropy often struggles with generic secrets and short strings. We look at how token efficiency can better identify strings that don’t look like normal text.Entropy is great at spotting randomness. But secrets aren’t always random. They’re just strings that don’t show up in normal code or text. We explore using BPE tokenization to measure that difference.Guides & Best PracticesZach Rice",
+      "url": "https://www.aikido.dev/blog/token-efficiency-secrets-scan",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Why Determinism Is Still a Necessity in SecurityWhy Determinism Is Still a Necessity in SecurityAI scanning finds what rules miss. Deterministic scanning finds it every time. Here's why the best security pipelines don't choose between them.AI-powered security tools are getting better at finding vulnerabilities. But deterministic tools give you the consistency that pipelines, compliance, and audit trails depend on. We look at what deterministic scanning does well, where AI takes over, and how the two work together for effective security.EngineeringDania Durnas",
+      "url": "https://www.aikido.dev/blog/why-determinism-is-necessary",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "WAF vs. RASP vs. ADRWAF vs. RASP vs. ADR: How Runtime Application Security WorksWAF, RASP, and ADR protect your app in completely different ways. Here's what each layer actually does, where it falls short, and which ones you need.WAF, RASP, ADR, eBPF — We're clearing up the terminology around runtime application security. Here's what each layer actually does, how they overlap, and how they fit togetherGuidesDania Durnas",
+      "url": "https://www.aikido.dev/blog/waf-rasp-adr",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Introducing Aikido Infinite: A new model of self-securing softwareAikido Infinite: Continuous AI Pentesting for Every ReleaseAikido Infinite runs AI penetration testing on every code change, validates exploitability, generates patches, and retests fixes before code hits production, making self-securing software a reality.AikidoMadeline Lawrence",
+      "url": "https://www.aikido.dev/blog/introducing-aikido-infinite",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Persistent XSS/RCE using WebSockets in Storybook’s dev serverPersistent XSS/RCE using WebSockets in Storybook (CVE-2026-27148)CVE-2026-27148 exposes a WebSocket hijacking flaw in Storybook that can escalate into supply chain compromise. Learn the attack path, impact, and how to remediate.Aikido Attack found a WebSocket hijacking vulnerability in Storybook's dev server that can lead to persistent XSS, remote code execution, and, in the worst case, supply chain compromise. We walk through how an attacker can exploit this without any user interaction at all, and a developer just has to visit the wrong website while to run into this attack.Vulnerabilities & ThreatsRobbe Verwilghen",
+      "url": "https://www.aikido.dev/blog/storybooks-websockets-attack",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "How Aikido secures AI pentesting agents by designHow Aikido Secures AI Pentesting Agents and Prevents Scope DriftLearn how Aikido secures AI pentesting agents with architectural isolation, runtime scope enforcement, and network-level controls to prevent production drift and data leakage.AI agents are built to explore. In cybersecurity, that exploration needs strict boundaries. This article explains how Aikido secures AI pentesting agents through architectural isolation, runtime scope enforcement, and layered controls that contain risk by design.Product & Company UpdatesSooraj Shah",
+      "url": "https://www.aikido.dev/blog/ai-pentesting-agent-security",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Astro Full-Read SSRF via Host Header InjectionAstro SSRF Vulnerability: Host Header Injection in SSR Error Pages (CVE-2026-25545)Aikido Security's AI pentesting agent discovered a Server-Side Request Forgery vulnerability in Astro's SSR implementation. Learn how Host header injection in prerendered error pages allowed full internal network access.Aikido's AI pentesting agent discovered an SSRF vulnerability in Astro's Node.js adapter. We'll look at how by injecting a malicious Host: header, attackers could redirect an internal request to any URL on the local network.Vulnerabilities & ThreatsJorian Woltjer",
+      "url": "https://www.aikido.dev/blog/astro-full-read-ssrf-via-host-header-injection",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "How to Get Your Board to Care About Security (Before a Breach Forces the Issue)How to Get Your Board to Care About Security Before a BreachBoards don’t fund security because it’s important. They fund defensible decisions. Here’s how to frame risk, reduce ambiguity, and win real support before a breach forces the issue.GuidesMike Wilkes",
+      "url": "https://www.aikido.dev/blog/how-to-get-your-board-to-care-about-security",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "What is Slopsquatting? The AI Package Hallucination Attack Already HappeningSlopsquatting: The AI Package Hallucination Attack Already HappeningAI models hallucinate npm package names. Attackers register them first. Here's what slopsquatting is, how it's spreading through agent skills, and how to protect yourself.AI models hallucinate package names — and attackers are registering them before anyone notices. Slopsquatting is the AI-era evolution of typosquatting, and unlike its predecessor, npm's existing protections don't work. We look at the real-world research showing it's already happening, from confirmed malicious packages still pulling hundreds of weekly downloads to a hallucinated package name that spread to 237 repositories through AI agent skill files.Guides & Best PracticesDania Durnas",
+      "url": "https://www.aikido.dev/blog/slopsquatting-ai-package-hallucination-attacks",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Top 6 Wiz Code AlternativesWiz Code Alternatives (2026): 6 Tools Compared and Best Developer-First OptionLooking for Wiz Code alternatives? Compare 6 tools across SAST, DAST, SCA, pricing, and developer experience to find the best AppSec platform for 2026.This guide compares Wiz Code against six alternatives: Aikido Security, Snyk, Checkmarx, GitHub Advanced Security, Mend, and Veracode, evaluated on coverage, developer experience, AI-powered triage, pricing transparency, and deployment speed. Aikido Security comes out on top for teams wanting a developer-first platform with broad coverage, 85% false positive reduction, AI AutoFix across SAST, IaC and containers, native DAST, and transparent pricing at roughly one-tenth the cost of Wiz.Guides & Best PracticesDania Durnas",
+      "url": "https://www.aikido.dev/blog/wiz-code-alternatives",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Aikido recognized as Platform Leader in Latio Tech's 2026 Application Security ReportAikido Named AppSec Platform Leader in Latio 2026 ReportAikido Security recognized as Platform Leader, AI Pentesting Innovator, and Supply Chain Innovator in Latio Tech’s 2026 AppSec Report.Latio Tech’s 2026 AppSec Report names Aikido a Platform Leader and AI Innovator. Here’s what the report reveals about the future of application security.NewsSooraj Shah",
+      "url": "https://www.aikido.dev/blog/latio-2026-appsec-report-aikido-platform-leader",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "From detection to prevention: How Zen stops IDOR vulnerabilities at runtimeFrom Detection to Prevention: Zen Stops IDOR at Runtime | AikidoIDOR vulnerabilities are one of the most common causes of cross-tenant data leaks in multi-tenant SaaS. Learn how Zen enforces tenant isolation at runtime by analyzing SQL queries and preventing unsafe access before it ships.IDOR vulnerabilities are a leading cause of cross-tenant data leaks in multi-tenant applications. In this post, we explain how Zen moves beyond detection and enforces tenant isolation at runtime, making cross-tenant access impossible to ship by accident.Product & Company UpdatesHans Ott",
+      "url": "https://www.aikido.dev/blog/zen-stops-idor-vulnerabilities",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Product & Company News",
+      "url": "https://www.wiz.io/blog/tag/news",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Public Sector",
+      "url": "https://www.wiz.io/blog/tag/public-sector",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Data Security",
+      "url": "https://www.wiz.io/blog/tag/datasecurity",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Introducing Wiz Tenant Manager: Multi-Tenant Management for Federated Organizations",
+      "url": "https://www.wiz.io/blog/wiz-tenant-manager-multi-tenant-security",
+      "summary": "Experience full Wiz security with zero friction, managing multiple tenants in a single console",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "The Agile FedRAMP Playbook, Part 4: Reactive Risk Management through Enriched Incident Response",
+      "url": "https://www.wiz.io/blog/fedramp-incident-response",
+      "summary": "In the final part of our series, we explore Reactive Risk Management. Discover how Wiz for U.S. Government transforms cl",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Wiz Achieves CPSTIC Certification in Spain",
+      "url": "https://www.wiz.io/blog/wiz-cpstic-certification",
+      "summary": "Strengthening secure cloud modernization for Spain’s public sector through CPSTIC certification.",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Seeing AI Clearly: Building Visibility Across Modern AI Applications",
+      "url": "https://www.wiz.io/blog/complete-ai-application-visibility-wiz",
+      "summary": "AI applications span models, agents, and cloud environments in ways traditional security tools weren’t designed to under",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    }
+  ]
+}

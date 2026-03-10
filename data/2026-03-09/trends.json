@@ -1,14 +1,14 @@
 {
   "date": "2026-03-09",
-  "collected_at": "2026-03-09T18:18:39.432460+09:00",
-  "total_count": 57,
+  "collected_at": "2026-03-09T18:38:37.383001+09:00",
+  "total_count": 84,
   "articles": [
     {
       "title": "US Court of Appeals: TOS may be updated by email, use can imply consent [pdf]",
       "url": "https://cdn.ca9.uscourts.gov/datastore/memoranda/2026/03/03/25-403.pdf",
       "summary": "",
-      "score": 133,
-      "comments": 54,
+      "score": 148,
+      "comments": 59,
       "source": "Hacker News",
       "source_icon": "🟠"
     },
@@ -16,17 +16,8 @@
       "title": "Grammarly is offering ‘expert’ AI reviews from famous dead and living writers",
       "url": "https://www.wired.com/story/grammarly-is-offering-expert-ai-reviews-from-your-favorite-authors-dead-or-alive/",
       "summary": "The tool, offered by the recently-rebranded company Superhuman, gives feedback based on the work of famous dead and livi",
-      "score": 13,
-      "comments": 14,
-      "source": "Hacker News",
-      "source_icon": "🟠"
-    },
-    {
-      "title": "Show HN: Mcp2cli – One CLI for every API, 96-99% fewer tokens than native MCP",
-      "url": "https://github.com/knowsuchagency/mcp2cli",
-      "summary": "Turn any MCP server or OpenAPI spec into a CLI — at runtime, with zero codegen - knowsuchagency/mcp2cli",
-      "score": 54,
-      "comments": 29,
+      "score": 22,
+      "comments": 28,
       "source": "Hacker News",
       "source_icon": "🟠"
     },
@@ -34,17 +25,26 @@
       "title": "Agent Safehouse – macOS-native sandboxing for local agents",
       "url": "https://agent-safehouse.dev/",
       "summary": "Sandbox your LLM coding agents on macOS. Kernel-level enforcement via sandbox-exec â deny-first, composable, zero depe",
-      "score": 559,
-      "comments": 140,
+      "score": 563,
+      "comments": 141,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: Mcp2cli – One CLI for every API, 96-99% fewer tokens than native MCP",
+      "url": "https://github.com/knowsuchagency/mcp2cli",
+      "summary": "Turn any MCP server or OpenAPI spec into a CLI — at runtime, with zero codegen - knowsuchagency/mcp2cli",
+      "score": 59,
+      "comments": 31,
       "source": "Hacker News",
       "source_icon": "🟠"
     },
     {
       "title": "Microscopes can see video on a laserdisc",
       "url": "https://www.youtube.com/watch?v=qZuR-772cks",
-      "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on Yo",
-      "score": 420,
-      "comments": 48,
+      "summary": "I was messing around with a microscope and some random samples and found out I could see some interesting things. And th",
+      "score": 428,
+      "comments": 49,
       "source": "Hacker News",
       "source_icon": "🟠"
     },
@@ -52,17 +52,17 @@
       "title": "PCB devboard the size of a USB-C plug",
       "url": "https://github.com/Dieu-de-l-elec/AngstromIO-devboard",
       "summary": "AngstromIO, one of the smallest devboards out there, barely longer than a USB C connector, based on the Attiny1616 MCU.",
-      "score": 167,
-      "comments": 31,
+      "score": 170,
+      "comments": 32,
       "source": "Hacker News",
       "source_icon": "🟠"
     },
     {
       "title": "Ask HN: What Are You Working On? (March 2026)",
       "url": "https://news.ycombinator.com/item?id=47303111",
-      "summary": "The problem was the ML dependencies. The backend uses BGE-small-en-v1.5 for embeddings and FAISS for vector search. Both",
-      "score": 138,
-      "comments": 479,
+      "summary": "I’m a Senior Full Stack Engineer with over 8 years of experience building and scaling production systems using Node.js,",
+      "score": 142,
+      "comments": 489,
       "source": "Hacker News",
       "source_icon": "🟠"
     },
@@ -70,8 +70,8 @@
       "title": "We should revisit literate programming in the agent era",
       "url": "https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/",
       "summary": "Literate programming is the idea that code should be intermingled with prose such that an uninformed reader could read a",
-      "score": 232,
-      "comments": 137,
+      "score": 233,
+      "comments": 138,
       "source": "Hacker News",
       "source_icon": "🟠"
     },
@@ -79,8 +79,8 @@
       "title": "Every single board computer I tested in 2025",
       "url": "https://bret.dk/every-single-board-computer-i-tested-in-2025/",
       "summary": "I benchmarked 15 SBCs released in 2025 across every price point. Here's what stood out, what disappointed, and what the",
-      "score": 161,
-      "comments": 49,
+      "score": 165,
+      "comments": 50,
       "source": "Hacker News",
       "source_icon": "🟠"
     },
@@ -88,7 +88,7 @@
       "title": "FrameBook",
       "url": "https://fb.edoo.gg",
       "summary": "me when FrameBook.",
-      "score": 424,
+      "score": 429,
       "comments": 72,
       "source": "Hacker News",
       "source_icon": "🟠"
@@ -97,17 +97,17 @@
       "title": "The death of social media is the renaissance of RSS (2025)",
       "url": "https://www.smartlab.at/rss-revival-life-after-social-media/",
       "summary": "",
-      "score": 123,
-      "comments": 70,
+      "score": 133,
+      "comments": 74,
       "source": "Hacker News",
       "source_icon": "🟠"
     },
     {
       "title": "How the Sriracha guys screwed over their supplier",
       "url": "https://old.reddit.com/r/KitchenConfidential/comments/1ro61g2/how_the_sriracha_guys_screwed_over_their_supplier/",
-      "summary": "",
-      "score": 149,
-      "comments": 32,
+      "summary": "There was a thread the other day about Sriracha going to shit. A lot of the commenters knew that Huy Fong, Sriracha's pr",
+      "score": 164,
+      "comments": 36,
       "source": "Hacker News",
       "source_icon": "🟠"
     },
@@ -115,7 +115,7 @@
       "title": "Linux Internals: How /proc/self/mem writes to unwritable memory (2021)",
       "url": "https://offlinemark.com/an-obscure-quirk-of-proc/",
       "summary": "Introduction An obscure quirk of the /proc/*/mem pseudofile is its “punch through” semantics. Writes performed through t",
-      "score": 78,
+      "score": 80,
       "comments": 18,
       "source": "Hacker News",
       "source_icon": "🟠"
@@ -124,8 +124,17 @@
       "title": "My Homelab Setup",
       "url": "https://bryananthonio.com/blog/my-homelab-setup/",
       "summary": "How I repurposed my old gaming PC to set up a home server for data storage, backups, and self-hosted apps.",
-      "score": 225,
+      "score": 228,
       "comments": 149,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Claude built a system in 3 rounds, latent bugs from round 1 exploded in round 3",
+      "url": "https://github.com/mycelium-clj/mycelium/blob/main/benchmarks/SCALING.md",
+      "summary": "",
+      "score": 26,
+      "comments": 20,
       "source": "Hacker News",
       "source_icon": "🟠"
     },
@@ -139,19 +148,10 @@
       "source_icon": "🟠"
     },
     {
-      "title": "Claude built a system in 3 rounds, latent bugs from round 1 exploded in round 3",
-      "url": "https://github.com/mycelium-clj/mycelium/blob/main/benchmarks/SCALING.md",
-      "summary": "",
-      "score": 24,
-      "comments": 13,
-      "source": "Hacker News",
-      "source_icon": "🟠"
-    },
-    {
       "title": "I made a programming language with M&Ms",
       "url": "https://mufeedvh.com/posts/i-made-a-programming-language-with-mnms/",
-      "summary": "",
-      "score": 78,
+      "summary": "I built a tiny programming language where programs are candy grids, complete with a renderer, photo decoder, AST tree, a",
+      "score": 79,
       "comments": 34,
       "source": "Hacker News",
       "source_icon": "🟠"
@@ -159,27 +159,27 @@
     {
       "title": "Why can't you tune your guitar? (2019)",
       "url": "https://www.ethanhein.com/wp/2019/why-cant-you-tune-your-guitar/",
-      "summary": "Short answer: because math. Longer answer: because prime numbers don’t divide into each other evenly. To understand what",
-      "score": 206,
-      "comments": 144,
-      "source": "Hacker News",
-      "source_icon": "🟠"
-    },
-    {
-      "title": "I love email (2023)",
-      "url": "https://blog.xoria.org/email/",
-      "summary": "I constantly hear about\nhow much everybody hates email.\nLook, I receive just as many spam messages\nand useless email-bas",
-      "score": 3,
-      "comments": 0,
+      "summary": "",
+      "score": 209,
+      "comments": 147,
       "source": "Hacker News",
       "source_icon": "🟠"
     },
     {
       "title": "Living human brain cells play DOOM on a CL1 [video]",
       "url": "https://www.youtube.com/watch?v=yRV8fSw6HaE",
-      "summary": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on Yo",
+      "summary": "Credits: Dr. Alon Loeffler, Dr. Brett Kagan, David Hogan, Dr. Azin Azadi, Frank Yang, Sean ColeA big thank you and ackno",
+      "score": 187,
+      "comments": 183,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "My “grand vision” for Rust",
+      "url": "https://blog.yoshuawuyts.com/a-grand-vision-for-rust/",
+      "summary": "I donât think Iâve ever quite articulated my âgrand visionâ for Rust, despite\nhaving written a fair bit about th",
       "score": 186,
-      "comments": 182,
+      "comments": 166,
       "source": "Hacker News",
       "source_icon": "🟠"
     },
@@ -211,6 +211,15 @@
       "source_icon": "📘"
     },
     {
+      "title": "サンコー、袋を自動で広げるゴミ箱　市販のゴミ袋で - 家電 Watch",
+      "url": "https://kaden.watch.impress.co.jp/docs/news/2090863.html",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
       "title": "バンダイのPS1用ゲーム『魔女っ子大作戦』はなんでこんな作品になったのか？ 開発者が「最も奇妙なゲーム開発体験だった」と語る誕生の経緯",
       "url": "https://retro-gamer.jp/?p=42528",
       "summary": "先日、つい目に止まったゲームがあります。それが、1999年2月4日にバンダイより発売されたPlayStation用ゲームの『魔女っ子大作戦』です。キャラクター的にもてっきりライト層向けの内容で、きっと『対戦ぱずるだま』のようなポップな作品な",
@@ -229,18 +238,18 @@
       "source_icon": "📘"
     },
     {
-      "title": "サンコー、袋を自動で広げるゴミ箱　市販のゴミ袋で - 家電 Watch",
-      "url": "https://kaden.watch.impress.co.jp/docs/news/2090863.html",
-      "summary": "",
+      "title": "小惑星の公転軌道を人為的に変えることに成功　「天体衝突で人類滅亡」回避へ道筋",
+      "url": "https://japan.cnet.com/article/35244754/",
+      "summary": "NASAは、小惑星に探査機を衝突させて軌道を変える実験「DARTミッション」によって、二重小惑星系の太陽周回軌道（公転軌道）にも変化が生じていたとする研究結果を発表した。人間が作った物体によって、天体の太陽周回軌道が測定可能な形で変えられた",
       "score": 0,
       "comments": 0,
       "source": "はてなブログ",
       "source_icon": "📘"
     },
     {
-      "title": "小惑星の公転軌道を人為的に変えることに成功　「天体衝突で人類滅亡」回避へ道筋",
-      "url": "https://japan.cnet.com/article/35244754/",
-      "summary": "NASAは、小惑星に探査機を衝突させて軌道を変える実験「DARTミッション」によって、二重小惑星系の太陽周回軌道（公転軌道）にも変化が生じていたとする研究結果を発表した。人間が作った物体によって、天体の太陽周回軌道が測定可能な形で変えられた",
+      "title": "Postmanの管理が辛くなったのでBrunoに移行してみた — VSCode連携・Git管理・シークレット管理まで | DevelopersIO",
+      "url": "https://dev.classmethod.jp/articles/setup-bruno-api-client-with-vscode/",
+      "summary": "Brunoを使えばAPIコレクションをプロジェクトフォルダ内にGit管理できます。Postmanからの移行手順とVSCode連携、シークレット管理のパターンを紹介します。 はじめに APIテストツールといえばPostmanが定番ですが、長く",
       "score": 0,
       "comments": 0,
       "source": "はてなブログ",
@@ -265,18 +274,18 @@
       "source_icon": "📘"
     },
     {
-      "title": "Postmanの管理が辛くなったのでBrunoに移行してみた — VSCode連携・Git管理・シークレット管理まで | DevelopersIO",
-      "url": "https://dev.classmethod.jp/articles/setup-bruno-api-client-with-vscode/",
-      "summary": "Brunoを使えばAPIコレクションをプロジェクトフォルダ内にGit管理できます。Postmanからの移行手順とVSCode連携、シークレット管理のパターンを紹介します。 はじめに APIテストツールといえばPostmanが定番ですが、長く",
+      "title": "Claude Code が RAG を捨てた理由 -「Agentic Search」という選択肢",
+      "url": "https://zenn.dev/acntechjp/articles/c1296f425baf03",
+      "summary": "先日、YouTube で公開された技術チャンネル The Pragmatic Engineer のインタビュー動画（2026年3月公開）を見ていて、興味深い話を耳にしました。ゲストは Claude Code の中心的な開発者である Bori",
       "score": 0,
       "comments": 0,
       "source": "はてなブログ",
       "source_icon": "📘"
     },
     {
-      "title": "Claude Code が RAG を捨てた理由 -「Agentic Search」という選択肢",
-      "url": "https://zenn.dev/acntechjp/articles/c1296f425baf03",
-      "summary": "先日、YouTube で公開された技術チャンネル The Pragmatic Engineer のインタビュー動画（2026年3月公開）を見ていて、興味深い話を耳にしました。ゲストは Claude Code の中心的な開発者である Bori",
+      "title": "中国商務部がNexperiaと中国子会社の対立で再び世界的な半導体サプライチェーン危機が発生する可能性があると懸念を表明",
+      "url": "https://gigazine.net/news/20260309-china-warns-global-chip-shortages-nexperia/",
+      "summary": "2026年3月7日(土)、「オランダの半導体メーカーであるNexperiaと中国子会社の間で起きた新たな対立により、世界的な半導体サプライチェーン危機が再び発生する可能性がある」と中華人民共和国商務部が懸念を表明しました。 China wa",
       "score": 0,
       "comments": 0,
       "source": "はてなブログ",
@@ -301,15 +310,6 @@
       "source_icon": "📘"
     },
     {
-      "title": "中国商務部がNexperiaと中国子会社の対立で再び世界的な半導体サプライチェーン危機が発生する可能性があると懸念を表明",
-      "url": "https://gigazine.net/news/20260309-china-warns-global-chip-shortages-nexperia/",
-      "summary": "2026年3月7日(土)、「オランダの半導体メーカーであるNexperiaと中国子会社の間で起きた新たな対立により、世界的な半導体サプライチェーン危機が再び発生する可能性がある」と中華人民共和国商務部が懸念を表明しました。 China wa",
-      "score": 0,
-      "comments": 0,
-      "source": "はてなブログ",
-      "source_icon": "📘"
-    },
-    {
       "title": "GraphRAGを実際に構築して分かった「使うほど賢くなるAI」の仕組み",
       "url": "https://zenn.dev/okikusan/articles/0f8295e7ecaa19",
       "summary": "はじめに ─ 「AIに文書を読ませる」だけでは足りなかった 最近、「社内の文書をAIに読ませて質問に答えさせる」という仕組みを耳にする機会が増えました。いわゆる RAG（Retrieval Augmented Generation） です。",
@@ -317,6 +317,249 @@
       "comments": 0,
       "source": "はてなブログ",
       "source_icon": "📘"
+    },
+    {
+      "title": "We’re Training Students To Write Worse To Prove They’re Not Robots, And It’s Pushing Them To Use More AI",
+      "url": "https://www.techdirt.com/2026/03/06/were-training-students-to-write-worse-to-prove-theyre-not-robots-and-its-pushing-them-to-use-more-ai/",
+      "summary": "Artificial Intelligence",
+      "score": 8258,
+      "comments": 591,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "CEO Jensen Huang set to receive $4 million bonus from Nvidia, 0.002% of his $164 billion net worth — a small incentive for one of the richest people on earth",
+      "url": "https://www.tomshardware.com/tech-industry/jensen-huang-set-to-receive-usd4-million-bonus-from-nvidia-0-002-percent-of-his-usd164-billion-net-worth-a-small-incentive-for-one-of-the-richest-people-on-earth",
+      "summary": "Business",
+      "score": 4392,
+      "comments": 417,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "OpenAI on Surveillance and Autonomous Killings: You’re Going to Have to Trust Us",
+      "url": "https://theintercept.com/2026/03/08/openai-anthropic-military-contract-ethics-surveillance/",
+      "summary": "Artificial Intelligence",
+      "score": 2930,
+      "comments": 307,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Oracle Layoffs: Tech giant to slash 30,000 jobs as banks pull out from financing AI data centers",
+      "url": "https://www.livemint.com/companies/news/oracle-layoffs-tech-giant-to-slash-30-000-jobs-as-banks-pull-out-from-financing-ai-data-centres-11769996619410.html",
+      "summary": "Business",
+      "score": 24725,
+      "comments": 1106,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Online age-verification tools spread across U.S. for child safety, but adults are being surveilled",
+      "url": "https://www.cnbc.com/2026/03/08/social-media-child-safety-internet-ai-surveillance.html",
+      "summary": "Privacy",
+      "score": 4084,
+      "comments": 314,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "‘The American people should not be footing the bill for the benefit of private companies': Tech giants sign White House pledge to not pass on data center electricity to customers",
+      "url": "https://www.techradar.com/pro/the-american-people-should-not-be-footing-the-bill-for-the-benefit-of-private-companies-tech-giants-sign-white-house-pledge-to-not-pass-on-data-center-electricity-costs-to-consumers-heres-everything-you-need-to-know",
+      "summary": "Business",
+      "score": 7726,
+      "comments": 505,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Chinese SSD maker YMTC lists first commercial PCIe 5.0 SSD as worldwide shortage intensifies — Xtacking 4.0 NAND powers speeds of up to 10,500 MB/s",
+      "url": "https://www.tomshardware.com/pc-components/ssds/chinese-ssd-maker-ymtc-lists-first-commercial-pcie-5-0-ssd-as-worldwide-shortage-intensifies-xtacking-4-0-nand-powers-speeds-of-up-to-10-500-mb-s",
+      "summary": "Hardware",
+      "score": 131,
+      "comments": 10,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Anthropic’s Ethical Stand Could Be Paying Off",
+      "url": "https://www.theatlantic.com/ideas/2026/03/anthropic-pentagon-contract-openai/686285/",
+      "summary": "Artificial Intelligence",
+      "score": 955,
+      "comments": 51,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "NASA successfully deflected a small asteroid with its DART rocket, kinetic strike ejected a significant amount of debris from the asteroid — impact nudges the orbit of the small astronomical body, affecting the larger cosmic object as well",
+      "url": "https://www.tomshardware.com/tech-industry/nasa-successfully-deflected-a-small-asteroid-with-its-dart-rocket-kinetic-strike-ejected-a-significant-amount-of-debris-from-the-asteroid-impact-nudges-the-orbit-of-the-small-astronomical-body-affecting-the-larger-cosmic-object-as-well",
+      "summary": "Space",
+      "score": 731,
+      "comments": 28,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Wireless eye implant helps blind patients read again",
+      "url": "https://www.earth.com/news/wireless-eye-implant-helps-blind-patients-read-again/",
+      "summary": "Biotechnology",
+      "score": 171,
+      "comments": 14,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "How Stripe supports API versions going back to 2014 without maintaining multiple codebases — and how to implement the same pattern",
+      "url": "https://github.com/jay123anta/laravel-api-versionist",
+      "summary": "Stripe's versioning trick is simple: transformer classes that upgrade old requests to the current format before business",
+      "score": 68,
+      "comments": 24,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Open Sores - an essay on how programmers spent decades building a culture of open collaboration, and how they're being punished for it",
+      "url": "https://richwhitehouse.com/index.php?postid=77",
+      "summary": "",
+      "score": 711,
+      "comments": 117,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "MCP Vulnerabilities Every Developer Should Know",
+      "url": "https://composio.dev/blog/mcp-vulnerabilities-every-developer-should-know",
+      "summary": "",
+      "score": 40,
+      "comments": 12,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "LLM-driven large code rewrites with relicensing are the latest AI concern",
+      "url": "https://www.phoronix.com/news/Chardet-LLM-Rewrite-Relicense",
+      "summary": "",
+      "score": 489,
+      "comments": 210,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Why I Hope I Get to Write a Lot of F# in 2026 · cekrem.github.io",
+      "url": "https://cekrem.github.io/posts/why-i-hope-i-get-to-write-a-lot-of-fsharp-in-2026/",
+      "summary": "",
+      "score": 5,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "NestJS is a bad Typescript framework",
+      "url": "https://blog.skacekamen.dev/posts/nest-js-is-not-really-good/",
+      "summary": "",
+      "score": 118,
+      "comments": 101,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "I have been coding this engine for a while, take a look and see my process let me know what y’all think",
+      "url": "https://youtu.be/g9VHUEhHgpU",
+      "summary": "",
+      "score": 5,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Google News API to fetch local news articles based on specific search keywords",
+      "url": "https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en",
+      "summary": "Hey everyone,   \nI’ve been trying to fetch local news using the Google News API with specific keywords. Lately, I’ve not",
+      "score": 2,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Notes on writing a voxel game in Dyalog APL",
+      "url": "https://homewithinnowhere.com/blog/voxel_game/",
+      "summary": "",
+      "score": 1,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Fake Claude Code Install Guides Spread Amatera Infostealer in New “InstallFix” Malvertising Campaign",
+      "url": "https://www.neuracybintel.com/articles/fake-claude-code-install-guides-spread-amatera-infostealer-in-new-installfix-malvertising-campaign",
+      "summary": "Cybersecurity researchers have uncovered a new malware distribution campaign in which attackers impersonate legitimate c",
+      "score": 73,
+      "comments": 2,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "From Chrome Extension Supply-Chain Compromise to Host Malware: Technical Breakdown of the ShotBird Campaign",
+      "url": "https://monxresearch-sec.github.io/shotbird-extension-malware-report/",
+      "summary": "",
+      "score": 10,
+      "comments": 2,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "AirSnitch: Demystifying and Breaking Client Isolation in Wi-Fi Networks",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f1282-paper.pdf",
+      "summary": "PDF",
+      "score": 2,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "38 researchers red-teamed AI agents for 2 weeks. Here's what broke. (Agents of Chaos, Feb 2026)\nAI Security",
+      "url": "http://arxiv.org/abs/2602.20021",
+      "summary": "*A new paper from Northeastern, Harvard, Stanford, MIT, CMU, and a bunch of other institutions. 38 researchers, 84 pages",
+      "score": 117,
+      "comments": 33,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "A Race Within A Race: Exploiting CVE-2025-38617 in Linux Packet Sockets",
+      "url": "https://blog.calif.io/p/a-race-within-a-race-exploiting-cve",
+      "summary": "",
+      "score": 30,
+      "comments": 2,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Model Context Protocol (MCP) Authentication and Authorization",
+      "url": "https://blog.doyensec.com/2026/03/05/mcp-nightmare.html",
+      "summary": "",
+      "score": 60,
+      "comments": 11,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Hardening Firefox with Anthropic’s Red Team",
+      "url": "https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/",
+      "summary": "",
+      "score": 25,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "we at codeant found a bug in pac4j-jwt (auth bypass)",
+      "url": "https://www.codeant.ai/security-research/pac4j-jwt-authentication-bypass-public-key",
+      "summary": "We started auditing popular OSS security libraries as an experiment. first week, we found a critical auth bypass in pac4",
+      "score": 225,
+      "comments": 7,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
     },
     {
       "title": "What continuous pentesting actually requiresContinuous pentesting: how it works and what it requiresContinuous pentesting promises real-time security validation, but most implementations fall short. Here’s what continuous pentesting actually requires—from change-aware testing to exploit validation and remediation loops.Continuous pentesting is widely discussed, but rarely defined clearly. This piece breaks down what it is, what it isn’t, and what it actually requires.Guides & Best PracticesSooraj Shah",
