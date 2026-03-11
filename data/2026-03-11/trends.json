@@ -1,0 +1,943 @@
+{
+  "date": "2026-03-11",
+  "collected_at": "2026-03-11T10:18:05.713539+09:00",
+  "total_count": 104,
+  "articles": [
+    {
+      "title": "Tony Hoare has died",
+      "url": "https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html",
+      "summary": "Turing Award winner and former Oxford professor  Tony Hoare  passed away last Thursday at the age of 92. Hoare is famous",
+      "score": 1461,
+      "comments": 198,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "U+237C ⍼ Is Azimuth",
+      "url": "https://ionathan.ch/2026/02/16/angzarr.html",
+      "summary": "CS PhD student @ UPenn[he / they]",
+      "score": 115,
+      "comments": 9,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Cloudflare Crawl Endpoint",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint/",
+      "summary": "Browser Rendering's new /crawl endpoint lets you submit a starting URL and automatically discover, render, and return co",
+      "score": 96,
+      "comments": 53,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Agents that run while I sleep",
+      "url": "https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep",
+      "summary": "I Have No Idea If What They Ship Is Any Good",
+      "score": 214,
+      "comments": 169,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Yann LeCun raises $1B to build AI that understands the physical world",
+      "url": "https://www.wired.com/story/yann-lecun-raises-dollar1-billion-to-build-ai-that-understands-the-physical-world/",
+      "summary": "Meta’s former chief AI scientist has long argued that human-level AI will come from mastering the physical world, not la",
+      "score": 320,
+      "comments": 321,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon",
+      "url": "https://github.com/RunanywhereAI/rcli",
+      "summary": "Talk to your Mac, query your docs, no cloud required. On-device voice AI + RAG - RunanywhereAI/RCLI",
+      "score": 179,
+      "comments": 85,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "RISC-V Is Sloooow",
+      "url": "https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/",
+      "summary": "143 vs 36 minutes is far too big difference",
+      "score": 165,
+      "comments": 146,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Universal vaccine against respiratory infections and allergens",
+      "url": "https://med.stanford.edu/news/all-news/2026/02/universal-vaccine.html",
+      "summary": "Stanford Medicine researchers and their colleagues invented a new vaccine that protects mice from respiratory viruses, b",
+      "score": 88,
+      "comments": 20,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Debian decides not to decide on AI-generated contributions",
+      "url": "https://lwn.net/SubscriberLink/1061544/125f911834966dd0/",
+      "summary": "Debian is the latest in an ever-growing list of projects to wrestle (again) with the question o [...]",
+      "score": 274,
+      "comments": 212,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "SSH Secret Menu",
+      "url": "https://twitter.com/rebane2001/status/2031037389347406054",
+      "summary": "We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to",
+      "score": 28,
+      "comments": 14,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Mesh over Bluetooth LE, TCP, or Reticulum",
+      "url": "https://github.com/torlando-tech/columba",
+      "summary": "Native Android messaging app using Bluetooth LE, TCP, or RNode (LoRa) over LXMF and Reticulum - torlando-tech/columba",
+      "score": 19,
+      "comments": 0,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Invoker Commands API",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Invoker_Commands_API",
+      "summary": "The Invoker Commands API provides a way to declaratively assign behaviors to buttons, allowing control of interactive el",
+      "score": 52,
+      "comments": 12,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "FFmpeg-over-IP – Connect to remote FFmpeg servers",
+      "url": "https://github.com/steelbrain/ffmpeg-over-ip",
+      "summary": "Connect to remote ffmpeg servers. Contribute to steelbrain/ffmpeg-over-ip development by creating an account on GitHub.",
+      "score": 116,
+      "comments": 50,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Redox OS has adopted a Certificate of Origin policy and a strict no-LLM policy",
+      "url": "https://gitlab.redox-os.org/redox-os/redox/-/blob/master/CONTRIBUTING.md",
+      "summary": "Redox: A Rust Operating System",
+      "score": 374,
+      "comments": 370,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Meta acquires Moltbook",
+      "url": "https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network",
+      "summary": "",
+      "score": 407,
+      "comments": 265,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Intel Demos Chip to Compute with Encrypted Data",
+      "url": "https://spectrum.ieee.org/fhe-intel",
+      "summary": "Intel's Heracles chip speeds up encrypted data processing by up to 5000 times.",
+      "score": 221,
+      "comments": 83,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Tell HN: Apple development certificate server seems down?",
+      "url": "https://news.ycombinator.com/item?id=47328034",
+      "summary": "Other people on Reddit seem to be hitting this too [0]. Anyone knows anything about it?[0]:https://www.reddit.com/r/iOSP",
+      "score": 54,
+      "comments": 23,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Bippy: React Internals Toolkit",
+      "url": "https://www.bippy.dev/",
+      "summary": "Hack into React internals",
+      "score": 12,
+      "comments": 1,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "After outages, Amazon to make senior engineers sign off on AI-assisted changes",
+      "url": "https://arstechnica.com/ai/2026/03/after-outages-amazon-to-make-senior-engineers-sign-off-on-ai-assisted-changes/",
+      "summary": "AWS has suffered at least two incidents linked to the use of AI coding assistants.",
+      "score": 431,
+      "comments": 388,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Networking with agents: Put them in the right conversations with Tailscale",
+      "url": "https://blog.firetiger.com/networking-with-agents-how-to-put-them-in-the-right-conversations/",
+      "summary": "Connect Firetiger to your Tailscale Tailnet, allowing Firetiger DBAs and other Agents to securely observe and operate yo",
+      "score": 14,
+      "comments": 2,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "内蔵128GBなのに「1.1TB」表記。AmazonのノートPCで紛らわしいストレージ記載が拡大中 - ギャズログ | GAZ:Log",
+      "url": "https://gazlog.com/entry/1tb-storage-include-onedrive/",
+      "summary": "ノートPC購入時にストレージ容量の大きさは1つの検討要素となりますが、ここ最近になりクラウドストレージの容量もストレージ容量に含める紛らわしい表記をしたノートPCが海外や日本のAmazonで販売されていることが明らかになっています。 クラウ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "非情報系研究者へ送る Transformer入門",
+      "url": "https://speakerdeck.com/rishiyama/fei-qing-bao-xi-yan-jiu-zhe-hesong-ru-transformerru-men",
+      "summary": "第2回植物異分野勉強会@総研大にて「WET研究者のためのTransformer入門」　で用いた資料を改変．ニューラルネットワークの基礎からTransformerおよびアテンションの概念について概説． 作成者：秋庭孔樹，石山遼，見田壮一 補足",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "10万円切りMacが17年ぶりに復活！　実機を試して分かったAppleが仕掛ける「MacBook Neo」の実力",
+      "url": "https://www.itmedia.co.jp/pcuser/articles/2603/10/news132.html",
+      "summary": "10万円切りMacが17年ぶりに復活！　実機を試して分かったAppleが仕掛ける「MacBook Neo」の実力：新生活”向けエントリーモデル（1/4 ページ） このMacは安い。 MacBook Neoの価格は9万9800円で、学生や教職",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "SQL で区間同士の重なり（interval overlap）を一発で判定する方法",
+      "url": "https://zenn.dev/medicu/articles/cd97674e6faa91",
+      "summary": "こんにちは！株式会社 MeDiCU で学生インターンをしている村山です。普段は、MeDiCU の管理するデータベース OneICU を使った臨床疫学研究や医療 AI 研究に関わっています。 はじめに SQL で時系列データを扱っていると、「",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "【追記あり】メルカリで50万円の商品を購入したら中身が空だった...開封動画まで撮影して証拠もあるのに相手は非を認めず事務局もなかなか動いてくれず手詰まり状態に",
+      "url": "https://togetter.com/li/2673168",
+      "summary": "メルカリで50万円の品を購入したが、中身が空の状態で届いた。購入側は開封動画で証拠を残しており、梱包写真と開封動画の内容が食い違う点（梱包のガムテープの数や位置の違い、剥がれたテープが箱内にないこと、内側のダンボールが別物に見えること）を指",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "なぜ、SOLID原則の単一責務の原則(SRP)は理解しにくいのか？",
+      "url": "https://zenn.dev/pdfractal/articles/f3edfb13487e25",
+      "summary": "はじめに 単一責務の原則(SRP)は、SOLIDの中でも最も有名でありながら、最も誤解されやすい原則の一つです。名前だけ見ると、いかにも分かりやすそうです。単一責務という四文字は、いかにも「一つのことだけをやれ」と言っているように見えます。",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Anthropic、「Code Review」を公開--プルリクレビューを劇的に効率化",
+      "url": "https://japan.zdnet.com/article/35244799/2/",
+      "summary": "マルチエージェントによるレビュー、コスト効果 Code Reviewの処理は極めて迅速で、複雑なレビューでも約20分で完了する。プルリクエストが作成されると、Code Reviewが起動して複数のエージェントが並列でコードの分析を開始する。",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "MicrosoftがAIでPC上の業務を自動化するMicrosoft 365の新機能「Copilot Cowork」を発表、Anthropicの「Claude Cowork」技術を統合",
+      "url": "https://gigazine.net/news/20260310-microsoft-365-copilot-cowork-ai/",
+      "summary": "MicrosoftがサブスクリプションサービスMicrosoft 365の新機能として、AIでさまざまな業務を自動化できる「Copilot Cowork」を現地時間の2026年3月9日に発表しました。 Copilot Cowork: A n",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "デバッグはもう人間の仕事ではなくなった",
+      "url": "https://zenn.dev/dinii/articles/debugging-is-solved",
+      "summary": "こんにちは、ダイニーの ogino です。 弊社では、ほとんどの技術的な不具合の調査・解決を AI に丸投げできるようになりました。 これは単なるコードレベルのバグに限りません。本番環境や特定のユーザーだけでしか発生しない問題、インフラの設",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "【無料】Anthropic公式「エージェントスキル入門」講座が公開　Claude Codeでの活用法が分かる22分の動画",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/10/news010.html",
+      "summary": "連載目次 Anthropic公式が提供するオンライン講座「Anthropic Academy」に、AI開発ツール「Claude Code」などで利用できる新しい概念「エージェントスキル（Agent Skills）」を解説するコースが追加され",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Astro 6.0 | Astro",
+      "url": "https://astro.build/blog/astro-6/",
+      "summary": "Astro 6 is here! Astro 6 introduces a broad set of new capabilities, including a built-in Fonts API, Content Security Po",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "NTT、人の動作はなぜ\"ばらつく\"のか　脳の仕組みを世界初解明",
+      "url": "https://www.watch.impress.co.jp/docs/news/2092160.html",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "マンガの9割がAIで作られる未来も？『はじめの一歩』森川ジョージ氏らがAI時代のマンガ制作と著作権問題について議論",
+      "url": "https://news.denfaminicogamer.jp/kikakuthetower/260310y",
+      "summary": "一般社団法人MANGA総合研究所は、マンガ・アニメのボーダーレス・カンファレンス「IMART」を2025年11月12日に東京・池袋にあるアニメイトシアターで開催した。そして、本カンファレンスの次なる展開として、2026年3月24日から27日",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "マイクロソフトが「.NET Skills」公開。AIエージェントの.NET開発能力を拡張",
+      "url": "https://www.publickey1.jp/blog/26/net_skillsainet.html",
+      "summary": "マイクロソフトは、AIエージェントの能力を拡張する「Agent Skills」の仕組みに対応した、.NETの開発スキルを向上させる「.NET Skills」を公開しました。 Agent Skillsは、Anthropicが提唱したAIエージ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "【日本語訳全文】Gene Kim氏 基調講演：開発生産性向上の探求 ─ DevOpsの進化、普遍的な原則、そして生成AIがもたらす変革・前編 - Findy Tech Blog",
+      "url": "https://tech.findy.co.jp/entry/2026/03/11/070000",
+      "summary": "こんにちは。Findy Tech Blog編集長の高橋（@Taka_bow）です。 本記事は、2025年7月にファインディが開催した「開発生産性Conference」のキーノートスピーカーとしてお招きした Gene Kim氏 の基調講演を、",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "DOGE employee stole Social Security data and put it on a thumb drive, report says",
+      "url": "https://techcrunch.com/2026/03/10/doge-employee-stole-social-security-data-and-put-it-on-a-thumb-drive-report-says/",
+      "summary": "Security",
+      "score": 18843,
+      "comments": 570,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "MAGA Suddenly Quiet About Overseas Influence Now That Larry Ellison’s Warner Bros Bid Has Saudi, Chinese Backing",
+      "url": "https://www.techdirt.com/2026/03/10/maga-suddenly-quiet-about-overseas-influence-now-that-larry-ellisons-warner-bros-bid-has-saudi-chinese-backing/",
+      "summary": "Business",
+      "score": 3830,
+      "comments": 56,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "YouTube ads are about to get even longer and they’ll be unskippable",
+      "url": "https://www.dexerto.com/youtube/youtube-ads-are-about-to-get-even-longer-and-theyll-be-unskippable-3332420/",
+      "summary": "Business",
+      "score": 21677,
+      "comments": 4628,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Oracle under pressure from more than $100 billion in debt and massive layoffs",
+      "url": "https://fortune.com/2026/03/09/oracle-earnings-layoffs-debt-cloud/",
+      "summary": "Business",
+      "score": 7473,
+      "comments": 473,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Viral 'Quittr' Porn Addiction App Exposed the Masturbation Habits of Hundreds of Thousands of Users | A couple of 20-year-old developers make $500,000 a month promising to help men to stop watching porn, but exposed their private porn watching habits",
+      "url": "https://www.404media.co/viral-quittr-porn-addiction-app-exposed-the-masturbation-habits-of-hundreds-of-thousands-of-users/",
+      "summary": "Privacy",
+      "score": 2407,
+      "comments": 223,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "‘I wish I could push ChatGPT off a cliff’: professors scramble to save critical thinking in an age of AI",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/mar/10/ai-impact-professors-students-learning",
+      "summary": "Artificial Intelligence",
+      "score": 4433,
+      "comments": 365,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "YouTube pulled in a staggering $40.4 billion in ad revenue, which is more than Disney, NBC, Paramount, and Warner Bros. Discovery’s (WBD’s) combined ad revenue",
+      "url": "https://techcrunch.com/2026/03/10/youtube-surpasses-disney-paramount-wbd-in-2025-ad-revenue/",
+      "summary": "Business",
+      "score": 917,
+      "comments": 129,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Meta's latest legal wheeze is to insist that pirating books is fair use, actually",
+      "url": "https://www.pcgamer.com/software/ai/metas-latest-legal-wheeze-is-to-insist-that-pirating-books-is-fair-use-actually/",
+      "summary": "Business",
+      "score": 4738,
+      "comments": 348,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Valve says Steam users downloaded 100 exabytes of games in 2025, and are averaging 274 petabytes of installs and updates every day",
+      "url": "https://www.pcgamer.com/gaming-industry/valve-says-steam-users-downloaded-100-exabytes-of-games-in-2025-and-are-averaging-274-petabytes-of-installs-and-updates-every-day/",
+      "summary": "Software",
+      "score": 2624,
+      "comments": 169,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Amazon holds engineering meeting following AI-related outages",
+      "url": "https://www.ft.com/content/7cab4ec7-4712-4137-b602-119a44f771de",
+      "summary": "Artificial Intelligence",
+      "score": 1081,
+      "comments": 172,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "CI should fail on your machine first",
+      "url": "https://blog.nix-ci.com/post/2026-03-09_ci-should-fail-on-your-machine-first",
+      "summary": "",
+      "score": 211,
+      "comments": 90,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "How Container Images Actually Work: Layers, Configs, Manifests, Indexes, and More",
+      "url": "https://labs.iximiuz.com/tutorials/container-image-from-scratch",
+      "summary": "",
+      "score": 29,
+      "comments": 1,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "How many options fit into a boolean?",
+      "url": "https://herecomesthemoon.net/2025/11/how-many-options-fit-into-a-boolean/",
+      "summary": "",
+      "score": 17,
+      "comments": 5,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "What it costs to run 1M image search in production",
+      "url": "https://vecstore.app/blog/what-it-costs-to-search-1m-images",
+      "summary": "I priced out every piece of infrastructure for running CLIP-based image search on 1M images in production\n\nGPU inference",
+      "score": 49,
+      "comments": 14,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "SpacetimeDB: a short technical review",
+      "url": "https://strn.cat/w/articles/spacetime/",
+      "summary": "",
+      "score": 10,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Practical Guide to Bare Metal C++",
+      "url": "https://arobenko.github.io/bare_metal_cpp/#_abstract_classes",
+      "summary": "",
+      "score": 10,
+      "comments": 3,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Sit On Your Ass Web Development",
+      "url": "https://blog.jim-nielsen.com/2025/sit-on-your-ass-web-dev/",
+      "summary": "",
+      "score": 15,
+      "comments": 1,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "nominal types in webassembly",
+      "url": "https://wingolog.org/archives/2026/03/10/nominal-types-in-webassembly",
+      "summary": "",
+      "score": 5,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Exploring the ways different languages handle errors",
+      "url": "https://www.youtube.com/watch?v=zOUsVf1LsKg",
+      "summary": "",
+      "score": 5,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "How \"Strengthening Crypto\" Broke Authentication: FreshRSS and bcrypt's 72-Byte Limit",
+      "url": "https://pentesterlab.com/blog/freshrss-bcrypt-truncation-auth-bypass",
+      "summary": "",
+      "score": 17,
+      "comments": 1,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Classifying email providers of 2000+ Swiss municipalities via DNS, looking for feedback on methodology",
+      "url": "https://mxmap.ch",
+      "summary": "I built a pipeline and map that classifies where Swiss municipalities host their email by probing public DNS records. I",
+      "score": 19,
+      "comments": 3,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Your Duolingo Is Still Talking to ByteDance: How Pangle Fingerprints You Across Apps After You Said No",
+      "url": "https://www.buchodi.com/your-duolingo-is-still-talking-to-bytedance-how-pangle-fingerprints-you-across-apps-after-you-said-no/",
+      "summary": "",
+      "score": 130,
+      "comments": 4,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Electric Eye – a Rust/WASM Firefox extension to detect AitM proxies via DOM analysis, TLS fingerprinting and HTTP header inspection",
+      "url": "https://bytearchitect.io/network-security/Bypassing-MFA-with-Reverse-Proxies-Building-a-Rust-based-Firefox-Extension-to-Kill-AitM-Phishing/",
+      "summary": "I built a Firefox extension to detect Adversary-in-the-Middle attacks in real time.\n\n\n\nThe core idea: instead of chasing",
+      "score": 14,
+      "comments": 9,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Trust no one: are one-way trusts really one way?",
+      "url": "https://offsec.almond.consulting/trust-no-one_are-one-way-trusts-really-one-way.html",
+      "summary": "",
+      "score": 4,
+      "comments": 1,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Chrome Extension Sold to New Operators Became a Full Malware Chain — Caught via Console Logs, Google Pulled It, THN Covered It (ShotBird)",
+      "url": "https://monxresearch-sec.github.io/shotbird-extension-malware-report/",
+      "summary": "",
+      "score": 3,
+      "comments": 2,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Sign in with ANY password into Rocket.Chat EE (CVE-2026-28514) and other vulnerabilities we’ve found with our open source AI framework",
+      "url": "https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/",
+      "summary": "Hey! I’m one of the authors of this blog post. We (the GitHub Security Lab) developed an open-source AI-framework that s",
+      "score": 63,
+      "comments": 1,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Using cookies to hack into a tech college's admission system",
+      "url": "https://eaton-works.com/2026/03/09/skcet-hack/",
+      "summary": "",
+      "score": 27,
+      "comments": 1,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "How does AI pentesting work with compliance?How does AI Pentesting Work with Compliance?AI pentesting is being accepted for SOC 2, ISO 27001, HIPAA, and PCI DSS. Here's what auditors actually look for, and where the real limitations are.AI pentesting is being accepted for SOC 2, ISO 27001, HIPAA, and PCI DSS. Here's what auditors actually look for, and where the real limitations are.ComplianceDania Durnas",
+      "url": "https://www.aikido.dev/blog/ai-pentesting-compliance",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Trump’s 2026 cybersecurity strategy: From compliance to consequenceTrump’s 2026 Cybersecurity Strategy: From Compliance to ConsequenceThe Trump administration’s 2026 cybersecurity strategy shifts the focus from compliance checklists to real consequences for cybercriminals. Here’s what CISOs need to know.NewsMike Wilkes",
+      "url": "https://www.aikido.dev/blog/trump-cybersecurity-strategy-2026",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "What continuous pentesting actually requiresContinuous pentesting: how it works and what it requiresContinuous pentesting promises real-time security validation, but most implementations fall short. Here’s what continuous pentesting actually requires—from change-aware testing to exploit validation and remediation loops.Continuous pentesting is widely discussed, but rarely defined clearly. This piece breaks down what it is, what it isn’t, and what it actually requires.Guides & Best PracticesSooraj Shah",
+      "url": "https://www.aikido.dev/blog/continuous-pentesting-requirements",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Rare Not Random: Using Token Efficiency for Secrets ScanningRare Not Random: Using Token Efficiency for Secrets ScanningEntropy often struggles with generic secrets and short strings. We look at how token efficiency can better identify strings that don’t look like normal text.Entropy is great at spotting randomness. But secrets aren’t always random. They’re just strings that don’t show up in normal code or text. We explore using BPE tokenization to measure that difference.Guides & Best PracticesZach Rice",
+      "url": "https://www.aikido.dev/blog/token-efficiency-secrets-scan",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Why Determinism Is Still a Necessity in SecurityWhy Determinism Is Still a Necessity in SecurityAI scanning finds what rules miss. Deterministic scanning finds it every time. Here's why the best security pipelines don't choose between them.AI-powered security tools are getting better at finding vulnerabilities. But deterministic tools give you the consistency that pipelines, compliance, and audit trails depend on. We look at what deterministic scanning does well, where AI takes over, and how the two work together for effective security.EngineeringDania Durnas",
+      "url": "https://www.aikido.dev/blog/why-determinism-is-necessary",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "WAF vs. RASP vs. ADRWAF vs. RASP vs. ADR: How Runtime Application Security WorksWAF, RASP, and ADR protect your app in completely different ways. Here's what each layer actually does, where it falls short, and which ones you need.WAF, RASP, ADR, eBPF — We're clearing up the terminology around runtime application security. Here's what each layer actually does, how they overlap, and how they fit togetherGuidesDania Durnas",
+      "url": "https://www.aikido.dev/blog/waf-rasp-adr",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Introducing Aikido Infinite: A new model of self-securing softwareAikido Infinite: Continuous AI Pentesting for Every ReleaseAikido Infinite runs AI penetration testing on every code change, validates exploitability, generates patches, and retests fixes before code hits production, making self-securing software a reality.AikidoMadeline Lawrence",
+      "url": "https://www.aikido.dev/blog/introducing-aikido-infinite",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Persistent XSS/RCE using WebSockets in Storybook’s dev serverPersistent XSS/RCE using WebSockets in Storybook (CVE-2026-27148)CVE-2026-27148 exposes a WebSocket hijacking flaw in Storybook that can escalate into supply chain compromise. Learn the attack path, impact, and how to remediate.Aikido Attack found a WebSocket hijacking vulnerability in Storybook's dev server that can lead to persistent XSS, remote code execution, and, in the worst case, supply chain compromise. We walk through how an attacker can exploit this without any user interaction at all, and a developer just has to visit the wrong website while to run into this attack.Vulnerabilities & ThreatsRobbe Verwilghen",
+      "url": "https://www.aikido.dev/blog/storybooks-websockets-attack",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "How Aikido secures AI pentesting agents by designHow Aikido Secures AI Pentesting Agents and Prevents Scope DriftLearn how Aikido secures AI pentesting agents with architectural isolation, runtime scope enforcement, and network-level controls to prevent production drift and data leakage.AI agents are built to explore. In cybersecurity, that exploration needs strict boundaries. This article explains how Aikido secures AI pentesting agents through architectural isolation, runtime scope enforcement, and layered controls that contain risk by design.Product & Company UpdatesSooraj Shah",
+      "url": "https://www.aikido.dev/blog/ai-pentesting-agent-security",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Astro Full-Read SSRF via Host Header InjectionAstro SSRF Vulnerability: Host Header Injection in SSR Error Pages (CVE-2026-25545)Aikido Security's AI pentesting agent discovered a Server-Side Request Forgery vulnerability in Astro's SSR implementation. Learn how Host header injection in prerendered error pages allowed full internal network access.Aikido's AI pentesting agent discovered an SSRF vulnerability in Astro's Node.js adapter. We'll look at how by injecting a malicious Host: header, attackers could redirect an internal request to any URL on the local network.Vulnerabilities & ThreatsJorian Woltjer",
+      "url": "https://www.aikido.dev/blog/astro-full-read-ssrf-via-host-header-injection",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "How to Get Your Board to Care About Security (Before a Breach Forces the Issue)How to Get Your Board to Care About Security Before a BreachBoards don’t fund security because it’s important. They fund defensible decisions. Here’s how to frame risk, reduce ambiguity, and win real support before a breach forces the issue.GuidesMike Wilkes",
+      "url": "https://www.aikido.dev/blog/how-to-get-your-board-to-care-about-security",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "What is Slopsquatting? The AI Package Hallucination Attack Already HappeningSlopsquatting: The AI Package Hallucination Attack Already HappeningAI models hallucinate npm package names. Attackers register them first. Here's what slopsquatting is, how it's spreading through agent skills, and how to protect yourself.AI models hallucinate package names — and attackers are registering them before anyone notices. Slopsquatting is the AI-era evolution of typosquatting, and unlike its predecessor, npm's existing protections don't work. We look at the real-world research showing it's already happening, from confirmed malicious packages still pulling hundreds of weekly downloads to a hallucinated package name that spread to 237 repositories through AI agent skill files.Guides & Best PracticesDania Durnas",
+      "url": "https://www.aikido.dev/blog/slopsquatting-ai-package-hallucination-attacks",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Top 6 Wiz Code AlternativesWiz Code Alternatives (2026): 6 Tools Compared and Best Developer-First OptionLooking for Wiz Code alternatives? Compare 6 tools across SAST, DAST, SCA, pricing, and developer experience to find the best AppSec platform for 2026.This guide compares Wiz Code against six alternatives: Aikido Security, Snyk, Checkmarx, GitHub Advanced Security, Mend, and Veracode, evaluated on coverage, developer experience, AI-powered triage, pricing transparency, and deployment speed. Aikido Security comes out on top for teams wanting a developer-first platform with broad coverage, 85% false positive reduction, AI AutoFix across SAST, IaC and containers, native DAST, and transparent pricing at roughly one-tenth the cost of Wiz.Guides & Best PracticesDania Durnas",
+      "url": "https://www.aikido.dev/blog/wiz-code-alternatives",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Aikido recognized as Platform Leader in Latio Tech's 2026 Application Security ReportAikido Named AppSec Platform Leader in Latio 2026 ReportAikido Security recognized as Platform Leader, AI Pentesting Innovator, and Supply Chain Innovator in Latio Tech’s 2026 AppSec Report.Latio Tech’s 2026 AppSec Report names Aikido a Platform Leader and AI Innovator. Here’s what the report reveals about the future of application security.NewsSooraj Shah",
+      "url": "https://www.aikido.dev/blog/latio-2026-appsec-report-aikido-platform-leader",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "From detection to prevention: How Zen stops IDOR vulnerabilities at runtimeFrom Detection to Prevention: Zen Stops IDOR at Runtime | AikidoIDOR vulnerabilities are one of the most common causes of cross-tenant data leaks in multi-tenant SaaS. Learn how Zen enforces tenant isolation at runtime by analyzing SQL queries and preventing unsafe access before it ships.IDOR vulnerabilities are a leading cause of cross-tenant data leaks in multi-tenant applications. In this post, we explain how Zen moves beyond detection and enforces tenant isolation at runtime, making cross-tenant access impossible to ship by accident.Product & Company UpdatesHans Ott",
+      "url": "https://www.aikido.dev/blog/zen-stops-idor-vulnerabilities",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Product & Company News",
+      "url": "https://www.wiz.io/blog/tag/news",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Public Sector",
+      "url": "https://www.wiz.io/blog/tag/public-sector",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Data Security",
+      "url": "https://www.wiz.io/blog/tag/datasecurity",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Understanding and Reducing AI Risk in Modern Applications",
+      "url": "https://www.wiz.io/blog/reducing-ai-risk-across-ai-applications",
+      "summary": "Identify real AI risk by connecting signals in context across the layers of AI applications.",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Introducing Wiz Tenant Manager: Multi-Tenant Management for Federated Organizations",
+      "url": "https://www.wiz.io/blog/wiz-tenant-manager-multi-tenant-security",
+      "summary": "Experience full Wiz security with zero friction, managing multiple tenants in a single console",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "The Agile FedRAMP Playbook, Part 4: Reactive Risk Management through Enriched Incident Response",
+      "url": "https://www.wiz.io/blog/fedramp-incident-response",
+      "summary": "In the final part of our series, we explore Reactive Risk Management. Discover how Wiz for U.S. Government transforms cl",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Wiz Achieves CPSTIC Certification in Spain",
+      "url": "https://www.wiz.io/blog/wiz-cpstic-certification",
+      "summary": "Strengthening secure cloud modernization for Spain’s public sector through CPSTIC certification.",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "AIエージェントにDevOpsを任せる ── Agentic DevOps テンプレートキットの設計と導入",
+      "url": "https://qiita.com/nogataka/items/4591368a7032e0cb97f7",
+      "summary": "GitHub, devops, AI, GitHubActions, GitHubCopilot",
+      "score": 3,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "管理者権限不要でWindowsにRAMディスクを構築する ― Python環境のI/O高速化手法",
+      "url": "https://qiita.com/_D_/items/f0017799e1e7e0626983",
+      "summary": "Python, Windows, CI, 高速化, 個人開発",
+      "score": 3,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Antigravityの「青いボタン」をポチポチ押すのはもう終わり！ターミナル自動承認でAntigravityで楽々開発を実現しよう",
+      "url": "https://qiita.com/masakinihirota/items/b1c979cda8518f8b6695",
+      "summary": "Antigravity",
+      "score": 3,
+      "comments": 7,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【2026年最新】100ページ超の要件定義書も楽勝！Antigravity × NotebookLMでドキュメント作成を爆速化",
+      "url": "https://qiita.com/hitotch/items/411bfd2be559b82d156d",
+      "summary": "Markdown, mermaid, 生成AI, NotebookLM, Antigravity",
+      "score": 7,
+      "comments": 6,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "AWSリソースベースポリシーでのAWS:SourceIpによるアクセス制御",
+      "url": "https://qiita.com/17021084/items/a862a5bbba85335a7523",
+      "summary": "AWS, Security, policy",
+      "score": 4,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【Python】Pandas/Polars/duckDB/NumPyで簡単なベンチマークテストをしてみた",
+      "url": "https://qiita.com/YASUHARA-Wataru/items/f1cd5357efb2907eb11d",
+      "summary": "Python, ベンチマーク, pandas, Polars, duckdb",
+      "score": 6,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "「Vite + Reactでいい」と言う人に突きつけられた現実と2つの選択肢（宣伝記事です）",
+      "url": "https://qiita.com/uhyo/items/2ad32fc119d5b5e1bb98",
+      "summary": "React",
+      "score": 53,
+      "comments": 29,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Codeの会話、compactしたら全部消えてませんか？ - cc-search-pluginで過去のコンテキストを自動復元",
+      "url": "https://qiita.com/nogataka/items/d05bb0682489489b2163",
+      "summary": "Plugin, プラグイン, AI, Claude, ClaudeCode",
+      "score": 4,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【後編】「また指摘されてしまった...」と思った新人エンジニアへ。 レビューはあなたを強くする",
+      "url": "https://qiita.com/hitomin_poke/items/568cc5e9b6050522611e",
+      "summary": "教育, 心理学, 新人エンジニア, 認知科学, エンジニアの成長",
+      "score": 62,
+      "comments": 28,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Copilot Studio のオーケストレーションでトピックを呼び出した際、フォールバックを指示文で行いたい",
+      "url": "https://qiita.com/Takashi_Masumori/items/ccb63e1062bbfd2305fb",
+      "summary": "PowerPlatform, CopilotStudio, なんでもCopilot",
+      "score": 7,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【Python+ローカルLLM】AIコーディングエージェントをRAGに組み合わせてみた",
+      "url": "https://qiita.com/rikiza1989/items/b88c4b05c71e3c5d0039",
+      "summary": "Python, Django, rag, ollama, Qwen2.5",
+      "score": 3,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【2026年版】Proxmoxを最強の『開発プラットフォーム』へ変貌させる全手順",
+      "url": "https://qiita.com/masa-555/items/f8f092b308dd28a55533",
+      "summary": "AWS, 開発環境, proxmox, インフラ, MSL-setup",
+      "score": 17,
+      "comments": 31,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Codeの実行承認をApple Watchから行う",
+      "url": "https://qiita.com/har1101/items/0cda3b9df8bd889803cf",
+      "summary": "AppleWatch, ntfy, ClaudeCode",
+      "score": 17,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Pythonを最短距離で理解する方法（英語が読める人向け）",
+      "url": "https://qiita.com/skybluecyclist/items/7a103f7fb6aed39c5f72",
+      "summary": "Python",
+      "score": 10,
+      "comments": 8,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【コピペ可能】いつの間にか Gemini CLI で Subagent が作成できるようになっていたので、Subagent 作成をサポートをしてくれる Skill を作った（自己改善ループあり）",
+      "url": "https://qiita.com/Ryo-Nakano/items/b6d7ad48cdf31cedb040",
+      "summary": "初心者, AI, Gemini, 生成AI, ClaudeCode",
+      "score": 19,
+      "comments": 11,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "試験まで1週間!?「やっべ、全然勉強してない」を救うGemini爆速学習法",
+      "url": "https://qiita.com/esukei_8876/items/4997156bbe8c304231b9",
+      "summary": "AWS, AWS認定試験, Gemini, NotebookLM, AI活用",
+      "score": 31,
+      "comments": 27,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "攻撃者はAIを実務ツールに組み込み始めた ― Microsoftが報告した、サイバー攻撃全段階でのAI悪用の実態",
+      "url": "https://qiita.com/nogataka/items/99822232e5e81a15b21e",
+      "summary": "Microsoft, Security, AI, サイバーセキュリティ, 生成AI",
+      "score": 4,
+      "comments": 7,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "[2026年最新版]Git 入門 — 初心者が現場で生き残るための必須10選",
+      "url": "https://qiita.com/kajaha06251020/items/b12693ede638d155aacc",
+      "summary": "Git, GitHub, プログラミング, エンジニア, プログラミング初心者",
+      "score": 0,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【初心者完全版】Reactを使いこなすためのデザインパターン入門【図解解説】",
+      "url": "https://qiita.com/Sicut_study/items/299a221088f5905332a4",
+      "summary": "TypeScript, デザインパターン, React",
+      "score": 111,
+      "comments": 95,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Codeで定期作業を自動化 ー スケジュールタスク機能と/loopコマンドの活用方法",
+      "url": "https://qiita.com/nogataka/items/23884e80a1716234f068",
+      "summary": "CLI, 自動化, AI, 生産性向上, ClaudeCode",
+      "score": 5,
+      "comments": 9,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    }
+  ]
+}

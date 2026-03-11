@@ -1,7 +1,7 @@
 {
   "date": "2026-03-10",
-  "collected_at": "2026-03-10T09:56:09.221258+09:00",
-  "total_count": 84,
+  "collected_at": "2026-03-10T11:53:54.539727+09:00",
+  "total_count": 104,
   "articles": [
     {
       "title": "Building a Procedural Hex Map with Wave Function Collapse",
@@ -758,6 +758,186 @@
       "comments": 0,
       "source": "Wiz Research",
       "source_icon": "🔮"
+    },
+    {
+      "title": "AWSリソースベースポリシーでのAWS:SourceIpによるアクセス制御",
+      "url": "https://qiita.com/17021084/items/a862a5bbba85335a7523",
+      "summary": "AWS, Security, policy",
+      "score": 4,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "「Vite + Reactでいい」と言う人に突きつけられた現実と2つの選択肢（宣伝記事です）",
+      "url": "https://qiita.com/uhyo/items/2ad32fc119d5b5e1bb98",
+      "summary": "React",
+      "score": 27,
+      "comments": 9,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Codeの会話、compactしたら全部消えてませんか？ - cc-search-pluginで過去のコンテキストを自動復元",
+      "url": "https://qiita.com/nogataka/items/d05bb0682489489b2163",
+      "summary": "Plugin, プラグイン, AI, Claude, ClaudeCode",
+      "score": 4,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【後編】「また指摘されてしまった...」と思った新人エンジニアへ。 レビューはあなたを強くする",
+      "url": "https://qiita.com/hitomin_poke/items/568cc5e9b6050522611e",
+      "summary": "教育, 心理学, 新人エンジニア, 認知科学, エンジニアの成長",
+      "score": 49,
+      "comments": 11,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Copilot Studio のオーケストレーションでトピックを呼び出した際、フォールバックを指示文で行いたい",
+      "url": "https://qiita.com/Takashi_Masumori/items/ccb63e1062bbfd2305fb",
+      "summary": "PowerPlatform, CopilotStudio, なんでもCopilot",
+      "score": 7,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【2026年版】Proxmoxを最強の『開発プラットフォーム』へ変貌させる全手順",
+      "url": "https://qiita.com/masa-555/items/f8f092b308dd28a55533",
+      "summary": "AWS, 開発環境, proxmox, インフラ, MSL-setup",
+      "score": 12,
+      "comments": 22,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Codeの実行承認をApple Watchから行う",
+      "url": "https://qiita.com/har1101/items/0cda3b9df8bd889803cf",
+      "summary": "AppleWatch, ntfy, ClaudeCode",
+      "score": 16,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【コピペ可能】いつの間にか Gemini CLI で Subagent が作成できるようになっていたので、Subagent 作成をサポートをしてくれる Skill を作った（自己改善ループあり）",
+      "url": "https://qiita.com/Ryo-Nakano/items/b6d7ad48cdf31cedb040",
+      "summary": "初心者, AI, Gemini, 生成AI, ClaudeCode",
+      "score": 13,
+      "comments": 8,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "試験まで1週間!?「やっべ、全然勉強してない」を救うGemini爆速学習法",
+      "url": "https://qiita.com/esukei_8876/items/4997156bbe8c304231b9",
+      "summary": "AWS, AWS認定試験, Gemini, NotebookLM, AI活用",
+      "score": 18,
+      "comments": 11,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "攻撃者はAIを実務ツールに組み込み始めた ― Microsoftが報告した、サイバー攻撃全段階でのAI悪用の実態",
+      "url": "https://qiita.com/nogataka/items/99822232e5e81a15b21e",
+      "summary": "Microsoft, Security, AI, サイバーセキュリティ, 生成AI",
+      "score": 4,
+      "comments": 7,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "[2026年最新版]Git 入門 — 初心者が現場で生き残るための必須10選",
+      "url": "https://qiita.com/kajaha06251020/items/b12693ede638d155aacc",
+      "summary": "Git, GitHub, プログラミング, エンジニア, プログラミング初心者",
+      "score": 0,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【初心者完全版】Reactを使いこなすためのデザインパターン入門【図解解説】",
+      "url": "https://qiita.com/Sicut_study/items/299a221088f5905332a4",
+      "summary": "TypeScript, デザインパターン, React",
+      "score": 100,
+      "comments": 77,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Codeで定期作業を自動化 ー スケジュールタスク機能と/loopコマンドの活用方法",
+      "url": "https://qiita.com/nogataka/items/23884e80a1716234f068",
+      "summary": "CLI, 自動化, AI, 生産性向上, ClaudeCode",
+      "score": 5,
+      "comments": 7,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Codeが本番DBを消した事故 ― 改めて確認しておきたいインフラの基本",
+      "url": "https://qiita.com/nogataka/items/fd00eff2cc08684fe77d",
+      "summary": "AWS, devops, インフラ, Terraform, ClaudeCode",
+      "score": 43,
+      "comments": 24,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "MCPとCLI、どちらを使うべきか──実践的な選択フレームワーク",
+      "url": "https://qiita.com/nogataka/items/e3ada35270f082a3ddd8",
+      "summary": "MCP, 開発効率化, AI駆動開発, AIエージェント, ClaudeCode",
+      "score": 5,
+      "comments": 7,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Codeにバックドア入りOSSを渡したら、何の疑いもなく実装した",
+      "url": "https://qiita.com/NF0000/items/66510f959b1c22f011a7",
+      "summary": "Security, AI, Claude, ClaudeCode, VibeCoding",
+      "score": 125,
+      "comments": 73,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Code での開発における認証情報管理: .env をやめて Bitwarden CLI を使うようにした",
+      "url": "https://qiita.com/AllegroMoltoV/items/74fce57d602991857107",
+      "summary": "Windows, Security, .env, bitwarden, ClaudeCode",
+      "score": 5,
+      "comments": 8,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "未経験独学でCISSPに合格した話",
+      "url": "https://qiita.com/Vixmy/items/23a16aa7d3f11fd8623b",
+      "summary": "Security, 資格, CISSP, ISC2",
+      "score": 17,
+      "comments": 25,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "BFF(Backend For Frontend)入門：なぜ中間にサーバーを置くのか？",
+      "url": "https://qiita.com/aki_number16/items/c4b0a91e1a6b5cf2041f",
+      "summary": "初心者, 設計, microservices, マイクロサービス, BFF",
+      "score": 27,
+      "comments": 34,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Google Antigravityを触ってみる- MAGI風アプリを作ってみた",
+      "url": "https://qiita.com/Alysa/items/0372aaa9023ef557a296",
+      "summary": "Gemini, LLM, Antigravity",
+      "score": 14,
+      "comments": 10,
+      "source": "Qiita",
+      "source_icon": "🟢"
     }
   ]
 }
