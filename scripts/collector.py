@@ -2,10 +2,9 @@
 """IT Trend Information Collector - 各ソースからトレンド情報を収集"""
 
 import json
-import os
 import re
+import socket
 import sys
-import hashlib
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -79,8 +78,40 @@ def _is_private_ip(hostname):
         return False
 
 
-def is_safe_url(url):
-    """URLが安全かチェック"""
+def _resolve_and_check_ip(hostname):
+    """DNS解決してIPアドレスがプライベートでないか確認（DNS rebinding対策）"""
+    import ipaddress
+    try:
+        # IPv4/IPv6両方を解決
+        addrinfos = socket.getaddrinfo(hostname, None, socket.AF_UNSPEC, socket.SOCK_STREAM)
+        for family, _, _, _, sockaddr in addrinfos:
+            ip_str = sockaddr[0]
+            try:
+                addr = ipaddress.ip_address(ip_str)
+                if addr.is_private or addr.is_reserved or addr.is_loopback or addr.is_link_local:
+                    print(f"    [BLOCKED] DNS resolved to private IP: {hostname} -> {ip_str}")
+                    return False
+            except ValueError:
+                continue
+        return True
+    except socket.gaierror:
+        # DNS解決失敗はブロック（存在しないホスト）
+        return False
+    except Exception:
+        return False
+
+
+# クラウドメタデータエンドポイント（各クラウドプロバイダ）
+METADATA_HOSTNAMES = {
+    "metadata.google.internal",
+    "metadata.google.com",
+    "169.254.169.254",
+    "[fd00:ec2::254]",
+}
+
+
+def is_safe_url(url, resolve_dns=False):
+    """URLが安全かチェック。resolve_dns=Trueで実際にDNS解決してIP検証"""
     if not url or not isinstance(url, str):
         return False
     try:
@@ -98,12 +129,12 @@ def is_safe_url(url):
 
     hostname = parsed.hostname.lower()
 
-    # IPv4/IPv6 プライベート・予約済みアドレスのブロック
+    # IPv4/IPv6 プライベート・予約済みアドレスのブロック（文字列チェック）
     if _is_private_ip(hostname):
         return False
 
     # クラウドメタデータエンドポイントのブロック
-    if hostname in ("metadata.google.internal",):
+    if hostname in METADATA_HOSTNAMES:
         return False
 
     # 危険なファイル拡張子の直リンク
@@ -115,6 +146,11 @@ def is_safe_url(url):
     # 短縮URL (リダイレクト先が不明)
     for pattern in MALICIOUS_URL_PATTERNS:
         if pattern.search(url):
+            return False
+
+    # DNS解決してIPアドレスを検証（SSRF対策: DNS rebinding防止）
+    if resolve_dns:
+        if not _resolve_and_check_ip(hostname):
             return False
 
     return True
@@ -145,6 +181,12 @@ def sanitize_article(article):
         print(f"    [BLOCKED] Unsafe URL: {url[:80]}")
         return None
 
+    # original_url（HN等の原文リンク）もチェック
+    original_url = article.get("original_url", "")
+    if original_url and not is_safe_url(original_url):
+        print(f"    [BLOCKED] Unsafe original URL: {original_url[:80]}")
+        article["original_url"] = ""  # 危険な原文URLは除去（記事自体は残す）
+
     article["title"] = sanitize_text(article.get("title", ""))
     article["summary"] = sanitize_text(article.get("summary", ""))
 
@@ -158,15 +200,22 @@ def sanitize_article(article):
 
 def _safe_get(url, timeout=8, allow_redirects=False):
     """サイズ制限・リダイレクト制御付きの安全なGETリクエスト"""
+    # DNS解決してIPを検証（DNS rebinding対策）
+    if not is_safe_url(url, resolve_dns=True):
+        raise ValueError(f"URL blocked by DNS resolution check: {url[:80]}")
+
     resp = requests.get(
         url, headers=HEADERS, timeout=timeout,
         allow_redirects=allow_redirects, stream=True,
     )
     # レスポンスサイズチェック（Content-Lengthヘッダ）
     content_length = resp.headers.get("Content-Length")
-    if content_length and int(content_length) > MAX_RESPONSE_BYTES:
-        resp.close()
-        raise ValueError(f"Response too large: {content_length} bytes")
+    try:
+        if content_length and int(content_length) > MAX_RESPONSE_BYTES:
+            resp.close()
+            raise ValueError(f"Response too large: {content_length} bytes")
+    except (ValueError, TypeError):
+        pass  # 不正なContent-Lengthは無視してストリーム側で制限
     # ストリーム読み込みでサイズ制限
     chunks = []
     total = 0
@@ -201,6 +250,20 @@ def _safe_get_with_redirect(url, timeout=8, max_redirects=3):
             continue
         return resp
     return None
+
+
+def _safe_feedparse(feed_url, timeout=15):
+    """feedparserにサイズ制限・安全なHTTP取得を適用（DNS解決チェック含む）"""
+    if not is_safe_url(feed_url, resolve_dns=True):
+        return feedparser.FeedParserDict(entries=[])
+    try:
+        resp = _safe_get_with_redirect(feed_url, timeout=timeout)
+        if resp is None or resp.status_code != 200:
+            return feedparser.FeedParserDict(entries=[])
+        return feedparser.parse(resp.content)
+    except Exception as e:
+        print(f"    [Feed] Error fetching {feed_url[:60]}: {e}")
+        return feedparser.FeedParserDict(entries=[])
 
 
 def summarize_from_url(url):
@@ -244,11 +307,13 @@ def fetch_hackernews():
             )
             story = r.json()
             if story and story.get("title"):
-                url = story.get("url", f"https://news.ycombinator.com/item?id={sid}")
-                summary = summarize_from_url(url)
+                hn_url = f"https://news.ycombinator.com/item?id={sid}"
+                original_url = story.get("url", "")
+                summary = summarize_from_url(original_url) if original_url else ""
                 items.append({
                     "title": story["title"],
-                    "url": url,
+                    "url": hn_url,
+                    "original_url": original_url,
                     "summary": summary,
                     "score": story.get("score", 0),
                     "comments": story.get("descendants", 0),
@@ -274,7 +339,7 @@ def fetch_hatena():
     excluded_domains = {"qiita.com"}
     try:
         for url in urls:
-            feed = feedparser.parse(url)
+            feed = _safe_feedparse(url)
             for entry in feed.entries[:15]:
                 if entry.link in seen:
                     continue
@@ -300,14 +365,14 @@ def fetch_hatena():
 
 
 def fetch_reddit():
-    """Reddit の technology/programming サブレディットから取得"""
+    """Reddit の technology/programming サブレディットから取得（old.reddit.com経由でブロック回避）"""
     print("  [Reddit] Fetching...")
     items = []
     subreddits = ["technology", "programming", "netsec"]
     try:
         for sub in subreddits:
             resp = _safe_get(
-                f"https://www.reddit.com/r/{sub}/hot.json?limit=10",
+                f"https://old.reddit.com/r/{sub}/hot.json?limit=10",
                 timeout=15,
             )
             if resp.status_code != 200:
@@ -453,6 +518,191 @@ def fetch_qiita():
     return items
 
 
+def fetch_zenn():
+    """Zenn のトレンド記事をAPIから取得"""
+    print("  [Zenn] Fetching...")
+    items = []
+    try:
+        resp = _safe_get(
+            "https://zenn.dev/api/articles?order=daily&count=20",
+            timeout=15,
+        )
+        if resp.status_code == 200:
+            data = resp.json()
+            for article in data.get("articles", []):
+                slug = article.get("slug", "")
+                username = article.get("user", {}).get("username", "")
+                url = f"https://zenn.dev/{username}/articles/{slug}" if username and slug else ""
+                if not url:
+                    continue
+                emoji = article.get("emoji", "")
+                topics = ", ".join(t.get("display_name", t.get("name", "")) for t in article.get("topics", [])[:5])
+                summary = topics if topics else ""
+                items.append({
+                    "title": article.get("title", ""),
+                    "url": url,
+                    "summary": summary,
+                    "score": article.get("liked_count", 0),
+                    "comments": article.get("comments_count", 0),
+                    "source": "Zenn",
+                    "source_icon": "📝",
+                })
+        print(f"  [Zenn] {len(items)} articles fetched")
+    except Exception as e:
+        print(f"  [Zenn] Error: {e}")
+    return items
+
+
+def fetch_tldr():
+    """TLDR Newsletter からRSSで最新記事を取得"""
+    print("  [TLDR] Fetching...")
+    items = []
+    feeds = [
+        ("https://tldr.tech/api/rss/tech", "TLDR Tech"),
+        ("https://tldr.tech/api/rss/webdev", "TLDR WebDev"),
+        ("https://tldr.tech/api/rss/infosec", "TLDR InfoSec"),
+    ]
+    try:
+        for feed_url, label in feeds:
+            feed = _safe_feedparse(feed_url)
+            for entry in feed.entries[:10]:
+                summary = getattr(entry, "summary", "") or ""
+                summary = BeautifulSoup(summary, "html.parser").get_text(strip=True)[:120] if summary else ""
+                items.append({
+                    "title": entry.title,
+                    "url": entry.link,
+                    "summary": summary,
+                    "score": 0,
+                    "comments": 0,
+                    "source": label,
+                    "source_icon": "📨",
+                })
+        print(f"  [TLDR] {len(items)} articles fetched")
+    except Exception as e:
+        print(f"  [TLDR] Error: {e}")
+    return items
+
+
+def fetch_ars_technica():
+    """Ars Technica のRSSフィードから取得"""
+    print("  [Ars Technica] Fetching...")
+    items = []
+    try:
+        feed = _safe_feedparse("https://feeds.arstechnica.com/arstechnica/index")
+        for entry in feed.entries[:15]:
+            summary = getattr(entry, "summary", "") or ""
+            summary = BeautifulSoup(summary, "html.parser").get_text(strip=True)[:120] if summary else ""
+            items.append({
+                "title": entry.title,
+                "url": entry.link,
+                "summary": summary,
+                "score": 0,
+                "comments": 0,
+                "source": "Ars Technica",
+                "source_icon": "🔶",
+            })
+        print(f"  [Ars Technica] {len(items)} articles fetched")
+    except Exception as e:
+        print(f"  [Ars Technica] Error: {e}")
+    return items
+
+
+def fetch_the_hacker_news():
+    """The Hacker News (THN) セキュリティニュースをRSSで取得"""
+    print("  [THN] Fetching...")
+    items = []
+    try:
+        feed = _safe_feedparse("https://feeds.feedburner.com/TheHackersNews")
+        for entry in feed.entries[:15]:
+            summary = getattr(entry, "summary", "") or ""
+            summary = BeautifulSoup(summary, "html.parser").get_text(strip=True)[:120] if summary else ""
+            items.append({
+                "title": entry.title,
+                "url": entry.link,
+                "summary": summary,
+                "score": 0,
+                "comments": 0,
+                "source": "The Hacker News",
+                "source_icon": "🛡️",
+            })
+        print(f"  [THN] {len(items)} articles fetched")
+    except Exception as e:
+        print(f"  [THN] Error: {e}")
+    return items
+
+
+def fetch_bleepingcomputer():
+    """BleepingComputer セキュリティニュースをRSSで取得"""
+    print("  [BleepingComputer] Fetching...")
+    items = []
+    try:
+        feed = _safe_feedparse("https://www.bleepingcomputer.com/feed/")
+        for entry in feed.entries[:15]:
+            summary = getattr(entry, "summary", "") or ""
+            summary = BeautifulSoup(summary, "html.parser").get_text(strip=True)[:120] if summary else ""
+            items.append({
+                "title": entry.title,
+                "url": entry.link,
+                "summary": summary,
+                "score": 0,
+                "comments": 0,
+                "source": "BleepingComputer",
+                "source_icon": "💻",
+            })
+        print(f"  [BleepingComputer] {len(items)} articles fetched")
+    except Exception as e:
+        print(f"  [BleepingComputer] Error: {e}")
+    return items
+
+
+def fetch_jvn():
+    """JVN (Japan Vulnerability Notes) から脆弱性情報を取得"""
+    print("  [JVN] Fetching...")
+    items = []
+    try:
+        feed = _safe_feedparse("https://jvn.jp/rss/jvn.rdf")
+        for entry in feed.entries[:15]:
+            summary = getattr(entry, "summary", "") or ""
+            summary = BeautifulSoup(summary, "html.parser").get_text(strip=True)[:120] if summary else ""
+            items.append({
+                "title": entry.title,
+                "url": entry.link,
+                "summary": summary,
+                "score": 0,
+                "comments": 0,
+                "source": "JVN",
+                "source_icon": "🇯🇵",
+            })
+        print(f"  [JVN] {len(items)} articles fetched")
+    except Exception as e:
+        print(f"  [JVN] Error: {e}")
+    return items
+
+
+def fetch_krebs_on_security():
+    """Krebs on Security ブログをRSSで取得"""
+    print("  [Krebs] Fetching...")
+    items = []
+    try:
+        feed = _safe_feedparse("https://krebsonsecurity.com/feed/")
+        for entry in feed.entries[:10]:
+            summary = getattr(entry, "summary", "") or ""
+            summary = BeautifulSoup(summary, "html.parser").get_text(strip=True)[:120] if summary else ""
+            items.append({
+                "title": entry.title,
+                "url": entry.link,
+                "summary": summary,
+                "score": 0,
+                "comments": 0,
+                "source": "Krebs on Security",
+                "source_icon": "🔐",
+            })
+        print(f"  [Krebs] {len(items)} articles fetched")
+    except Exception as e:
+        print(f"  [Krebs] Error: {e}")
+    return items
+
+
 def fetch_javascript_weekly():
     """JavaScript Weekly から最新記事を取得（月曜のみ）"""
     if datetime.now(JST).weekday() != 0:  # 0=月曜
@@ -461,7 +711,7 @@ def fetch_javascript_weekly():
     print("  [JavaScript Weekly] Fetching...")
     items = []
     try:
-        feed = feedparser.parse("https://javascriptweekly.com/rss")
+        feed = _safe_feedparse("https://javascriptweekly.com/rss")
         for entry in feed.entries[:15]:
             summary = getattr(entry, "summary", "") or ""
             summary = BeautifulSoup(summary, "html.parser").get_text(strip=True)[:120] if summary else ""
@@ -480,34 +730,78 @@ def fetch_javascript_weekly():
     return items
 
 
+def _load_past_urls(days=7):
+    """過去N日分のダイジェストからURLを抽出して重複排除に使う"""
+    past_urls = set()
+    today_dt = datetime.now(JST)
+    for i in range(1, days + 1):
+        date_str = (today_dt - timedelta(days=i)).strftime("%Y-%m-%d")
+        path = DATA_DIR / date_str / "trends.json"
+        if path.exists():
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                for article in data.get("articles", []):
+                    url = article.get("url", "")
+                    if url:
+                        past_urls.add(url)
+            except Exception:
+                pass
+    return past_urls
+
+
 def collect_all():
     """全ソースから収集してJSONに保存"""
     print(f"=== IT Trend Collector - {TODAY} ===\n")
 
+    # 過去7日分のURLを取得して重複排除
+    past_urls = _load_past_urls(days=7)
+    if past_urls:
+        print(f"  [Dedup] {len(past_urls)} URLs from past 7 days loaded\n")
+
     all_items = []
     collectors = [
+        # 海外テック全般
         fetch_hackernews,
-        fetch_hatena,
-        fetch_reddit,
+        fetch_ars_technica,
+        fetch_tldr,
+        # セキュリティ特化
+        fetch_the_hacker_news,
+        fetch_bleepingcomputer,
+        fetch_jvn,
+        fetch_krebs_on_security,
         fetch_aikido_security,
         fetch_wiz_research,
+        # 国内
+        fetch_hatena,
         fetch_qiita,
+        fetch_zenn,
+        # Reddit
+        fetch_reddit,
+        # ニュースレター
         fetch_javascript_weekly,
     ]
 
     blocked_count = 0
+    dedup_count = 0
     for collector in collectors:
         items = collector()
         for item in items:
             safe = sanitize_article(item)
             if safe:
+                if safe["url"] in past_urls:
+                    dedup_count += 1
+                    continue
                 all_items.append(safe)
             else:
                 blocked_count += 1
         print()
 
     if blocked_count:
-        print(f"  [Security] {blocked_count} articles blocked\n")
+        print(f"  [Security] {blocked_count} articles blocked")
+    if dedup_count:
+        print(f"  [Dedup] {dedup_count} duplicate articles removed")
+    print()
 
     # 日付ディレクトリにJSON保存
     date_dir = DATA_DIR / TODAY

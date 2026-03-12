@@ -2,6 +2,7 @@
 """JSON データから静的HTMLページを直接生成 - テーブル表示版"""
 
 import json
+import re
 import calendar
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
@@ -28,9 +29,10 @@ def load_trends(date_str=None):
 
 def get_all_dates():
     dates = []
+    date_pattern = re.compile(r"^\d{4}-\d{2}-\d{2}$")
     if DATA_DIR.exists():
         for d in DATA_DIR.iterdir():
-            if d.is_dir() and (d / "trends.json").exists():
+            if d.is_dir() and date_pattern.match(d.name) and (d / "trends.json").exists():
                 dates.append(d.name)
     return sorted(dates, reverse=True)
 
@@ -49,7 +51,7 @@ def render_table_row(idx, a):
     title = escape(a["title"])
     url = escape(a["url"])
     source = escape(a["source"])
-    icon = a.get("source_icon", "")
+    icon = escape(a.get("source_icon", ""))
     summary = escape(a.get("summary", "") or "")
     score = a.get("score", 0)
     comments = a.get("comments", 0)
@@ -60,10 +62,16 @@ def render_table_row(idx, a):
     if comments:
         meta += f' <span class="comments">&#128172;{comments}</span>'
 
+    # 元記事URL（HN等リンクアグリゲーター用）
+    original_url = escape(a.get("original_url", "") or "")
+    original_link = ""
+    if original_url:
+        original_link = f' <a href="{original_url}" target="_blank" rel="noopener" class="original-link">[原文]</a>'
+
     return f'''<tr>
   <td class="col-num">{idx}</td>
   <td class="col-source"><span class="source-badge">{icon} {source}</span></td>
-  <td class="col-title"><a href="{url}" target="_blank" rel="noopener">{title}</a>{meta}</td>
+  <td class="col-title"><a href="{url}" target="_blank" rel="noopener">{title}</a>{original_link}{meta}</td>
   <td class="col-summary">{summary}</td>
 </tr>'''
 
@@ -71,7 +79,7 @@ def render_table_row(idx, a):
 def render_source_table(src_name, icon, articles):
     rows = "\n".join(render_table_row(i + 1, a) for i, a in enumerate(articles))
     return f'''<section class="source-section">
-  <h2 class="source-title">{icon} {escape(src_name)} <span class="count">({len(articles)})</span></h2>
+  <h2 class="source-title">{escape(icon)} {escape(src_name)} <span class="count">({len(articles)})</span></h2>
   <table class="trend-table">
     <thead>
       <tr>
@@ -169,6 +177,9 @@ header p{color:#9ca3af;font-size:.85rem;margin-top:4px}
 .trend-table a:hover{color:#a78bfa;text-decoration:underline}
 .score{color:#f59e0b;font-size:.75rem;margin-left:8px}
 .comments{color:#60a5fa;font-size:.75rem}
+.original-link{color:#9ca3af;font-size:.72rem;margin-left:6px;text-decoration:none;border:1px solid #3a3d4e;
+  padding:1px 5px;border-radius:3px}
+.original-link:hover{color:#c4b5fd;border-color:#7c3aed}
 
 /* Calendar Archive */
 .archive-section{margin-top:36px}
