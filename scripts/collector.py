@@ -21,8 +21,10 @@ DATA_DIR = BASE_DIR / "data"
 TODAY = datetime.now(JST).strftime("%Y-%m-%d")
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+    "User-Agent": "ITTrendCollector/1.0 (+https://github.com/ToshikiTakahashi-15734/Life)"
 }
+
+MAX_RESPONSE_BYTES = 5 * 1024 * 1024  # 5MB
 
 # --- Security Filters ---
 
@@ -40,6 +42,14 @@ MALICIOUS_URL_PATTERNS = [
     re.compile(r"t\.co/", re.IGNORECASE),
     re.compile(r"adf\.ly/", re.IGNORECASE),
     re.compile(r"goo\.gl/", re.IGNORECASE),
+    re.compile(r"is\.gd/", re.IGNORECASE),
+    re.compile(r"v\.gd/", re.IGNORECASE),
+    re.compile(r"rb\.gy/", re.IGNORECASE),
+    re.compile(r"cutt\.ly/", re.IGNORECASE),
+    re.compile(r"shorturl\.at/", re.IGNORECASE),
+    re.compile(r"tiny\.cc/", re.IGNORECASE),
+    re.compile(r"ow\.ly/", re.IGNORECASE),
+    re.compile(r"buff\.ly/", re.IGNORECASE),
 ]
 
 XSS_PATTERNS = [
@@ -59,6 +69,16 @@ XSS_PATTERNS = [
 CONTROL_CHAR_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f\u200b-\u200f\u202a-\u202e\u2060\ufeff]")
 
 
+def _is_private_ip(hostname):
+    """IPv4/IPv6のプライベート・予約済みアドレスを判定"""
+    import ipaddress
+    try:
+        addr = ipaddress.ip_address(hostname.strip("[]"))
+        return addr.is_private or addr.is_reserved or addr.is_loopback or addr.is_link_local
+    except ValueError:
+        return False
+
+
 def is_safe_url(url):
     """URLが安全かチェック"""
     if not url or not isinstance(url, str):
@@ -76,22 +96,15 @@ def is_safe_url(url):
     if not parsed.hostname:
         return False
 
-    # IPアドレス直打ち (プライベートIP) のブロック
     hostname = parsed.hostname.lower()
-    if re.match(r"^\d+\.\d+\.\d+\.\d+$", hostname):
-        parts = hostname.split(".")
-        try:
-            first = int(parts[0])
-            if first == 10 or first == 127:
-                return False
-            if first == 172 and 16 <= int(parts[1]) <= 31:
-                return False
-            if first == 192 and int(parts[1]) == 168:
-                return False
-            if first == 0:
-                return False
-        except (ValueError, IndexError):
-            return False
+
+    # IPv4/IPv6 プライベート・予約済みアドレスのブロック
+    if _is_private_ip(hostname):
+        return False
+
+    # クラウドメタデータエンドポイントのブロック
+    if hostname in ("metadata.google.internal",):
+        return False
 
     # 危険なファイル拡張子の直リンク
     path_lower = parsed.path.lower()
@@ -143,13 +156,60 @@ def sanitize_article(article):
     return article
 
 
+def _safe_get(url, timeout=8, allow_redirects=False):
+    """サイズ制限・リダイレクト制御付きの安全なGETリクエスト"""
+    resp = requests.get(
+        url, headers=HEADERS, timeout=timeout,
+        allow_redirects=allow_redirects, stream=True,
+    )
+    # レスポンスサイズチェック（Content-Lengthヘッダ）
+    content_length = resp.headers.get("Content-Length")
+    if content_length and int(content_length) > MAX_RESPONSE_BYTES:
+        resp.close()
+        raise ValueError(f"Response too large: {content_length} bytes")
+    # ストリーム読み込みでサイズ制限
+    chunks = []
+    total = 0
+    for chunk in resp.iter_content(chunk_size=64 * 1024):
+        total += len(chunk)
+        if total > MAX_RESPONSE_BYTES:
+            resp.close()
+            raise ValueError(f"Response exceeded {MAX_RESPONSE_BYTES} bytes")
+        chunks.append(chunk)
+    resp._content = b"".join(chunks)
+    return resp
+
+
+def _safe_get_with_redirect(url, timeout=8, max_redirects=3):
+    """リダイレクト先もURLチェックする安全なGETリクエスト"""
+    for _ in range(max_redirects):
+        resp = _safe_get(url, timeout=timeout, allow_redirects=False)
+        if resp.status_code in (301, 302, 303, 307, 308):
+            redirect_url = resp.headers.get("Location", "")
+            if not redirect_url:
+                return resp
+            # 相対URLの解決
+            if redirect_url.startswith("/"):
+                parsed = urlparse(url)
+                redirect_url = f"{parsed.scheme}://{parsed.netloc}{redirect_url}"
+            # リダイレクト先のURL安全性チェック
+            if not is_safe_url(redirect_url):
+                print(f"    [BLOCKED] Unsafe redirect: {redirect_url[:80]}")
+                resp.close()
+                return None
+            url = redirect_url
+            continue
+        return resp
+    return None
+
+
 def summarize_from_url(url):
     """URLからページのmeta descriptionやog:descriptionを取得して備考にする"""
     if not is_safe_url(url):
         return ""
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=8)
-        if resp.status_code != 200:
+        resp = _safe_get_with_redirect(url, timeout=8)
+        if resp is None or resp.status_code != 200:
             return ""
         soup = BeautifulSoup(resp.text, "html.parser")
         # og:description > meta description > 最初のpタグ
@@ -174,12 +234,12 @@ def fetch_hackernews():
     print("  [HackerNews] Fetching...")
     items = []
     try:
-        resp = requests.get(
+        resp = _safe_get(
             "https://hacker-news.firebaseio.com/v0/topstories.json", timeout=15
         )
         story_ids = resp.json()[:20]
         for sid in story_ids:
-            r = requests.get(
+            r = _safe_get(
                 f"https://hacker-news.firebaseio.com/v0/item/{sid}.json", timeout=10
             )
             story = r.json()
@@ -210,11 +270,16 @@ def fetch_hatena():
         "https://b.hatena.ne.jp/hotentry/technology.rss",
     ]
     seen = set()
+    # Qiita記事は専用コレクターで収集するため、はてなブックマークからは除外
+    excluded_domains = {"qiita.com"}
     try:
         for url in urls:
             feed = feedparser.parse(url)
             for entry in feed.entries[:15]:
                 if entry.link in seen:
+                    continue
+                parsed_host = urlparse(entry.link).hostname or ""
+                if any(parsed_host == d or parsed_host.endswith("." + d) for d in excluded_domains):
                     continue
                 seen.add(entry.link)
                 summary = getattr(entry, "summary", "") or ""
@@ -241,9 +306,8 @@ def fetch_reddit():
     subreddits = ["technology", "programming", "netsec"]
     try:
         for sub in subreddits:
-            resp = requests.get(
+            resp = _safe_get(
                 f"https://www.reddit.com/r/{sub}/hot.json?limit=10",
-                headers={**HEADERS, "User-Agent": "ITTrendCollector/1.0"},
                 timeout=15,
             )
             if resp.status_code != 200:
@@ -276,8 +340,8 @@ def fetch_aikido_security():
     print("  [Aikido Security] Fetching...")
     items = []
     try:
-        resp = requests.get(
-            "https://www.aikido.dev/blog", headers=HEADERS, timeout=15
+        resp = _safe_get(
+            "https://www.aikido.dev/blog", timeout=15
         )
         if resp.status_code == 200:
             soup = BeautifulSoup(resp.text, "html.parser")
@@ -322,8 +386,8 @@ def fetch_wiz_research():
     print("  [Wiz Research] Fetching...")
     items = []
     try:
-        resp = requests.get(
-            "https://www.wiz.io/blog", headers=HEADERS, timeout=15
+        resp = _safe_get(
+            "https://www.wiz.io/blog", timeout=15
         )
         if resp.status_code == 200:
             soup = BeautifulSoup(resp.text, "html.parser")
@@ -361,6 +425,61 @@ def fetch_wiz_research():
     return items
 
 
+def fetch_qiita():
+    """Qiita のトレンド記事を取得"""
+    print("  [Qiita] Fetching...")
+    items = []
+    try:
+        resp = _safe_get(
+            "https://qiita.com/api/v2/items?page=1&per_page=20&query=stocks:>3",
+            timeout=15,
+        )
+        if resp.status_code == 200:
+            for article in resp.json():
+                tags = ", ".join(t["name"] for t in article.get("tags", [])[:5])
+                summary = tags if tags else ""
+                items.append({
+                    "title": article["title"],
+                    "url": article["url"],
+                    "summary": summary,
+                    "score": article.get("likes_count", 0),
+                    "comments": article.get("stocks_count", 0),
+                    "source": "Qiita",
+                    "source_icon": "🟢",
+                })
+        print(f"  [Qiita] {len(items)} articles fetched")
+    except Exception as e:
+        print(f"  [Qiita] Error: {e}")
+    return items
+
+
+def fetch_javascript_weekly():
+    """JavaScript Weekly から最新記事を取得（月曜のみ）"""
+    if datetime.now(JST).weekday() != 0:  # 0=月曜
+        print("  [JavaScript Weekly] Skipped (Monday only)")
+        return []
+    print("  [JavaScript Weekly] Fetching...")
+    items = []
+    try:
+        feed = feedparser.parse("https://javascriptweekly.com/rss")
+        for entry in feed.entries[:15]:
+            summary = getattr(entry, "summary", "") or ""
+            summary = BeautifulSoup(summary, "html.parser").get_text(strip=True)[:120] if summary else ""
+            items.append({
+                "title": entry.title,
+                "url": entry.link,
+                "summary": summary,
+                "score": 0,
+                "comments": 0,
+                "source": "JavaScript Weekly",
+                "source_icon": "🟡",
+            })
+        print(f"  [JavaScript Weekly] {len(items)} articles fetched")
+    except Exception as e:
+        print(f"  [JavaScript Weekly] Error: {e}")
+    return items
+
+
 def collect_all():
     """全ソースから収集してJSONに保存"""
     print(f"=== IT Trend Collector - {TODAY} ===\n")
@@ -372,6 +491,8 @@ def collect_all():
         fetch_reddit,
         fetch_aikido_security,
         fetch_wiz_research,
+        fetch_qiita,
+        fetch_javascript_weekly,
     ]
 
     blocked_count = 0
