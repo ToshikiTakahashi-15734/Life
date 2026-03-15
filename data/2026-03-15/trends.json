@@ -1,0 +1,711 @@
+{
+  "date": "2026-03-15",
+  "collected_at": "2026-03-15T08:53:28.915733+09:00",
+  "total_count": 76,
+  "articles": [
+    {
+      "title": "Changes to OpenTTD Distribution on Steam",
+      "url": "https://news.ycombinator.com/item?id=47381746",
+      "original_url": "https://www.openttd.org/news/2026/03/14/steam-changes",
+      "summary": "2026-03-14Posted by orudge",
+      "score": 82,
+      "comments": 45,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: Han – A Korean programming language written in Rust",
+      "url": "https://news.ycombinator.com/item?id=47381382",
+      "original_url": "https://github.com/xodn348/han",
+      "summary": "A compiled programming language with Korean keywords, written in Rust - xodn348/han",
+      "score": 67,
+      "comments": 23,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Anthropic invests $100M into the Claude Partner Network",
+      "url": "https://news.ycombinator.com/item?id=47381340",
+      "original_url": "https://www.anthropic.com/news/claude-partner-network",
+      "summary": "We’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude.",
+      "score": 46,
+      "comments": 14,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Claude March 2026 usage promotion",
+      "url": "https://news.ycombinator.com/item?id=47380647",
+      "original_url": "https://support.claude.com/en/articles/14063676-claude-march-2026-usage-promotion",
+      "summary": "We're offering a limited-time promotion that doubles usage limits for Claude users outside 8 AM-2 PM ET/5-11 AM PT.",
+      "score": 163,
+      "comments": 101,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "The Sound of Contamination: Headphones Contain Ing Hormone-Disrupting Chemicals",
+      "url": "https://news.ycombinator.com/item?id=47382196",
+      "original_url": "https://arnika.org/en/news/the-sound-of-contamination-all-analysed-headphones-on-the-central-european-market-found-to-contain-hormone-disrupting-chemicals",
+      "summary": "PRAGUE, 18 February 2026 – A landmark international study&nbsp;across five Central European countries has found hazardou",
+      "score": 18,
+      "comments": 5,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Ageless Linux. We are legally required to ask how old you are. We won't",
+      "url": "https://news.ycombinator.com/item?id=47381791",
+      "original_url": "https://agelesslinux.org/",
+      "summary": "Software for humans of indeterminate age.\n      We don't know how old you are. We don't want to know.\n      We are legal",
+      "score": 113,
+      "comments": 72,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Fedora 44 on the Raspberry Pi 5",
+      "url": "https://news.ycombinator.com/item?id=47380512",
+      "original_url": "https://nullr0ute.com/2026/03/fedora-44-on-the-raspberry-pi-5/",
+      "summary": "nullr0ute's blog",
+      "score": 45,
+      "comments": 16,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Marketing for Founders",
+      "url": "https://news.ycombinator.com/item?id=47380295",
+      "original_url": "https://github.com/EdoStra/Marketing-for-Founders",
+      "summary": "Practical marketing resources to get the first 10 / 100 / 1000 users for your SaaS / App / Startup - EdoStra/Marketing-f",
+      "score": 85,
+      "comments": 24,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Bumblebee queens breathe underwater to survive drowning",
+      "url": "https://news.ycombinator.com/item?id=47381011",
+      "original_url": "https://www.smithsonianmag.com/science-nature/bumblebee-queens-breathe-underwater-to-survive-drowning-revealing-how-they-can-live-submerged-for-a-week-180988330/",
+      "summary": "",
+      "score": 21,
+      "comments": 3,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Library of Short Stories",
+      "url": "https://news.ycombinator.com/item?id=47380726",
+      "original_url": "https://www.libraryofshortstories.com/",
+      "summary": "Journey through classic short stories filled with adventure, horror, tragedy and fantasy. Read For Free, Anywhere, Anyti",
+      "score": 26,
+      "comments": 1,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: Ichinichi – One note per day, E2E encrypted, local-first",
+      "url": "https://news.ycombinator.com/item?id=47379898",
+      "original_url": "",
+      "summary": "",
+      "score": 55,
+      "comments": 24,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "A Recursive Algorithm to Render Signed Distance Fields",
+      "url": "https://news.ycombinator.com/item?id=47335796",
+      "original_url": "https://pointersgonewild.com/2026-03-06-a-recursive-algorithm-to-render-signed-distance-fields/",
+      "summary": "A Recursive Algorithm to Render Signed Distance Fields",
+      "score": 35,
+      "comments": 3,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Montana passes Right to Compute act (2025)",
+      "url": "https://news.ycombinator.com/item?id=47376767",
+      "original_url": "https://www.westernmt.news/2025/04/21/montana-leads-the-nation-with-groundbreaking-right-to-compute-act/",
+      "summary": "This site has been archived.",
+      "score": 233,
+      "comments": 201,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Offloading FFmpeg with Cloudflare",
+      "url": "https://news.ycombinator.com/item?id=47320571",
+      "original_url": "https://kentcdodds.com/blog/offloading-ffmpeg-with-cloudflare",
+      "summary": "How I moved Call Kent podcast episode processing off my primary Fly.io app server and onto Cloudflare Queues and Contain",
+      "score": 17,
+      "comments": 11,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Baochip-1x: What it is, why I'm doing it now and how it came about",
+      "url": "https://news.ycombinator.com/item?id=47339219",
+      "original_url": "https://www.crowdsupply.com/baochip/dabao/updates/what-it-is-why-im-doing-it-now-and-how-it-came-about",
+      "summary": "As a subscriber to the “Dabao” campaign, you’re already aware of the Baochip-1x. This update fills in the backstory of w",
+      "score": 261,
+      "comments": 49,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "CSMWrap: Legacy BIOS booting on UEFI-only systems via SeaBIOS",
+      "url": "https://news.ycombinator.com/item?id=47320667",
+      "original_url": "https://github.com/CSMWrap/CSMWrap",
+      "summary": "Get PC BIOS back on UEFI only systems. Contribute to CSMWrap/CSMWrap development by creating an account on GitHub.",
+      "score": 29,
+      "comments": 3,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "An ode to bzip",
+      "url": "https://news.ycombinator.com/item?id=47377998",
+      "original_url": "https://purplesyringa.moe/blog/an-ode-to-bzip/",
+      "summary": "The story goes like this. ComputerCraft is a mod that adds programming to Minecraft. You write Lua code that gets execut",
+      "score": 85,
+      "comments": 53,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Learning Creative Coding",
+      "url": "https://news.ycombinator.com/item?id=47381731",
+      "original_url": "https://stigmollerhansen.dk/resume/learning-creative-coding/",
+      "summary": "Stig Møller Hansen",
+      "score": 22,
+      "comments": 3,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Making your JITted Code known: Let me count the ways",
+      "url": "https://news.ycombinator.com/item?id=47320921",
+      "original_url": "https://wakelift.de/2026/03/09/making-your-jitted-code-known-let-me-count-the-ways/",
+      "summary": "AOT Compilers\n\n\nIt has been normal and expected for a long long time that any machine code they spit out would come with",
+      "score": 3,
+      "comments": 0,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Python: The Optimization Ladder",
+      "url": "https://news.ycombinator.com/item?id=47327703",
+      "original_url": "https://cemrehancavdar.com/2026/03/10/optimization-ladder/",
+      "summary": "Python loses every public benchmark by 21-875x. I took the exact problems people use to dunk on Python and climbed every",
+      "score": 255,
+      "comments": 92,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Staff complain that xAI is flailing because of constant upheaval",
+      "url": "https://arstechnica.com/ai/2026/03/staff-complain-that-xai-is-flailing-because-of-constant-upheaval/",
+      "summary": "Staff complain that the constant upheaval is destroying morale.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration",
+      "url": "https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html",
+      "summary": "China's National Computer Network Emergency Response Technical Team (CNCERT) has issued a warning about the security ste",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "GlassWorm Supply-Chain Attack Abuses 72 Open VSX Extensions to Target Developers",
+      "url": "https://thehackernews.com/2026/03/glassworm-supply-chain-attack-abuses-72.html",
+      "summary": "Cybersecurity researchers have flagged a new iteration of the GlassWorm campaign that they say represents a \"significant",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/",
+      "summary": "Microsoft has released an out-of-band (OOB) update to fix a security vulnerabilities affecting Windows 11 Enterprise dev",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code",
+      "url": "https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/",
+      "summary": "The AppsFlyer Web SDK was temporarily hijacked this week with malicious code used to steal cryptocurrency in a supply-ch",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "MacBookで動くし、ぶっ壊れ性能。いま最強のローカルLLM｢Qwen3.5｣を解説しちゃう",
+      "url": "https://www.gizmodo.jp/2026/03/qwen_3_5_9b_4b.html",
+      "summary": "MacBookで動くし、ぶっ壊れ性能。いま最強のローカルLLM｢Qwen3.5｣を解説しちゃう2026.03.14 21:008,159 かみやまたくみ とりあえずこれでいいやつ（令和最新版）。 2026年2月末〜3月上旬にかけてアリババが",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Claude Codeのエージェントチームを使うだけで大抵のことが出来るようになった",
+      "url": "https://zenn.dev/n314/articles/e06f189f093902",
+      "summary": "エージェントチームでClaude Codeが賢くなった Claude CodeにAgent teamsが実装されてから、ずっと使っている。 複雑な要求も簡単な指示でこなせるようになってきた。 ドキュメント、コード、DBを網羅的に検索しながら",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Coding Agent時代の開発ワークフローについてのまとめ",
+      "url": "https://nyosegawa.github.io/posts/coding-agent-workflow-2026/",
+      "summary": "こんにちは！逆瀬川ちゃん (@gyakuse) です！ 今日はCoding Agent時代の開発ワークフローについて、みんながやっているものからわたしがやっている手法までまとめて紹介していきたいと思います。 前回の記事 Claude Cod",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "アマゾンからの「重要なお知らせ」　報酬変更、「一方的」嘆く配達員：朝日新聞",
+      "url": "https://www.asahi.com/articles/ASV3G1SM9V3GUTIL019M.html",
+      "summary": "通販大手アマゾンの荷物を運ぶ配達員たちに、「近く報酬の単価を変更する」という通知が同社側から届いている。減額になる人も多い。変更をのまないと契約を切られるという内容で、「一方的だ」との声があがってい…",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "O'Reilly Online Learningで始める技術書多読という読み方",
+      "url": "https://zenn.dev/penginpenguin/articles/83da148f861840",
+      "summary": "はじめに ぺんぎん（@jitepengin）です。 普段の業務や、プライベートでのアウトプットのために、技術書を読んでいる方も多いと思います。 次のような悩みを持っている人は多いのではないでしょうか。 技術書が高くてなかなか手が出ない 積読",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "プログラマーを引退します - うみさまより。",
+      "url": "https://umisama.hatenablog.com/entry/2026/03/14/131453",
+      "summary": "私、うみさまはプログラマ（コーダ）として二十余年、現役選手として戦ってまいりました。 子供の頃から指をキーボードに吸い付け、端から見れば意味不明なアルファベット片をエディタに叩き込んでまいりました。 周りから、奇異の目で視られる日もありまし",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "スマホの画面保護フィルム、実はもういらない説",
+      "url": "https://www.gizmodo.jp/2026/03/your-screen-protector-is-not-all-it-s-cracked-up-to-be-xzk.html",
+      "summary": "スマホの画面保護フィルム、実はもういらない説2026.03.14 11:3568,652 Maxwell Zeff - Gizmodo US ［原文］ （ そうこ ） 2024年3月8日の記事を編集して再掲載しています。 スマートフォンを買",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "たった200行の純粋なPythonコードだけで構成されGPTの学習と推論を実行できる「MicroGPT」をインタラクティブに解説",
+      "url": "https://gigazine.net/news/20260314-microgpt-explained-interactively/",
+      "summary": "MicroGPTは作者のAndrej Karpathy氏によるとLLMをどこまで簡素化できるのかを10年にわたり追求した集大成とのことで、依存関係のない純粋なPythonで書かれた200行の単一ファイルのみであるにもかかわらずGPTに学習と",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "グーグル、35億人のChromeユーザーにゼロデイ警告──攻撃はすでに進行中 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+      "url": "https://forbesjapan.com/articles/detail/93724",
+      "summary": "2023年以降、毎週のセキュリティ更新は珍しいことではなくなった。しかし、グーグルが最初の更新からわずか48時間後にChromeブラウザー向けの2回目のセキュリティ更新を配信したとなれば、深刻な事態が起きていると分かる。実際その通りであり、",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "GPU普及の立役者，John Spitzer氏が語るゲームグラフィックスの未来とAI活用［GDC 2026］",
+      "url": "https://www.4gamer.net/games/869/G086964/20260313089/",
+      "summary": "GPU普及の立役者，John Spitzer氏が語るゲームグラフィックスの未来とAI活用［GDC 2026］ ライター：西川善司 GDC 2026の「GDC Luminaries」というセッションに，NVIDIAの副社長であるJohn Sp",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "MicroGPT explained interactively",
+      "url": "https://growingswe.com/blog/microgpt",
+      "summary": "MicroGPT explained interactively Trying my best to visualize it. I'm a n00b at machine learning though Andrej Karpathy w",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "【最強のメモアプリ対決】EvernoteとNotionを比較してみた | ライフハッカー・ジャパン",
+      "url": "https://www.lifehacker.jp/article/2603-evernote-vs-notion-best-note-taking-app/",
+      "summary": "著者Lindsey Ellefson - Lifehacker US [原文]翻訳ライフハッカー・ジャパン編集部 2026.03.14 lastupdate 私は先日、EvernoteとNotionの比較テストを、数日かけて実施しました。",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "証券システムと、それを取り巻く世界",
+      "url": "https://zenn.dev/mi_01_24fu/books/securities-system-flow",
+      "summary": "個人投資家が「注文ボタン」を押すと、その注文は証券会社のシステムを経由して取引所へ送信されます。条件が合えばすぐに約定することもありますが、板の状況によっては約定せず注文が板に並び続けることもあります。ほんの一つの注文の裏側では、余力の仮拘",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "データエンジニアリングを体系的に学べる一冊『Data Engineering Design Patterns』を読む - Findy Media",
+      "url": "https://findy-code.io/media/articles/modoku-ikki-202603",
+      "summary": "「あの人も読んでる」略して「も読」。さまざまな寄稿者が最近気になった情報や話題をシェアする企画です。他のテックな人たちがどんな情報を追っているのか、ちょっと覗いてみませんか？ はじめまして。stable株式会社 代表の宮﨑一輝（@ikki_",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "【2026年最新版】Gemini CLIで行うべきセキュリティ設定 10選",
+      "url": "https://qiita.com/miruky/items/3f091416cfbfbbff99eb",
+      "summary": "AWS, Security, Gemini, 生成AI, GeminiCLI",
+      "score": 2,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【2026年最新版】Claude Codeで行うべきセキュリティ設定 10選",
+      "url": "https://qiita.com/miruky/items/51db293a7a7d0d277a5d",
+      "summary": "AWS, Security, 生成AI, Claude, ClaudeCode",
+      "score": 12,
+      "comments": 14,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "コピペで使えるエージェント設計テンプレート ── agency-agentsの5原則から学ぶ「良いエージェント」の作り方",
+      "url": "https://qiita.com/nogataka/items/d4ad685c7901f2056c6f",
+      "summary": "設計, OSS, プロンプトエンジニアリング, AIAgent, ClaudeCode",
+      "score": 4,
+      "comments": 6,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "144人のAI専門家チームが無料で手に入る時代 ── agency-agentsの急成長が示すエージェント専門化の潮流",
+      "url": "https://qiita.com/nogataka/items/f3b92f07929f1ab9d67e",
+      "summary": "GitHub, OSS, トレンド, プロンプトエンジニアリング, AIAgent",
+      "score": 4,
+      "comments": 6,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "簡単コピペでClaude Codeに144種類のエージェントチームを作成 ── agency-agentsという40Kスター超のAIエージェント集を使いこなす",
+      "url": "https://qiita.com/nogataka/items/5b5747f619e6eb745436",
+      "summary": "GitHub, 生産性向上, プロンプトエンジニアリング, AIAgent, ClaudeCode",
+      "score": 6,
+      "comments": 10,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "学生プランでGithub CopilotでOpusとかGPT5.4が使えなくなった",
+      "url": "https://qiita.com/hokutoh/items/3b074137a6f372776ec5",
+      "summary": "ニュース, GitHubCopilot",
+      "score": 8,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Anthropic公式「Skills完全ガイド」を読んだら、自分のSKILL.mdのトークン消費を40%減らせた",
+      "url": "https://qiita.com/yurukusa/items/f69920b4a02cf7e2988c",
+      "summary": "開発環境, 自動化, AI, プロンプトエンジニアリング, ClaudeCode",
+      "score": 12,
+      "comments": 10,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【2026年版】営業職のためのMicrosoft 365 Copilot活用術～生産性を劇的に向上させる4つの使い方～",
+      "url": "https://qiita.com/sadabon444/items/b68d7e76e4ec59193171",
+      "summary": "Microsoft365, copilot, 生成AI, なんでもCopilot",
+      "score": 17,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【Obsidian】Markdown感覚でガントチャートが作れる「Markwhen」の紹介",
+      "url": "https://qiita.com/shibuya-ys/items/f07ae36e1edffb64823c",
+      "summary": "@Obsidian, @Markwhen",
+      "score": 12,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "ネットワーク何もわからん！そんな私がネスペ合格までに役立った本まとめ",
+      "url": "https://zenn.dev/mesi/articles/843a1b7479c930",
+      "summary": "",
+      "score": 25,
+      "comments": 2,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "OpenClawライクなソフトをまとめてみた",
+      "url": "https://zenn.dev/karaage0703/articles/0e2e3484169db2",
+      "summary": "",
+      "score": 42,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "懇親会でぼっちにならないテクニック",
+      "url": "https://zenn.dev/philosophum/articles/4bdf97acbb2299",
+      "summary": "",
+      "score": 20,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Playwright + OWASP ZAP + Claude Code で E2E テストから脆弱性診断まで一気通貫でできるかやってみた",
+      "url": "https://zenn.dev/takeuchi_kazuya/articles/7192f8ca6ebe48",
+      "summary": "",
+      "score": 23,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "O'Reilly Online Learningで始める技術書多読という読み方",
+      "url": "https://zenn.dev/penginpenguin/articles/83da148f861840",
+      "summary": "",
+      "score": 26,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "新登場したVite+が速すぎる！— ESLint 100倍、しかも Next.js でも動く",
+      "url": "https://zenn.dev/ashunar0/articles/26d33059997e38",
+      "summary": "",
+      "score": 21,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "【Flutter】API トークンを「適切」に管理する",
+      "url": "https://zenn.dev/chooyan/articles/2eddee6e2f5eac",
+      "summary": "",
+      "score": 13,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "生成AIでパワポを作る方法一覧【2026年3月版】",
+      "url": "https://zenn.dev/ncukondo/articles/ai-generate-pptx-methods-2026",
+      "summary": "",
+      "score": 2,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Coding Agent に loop して欲しいのは prdじゃない skill だ",
+      "url": "https://zenn.dev/takumiyoshikawa/articles/6930a0e58bc196",
+      "summary": "",
+      "score": 3,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Palantir CEO Karp: “We support warfare and we are proud of it”",
+      "url": "https://www.heise.de/news/Palantir-Chef-Karp-Wir-unterstuetzen-Kriegsfuehrung-und-wir-sind-stolz-darauf-11211101.html",
+      "summary": "Artificial Intelligence",
+      "score": 4882,
+      "comments": 297,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Microsoft confirms Windows 11 bug crippling PCs and making drive C inaccessible",
+      "url": "https://www.neowin.net/news/microsoft-confirms-windows-11-bug-crippling-pcs-and-making-drive-c-inaccessible/",
+      "summary": "Software",
+      "score": 15084,
+      "comments": 2007,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "‘Pokémon Go’ players have been unknowingly training delivery robots",
+      "url": "https://www.popsci.com/technology/pokemon-go-delivery-robots-crowdsourcing/",
+      "summary": "Artificial Intelligence",
+      "score": 811,
+      "comments": 55,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "HP's ink-blocking firmware may violate new global sustainability rules",
+      "url": "https://www.techspot.com/news/111672-hp-ink-blocking-firmware-clashes-new-global-sustainability.html",
+      "summary": "Hardware",
+      "score": 4007,
+      "comments": 123,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Meta Workers Reveal Some Of The Disturbing Things They’ve Seen Through Users’ Smart Glasses",
+      "url": "https://www.boredpanda.com/meta-workers-reveal-some-of-the-disturbing-things-theyve-seen-through-users-smart-glasses/?utm_source=reddit&amp;utm_medium=link&amp;utm_campaign=atixc",
+      "summary": "Security",
+      "score": 800,
+      "comments": 93,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Major investor is 'shocked and sad' that the games industry is 'demonizing' generative AI",
+      "url": "https://www.pcgamer.com/software/ai/major-investor-is-shocked-and-sad-that-the-games-industry-is-demonizing-generative-ai/",
+      "summary": "Artificial Intelligence",
+      "score": 2841,
+      "comments": 454,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "'The Chinese Will Eat Our Lunch': Europe's EV Trucking Industry Is Scared As Hell",
+      "url": "https://insideevs.com/news/789730/europe-electric-truck-industry-china/",
+      "summary": "Transportation",
+      "score": 492,
+      "comments": 90,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "AI agents can autonomously coordinate propaganda campaigns without human direction",
+      "url": "https://techxplore.com/news/2026-03-ai-agents-autonomously-propaganda-campaigns.html",
+      "summary": "Artificial Intelligence",
+      "score": 575,
+      "comments": 111,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "98% of Fortune 500 companies use ATS hiring software. In a Harvard study, 88% of executives admitted these systems filter out qualified candidates",
+      "url": "https://www.coversentry.com/ats-statistics?s=2",
+      "summary": "Software",
+      "score": 151,
+      "comments": 11,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "XML is a Cheap DSL",
+      "url": "https://unplannedobsolescence.com/blog/xml-cheap-dsl/",
+      "summary": "",
+      "score": 94,
+      "comments": 67,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "The 2FA app that tells you when you get `314159`",
+      "url": "https://blog.jacobstechtavern.com/p/building-a-2fa-app-that-detects-patterns",
+      "summary": "",
+      "score": 234,
+      "comments": 45,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Microservices: Shackles on your feet",
+      "url": "https://howtocenterdiv.com/beyond-the-div/microservices-shackles-on-your-feet",
+      "summary": "You don't need microservices. You need better module boundaries. Split only when teams are truly independent, scaling ne",
+      "score": 63,
+      "comments": 61,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "The Web's Most Tolerated Feature",
+      "url": "https://www.bocoup.com/blog/the-webs-most-tolerated-feature",
+      "summary": "",
+      "score": 9,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Building a browser-only developer tools platform (150+ utilities) with zero backend",
+      "url": "https://data-morph.dev",
+      "summary": "I recently experimented with building a collection of developer utilities that run entirely in the browser.\n\nThe idea wa",
+      "score": 3,
+      "comments": 1,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "The Roadmap Is Not the System",
+      "url": "https://yusufaytas.com/the-roadmap-is-not-the-system/",
+      "summary": "",
+      "score": 29,
+      "comments": 4,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "NumenText: a non-modal terminal IDE with LSP and DAP, inspired by Borland C++",
+      "url": "https://github.com/numentech-co/numentext",
+      "summary": "There is a gap in the terminal editor landscape. Vim and Neovim are powerful but demand a steep learning investment. Nan",
+      "score": 2,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "What I learned trying to block web scraping and bots",
+      "url": "https://developerwithacat.com/blog/202603/block-bots-scraping-ways/",
+      "summary": "",
+      "score": 19,
+      "comments": 22,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Analysis of 1,808 MCP servers: 66% had security findings, 427 critical (tool poisoning, toxic data flows, code execution)",
+      "url": "https://agentseal.org/blog/mcp-server-security-findings",
+      "summary": "",
+      "score": 7,
+      "comments": 1,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "GlassWorm V2 Analysis",
+      "url": "https://gist.github.com/tip-o-deincognito/d0d05e148e87a515f534b5a8e9ed3b36",
+      "summary": "",
+      "score": 6,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    }
+  ]
+}
