@@ -1,0 +1,720 @@
+{
+  "date": "2026-03-16",
+  "collected_at": "2026-03-16T10:41:56.217582+09:00",
+  "total_count": 77,
+  "articles": [
+    {
+      "title": "Canada's bill C-22 mandates mass metadata surveillance of Canadians",
+      "url": "https://news.ycombinator.com/item?id=47392084",
+      "original_url": "https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains/",
+      "summary": "The decades-long battle over lawful access entered a new phase yesterday with the introduction of Bill C-22, the Lawful",
+      "score": 308,
+      "comments": 84,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Chrome DevTools MCP",
+      "url": "https://news.ycombinator.com/item?id=47390817",
+      "original_url": "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
+      "summary": "We shipped a new feature to the Chrome DevTools MCP server that is going to make it a lot easier for your coding agent t",
+      "score": 325,
+      "comments": 143,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "The 49MB web page",
+      "url": "https://news.ycombinator.com/item?id=47390945",
+      "original_url": "https://thatshubham.com/blog/news-audit",
+      "summary": "A look at modern news websites. How programmatic ad-tech, huge payloads and hostile architecture destroyed the reading e",
+      "score": 293,
+      "comments": 162,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "LLM Architecture Gallery",
+      "url": "https://news.ycombinator.com/item?id=47388676",
+      "original_url": "https://sebastianraschka.com/llm-architecture-gallery/",
+      "summary": "A gallery that collects architecture figures from The Big LLM Architecture Comparison and related articles, with fact sh",
+      "score": 236,
+      "comments": 19,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "//go:fix inline and the source-level inliner",
+      "url": "https://news.ycombinator.com/item?id=47339463",
+      "original_url": "https://go.dev/blog/inliner",
+      "summary": "How Go 1.26's source-level inliner works, and how it can help you with self-service API migrations.",
+      "score": 114,
+      "comments": 41,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "A new Bigfoot documentary helps explain our conspiracy-minded era",
+      "url": "https://news.ycombinator.com/item?id=47392547",
+      "original_url": "https://www.msn.com/en-us/news/us/a-new-bigfoot-documentary-helps-explain-our-conspiracy-minded-era/ar-AA1Yv6px",
+      "summary": "",
+      "score": 37,
+      "comments": 7,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "The Linux Programming Interface as a university course text",
+      "url": "https://news.ycombinator.com/item?id=47393388",
+      "original_url": "https://man7.org/tlpi/academic/index.html",
+      "summary": "man7.org>tlpi> university use",
+      "score": 15,
+      "comments": 1,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Separating the Wayland compositor and window manager",
+      "url": "https://news.ycombinator.com/item?id=47388137",
+      "original_url": "https://isaacfreund.com/blog/river-window-management/",
+      "summary": "Traditional Wayland compositors have a monolithic architecture that combines the\ncompositor and window manager into a si",
+      "score": 220,
+      "comments": 96,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Cannabinoids remove plaque-forming Alzheimer's proteins from brain cells (2016)",
+      "url": "https://news.ycombinator.com/item?id=47393619",
+      "original_url": "https://www.salk.edu/news-release/cannabinoids-remove-plaque-forming-alzheimers-proteins-from-brain-cells/",
+      "summary": "LA JOLLA–Salk Institute scientists have found preliminary evidence that tetrahydrocannabinol (THC) and other compounds f",
+      "score": 50,
+      "comments": 15,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "What makes Intel Optane stand out (2023)",
+      "url": "https://news.ycombinator.com/item?id=47388141",
+      "original_url": "https://blog.zuthof.nl/2023/06/02/what-makes-intel-optane-stand-out/",
+      "summary": "Once in a while new hardware is released that makes a difference. Such a device is the Intel Optane series of high-perfo",
+      "score": 174,
+      "comments": 115,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Bandit: A 32bit baremetal computer that runs Color Forth [video]",
+      "url": "https://news.ycombinator.com/item?id=47350763",
+      "original_url": "https://www.youtube.com/watch?v=HK0uAKkt0AE",
+      "summary": "Baremetal computer runs ColorForth baremetal, 100% artisanal work by yours truly.links:https://dscf.co.uk/BANDIThttps://",
+      "score": 19,
+      "comments": 1,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Glassworm Is Back: A New Wave of Invisible Unicode Attacks Hits Repositories",
+      "url": "https://news.ycombinator.com/item?id=47387047",
+      "original_url": "https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode",
+      "summary": "The Glassworm supply chain attack is back. Researchers uncovered malware hidden in invisible Unicode characters across 1",
+      "score": 223,
+      "comments": 139,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "C++26: The Oxford Variadic Comma",
+      "url": "https://news.ycombinator.com/item?id=47332593",
+      "original_url": "https://www.sandordargo.com/blog/2026/03/11/cpp26-oxford-variadic-comma",
+      "summary": "C++26 brings us a small but meaningful cleanup to the language: deprecating ellipsis parameters without a preceding comm",
+      "score": 116,
+      "comments": 63,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Nasdaq's Shame",
+      "url": "https://news.ycombinator.com/item?id=47392550",
+      "original_url": "https://keubiko.substack.com/p/nasdaqs-shame",
+      "summary": "How to rig an index to appease a billionaire",
+      "score": 134,
+      "comments": 28,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Stop Sloppypasta",
+      "url": "https://news.ycombinator.com/item?id=47389570",
+      "original_url": "https://stopsloppypasta.ai/",
+      "summary": "Sloppypasta: verbatim LLM output pasted at people. Why it's rude and what to do instead.",
+      "score": 114,
+      "comments": 60,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Learning athletic humanoid tennis skills from imperfect human motion data",
+      "url": "https://news.ycombinator.com/item?id=47388273",
+      "original_url": "https://zzk273.github.io/LATENT/",
+      "summary": "LATENT",
+      "score": 120,
+      "comments": 24,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Type systems are leaky abstractions: the case of Map.take!/2",
+      "url": "https://news.ycombinator.com/item?id=47341995",
+      "original_url": "",
+      "summary": "",
+      "score": 21,
+      "comments": 11,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Excel incorrectly assumes that the year 1900 is a leap year",
+      "url": "https://news.ycombinator.com/item?id=47393225",
+      "original_url": "https://learn.microsoft.com/en-us/troubleshoot/microsoft-365-apps/excel/wrongly-assumes-1900-is-leap-year",
+      "summary": "Explains why the year 1900 is treated as a leap year in Excel 2000. This article outlines the behaviors that occur if th",
+      "score": 43,
+      "comments": 11,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "A Visual Introduction to Machine Learning (2015)",
+      "url": "https://news.ycombinator.com/item?id=47386116",
+      "original_url": "https://r2d3.us/visual-intro-to-machine-learning-part-1/",
+      "summary": "What is machine learning? See how it works with our animated data visualization.",
+      "score": 314,
+      "comments": 29,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "In Memoriam: John W. Addison, my PhD advisor",
+      "url": "https://news.ycombinator.com/item?id=47388531",
+      "original_url": "https://billwadge.com/2026/03/15/in-memoriam-john-w-addison-jr-my-phd-advisor/",
+      "summary": "John Addison (1930–2025) died last March 7, 2025, at the age of 96. He was my PhD advisor at UC Berkeley, and I count my",
+      "score": 96,
+      "comments": 4,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "An engineering thesis disguised as a coupe: A history of the Honda Prelude",
+      "url": "https://arstechnica.com/cars/2026/03/an-engineering-thesis-disguised-as-a-coupe-a-history-of-the-honda-prelude/",
+      "summary": "Technology like four-wheel steering and variable valve timing debuted in the Prelude.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "OpenAI says ChatGPT ads are not rolling out globally for now",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/",
+      "summary": "OpenAI told BleepingComputer that ChatGPT ads on Free and Go plans are not yet rolling out outside the United States, ev",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Betterleaks, a new open-source secrets scanner to replace Gitleaks",
+      "url": "https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/",
+      "summary": "A new open-source tool called Betterleaks can scan directories, files, and git repositories and identify valid secrets u",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "課題ベースで学ぶClaude Code便利機能",
+      "url": "https://zenn.dev/hsaki/articles/why-claude-code-function",
+      "summary": "この記事について 「とりあえずClaude Codeを入れてみたけど、なんか使いこなせていない気がする」「あの機能の存在は知っているけど、自分には関係ないと思っていた」という方はいませんか？ 本記事では、Claude Codeを使いはじめた",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "我々の知るコンピュータープログラミングの終焉、そしてその後コーダーはどうなるか - YAMDAS現更新履歴",
+      "url": "https://yamdas.hatenablog.com/entry/20260316/coding-after-coders",
+      "summary": "Coding After Coders: The End of Computer Programming as We Know It - The New York Times 『Coders（コーダーズ）』（asin:4822289796）",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "「わずか8GBのメモリ」MacBook Neo上に構築した完全オリジナルAIエージェントをさらに進化させる。音声対話、MVビジュアライザーを実装した（CloseBox） | テクノエッジ TechnoEdge",
+      "url": "https://www.techno-edge.net/article/2026/03/13/4920.html",
+      "summary": "MacBook Neo上に構築したエージェンティックAI「mazzaineo」、さらに進化しています。夜中に充電して起きたら持ち出し、バッテリー駆動で使い続けております。かわいいよシトラスNeo。 ▲わかりやすいようにiBook G4と大き",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "サブスク不要で無料の超シンプルなグループチャット「Campfire」、セルフホスト可能",
+      "url": "https://gigazine.net/news/20260315-campfire/",
+      "summary": "SlackやTeamsなどのチャットツールは便利ですが、無料プランには機能制限があり、人数が増えるほどコストが膨らむため、長期的な運用において問題となることがあります。そのような問題を解決すべく、無料のオープンソースでセルフホストを用意すれ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Claude Code to Figmaを試して、UI/UXデザイナーの役割について考えたこと｜ミテ",
+      "url": "https://note.com/miteo/n/n91b288c75214",
+      "summary": "Claude Codeが目まぐるしいですね…！ 今回はClaude Code to Figmaによるデザイン制作をしてみての感想や今後のUI/UXデザイナーの役割を考えてみたいと思います。 Claude Code to Figmaでやったこ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "【Claude Code完全入門】買ったばかりのPCから、仕事を自動化するまで｜KAWAI",
+      "url": "https://note.com/kawaidesign/n/n79c7af8fff45",
+      "summary": "ターミナルとは、PCに文字で指示を出す黒い画面のこと。 「黒い画面」と聞くとエンジニア向けに思えますが、やることは日本語を打ち込むだけです。 必要なものMac または Windows PC（Macを推奨） インターネット接続 Anthrop",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "無料でSEOトラッキングができる「SerpBear」、オープンソースでセルフホスト可",
+      "url": "https://gigazine.net/news/20260315-serpbear/",
+      "summary": "ウェブサイトを運営するにあたり、サイトの課題を明確にし改善を検討する上でSEOトラッキングは不可欠なプロセスと言えます。SEOトラッキングはニーズの高さから様々なサービスやツールが提供されていますが、無料で「SERP(Search Engi",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "忙しくても水を飲め！──徐々に傾く“脅迫コップ”、和歌山大が開発　飲まなきゃこぼれてビショビショに",
+      "url": "https://www.itmedia.co.jp/news/articles/2603/16/news023.html",
+      "summary": "そのまま放置すれば最終的に水がこぼれてしまうため、ユーザーは作業を中断してでもコップを持ち上げて水分を摂取する必要に迫られる。コップが持ち上げられたことをシステムが検知すると、サーボモータが自動的に傾斜板を水平に戻す仕組み。コップを戻すと再",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "ViteネイティブなWebプラットフォーム「Void」発表。Cloudflareの上に構築されたフルスタックの実行環境",
+      "url": "https://www.publickey1.jp/blog/26/vitewebvoidcloudflare.html",
+      "summary": "JavaScriptのバンドルツール「Vite」などを開発しているVoidZeroは、ViteからシームレスにデプロイできるViteネイティブなWebアプリケーションプラットフォーム「Void」を発表しました。 VoidはCloudflar",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "ClaudeCodeでSimulinkを操れるか",
+      "url": "https://zenn.dev/spargel/articles/20260313_simulink_claudedcode",
+      "summary": "はじめに claude codeをはじめとした生成AIでプログラミングをしているというのが方々から聞こえてきますが，Simulinkはいわゆるビジュアルプログラミングであるため，無理だろうと決めつけていました． しかし，ふと考えると，Sim",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "JavaScriptの統合ツールチェーン「Vite+」がオープンソースで公開",
+      "url": "https://www.publickey1.jp/blog/26/javascriptvite.html",
+      "summary": "JavaScriptのESモジュールに対応した高速なビルドツール「Vite」などを開発しているVoidZeroは、Viteを含むJavaScriptの統合開発ツールチェーン「Vite+」アルファ版をオープンソースで公開しました（GitHub",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "【朗報】日本の生産性「低スペPC」で低下問題に終止符！？少額減価償却資産の特例、上限を40万円未満に引き上げる法案提出 - すまほん!!",
+      "url": "https://smhn.info/202603-small-asset-deduction-limit-raise",
+      "summary": "すまほん!! » ニュース » 社会 » 【朗報】日本の生産性「低スペPC」で低下問題に終止符！？少額減価償却資産の特例、上限を40万円未満に引き上げる法案提出 30万円の壁、打破へ。 2026年度（令和8年度）税制改正大綱と、2月20日に",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "GitHub - logclaw/logclaw: LogClaw — Multi-tenant Helm chart monorepo for deploying the full log intelligence stack",
+      "url": "https://github.com/logclaw/logclaw",
+      "summary": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reloa",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Claude Codeスキルで自動化するペネトレーションテスト完全ガイド — 23カテゴリの実践手法",
+      "url": "https://qiita.com/nogataka/items/0808d2b51aa986569dd9",
+      "summary": "Security, owasp, ペンテスト, PenetrationTesting",
+      "score": 5,
+      "comments": 9,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "MITRE ATT&CK入門：攻撃者視点で対策・検知・ゼロトラストをつなぐ",
+      "url": "https://qiita.com/comty/items/564c3c58dc602188e135",
+      "summary": "Security, サイバーセキュリティ, soc, ゼロトラスト, MITRE-ATT&CK",
+      "score": 4,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "現代貨幣理論は本当に危険なのか？ ― 日本経済で検証する5つの誤解 : Pythonで学ぶ マクロ経済学入門 (59)",
+      "url": "https://qiita.com/maskot1977/items/e12e5c07548b173c68b1",
+      "summary": "ChatGPT, ChatGPTに聞いてみた, マクロ経済学",
+      "score": 4,
+      "comments": 6,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "「安全なウェブサイトの作り方」に沿って、Next.jsで脆弱性の攻撃と防御を体験するハンズオン",
+      "url": "https://qiita.com/arunbababa/items/952ce224a77b06e2cc26",
+      "summary": "Security, 初心者, ハンズオン, Next.js, 安全",
+      "score": 17,
+      "comments": 16,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Strands AgentsにAgent Skillsがきたぞ～",
+      "url": "https://qiita.com/moritalous/items/5100aae89b9686865810",
+      "summary": "AWS, SKILLS, Claude, StrandsAgents, AgentSkills",
+      "score": 12,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "『スライド』をやめた ─ ページ遷移するたびにポケモンが鳴いてシロナ戦が流れるローカルアプリを爆速で作った話",
+      "url": "https://qiita.com/toarusyakaijin/items/555e62fd07b996d1f49a",
+      "summary": "JavaScript, AI, React, ポケモン, ClaudeCode",
+      "score": 14,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "「詰まる人」が評価される——AIが速くなるほど、技術者に残る仕事の正体",
+      "url": "https://qiita.com/mhamadajp/items/85659bb3c104c4279539",
+      "summary": "設計, キャリア, コードレビュー, IT技術者, 生成AI",
+      "score": 19,
+      "comments": 6,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Codeへの指示だけでWebアプリを作って公開する",
+      "url": "https://qiita.com/mesiar/items/3f3591c72b39a94c9cdd",
+      "summary": "初心者, Next.js, CloudflarePages, Claude, ClaudeCode",
+      "score": 2,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "課題ベースで学ぶClaude Code便利機能",
+      "url": "https://zenn.dev/hsaki/articles/why-claude-code-function",
+      "summary": "",
+      "score": 50,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "2026年2月のIMEに関するできごと",
+      "url": "https://zenn.dev/komatsuh/articles/komatsuh_ime_news_2026_02",
+      "summary": "",
+      "score": 15,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "私のOSS活動元年を振り返ったらAIと下心が原動力だった",
+      "url": "https://zenn.dev/jackchuka/articles/473ef7cc70efbc",
+      "summary": "",
+      "score": 11,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "コードを書くのをやめた。Claude Codeに月商300万のSaaSの全コードを書かせ、完全ソロ運用しているという話。",
+      "url": "https://zenn.dev/nnze/articles/e3f648e335a947",
+      "summary": "",
+      "score": 9,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "【Alpha版】Vite+ を試してみる！【VoidZero帝国】",
+      "url": "https://zenn.dev/hiruno_tarte/articles/vite-plus-alpha",
+      "summary": "",
+      "score": 1,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Claude CodeのReact習熟度を測る",
+      "url": "https://zenn.dev/uhyo/articles/react-profession-bench-1",
+      "summary": "",
+      "score": 8,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "仕様駆動開発(SDD)って、本当に不要なの？",
+      "url": "https://zenn.dev/karamage/articles/a0b7111698ecb2",
+      "summary": "",
+      "score": 4,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Stanをつかってみた",
+      "url": "https://zenn.dev/mitsuji/articles/68aa605b48d89c",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "ALFWorld (v0.2) を Macbook で実行する",
+      "url": "https://zenn.dev/motobrew/articles/bea57dc52a1eb3",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Republicans release AI deepfake of James Talarico as phony videos proliferate in midterm races | CNN Politics",
+      "url": "https://www.cnn.com/2026/03/13/politics/james-talarico-ai-deepfake-republicans-midterms",
+      "summary": "Artificial Intelligence",
+      "score": 22821,
+      "comments": 1177,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "75% of resumes never reach a human: the new rules of job searching in the AI era",
+      "url": "https://fortune.com/2026/03/15/ai-hiring-labor-market-workers-career-strategy/",
+      "summary": "Artificial Intelligence",
+      "score": 4500,
+      "comments": 324,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Notorious UK rights group launches legal action against Valve for distributing music in games on Steam without a license | The Performing Right Society says a license to use music in a game does not constitute the right to distribute that music, via the game, to the public.",
+      "url": "https://www.pcgamer.com/games/notorious-uk-rights-group-launches-legal-action-against-valve-for-distributing-music-in-games-on-steam-without-a-license/",
+      "summary": "Business",
+      "score": 1089,
+      "comments": 269,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "U.S. Tech Giants Flocked to the Persian Gulf. Now They Are Targets - Amazon, Google and others struck deals in the Persian Gulf to foot the bill for A.I. development. Iran has now threatened attacks against the companies’ infrastructure in the region.",
+      "url": "https://www.nytimes.com/2026/03/13/technology/amazon-google-persian-gulf-war.html",
+      "summary": "Artificial Intelligence",
+      "score": 1660,
+      "comments": 79,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Lawsuit Alleges DOGE Cancelled $349,000 HVAC Grant to Museum after ChatGPT Flagged It As DEI",
+      "url": "https://www.artnews.com/art-news/news/chatgpt-dei-high-point-museum-hvac-grant-lawsuit-doge-1234777297/",
+      "summary": "Politics",
+      "score": 4670,
+      "comments": 100,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "TCL lost a court case claiming its QLED TVs aren't really QLED, leading to a ban — and a similar case is happening in the US",
+      "url": "https://www.techradar.com/televisions/tcl-now-cant-call-some-of-its-tvs-qled-after-losing-in-court-to-samsung-and-there-are-more-legal-cases-coming",
+      "summary": "Hardware",
+      "score": 1825,
+      "comments": 137,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Texas Was on the Cutting Edge of Lab-Grown Meat, Until the State Banned It",
+      "url": "https://www.austinchronicle.com/news/texas-was-on-the-cutting-edge-of-lab-grown-meat-until-the-state-banned-it/",
+      "summary": "Biotechnology",
+      "score": 3420,
+      "comments": 185,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Scientists Built Working Hair Follicles in a Lab. They Could Cure Baldness Forever.",
+      "url": "https://www.popularmechanics.com/science/health/a70626877/lab-grown-hair-follicle/",
+      "summary": "Biotechnology",
+      "score": 2059,
+      "comments": 275,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "The New Chevy Bolt Charges Quicker Than GM’s Pricier EVs. It’s More Proof That Voltage Matters",
+      "url": "https://insideevs.com/features/790023/chevy-bolt-charging-curve/",
+      "summary": "Hardware",
+      "score": 595,
+      "comments": 122,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "The rise of malicious repositories on GitHub",
+      "url": "https://rushter.com/blog/github-malware/",
+      "summary": "",
+      "score": 255,
+      "comments": 20,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Why are Event-Driven Systems Hard?",
+      "url": "https://newsletter.scalablethread.com/p/why-event-driven-systems-are-hard",
+      "summary": "",
+      "score": 326,
+      "comments": 132,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Event Systems - Cain On Games",
+      "url": "https://www.youtube.com/watch?v=P935C85WIpU",
+      "summary": "",
+      "score": 3,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Branch prediction",
+      "url": "https://danluu.com/branch-prediction/",
+      "summary": "",
+      "score": 64,
+      "comments": 3,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "RE//verse 2026: Hacking the Xbox One",
+      "url": "https://www.youtube.com/watch?v=FTFn4UZsA5U",
+      "summary": "",
+      "score": 1,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Programador Junior",
+      "url": "https://www.python.org/",
+      "summary": "Buen día, estoy empezando a programar con pequeños proyectos en Python, sistemas en plataformas web, creación de bot, y",
+      "score": 0,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "The rise of malicious repositories on GitHub",
+      "url": "https://rushter.com/blog/github-malware/",
+      "summary": "",
+      "score": 24,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "We audited authorization in 30 AI agent frameworks — 93% rely on unscoped API keys",
+      "url": "https://grantex.dev/report/state-of-agent-security-2026",
+      "summary": "Published a research report auditing how popular AI agent projects (OpenClaw, AutoGen, CrewAI, LangGraph, MetaGPT, AutoG",
+      "score": 10,
+      "comments": 2,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "GlassWorm V2 analysis: Part 2. Infrastructure rotation and GitHub injection",
+      "url": "https://codeberg.org/tip-o-deincognito/glassworm-writeup/src/branch/main/PART2.md",
+      "summary": "",
+      "score": 2,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Quick question for people running CrowdStrike, Zscaler, Netskope or similar in production.",
+      "url": "https://www.crowdstrike.com/en-us/platform/charlotte-ai/",
+      "summary": "As these platforms add more AI-driven automation: autonomous triage, auto-response, AI-based policy changes, how are you",
+      "score": 3,
+      "comments": 2,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "CVE-2024-45163: Remote DoS in Mirai C2 – research writeup + what it led me to build",
+      "url": "https://flowtriq.com/blog/cve-2024-45163",
+      "summary": "",
+      "score": 2,
+      "comments": 2,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "TypeScript 6.0 RC and Solid 2.0 beta arrive",
+      "url": "https://javascriptweekly.com/issues/776",
+      "summary": "#776 — March 10, 2026Read on the WebJavaScript WeeklySolid v2.0.0 Beta: Theis Over— After a long experimental",
+      "score": 0,
+      "comments": 0,
+      "source": "JavaScript Weekly",
+      "source_icon": "🟡"
+    },
+    {
+      "title": "External import maps, a big Bun release, and Node.js schedule changes",
+      "url": "https://javascriptweekly.com/issues/775",
+      "summary": "#775 — March 3, 2026Read on the WebJavaScript WeeklyBun v1.3.10 Released: A Surprisingly Big Update— Bun’s REPL has bee",
+      "score": 0,
+      "comments": 0,
+      "source": "JavaScript Weekly",
+      "source_icon": "🟡"
+    },
+    {
+      "title": "Oxfmt beta: 30x faster than Prettier, 100% compatible",
+      "url": "https://javascriptweekly.com/issues/774",
+      "summary": "#774 — February 24, 2026Read on the WebJavaScript WeeklyOxfmt Beta: A Fast, Rust-Powered JavaScript Code Formatter— A10",
+      "score": 0,
+      "comments": 0,
+      "source": "JavaScript Weekly",
+      "source_icon": "🟡"
+    },
+    {
+      "title": "Electrobun v1: Bun-powered desktop apps in 12MB bundles",
+      "url": "https://javascriptweekly.com/issues/773",
+      "summary": "#773 — February 17, 2026Read on the WebJavaScript WeeklyTanStack Hotkeys: A Type-Safe, Cross-Platform Hotkey Library— T",
+      "score": 0,
+      "comments": 0,
+      "source": "JavaScript Weekly",
+      "source_icon": "🟡"
+    }
+  ]
+}
