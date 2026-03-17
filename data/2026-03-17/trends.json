@@ -1,0 +1,1044 @@
+{
+  "date": "2026-03-17",
+  "collected_at": "2026-03-17T11:05:27.964448+09:00",
+  "total_count": 113,
+  "articles": [
+    {
+      "title": "US SEC preparing to scrap quarterly reporting requirement",
+      "url": "https://news.ycombinator.com/item?id=47406779",
+      "original_url": "https://www.reuters.com/business/finance/us-sec-preparing-eliminate-quarterly-reporting-requirement-wsj-says-2026-03-16/",
+      "summary": "",
+      "score": 246,
+      "comments": 119,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Leanstral: Open-source agent for trustworthy coding and formal proof engineering",
+      "url": "https://news.ycombinator.com/item?id=47404796",
+      "original_url": "https://mistral.ai/news/leanstral",
+      "summary": "First open-source code agent for Lean 4.",
+      "score": 304,
+      "comments": 56,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Meta’s renewed commitment to jemalloc",
+      "url": "https://news.ycombinator.com/item?id=47402640",
+      "original_url": "https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc/",
+      "summary": "Meta recognizes the long-term benefits of jemalloc, a high-performance memory allocator, in its software infrastructure.",
+      "score": 343,
+      "comments": 142,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "US commercial insurers pay 254% of Medicare for the same hospital procedures",
+      "url": "https://news.ycombinator.com/item?id=47401809",
+      "original_url": "https://github.com/rexrodeo/american-healthcare-conundrum",
+      "summary": "Investigative data journalism: quantifying fixable waste in US healthcare, one issue at a time. Open-source analysis of",
+      "score": 229,
+      "comments": 165,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "The “small web” is bigger than you might think",
+      "url": "https://news.ycombinator.com/item?id=47401879",
+      "original_url": "https://kevinboone.me/small_web_is_big.html",
+      "summary": "The small web is growing, and getting more active. Good news.",
+      "score": 313,
+      "comments": 134,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "My Journey to a reliable and enjoyable locally hosted voice assistant (2025)",
+      "url": "https://news.ycombinator.com/item?id=47398534",
+      "original_url": "https://community.home-assistant.io/t/my-journey-to-a-reliable-and-enjoyable-locally-hosted-voice-assistant/944860",
+      "summary": "I have been watching HomeAssistant’s progress with assist for some time. We previously used Google Home via Nest Minis,",
+      "score": 318,
+      "comments": 95,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "In space, no one can hear you kernel panic",
+      "url": "https://news.ycombinator.com/item?id=47359010",
+      "original_url": "https://increment.com/software-architecture/in-space-no-one-can-hear-you-kernel-panic/",
+      "summary": "For NASA, redundancy is all-important. (Why send a single server beyond the stratosphere when you can send five?)",
+      "score": 25,
+      "comments": 2,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: Oxyde – Pydantic-native async ORM with a Rust core",
+      "url": "https://news.ycombinator.com/item?id=47364260",
+      "original_url": "https://github.com/mr-fatalyst/oxyde",
+      "summary": "Oxyde ORM is a type-safe, Pydantic-centric asynchronous ORM with a high-performance Rust core designed for clarity, spee",
+      "score": 63,
+      "comments": 36,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: Thermal Receipt Printers – Markdown and Web UI",
+      "url": "https://news.ycombinator.com/item?id=47366766",
+      "original_url": "https://github.com/sadreck/ThermalMarky",
+      "summary": "Contribute to sadreck/ThermalMarky development by creating an account on GitHub.",
+      "score": 33,
+      "comments": 10,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Why I love FreeBSD",
+      "url": "https://news.ycombinator.com/item?id=47397574",
+      "original_url": "https://it-notes.dragas.net/2026/03/16/why-i-love-freebsd/",
+      "summary": "A personal reflection on my first encounter with FreeBSD in 2002, how it shaped the way I design and run systems, and wh",
+      "score": 354,
+      "comments": 165,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Canopy Height Maps v2",
+      "url": "https://news.ycombinator.com/item?id=47355100",
+      "original_url": "https://ai.meta.com/blog/world-resources-institute-dino-canopy-height-maps-v2/?_fb_noscript=1",
+      "summary": "Today, in partnership with the World Resources Institute, we’re announcing Canopy Height Maps v2 (CHMv2): an open source",
+      "score": 9,
+      "comments": 1,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "The future of Amazon coders is the present of Amazon warehouse workers",
+      "url": "https://news.ycombinator.com/item?id=47407458",
+      "original_url": "https://pluralistic.net/2025/03/13/electronic-whipping/",
+      "summary": "Pluralistic: Daily links from Cory Doctorow",
+      "score": 22,
+      "comments": 3,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Starlink Mini as a failover",
+      "url": "https://news.ycombinator.com/item?id=47396264",
+      "original_url": "https://www.jackpearce.co.uk/posts/starlink-failover/",
+      "summary": "I recently picked up a Starlink Mini to use as a backup connection for my home network. The underlying technology is fas",
+      "score": 199,
+      "comments": 169,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Language Model Teams as Distrbuted Systems",
+      "url": "https://news.ycombinator.com/item?id=47401901",
+      "original_url": "https://arxiv.org/abs/2603.12229",
+      "summary": "Large language models (LLMs) are growing increasingly capable, prompting recent interest in LLM teams. Yet, despite incr",
+      "score": 71,
+      "comments": 32,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "AnswerThis (YC F25) Is Hiring",
+      "url": "https://news.ycombinator.com/item?id=47404801",
+      "original_url": "https://www.ycombinator.com/companies/answerthis/jobs/CNdatw5-founding-engineering-lead",
+      "summary": "Who we are\nTrillions of dollars flow into global R&D every year, and a massive share of it goes to researchers manually",
+      "score": 1,
+      "comments": 0,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Polymarket gamblers threaten to kill me over Iran missile story",
+      "url": "https://news.ycombinator.com/item?id=47397822",
+      "original_url": "https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/",
+      "summary": "Bettors are using death threats to try to get The Times of Israel's military correspondent to change his report on a mis",
+      "score": 1345,
+      "comments": 883,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "AirPods Max 2",
+      "url": "https://news.ycombinator.com/item?id=47398681",
+      "original_url": "https://www.apple.com/airpods-max/",
+      "summary": "The ultimate over-ear listening experience — in five vibrant colors and with up to 1.5x more Active Noise Cancellation t",
+      "score": 212,
+      "comments": 384,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Launch HN: Voygr (YC W26) – A better maps API for agents and AI apps",
+      "url": "https://news.ycombinator.com/item?id=47401042",
+      "original_url": "",
+      "summary": "",
+      "score": 65,
+      "comments": 48,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Apideck CLI – An AI-agent interface with much lower context consumption than MCP",
+      "url": "https://news.ycombinator.com/item?id=47400261",
+      "original_url": "https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative",
+      "summary": "TL;DR: MCP tool definitions can burn 55,000+ tokens before an agent processes a single user message. We built the Apidec",
+      "score": 122,
+      "comments": 106,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: Claude Code skills that build complete Godot games",
+      "url": "https://news.ycombinator.com/item?id=47400868",
+      "original_url": "https://github.com/htdt/godogen",
+      "summary": "Claude Code skills that build complete Godot 4 projects from a game description - htdt/godogen",
+      "score": 169,
+      "comments": 103,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "RFK Jr.’s anti-vaccine changes to CDC vaccine guidance blocked by judge",
+      "url": "https://arstechnica.com/health/2026/03/judge-temporarily-blocks-rfk-jr-s-changes-to-cdc-vaccine-recommendations/",
+      "summary": "Ruling temporarily blocks changes to vaccine recommendations and an advisory board.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Elon Musk's xAI sued for turning three girls' real photos into AI CSAM",
+      "url": "https://arstechnica.com/tech-policy/2026/03/elon-musks-xai-sued-for-turning-three-girls-real-photos-into-ai-csam/",
+      "summary": "Discord user led cops to Grok-generated CSAM of real girls, lawsuit says.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "National Academies of Sciences says no to demands it remove climate info",
+      "url": "https://arstechnica.com/science/2026/03/national-academies-of-sciences-resisting-pressure-to-pull-climate-info/",
+      "summary": "State attorneys general won't get climate chapter removed from a legal manual.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "New \"vibe coded\" AI translation tool splits the video game preservation community",
+      "url": "https://arstechnica.com/ai/2026/03/new-vibe-coded-ai-translation-tool-splits-the-video-game-preservation-community/",
+      "summary": "Creator apologizes after using Patreon funds for Gemini-powered magazine scan processor.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Trump and his FCC chair demand more positive news coverage of Iran war",
+      "url": "https://arstechnica.com/tech-policy/2026/03/trump-and-his-fcc-chair-demand-more-positive-news-coverage-of-iran-war/",
+      "summary": "Carr makes evidence-free claim of \"hoaxes and news distortions.\" Trump is thrilled.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "OpenAI’s own mental health experts unanimously opposed “naughty” ChatGPT launch",
+      "url": "https://arstechnica.com/tech-policy/2026/03/chatgpt-may-soon-become-sexy-suicide-coach-openai-advisor-reportedly-warned/",
+      "summary": "OpenAI draws a line between AI “smut” and porn. Experts fear it’s all unhealthy.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Driving the $375,000 Porsche race car that debuted as a $12 DLC in iRacing",
+      "url": "https://arstechnica.com/cars/2026/03/from-pixels-to-pavement-testing-the-new-porsche-911-cup-in-iracing-and-irl/",
+      "summary": "Porsche's new 911 Cup debuted in iRacing, and then we took it out on the track.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "F1 in China: I've never seen so many people in those grandstands",
+      "url": "https://arstechnica.com/cars/2026/03/f1-in-china-ive-never-seen-so-many-people-in-those-grandstands/",
+      "summary": "Formula 1's new style of racing puts on an entertaining sprint weekend in Shanghai.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Apple’s AirPods Max 2 bring H2 chip, boosted ANC in April for $549",
+      "url": "https://arstechnica.com/gadgets/2026/03/apples-airpods-max-2-release-with-h2-chip-boosted-anc-in-april-for-549/",
+      "summary": "Apple's over-head headphones get an update after over five years.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "100 years later, where is Robert Goddard's first liquid-fueled rocket?",
+      "url": "https://arstechnica.com/space/2026/03/100-years-later-where-is-robert-goddards-first-liquid-fuel-rocket/",
+      "summary": "\"He didn't preserve it as a sacred object... \"",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "No accountability: Bills would ban liability lawsuits for climate change",
+      "url": "https://arstechnica.com/tech-policy/2026/03/emerging-legislation-would-shield-polluters-from-liability-for-climate-change/",
+      "summary": "This is the latest front in the battle over climate lawsuits.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "The science of how fireflies stay in sync",
+      "url": "https://arstechnica.com/science/2026/03/the-science-of-how-fireflies-stay-in-sync/",
+      "summary": "Engineers have uncovered the mathematical rules fireflies follow to sync up their flashes.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "A century after the first rocket launch, Ars staffers pick their favorites",
+      "url": "https://arstechnica.com/space/2026/03/a-century-after-the-first-rocket-launch-ars-staffers-pick-their-favorites/",
+      "summary": "\"I realized that if something went wrong up there, things might go very badly down here.\"",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Meta 20% layoffs 💼, Musk rebuilds xAI 🧠, Travis Kalanick's robots 🤖",
+      "url": "https://tldr.tech/tech/2026-03-16",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "TLDR Tech",
+      "source_icon": "📨"
+    },
+    {
+      "title": "How anti-cheats work 🔐, MCPs vs CLIs 💻, the future of AWS S3 👓",
+      "url": "https://tldr.tech/dev/2026-03-16",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "TLDR WebDev",
+      "source_icon": "📨"
+    },
+    {
+      "title": "China OpenClaw Warnings🦞, Wiz Acquisition Unpacked 📦, Telus 1PB Stolen 📡",
+      "url": "https://tldr.tech/infosec/2026-03-16",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "TLDR InfoSec",
+      "source_icon": "📨"
+    },
+    {
+      "title": "GlassWorm Attack Uses Stolen GitHub Tokens to Force-Push Malware Into Python Repos",
+      "url": "https://thehackernews.com/2026/03/glassworm-attack-uses-stolen-github.html",
+      "summary": "The GlassWorm malware campaign is being used to fuel an ongoing attack that leverages the stolen GitHub tokens to inject",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "⚡ Weekly Recap: Chrome 0-Days, Router Botnets, AWS Breach, Rogue AI Agents & More",
+      "url": "https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html",
+      "summary": "Some weeks in security feel normal. Then you read a few tabs and get that immediate “ah, great, we’re doing this now” fe",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Why Security Validation Is Becoming Agentic",
+      "url": "https://thehackernews.com/2026/03/why-security-validation-is-becoming.html",
+      "summary": "If you run security at any reasonably complex organization, your validation stack probably looks something like this: a",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "ClickFix Campaigns Spread MacSync macOS Infostealer via Fake AI Tool Installers",
+      "url": "https://thehackernews.com/2026/03/clickfix-campaigns-spread-macsync-macos.html",
+      "summary": "Three different ClickFix campaigns have been found to act as a delivery vector for the deployment of a macOS information",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "DRILLAPP Backdoor Targets Ukraine, Abuses Microsoft Edge Debugging for Stealth Espionage",
+      "url": "https://thehackernews.com/2026/03/drillapp-backdoor-targets-ukraine.html",
+      "summary": "Ukrainian entities have emerged as the target of a new campaign likely orchestrated by threat actors linked to Russia, a",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Android 17 Blocks Non-Accessibility Apps from Accessibility API to Prevent Malware Abuse",
+      "url": "https://thehackernews.com/2026/03/android-17-blocks-non-accessibility.html",
+      "summary": "Google is testing a new security feature as part of Android Advanced Protection Mode (AAPM) that prevents certain kinds",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Stryker attack wiped tens of thousands of devices, no malware needed",
+      "url": "https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/",
+      "summary": "Last week's cyberattack on medical technology giant Stryker was limited to its internal Microsoft environment and remote",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "CISA flags Wing FTP Server flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wing-ftp-server-flaw-as-actively-exploited-in-attacks/",
+      "summary": "CISA warned U.S. government agencies to secure their Wing FTP Server instances against an actively exploited vulnerabili",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "UK’s Companies House confirms security flaw exposed business data",
+      "url": "https://www.bleepingcomputer.com/news/security/uks-companies-house-confirms-security-flaw-exposed-business-data/",
+      "summary": "Companies House, a British government agency that operates the registry for all U.K. companies, says its WebFiling servi",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Microsoft Exchange Online outage blocks access to mailboxes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-blocks-access-to-mailboxes/",
+      "summary": "Microsoft is working to address an ongoing Exchange Online outage that is preventing customers from accessing their mail",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Shadow AI is everywhere. Here’s how to find and secure it.",
+      "url": "https://www.bleepingcomputer.com/news/security/shadow-ai-is-everywhere-heres-how-to-find-and-secure-it/",
+      "summary": "Shadow AI is quietly spreading across SaaS environments as employees adopt new AI tools without IT oversight. Nudge Secu",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Microsoft pulls Samsung app blocking Windows C: drive from Store",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-samsung-app-blocking-windows-c-drive-from-store/",
+      "summary": "Microsoft has removed the Samsung Galaxy Connect app from the Microsoft Store because it was causing issues on specific",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "GROWIのOpenAIスレッド・メッセージ APIにおける権限チェック欠如の脆弱性",
+      "url": "https://jvn.jp/jp/JVN46373837/",
+      "summary": "株式会社GROWIが提供するGROWIのOpenAIスレッド・メッセージ APIには、権限チェック欠如の脆弱性が存在します。",
+      "score": 0,
+      "comments": 0,
+      "source": "JVN",
+      "source_icon": "🇯🇵"
+    },
+    {
+      "title": "OpenLiteSpeedおよびLSWS EnterpriseにおけるOSコマンドインジェクションの脆弱性",
+      "url": "https://jvn.jp/jp/JVN22152812/",
+      "summary": "LiteSpeed Technologiesが提供するOpenLiteSpeedおよびLSWS Enterpriseには、OSコマンドインジェクションの脆弱性が存在します。",
+      "score": 0,
+      "comments": 0,
+      "source": "JVN",
+      "source_icon": "🇯🇵"
+    },
+    {
+      "title": "Glassworm Strikes Popular React Native Phone Number PackagesGlassworm Strikes Popular React Native Phone Number Packages in a New Supply Chain AttackAikido Security researchers recovered and decrypted the full payload chain from two malicious React Native packages. Here's what the malware does and what to look for.Two popular React Native npm packages were backdoored by suspected Glassworm actors and used to deliver multi-stage malware. Here's what the malware does and what to look for.Vulnerabilities & ThreatsRaphael Silva",
+      "url": "https://www.aikido.dev/blog/glassworm-strikes-react-packages-phone-numbers",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "AI機能搭載のRSSリーダーを作った",
+      "url": "https://zenn.dev/babarot/articles/ai-rss-reader-oksskolten",
+      "summary": "なぜRSSリーダーか 情報収集は基本活字で、昔からRSSリーダーをよく使ってきた。Google Readerの時代からFeedly、Miniflux、FreshRSSと渡り歩いたしPocketのようなRead it later系も使ってきた",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "「Lhaplus」がついに圧縮・解凍ソフトの人気No.1から陥落 ～抜いたのはあの定番ソフト／窓の杜の圧縮・解凍ソフトの中でPV数を逆転された話【やじうまの杜】",
+      "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2093432.html",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Apple、AirPods Max 2を発表",
+      "url": "https://www.apple.com/jp/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/",
+      "summary": "H2を搭載したAirPods Maxは、より効果的なANC、強化された音質、適応型オーディオやライブ翻訳などの新機能により、これまで以上に素晴らしいものになります AirPods Max 2は、一段と向上したANC、より優れた音質、インテリ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "LLM Architecture Gallery",
+      "url": "https://sebastianraschka.com/llm-architecture-gallery/",
+      "summary": "Last updated: March 16, 2026 This page collects architecture figures and fact sheets from The Big LLM Architecture Compa",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "あなたのGo製CLIをAI Agent Readyにするskillsmith | おそらくはそれさえも平凡な日々",
+      "url": "https://songmu.jp/riji/entry/2026-03-17-skillsmith.html",
+      "summary": "CLIをAI AgentフレンドリーにするためにAgent Skillsがあると嬉しい。Agent Skillsは絶賛リポジトリで協議されているが、オープンスタンダードであり、各ベンダーがそれなりに足並みをそろえながら仕様がアップデートされ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "地獄への道は、あと何回引き返せるか？ - ふふろぐのろぐ",
+      "url": "https://ffrog.hatenablog.com/entry/2026/03/17/021108",
+      "summary": "CASHというスマホアプリがあった。 大体2017年の話だ。なぜ覚えているかというと、俺がはてブを始めた時期だからだ。 www.itmedia.co.jp （当時Android派だったので、無関係に祭りは終わった。） 当時、大学生だった。",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "“やらないこと”は、誰かの“やる”を開く - Findy Media",
+      "url": "https://findy-code.io/media/articles/list-yotii23",
+      "summary": "「もっと成果を出さなきゃ」「スキルを増やさなきゃ」。そんな焦りに押され、やることを積み重ねていないでしょうか？けれど、本当に働き方を変えるのは“足し算”ではなく、“引き算”かもしれません。この企画では、エンジニアたちがあえてやめたことと、そ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Webサービスを作って公開したらなんか知らないアカウントが開発者を自称していた",
+      "url": "https://zenn.dev/satetsu888/articles/ab3b195c7603b0",
+      "summary": "@satetsu888 です。最近AIエージェントで開発が高速化した結果、作った機能の動作確認が間に合わなくなっていく感じがしているので、QAをAIに任せるためのハーネス的なことをするサービス aqua を作っていました。 このサービスの紹",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "MicrosoftがWindows 11へのCopilot統合を実質撤回。AI機能はオプション化へ - ギャズログ | GAZ:Log",
+      "url": "https://gazlog.com/entry/microsoft-copilot-no-more-to-windows11/",
+      "summary": "Microsoftは2024年にCopilot+ PC発表と同時にWindows 11の設定アプリや通知、ファイルエクスプローラーなど各種機能へのCopilot統合を予告していましたが、品質や批判を受けてこれらの機能投入を撤回したことが明ら",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "1時間を5分に短縮！Claude Code × Notion MCPで実現した業務自動化の全貌 - Findy Tech Blog",
+      "url": "https://tech.findy.co.jp/entry/2026/03/17/070000",
+      "summary": "こんにちは。ファインディ株式会社でエンジニアをしている山岸です。 Findy AI CareerはAI人材に特化した求人プラットフォームです。掲載する求人票は、企業の求人情報をベースにAI活用状況や方針を盛り込んで作成しています。この業務は",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "NVIDIA、推論特化の「Groq 3 LPU」発表。Arm CPU「Vera」の詳細も",
+      "url": "https://pc.watch.impress.co.jp/docs/news/2093702.html",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "GitHub Actions 互換のローカルタスクランナーを作った",
+      "url": "https://zenn.dev/mizchi/articles/introduce-actrun",
+      "summary": "TL;DR - ローカル実行できる GitHub Actions Runner GitHub Actions のワークフローをローカルで実行するツール actrun を作りました。 MoonBit で書いてクロスコンパイルしてるので、 np",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "MCPは死んでない？　MCPの2026年ロードマップ公開　「AIツール接続」から「AI自律連携インフラ」へ",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2603/16/news011.html",
+      "summary": "MCPは死んでない？　MCPの2026年ロードマップ公開　「AIツール接続」から「AI自律連携インフラ」へ：Deep Insider Brief ― 技術の“今”にひと言コメント AIと外部ツールをつなぐ規格「MCP（Model Conte",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "I asked Claude, ChatGPT, and Gemini to build a simulation, and one winner was obvious",
+      "url": "https://www.makeuseof.com/claude-vs-chatgpt-vs-gemini-simulation-obvious-winner/",
+      "summary": "LLMs are advancing at an alarming speed, and depending on your stance, that's either apocalyptic or fantastic. AI agents",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "生成AIで古（いにしえ）のFORTRANコードに挑戦する",
+      "url": "https://qiita.com/cometscome_phys/items/76a4d9dac74e70bceebb",
+      "summary": "Fortran, FORTRAN77, codex",
+      "score": 22,
+      "comments": 9,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "[AWS] EC2とApplication Load Balancer(ALB)を作成する方法 (Part 1)",
+      "url": "https://qiita.com/nhatcaofedev/items/b0ca18c7016516f5a7a8",
+      "summary": "AWS, performance, Optimization, loadbalancer, ALB",
+      "score": 6,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "[DGX Spark] 卓上スパコン2台をケーブル1本で繋いで、Qwen3.5-397Bのモンスターモデルを動かしてみた",
+      "url": "https://qiita.com/Humanophilic_development/items/1747a9a07be57e8ecf6c",
+      "summary": "GPU, AI, Qwen, ローカルLLM, DGXSpark",
+      "score": 12,
+      "comments": 7,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Code 知らないと損する隠しコマンド・時短術 20選",
+      "url": "https://qiita.com/miruky/items/48ede59ebe33b4b774ac",
+      "summary": "AWS, AI, Claude, AIエージェント, ClaudeCode",
+      "score": 10,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "SAML認証はなぜバイパスされるのか？XML署名検証と攻撃手法を整理",
+      "url": "https://qiita.com/amu-kuroneko/items/ce03bcaacdd3f8d71461",
+      "summary": "Security, 脆弱性, SAML, SSO, PenTestSecJP",
+      "score": 5,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "AWS EC2でサーバーを作成する方法（初心者向け）",
+      "url": "https://qiita.com/tuanphan/items/56cba7619ca0e3cf0d4d",
+      "summary": "AWS, EC2, AWSEC2",
+      "score": 9,
+      "comments": 10,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "「やりたいこと」がなくてもいい！ - Canから始めるエンジニアのキャリア戦略 -",
+      "url": "https://qiita.com/prum_hitomi/items/67d68b074c45d10f0307",
+      "summary": "初心者, エンジニア, 未経験エンジニア, 新人プログラマ応援, 初学者",
+      "score": 47,
+      "comments": 7,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Code で20年前の商用ゲームをほぼ書き直さずにブラウザ移植するまで",
+      "url": "https://qiita.com/LostMyCode/items/7597edb999821efd2d8b",
+      "summary": "C++, game, WebAssembly, 個人開発, ClaudeCode",
+      "score": 39,
+      "comments": 18,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【Unity】演出スキップがつらすぎたので、ChainRacePattern という仕組みを作った",
+      "url": "https://qiita.com/morishift/items/a2c5012d496312358323",
+      "summary": "C#, Unity, 非同期処理, デザインパターン, ゲーム開発",
+      "score": 13,
+      "comments": 10,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Codeで「Issue起票→並列開発→PR作成」を全自動化したら、開発速度が異次元になった",
+      "url": "https://qiita.com/kazuki_ogawa/items/c05c3aed3bf8e46a7ddb",
+      "summary": "GitHub, AI, 開発効率化, ClaudeCode, GitWorktree",
+      "score": 22,
+      "comments": 7,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "初めてAWSでインフラを構築したらRDSの料金が高すぎてビビった話",
+      "url": "https://qiita.com/nayuta_se/items/6d84839f530b8dfe447e",
+      "summary": "AWS, 初心者, インフラ, AWS認定試験",
+      "score": 12,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【FortiGate】ライセンス期限切れで手動アップデートできない問題の回避方法",
+      "url": "https://qiita.com/xkabutomushi/items/74211140c89767888e91",
+      "summary": "Network, インフラ, fortigate, fortios, Fortinet",
+      "score": 8,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Code / CodexでKaggle金メダルを取った話",
+      "url": "https://zenn.dev/chiman/articles/b233cc808d6af3",
+      "summary": "",
+      "score": 171,
+      "comments": 1,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "もし、勤めている会社がM&Aされたらエンジニアはどう行動するか？",
+      "url": "https://zenn.dev/r_iwn/articles/0160b8d008d1e9",
+      "summary": "",
+      "score": 48,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Chromium(V8)のArray.prototype.flatを最大約5倍高速化した",
+      "url": "https://zenn.dev/riya_amemiya/articles/675d47a6c21c83",
+      "summary": "",
+      "score": 54,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Webサービスを作って公開したらなんか知らないアカウントが開発者を自称していた",
+      "url": "https://zenn.dev/satetsu888/articles/ab3b195c7603b0",
+      "summary": "",
+      "score": 35,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "AI機能搭載のRSSリーダーを作った",
+      "url": "https://zenn.dev/babarot/articles/ai-rss-reader-oksskolten",
+      "summary": "",
+      "score": 40,
+      "comments": 2,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "音楽の生成・編集が可能な高性能ローカル音楽生成AI【ACE-Step-1.5】から音楽生成AIの仕組みを完全に理解する",
+      "url": "https://zenn.dev/asap/articles/6a717d7a68ec02",
+      "summary": "",
+      "score": 20,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "wikigen — Claude Codeでコードベースの仕様ドキュメントを自動生成するCLIツールを作りました",
+      "url": "https://zenn.dev/abalol/articles/f522bfdf23a56f",
+      "summary": "",
+      "score": 26,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "GitHub Copilotのスラッシュコマンドやサブエージェントを使って、簡易レビュー実装",
+      "url": "https://zenn.dev/peishim/articles/f1030e6102946c",
+      "summary": "",
+      "score": 19,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Dockerイメージを深掘りしてみる",
+      "url": "https://zenn.dev/wakaka23/articles/20ad423456bb8f",
+      "summary": "",
+      "score": 21,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "GitHub Actions 互換のローカルタスクランナーを作った",
+      "url": "https://zenn.dev/mizchi/articles/introduce-actrun",
+      "summary": "",
+      "score": 43,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Apple Neural Engine の Private API を叩いて LLM 推論を高速化しようとした話",
+      "url": "https://zenn.dev/muramoto_sc/articles/776dff7a85f781",
+      "summary": "",
+      "score": 8,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Playwright Test Agents活用に向けた改善計画 (1)",
+      "url": "https://zenn.dev/babyjob_dev/articles/e2e-test-automation-plan",
+      "summary": "",
+      "score": 17,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Reddit User Uncovers Who Is Behind Meta’s $2B Lobbying for Invasive Age Verification Tech",
+      "url": "https://www.yahoo.com/news/articles/reddit-user-uncovers-behind-meta-154717384.html",
+      "summary": "Security",
+      "score": 14064,
+      "comments": 448,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Benjamin Netanyahu is struggling to prove he’s not an AI clone",
+      "url": "https://www.theverge.com/tech/895453/ai-deepfake-netanyahu-claims-conspiracy",
+      "summary": "Artificial Intelligence",
+      "score": 5342,
+      "comments": 460,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Cuba’s power system suffers total collapse",
+      "url": "https://www.cnn.com/2026/03/16/world/cuba-power-grid-collapse-intl-latam?utm_medium=social&amp;utm_campaign=missions&amp;utm_source=reddit",
+      "summary": "Energy",
+      "score": 7236,
+      "comments": 667,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "‘Another internet is possible’: Norway rails against ‘enshittification’",
+      "url": "https://www.theguardian.com/world/2026/mar/16/norway-rails-against-enshittifcation-deliberate-tech-deterioration",
+      "summary": "Software",
+      "score": 30622,
+      "comments": 1356,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "‘Bone-Chilling’: Gamblers ‘Vowing to Kill’ Journalist Unless He Changes Iran War Report to Help Them Win Polymarket Bet — “After you make us lose $900,000, we will invest no less than that to finish you.”",
+      "url": "https://www.commondreams.org/news/israel-journalist-polymarket-threats",
+      "summary": "Business",
+      "score": 1443,
+      "comments": 130,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Grandmother spent six months in jail after AI facial recognition misidentified her",
+      "url": "https://www.techspot.com/news/111694-grandmother-spent-six-months-jail-after-ai-facial.html",
+      "summary": "Society",
+      "score": 5732,
+      "comments": 210,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "‘This is just a garbage AI Filter’: Nvidia met with criticism for DLSS 5’s ‘photoreal’ graphics alterations",
+      "url": "https://www.videogameschronicle.com/news/this-is-just-a-garbage-ai-filter-nvidia-met-with-criticism-for-dlss-5s-photoreal-graphics-alterations/",
+      "summary": "Artificial Intelligence",
+      "score": 1251,
+      "comments": 165,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "‘Pokémon Go’ players unknowingly trained delivery robots with 30 billion images",
+      "url": "https://www.popsci.com/technology/pokemon-go-delivery-robots-crowdsourcing/?_bhlid=b5452cec2227e1f7d072b583b08fbb55784f34ab",
+      "summary": "Artificial Intelligence",
+      "score": 4226,
+      "comments": 199,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Federal judge blocks RFK Jr.'s changes to childhood vaccine schedule",
+      "url": "https://www.nbcnews.com/health/health-news/federal-judge-blocks-rfk-jr-cdc-childhood-vaccine-schedule-rcna263697",
+      "summary": "Biotechnology",
+      "score": 883,
+      "comments": 31,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Gamblers trying to win a bet on Polymarket are vowing to kill me if I don’t rewrite an Iran missile story",
+      "url": "https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/",
+      "summary": "Society",
+      "score": 1707,
+      "comments": 85,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "The 49MB Web Page",
+      "url": "https://thatshubham.com/blog/news-audit",
+      "summary": "",
+      "score": 597,
+      "comments": 123,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Meta’s Renewed Commitment to Jemalloc",
+      "url": "https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc/",
+      "summary": "",
+      "score": 8,
+      "comments": 1,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Database Sharding",
+      "url": "https://planetscale.com/blog/database-sharding",
+      "summary": "",
+      "score": 37,
+      "comments": 11,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Wired Magazine calls out COBOL. :)",
+      "url": "https://www.wired.com/story/cobol-is-the-asbestos-of-programming-languages/",
+      "summary": "",
+      "score": 32,
+      "comments": 54,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Even Faster asin() Was Staring Right At Me",
+      "url": "https://16bpp.net/blog/post/even-faster-asin-was-staring-right-at-me/",
+      "summary": "",
+      "score": 26,
+      "comments": 6,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Wero: Developer Insights Into Europe’s PayPal Alternative",
+      "url": "https://programmers.fyi/wero-developer-insights-into-europes-paypal-alternative",
+      "summary": "",
+      "score": 58,
+      "comments": 5,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Capacity Is the Roadmap",
+      "url": "https://yusufaytas.com/capacity-is-the-roadmap/",
+      "summary": "",
+      "score": 7,
+      "comments": 3,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Keeping Secrets Out of Logs",
+      "url": "https://allan.reyes.sh/posts/keeping-secrets-out-of-logs/",
+      "summary": "",
+      "score": 8,
+      "comments": 2,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Qihoo 360's AI Product Leaked the Platform's SSL Key, Issued by Its Own CA Banned for Fraud",
+      "url": "https://blog.barrack.ai/qihoo-360-ssl-key-leak-wotrus-ca-fraud/",
+      "summary": "",
+      "score": 36,
+      "comments": 7,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "BIGO Ads Deploys C2-Style Infrastructure to Survive Domain Bans. Here's the Decrypted Config.",
+      "url": "https://www.buchodi.com/bigo-ads-deploys-c2-style-infrastructure-to-survive-domain-bans-heres-the-decrypted-config/",
+      "summary": "",
+      "score": 6,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "How to Apply VXLAN-GBP Encapsulation to PCAP Files Using PacketSmith",
+      "url": "https://blog.netomize.ca/how-to-apply-vxlan-gbp-encapsulation-to-pcap-files-using-packetsmith",
+      "summary": "",
+      "score": 1,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "GlassWorm: Part 3. Wave 3 Windows payload, sideloaded Chrome extension, two additional wallets",
+      "url": "https://codeberg.org/tip-o-deincognito/glassworm-writeup/src/branch/main/PART3.md",
+      "summary": "",
+      "score": 2,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Perfex CRM: Autologin cookie fed into unserialize() gives unauthenticated RCE",
+      "url": "https://nullcathedral.com/posts/2026-03-16-perfex-crm-unauthenticated-rce-insecure-deserialization/",
+      "summary": "",
+      "score": 4,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Hypervisor Based Defense",
+      "url": "https://idov31.github.io/posts/hypervisor-based-defense",
+      "summary": "I wanted to start posting again, and I also wanted to share something that includes technical details about hypervisors,",
+      "score": 0,
+      "comments": 1,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    }
+  ]
+}
