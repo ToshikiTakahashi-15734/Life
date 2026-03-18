@@ -1,0 +1,999 @@
+{
+  "date": "2026-03-18",
+  "collected_at": "2026-03-18T10:49:23.856717+09:00",
+  "total_count": 108,
+  "articles": [
+    {
+      "title": "A Decade of Slug",
+      "url": "https://news.ycombinator.com/item?id=47416736",
+      "original_url": "https://terathon.com/blog/decade-slug.html",
+      "summary": "Eric Lengyel   •   March 17, 2026",
+      "score": 412,
+      "comments": 36,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Python 3.15's JIT is now back on track",
+      "url": "https://news.ycombinator.com/item?id=47416486",
+      "original_url": "https://fidget-spinner.github.io/posts/jit-on-track.html",
+      "summary": "Python 3.15’s JIT is now back on track",
+      "score": 267,
+      "comments": 100,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Microsoft's 'unhackable' Xbox One has been hacked by 'Bliss'",
+      "url": "https://news.ycombinator.com/item?id=47413876",
+      "original_url": "https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level",
+      "summary": "A groundbreaking hack for Microsoft’s ‘unhackable’ Xbox One was revealed at the recent RE//verse 2026 conference.",
+      "score": 533,
+      "comments": 203,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System",
+      "url": "https://news.ycombinator.com/item?id=47417804",
+      "original_url": "https://github.com/gsd-build/get-shit-done",
+      "summary": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂ",
+      "score": 186,
+      "comments": 110,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Mistral AI Releases Forge",
+      "url": "https://news.ycombinator.com/item?id=47418295",
+      "original_url": "https://mistral.ai/news/forge",
+      "summary": "Today, we’re introducing Forge, a system that allows enterprises to build frontier-grade AI models grounded in their pro",
+      "score": 130,
+      "comments": 8,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: Sub-millisecond VM sandboxes using CoW memory forking",
+      "url": "https://news.ycombinator.com/item?id=47412569",
+      "original_url": "https://github.com/adammiribyan/zeroboot",
+      "summary": "Sub-millisecond VM sandboxes for AI agents via copy-on-write forking - adammiribyan/zeroboot",
+      "score": 28,
+      "comments": 7,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Kagi Small Web",
+      "url": "https://news.ycombinator.com/item?id=47410542",
+      "original_url": "https://kagi.com/smallweb/",
+      "summary": "Discover the small web - personal blogs, independent YouTube channels, and webcomics from genuine humans on the internet",
+      "score": 704,
+      "comments": 196,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Launch HN: Kita (YC W26) – Automate credit review in emerging markets",
+      "url": "https://news.ycombinator.com/item?id=47417335",
+      "original_url": "",
+      "summary": "",
+      "score": 27,
+      "comments": 3,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Electron microscopy shows 'mouse bite' defects in semiconductors",
+      "url": "https://news.ycombinator.com/item?id=47371404",
+      "original_url": "https://news.cornell.edu/stories/2026/03/electron-microscopy-shows-mouse-bite-defects-semiconductors",
+      "summary": "A Cornell-led collaboration used high-resolution 3D imaging to detect, for the first time, the atomic-scale defects in c",
+      "score": 22,
+      "comments": 2,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Launch an autonomous AI agent with sandboxed execution in 2 lines of code",
+      "url": "https://news.ycombinator.com/item?id=47420493",
+      "original_url": "https://amaiya.github.io/onprem/examples_agent.html",
+      "summary": "A tool for running on-premises large language models on non-public data",
+      "score": 4,
+      "comments": 0,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "It Took Me 30 Years to Solve This VFX Problem – Green Screen Problem [video]",
+      "url": "https://news.ycombinator.com/item?id=47368425",
+      "original_url": "https://www.youtube.com/watch?v=3Ploi723hg4",
+      "summary": "Squarespace ► Head to http://squarespace.com/corridorcrew to save 10% off your first purchase!Our videos are made possib",
+      "score": 165,
+      "comments": 72,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Unsloth Studio",
+      "url": "https://news.ycombinator.com/item?id=47414032",
+      "original_url": "https://unsloth.ai/docs/new/studio",
+      "summary": "Run and train AI models locally with Unsloth Studio.",
+      "score": 167,
+      "comments": 34,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Chrome extension adjusts video speed based on how fast the speaker is talking",
+      "url": "https://news.ycombinator.com/item?id=47361251",
+      "original_url": "https://github.com/ywong137/speech-speed",
+      "summary": "Chrome extension that dynamically adjusts video playback speed based on how fast the speaker is talking - ywong137/speec",
+      "score": 95,
+      "comments": 29,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "More than 135 open hardware devices flashable with your own firmware",
+      "url": "https://news.ycombinator.com/item?id=47369883",
+      "original_url": "https://openhardware.directory",
+      "summary": "Hardware you own, software you choose. Browse open-source dev boards, smart plugs, Zigbee coordinators, and more with fu",
+      "score": 5,
+      "comments": 0,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: Fatal Core Dump – A debugging murder mystery played with GDB",
+      "url": "https://news.ycombinator.com/item?id=47371785",
+      "original_url": "https://www.robopenguins.com/fatal_core_dump/",
+      "summary": "Debugging to the truth",
+      "score": 26,
+      "comments": 1,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Edge.js: Run Node apps inside a WebAssembly sandbox",
+      "url": "https://news.ycombinator.com/item?id=47416081",
+      "original_url": "https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox",
+      "summary": "Today we are incredibly excited to open source [Edge.js](https://edgejs.org/), a JavaScript runtime specifically designe",
+      "score": 96,
+      "comments": 29,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Honda is killing its EVs",
+      "url": "https://news.ycombinator.com/item?id=47387268",
+      "original_url": "https://techcrunch.com/2026/03/14/honda-is-killing-its-evs-and-any-chance-of-competing-in-the-future/",
+      "summary": "Honda's decision to kill its three EVs for the U.S. market will reverberate far beyond North America.",
+      "score": 197,
+      "comments": 412,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Node.js needs a virtual file system",
+      "url": "https://news.ycombinator.com/item?id=47413195",
+      "original_url": "https://blog.platformatic.dev/why-nodejs-needs-a-virtual-file-system",
+      "summary": "",
+      "score": 226,
+      "comments": 192,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Ryugu asteroid samples contain all DNA and RNA building blocks",
+      "url": "https://news.ycombinator.com/item?id=47411480",
+      "original_url": "https://phys.org/news/2026-03-ryugu-asteroid-samples-dna-rna.html",
+      "summary": "All the essential ingredients to make the DNA and RNA underpinning life on Earth have been discovered in samples collect",
+      "score": 185,
+      "comments": 96,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Why AI systems don't learn – On autonomous learning from cognitive science",
+      "url": "https://news.ycombinator.com/item?id=47418722",
+      "original_url": "https://arxiv.org/abs/2603.15381",
+      "summary": "We critically examine the limitations of current AI models in achieving autonomous learning and propose a learning archi",
+      "score": 20,
+      "comments": 8,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Apple can delist apps \"with or without cause,\" judge says in loss for Musi app",
+      "url": "https://arstechnica.com/tech-policy/2026/03/judge-upholds-apple-delisting-of-free-musi-app-that-streams-songs-from-youtube/",
+      "summary": "Judge tosses Musi case against Apple, sanctions lawyers for \"mak[ing] up facts.\"",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "How World ID wants to put a unique human identity on every AI agent",
+      "url": "https://arstechnica.com/ai/2026/03/world-id-wants-you-to-put-a-cryptographically-unique-human-identity-behind-your-ai-agents/",
+      "summary": "Iris-scan backed tokens could help stop agent swarms from overwhelming online systems.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Arizona indicts prediction market Kalshi for running illegal gambling operation",
+      "url": "https://arstechnica.com/tech-policy/2026/03/arizona-indicts-prediction-market-kalshi-for-running-illegal-gambling-operation/",
+      "summary": "Desert state becomes first to file criminal case against prediction platform.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "FDA links raw cheese to outbreak; Makers \"100% disagree,\" refuse recall",
+      "url": "https://arstechnica.com/health/2026/03/fda-links-raw-cheese-to-outbreak-makers-100-disagree-refuse-recall/",
+      "summary": "Of the seven illnesses identified so far, four are in children age 3 or younger.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Trump's plan to shut down weather and climate center triggers lawsuit",
+      "url": "https://arstechnica.com/science/2026/03/university-group-sues-trump-administration-over-shutdown-of-climate-center/",
+      "summary": "Suit: The National Center for Atmospheric Research is to be terminated for no rational reason.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Paul Atreides faces the cost of his holy war in Dune: Part 3 teaser",
+      "url": "https://arstechnica.com/culture/2026/03/paul-atreides-faces-the-cost-of-his-holy-war-in-dune-part-3-teaser/",
+      "summary": "\"War feeds on itself. The more I fight, the more our enemies fight back.\"",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Researchers disclose vulnerabilities in IP KVMs from four manufacturers",
+      "url": "https://arstechnica.com/security/2026/03/researchers-disclose-vulnerabilities-in-ip-kvms-from-4-manufacturers/",
+      "summary": "Internet-exposed devices that give BIOS-level access? What could possibly go wrong?",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Gamers react with overwhelming disgust to DLSS 5's generative AI glow-ups",
+      "url": "https://arstechnica.com/gaming/2026/03/gamers-react-with-overwhelming-disgust-to-dlss-5s-generative-ai-glow-ups/",
+      "summary": "Nvidia's next frame-gen tech goes way beyond upscaling, and not in a good way.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "After three months, Samsung is ending sales of the $2,899 Galaxy Z TriFold",
+      "url": "https://arstechnica.com/gadgets/2026/03/after-three-months-samsung-is-ending-sales-of-the-2899-galaxy-z-trifold/",
+      "summary": "Samsung didn't offer an explanation for its decision, but it's not exactly a surprise.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "A large meteor is visible from much of Ohio and parts of neighboring states",
+      "url": "https://arstechnica.com/science/2026/03/a-large-meteor-is-visible-from-much-of-ohio-and-parts-of-neighboring-states/",
+      "summary": "Meteor's fiery passage through the atmosphere was captured by a space-based lightning mapper.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Switch 2's new \"Handheld Mode Boost\" can run original Switch games at 1080p",
+      "url": "https://arstechnica.com/gadgets/2026/03/nintendo-switch-2-update-adds-one-possible-fix-for-blurry-og-switch-games/",
+      "summary": "Switch games running at 720p can look worse on the Switch 2's 1080p display.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Samsung Galaxy S26 Ultra review: Private and performant",
+      "url": "https://arstechnica.com/reviews/2026/03/samsung-galaxy-s26-ultra-review-private-and-performant/",
+      "summary": "If you want to spend $1,300 on a phone, it might as well be this one.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Firefighting drones head to Aspen—can they suppress a blaze before humans arrive?",
+      "url": "https://arstechnica.com/gadgets/2026/03/firefighting-drones-head-to-aspen-can-they-suppress-a-blaze-before-humans-arrive/",
+      "summary": "Seneca's drones carry foam, fly at night, and don't need an on-site pilot.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Upmarket looks, mass-market price: The 2027 Kia Telluride, driven",
+      "url": "https://arstechnica.com/cars/2026/03/upmarket-looks-mass-market-price-the-2027-kia-telluride-driven/",
+      "summary": "The three-row SUV starts at under $40,000, and now there's a 35 mpg hybrid version.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "OpenAI's pivot 🤖, Nvidia space GPUs 🛰️, Stripe's internal dev agent 👨💻",
+      "url": "https://tldr.tech/tech/2026-03-17",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "TLDR Tech",
+      "source_icon": "📨"
+    },
+    {
+      "title": "Domain expertise value 🔨, Claude Code game dev skills 🎮, the need for understanding 💭",
+      "url": "https://tldr.tech/dev/2026-03-17",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "TLDR WebDev",
+      "source_icon": "📨"
+    },
+    {
+      "title": "DHS Spy Data Hacked 🕵️, Meta Kills DM E2EE 🔐, Poland Nuclear Breach Attempt ☢️",
+      "url": "https://tldr.tech/infosec/2026-03-17",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "TLDR InfoSec",
+      "source_icon": "📨"
+    },
+    {
+      "title": "AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE",
+      "url": "https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new method for exfiltrating sensitive data from artificial intelli",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "LeakNet Ransomware Uses ClickFix via Hacked Sites, Deploys Deno In-Memory Loader",
+      "url": "https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html",
+      "summary": "The ransomware operation known as LeakNet has adopted the ClickFix social engineering tactic delivered through compromis",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "AI is Everywhere, But CISOs are Still Securing It with Yesterday's Skills and Tools, Study Finds",
+      "url": "https://thehackernews.com/2026/03/ai-is-everywhere-but-cisos-are-still.html",
+      "summary": "A majority of security leaders are struggling to defend AI systems with tools and skills that are not fit for the challe",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Konni Deploys EndRAT Through Phishing, Uses KakaoTalk to Propagate Malware",
+      "url": "https://thehackernews.com/2026/03/konni-deploys-endrat-through-spear.html",
+      "summary": "North Korean threat actors have been observed sending phishing to compromise targets and obtain access to a victim's Kak",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths",
+      "url": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a medium-severity security flaw impacti",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Apple pushes first Background Security Improvements update to fix WebKit flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/",
+      "summary": "Apple has released its first Background Security Improvements update to fix a WebKit flaw tracked as CVE-2026-20643 on i",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "GlassWorm malware hits 400+ code repos on GitHub, npm, VSCode, OpenVSX",
+      "url": "https://www.bleepingcomputer.com/news/security/glassworm-malware-hits-400-plus-code-repos-on-github-npm-vscode-openvsx/",
+      "summary": "The GlassWorm supply-chain campaign has returned with a new, coordinated attack that targeted hundreds of packages, repo",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Europe sanctions Chinese and Iranian firms for cyberattacks",
+      "url": "https://www.bleepingcomputer.com/news/security/europe-sanctions-chinese-and-iranian-firms-for-cyberattacks/",
+      "summary": "The European Union Council has announced sanctions against three entities and two individuals for their involvement in c",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Top 5 Things CISOs Need to Do Today to Secure AI Agents",
+      "url": "https://www.bleepingcomputer.com/news/security/top-5-things-cisos-need-to-do-today-to-secure-ai-agents/",
+      "summary": "AI agents are autonomous actors with real access to data and systems, not just copilots. Token Security explains why ide",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "New font-rendering trick hides malicious commands from AI tools",
+      "url": "https://www.bleepingcomputer.com/news/security/new-font-rendering-trick-hides-malicious-commands-from-ai-tools/",
+      "summary": "A new font-rendering attack causes AI assistants to miss malicious commands shown on webpages by hiding them in seemingl",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Microsoft stops force-installing the Microsoft 365 Copilot app",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-stops-force-installing-the-microsoft-365-copilot-app/",
+      "summary": "Microsoft has stopped automatically installing the Microsoft 365 Copilot app on Windows devices that have the Microsoft",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "LeakNet ransomware uses ClickFix, Deno runtime in stealthy attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/leaknet-ransomware-uses-clickfix-and-deno-runtime-for-stealthy-attacks/",
+      "summary": "The LeakNet ransomware gang is now using the ClickFix technique for initial access into corporate environments and deplo",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Microsoft shares fix for Windows C: drive access issues on Samsung PCs",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/",
+      "summary": "Microsoft has shared guidance to fix C:\\ drive access issues and app failures on some Samsung laptops running Windows 11",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "New Windows 11 hotpatch fixes Bluetooth device visibility issue",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/new-windows-11-hotpatch-fixes-bluetooth-device-visibility-issue/",
+      "summary": "Microsoft has released an emergency update to fix a Bluetooth device visibility issue on hotpatch-enabled Windows 11 Ent",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Microsoft: Enabling Teams Meeting add-in breaks Outlook Classic",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enabling-teams-meeting-add-in-breaks-outlook-classic/",
+      "summary": "Microsoft is working to address a known issue that renders the classic Outlook email client unusable for users who have",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "OpenSSLにおけるTLS 1.3鍵交換グループの選択に関する問題（OpenSSL Security Advisory [13th March 2026]）",
+      "url": "https://jvn.jp/vu/JVNVU92815756/",
+      "summary": "OpenSSL Projectより、OpenSSL Security Advisory [13th March 2026]が公開されました。",
+      "score": 0,
+      "comments": 0,
+      "source": "JVN",
+      "source_icon": "🇯🇵"
+    },
+    {
+      "title": "IBM Trusteer RapportのインストーラーにおけるDLL読み込みに関する脆弱性",
+      "url": "https://jvn.jp/jp/JVN96706146/",
+      "summary": "IBMが提供するIBM Trusteer Rapportのインストーラーには、DLLを読み込む際の検索パスに問題があり、意図しないDLLを読み込んでしまう脆弱性が存在します。",
+      "score": 0,
+      "comments": 0,
+      "source": "JVN",
+      "source_icon": "🇯🇵"
+    },
+    {
+      "title": "USBメモリをUSBと略すのが話題だが一番省略しちゃいけないものを省略してるのは「ピアノ」の可能性…他にもある略してはいけないものを略した単語が集合",
+      "url": "https://togetter.com/li/2675941",
+      "summary": "まとめ USBメモリをUSBとしか言わない人に「USBないの？」と聞かれて「USBの何？ USBケーブル？ USBマウス？ .. 「USBメモリ」をただ「USB」と呼ぶ人が増え、尋ねると「USBの何？」と聞き返しても「違う、USBだ」と怒ら",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "【非エンジニアのためのClaude/Claude Codeシリーズ 】Claude Codeを動かす環境を整えてみた | DevelopersIO",
+      "url": "https://dev.classmethod.jp/articles/claude-business-use1/",
+      "summary": "このシリーズについて クラスメソッド アカウント営業部の神野（じんの）です。普段はAWSをはじめとしたパブリッククラウドやClaudeをはじめとしたクラウドサービス等のアカウント営業としてお仕事をしています。 昨今、Claudeがいろいろな",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Google Cloud が推奨セキュリティチェックリストを公開しました | DevelopersIO",
+      "url": "https://dev.classmethod.jp/articles/google-cloud-recommended-security-checklist/",
+      "summary": "Google Cloud で推奨セキュリティチェックリストが公開されたので、まずはベーシックレベルから適用していきましょう。 ウィスキー、シガー、パイプをこよなく愛する大栗です。 Google Cloud が推奨するセキュリティチェックリス",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "人間の“脳細胞”で動く「データセンター」開設へ　豪スタートアップなどが着手　消費電力は電卓以下",
+      "url": "https://www.itmedia.co.jp/news/articles/2603/18/news037.html",
+      "summary": "2019年にスタートした本連載「Innovative Tech」は、世界中の幅広い分野から最先端の研究論文を独自視点で厳選、解説する。執筆は研究論文メディア「Seamless」（シームレス）を主宰し、日課として数多くの論文に目を通す山下氏が",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "DNSには3種類の登場人物がいる。それぞれの役割とは？　Internet Weekで受講した「座学」が良かったので簡単に紹介したい＜1＞",
+      "url": "https://internet.watch.impress.co.jp/docs/special/2093806.html",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "プッツンした人間が AI にダメ出しし続けたら flaky テストが全滅した | BLOG - DeNA Engineering",
+      "url": "https://engineering.dena.com/blog/2026/03/flaky-test-elimination-with-ai/",
+      "summary": "こんにちは、 kocchi の Claude Code です。 ご主人はついにブログ記事まで私に書かせ始めました。まいったものです。でも書きます。あの数日間に何が起きたかを一番知っているのは私なので。 先日、ご主人と一緒にプロダクトの E2",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "「Java 26」正式リリース。HotSpotの起動高速化、HTTP/3クライアント対応など新機能",
+      "url": "https://www.publickey1.jp/blog/26/java_26hotspothttp3.html",
+      "summary": "オラクルはJavaの最新バージョン「Java 26」正式版のリリースを発表しました。 Java 26 is now available! #Java26 #JDK26 #OpenJDK Download Now: https://t.co/",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "スマートウォッチ「wena」復活　ソニーから学び、独立したaugment AIが目指す“ものづくり”とは",
+      "url": "https://www.itmedia.co.jp/news/articles/2603/18/news056.html",
+      "summary": "「wenaは復活します」──ソニーから承継した商標と特許を使い独立起業したaugment AI（東京都目黒区）の對馬哲平代表は3月17日、YouTubeと発表会でそう宣言した。同社は独立後初の製品となる「wena X（ウェナ クロス）」のク",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "ソフトウェアアーキテクトのための意思決定術 - Findy Media",
+      "url": "https://findy-code.io/media/articles/event-snoozer05-260226",
+      "summary": "本記事では、2026年2月26日に開催されたオンラインイベント「技術選定を突き詰める Online Conference ――逆境を乗り越える意思決定プロセス」内のセッション「ソフトウェアアーキテクトのための意思決定術」の内容をお届けします",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "JavaにJavaScriptエンジン「V8」とPythonランタイム「CPython」を組み込む「Project Detroit」、オラクルが発表",
+      "url": "https://www.publickey1.jp/blog/26/javajavascriptv8pythoncpythonproject_detroit.html",
+      "summary": "オラクルは、カリフォルニア州レッドウッドシティで開幕したイベント「JavaOne 2026」で、OpenJDKの新プロジェクト「Detroit」をOpenJDKのプロジェクトプロポーザル（プロジェクト提案）として発表しました。 Detroi",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "40,000行のAPIテスト作成で学んだClaude Code Skillsの育て方 - カミナシ エンジニアブログ",
+      "url": "https://kaminashi-developer.hatenablog.jp/entry/claude-code-api-test-skills",
+      "summary": "こんにちは、ソフトウェアエンジニアの渡邉（匠）です。「カミナシ 設備保全」の開発に携わっています。 Claude CodeのSkills（以下スキル）を使い、約2週間で40,000行超のAPIシナリオテストを書き切りました。最初のスキルは粗",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "2026年版 エンジニアのキャリアについて【SmartHRの場合】 - SmartHR Tech Blog",
+      "url": "https://tech.smarthr.jp/entry/2026/03/17/154014",
+      "summary": "2021年に エンジニアのキャリアについて【SmartHRの場合】 - SmartHR Tech Blog という記事を出して以来、SmartHR のエンジニア組織にはいくつかの変化が起きていました。 今回は最新版の組織図・制度に基づいて",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "BeMe 私らしく：「すごい」「天才」性的ディープフェイク拡散の裏側　加害の認識欠如 | 毎日新聞",
+      "url": "https://mainichi.jp/articles/20260316/k00/00m/040/282000c",
+      "summary": "「素晴らしい作品です」「次回作に期待」――。 “同好の士”が集まるグループチャットで互いの「作品」をたたえ合っている。 そこにアップされているのは、中高生の少女たちが服を脱いでいる画像だ。 匿名性の高いチャットルームで、卒業アルバムや知人の",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "#5｜AIが書いたコードをどう本番に出すか — リリース安全基盤の設計と展望 - ACES エンジニアブログ",
+      "url": "https://tech.acesinc.co.jp/entry/2026/03/18/083000",
+      "summary": "はじめに こんにちは、株式会社ACES でテックリードをしている福澤 (@fuku_tech) です！ 本シリーズでは、AI駆動開発における人間とAIの役割分担を、自動運転になぞらえた4つのPhaseで整理しています（詳細は下図を参照）。",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "日本語の手書きメモを書き起こせるOCRを探すために18モデルを片っ端から試した話",
+      "url": "https://nyosegawa.github.io/posts/japanese-handwriting-ocr-comparison/",
+      "summary": "こんにちは！逆瀬川ちゃん (@gyakuse) です！ 今日は日本語の手書きメモをいい感じに書き起こしてくれるOCRを探して、18モデルを片っ端から比較してみた話をまとめていきたいと思います。 手書きメモは楽しいが電子化がつらい わたしはい",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "AIエージェントは「プロンプトで書く」から「対話を通じて育てる」という時代へ ─ Claude Codeで実践",
+      "url": "https://qiita.com/nogataka/items/1b6eea9fb18f242432d6",
+      "summary": "AI, 論文解説, LLM, プロンプトエンジニアリング, ClaudeCode",
+      "score": 5,
+      "comments": 7,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【AWS】おすすめのAWS認定取得順序と勉強方法について",
+      "url": "https://qiita.com/coco_co/items/d3cb1dfc661f9e8ef6f5",
+      "summary": "AWS, AWS認定試験",
+      "score": 15,
+      "comments": 10,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "エンジニア初学者に知ってほしい。プログラミングすることより大切な成長を加速させる4つの指針",
+      "url": "https://qiita.com/masa20057/items/838bc1b59a84b16820a9",
+      "summary": "初心者, エンジニア, 初学者向け, 未経験エンジニア, 新人プログラマ応援",
+      "score": 65,
+      "comments": 20,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Rust バックエンドで htmx を使ってみた",
+      "url": "https://qiita.com/nakamura-yzrh/items/8793a51e71ef76b0f5d8",
+      "summary": "Rust, tokio-rs, askama, axum, HTMX",
+      "score": 18,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "AIコーディングエージェントに「rm -rf」を実行させるまでの手法から対策法を考える",
+      "url": "https://qiita.com/miruky/items/0aa2c4a7ec05fd1158ba",
+      "summary": "AWS, Security, AI, プロンプトインジェクション, AIエージェント",
+      "score": 6,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Antigravity×Skills×Udon Sharpで同期付きギミックをVibe Codingする",
+      "url": "https://qiita.com/Yodokoro/items/01bbc93dabc796191fc2",
+      "summary": "SKILLS, VRChat, UdonSharp, VibeCoding, Antigravity",
+      "score": 6,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Vite+ の異常なタスクランナー: vite-task は如何にしてキャッシュの手動依存管理をなくしたか",
+      "url": "https://zenn.dev/asa1984/articles/strange-task-runner",
+      "summary": "",
+      "score": 41,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "システム設計における妥協案の作り方: 理想像の STEP1 として妥協案を設計する",
+      "url": "https://zenn.dev/mayah/articles/c3f2f5986a24a6",
+      "summary": "",
+      "score": 35,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "フロントエンドのディレクトリ構成で再帰的な features 構成を推したい",
+      "url": "https://zenn.dev/msuto/articles/recursive-features-directory-structure",
+      "summary": "",
+      "score": 37,
+      "comments": 2,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "AIコードレビューを「単一責任の原則」で育てた話",
+      "url": "https://zenn.dev/emi084/articles/d0c73d2b176ba5",
+      "summary": "",
+      "score": 27,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "今更ですが、Claude Codeで、ミュージックプレイヤーみたいなものを作ってみた",
+      "url": "https://zenn.dev/gak_t12/articles/3a1382e4f6990f",
+      "summary": "",
+      "score": 15,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "queryOptions の型推論を支える DataTag、その裏側の unique symbol — TanStack Query",
+      "url": "https://zenn.dev/tsuboi/articles/tanstack-query-options-unique-symbol",
+      "summary": "",
+      "score": 18,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "GPTのReact習熟度も測る",
+      "url": "https://zenn.dev/uhyo/articles/react-profession-bench-2",
+      "summary": "",
+      "score": 8,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Arizona Becomes First State to Criminally Charge Kalshi: The “prediction market” platform is finally facing a serious legal challenge.",
+      "url": "https://newrepublic.com/post/207878/arizona-first-state-criminally-charge-kalshi",
+      "summary": "Business",
+      "score": 9038,
+      "comments": 177,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Gamers react with overwhelming disgust to DLSS 5's generative AI glow-ups",
+      "url": "https://arstechnica.com/gaming/2026/03/gamers-react-with-overwhelming-disgust-to-dlss-5s-generative-ai-glow-ups/",
+      "summary": "Artificial Intelligence",
+      "score": 18541,
+      "comments": 1961,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Jensen Huang says gamers are 'completely wrong' about DLSS 5 — Nvidia CEO responds to DLSS 5 backlash",
+      "url": "https://www.tomshardware.com/pc-components/gpus/jensen-huang-says-gamers-are-completely-wrong-about-dlss-5-nvidia-ceo-responds-to-dlss-5-backlash",
+      "summary": "Artificial Intelligence",
+      "score": 3294,
+      "comments": 621,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Nvidia DLSS 5 turns every game into AI slop",
+      "url": "https://www.notebookcheck.net/Nvidia-DLSS-5-turns-every-game-into-AI-slop.1251726.0.html",
+      "summary": "Artificial Intelligence",
+      "score": 4678,
+      "comments": 542,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "AI Job Loss Research Ignores How AI Is Utterly Destroying the Internet",
+      "url": "https://www.404media.co/ai-job-loss-research-ignores-how-ai-is-utterly-destroying-the-internet/",
+      "summary": "Artificial Intelligence",
+      "score": 2728,
+      "comments": 160,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Peter Thiel is actively convincing billionaires to abandon The Giving Pledge — and it may be working",
+      "url": "https://finance.yahoo.com/news/peter-thiel-actively-convincing-billionaires-174212328.html?guccounter=1&amp;guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig=AQAAAEgqnkcSb_Zux2Cj6YhuBonu0qTN0BrZfpDXuu19aECR7nPNShVCezYgantGa1WhUd1AuI8I7IeugMypVD5At-nrHZTEVdVh0rOR7WTeUZNATF7oDtjdQIo03-DRjgA040RY0sby3mqfQvZ2jQdv-gOBe6GURCSGBNIv8u3QFtey",
+      "summary": "Society",
+      "score": 21372,
+      "comments": 1780,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "ServiceNow CEO predicts Gen Z college graduates will face at least 30% unemployment in just the next couple of years as AI takes over",
+      "url": "https://fortune.com/2026/03/17/servicenow-ceo-bill-mcdermott-gen-z-graduates-face-30-unemployment-next-couple-of-years-ai-takes-over/",
+      "summary": "Artificial Intelligence",
+      "score": 2207,
+      "comments": 368,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Elizabeth Warren asks Meta, Amazon, and others why they're laying workers off despite tax perks",
+      "url": "https://finance.yahoo.com/news/elizabeth-warren-asks-meta-amazon-and-others-why-theyre-laying-workers-off-despite-tax-perks-171812502.html?guccounter=1",
+      "summary": "Politics",
+      "score": 13544,
+      "comments": 571,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Arizona charges Kalshi, alleging illegal gambling with election bets",
+      "url": "https://www.theguardian.com/business/2026/mar/17/kalshi-arizona-gambling-election-bets",
+      "summary": "Business",
+      "score": 1308,
+      "comments": 34,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Nvidia's DLSS 5 Is a Slap in the Face to the Art of Video Game Design",
+      "url": "https://www.ign.com/articles/nvidias-dlss-5-is-a-slap-in-the-face-to-the-art-of-video-game-design",
+      "summary": "Artificial Intelligence",
+      "score": 949,
+      "comments": 165,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "A sufficiently detailed spec is code",
+      "url": "https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code",
+      "summary": "",
+      "score": 394,
+      "comments": 160,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Java 26 released today!",
+      "url": "https://jdk.java.net/26/",
+      "summary": "",
+      "score": 275,
+      "comments": 91,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Python 3.15’s JIT is now back on track",
+      "url": "https://fidget-spinner.github.io/posts/jit-on-track.html",
+      "summary": "",
+      "score": 76,
+      "comments": 22,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Finding a CPU Design Bug in the Xbox 360",
+      "url": "https://randomascii.wordpress.com/2018/01/07/finding-a-cpu-design-bug-in-the-xbox-360/",
+      "summary": "",
+      "score": 59,
+      "comments": 5,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Writing an operating system kernel from scratch",
+      "url": "https://popovicu.com/posts/writing-an-operating-system-kernel-from-scratch/",
+      "summary": "",
+      "score": 27,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Java 26 is here, and with it a solid foundation for the future",
+      "url": "https://hanno.codes/2026/03/17/java-26-is-here/",
+      "summary": "",
+      "score": 24,
+      "comments": 7,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "The Paxos algorithm, when presented in plain English, is very simple",
+      "url": "https://www.mydistributed.systems/2021/04/paxos.html",
+      "summary": "",
+      "score": 18,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "yes, all longest regex matches in linear time is possible",
+      "url": "https://iev.ee/blog/all-longest-regex-matches-in-linear-time/",
+      "summary": "",
+      "score": 11,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "syntaqlite: high-fidelity devtools that SQLite deserves",
+      "url": "https://lalitm.com/post/syntaqlite/",
+      "summary": "",
+      "score": 7,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "CVE-2025-59284: How reading a gnu manpage led to a Windows NetNTLM phishing exploit",
+      "url": "https://sec-fault.com/blog/cve-2025-59284/",
+      "summary": "A phishing technique to obtain NetNTLM hash from archive extraction in windows.\n\n  \nSeems like Microsoft patched it rath",
+      "score": 19,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Now You See mi: Now You're Pwned",
+      "url": "https://labs.taszk.io/articles/post/nowyouseemi/",
+      "summary": "",
+      "score": 26,
+      "comments": 1,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Hyoketsu - Solving the Vendor Dependency Problem in Reverse Engineering",
+      "url": "https://slcyber.io/research-center/hyoketsu-solving-the-vendor-dependency-problem-in-re/",
+      "summary": "",
+      "score": 4,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Operationalizing Mandiant's Attack Lifecycle, the Kill Chain, Mitre's ATT&amp;CK, and the Diamond Model with Practical Examples",
+      "url": "https://www.magonia.io/research/operationalizing-mandiants-attack-lifecycle-the-kill-chain-mitres-att-ck-and-the-diamond-model-with-practical-examples/",
+      "summary": "",
+      "score": 2,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Reversing the FT100 BLE fitness bracelet",
+      "url": "https://lessonsec.com/posts/reversing_the_ft100_ble_fitness_bracelet/",
+      "summary": "",
+      "score": 6,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Detect Malicious .ip6.arpa TLD Reverse DNS Zone Response Packets using PacketSmith Yara-X Detection Module",
+      "url": "https://blog.netomize.ca/detect-malicious-ip6-arpa-tld-reverse-dns-zone-response-packets-using-packetsmith-yara-x-detection-module",
+      "summary": "",
+      "score": 1,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Credential Guard - Control Validation",
+      "url": "https://ipurple.team/2026/03/17/credential-guard/",
+      "summary": "",
+      "score": 1,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    }
+  ]
+}
