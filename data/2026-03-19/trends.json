@@ -1,0 +1,1179 @@
+{
+  "date": "2026-03-19",
+  "collected_at": "2026-03-19T12:17:45.523310+09:00",
+  "total_count": 128,
+  "articles": [
+    {
+      "title": "Austin’s surge of new housing construction drove down rents",
+      "url": "https://news.ycombinator.com/item?id=47433058",
+      "original_url": "https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents",
+      "summary": "After decades of explosive growth, Austin, Texas, in the 2010s was a victim of its own success. Lured by high-tech jobs",
+      "score": 334,
+      "comments": 319,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Autoresearch for SAT Solvers",
+      "url": "https://news.ycombinator.com/item?id=47433265",
+      "original_url": "https://github.com/iliazintchenko/agent-sat",
+      "summary": "Agent learns to become the worlds top expert on SAT - iliazintchenko/agent-sat",
+      "score": 57,
+      "comments": 5,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Cook: A simple CLI for orchestrating Claude Code",
+      "url": "https://news.ycombinator.com/item?id=47434024",
+      "original_url": "https://rjcorwin.github.io/cook/",
+      "summary": "Workflow loops for Claude Code, Codex, and OpenCode.",
+      "score": 19,
+      "comments": 3,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Warranty Void If Regenerated",
+      "url": "https://news.ycombinator.com/item?id=47431237",
+      "original_url": "https://nearzero.software/p/warranty-void-if-regenerated",
+      "summary": "Tom Hartmann had not planned to become a Software Mechanic.",
+      "score": 219,
+      "comments": 123,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Nvidia greenboost: transparently extend GPU VRAM using system RAM/NVMe",
+      "url": "https://news.ycombinator.com/item?id=47388658",
+      "original_url": "https://gitlab.com/IsolatedOctopi/nvidia_greenboost",
+      "summary": "GitLab.com",
+      "score": 180,
+      "comments": 36,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "OpenRocket",
+      "url": "https://news.ycombinator.com/item?id=47386703",
+      "original_url": "https://openrocket.info/",
+      "summary": "OpenRocket is a free, fully featured model rocket simulator that allows you to design and simulate your rockets before a",
+      "score": 432,
+      "comments": 85,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Rob Pike’s Rules of Programming (1989)",
+      "url": "https://news.ycombinator.com/item?id=47423647",
+      "original_url": "https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html",
+      "summary": "Pike's rules 1 and 2 restate Tony Hoare's famous maxim \n\"Premature optimization is the root of all evil.\"",
+      "score": 865,
+      "comments": 417,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Wander – A tiny, decentralised tool to explore the small web",
+      "url": "https://news.ycombinator.com/item?id=47422759",
+      "original_url": "https://susam.net/wander/",
+      "summary": "By wandering to another console, you will leave the current\n        console on this website and reach a Wander console o",
+      "score": 221,
+      "comments": 62,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "The math that explains why bell curves are everywhere",
+      "url": "https://news.ycombinator.com/item?id=47401489",
+      "original_url": "https://www.quantamagazine.org/the-math-that-explains-why-bell-curves-are-everywhere-20260316/",
+      "summary": "The central limit theorem started as a bar trick for 18th-century gamblers. Now scientists rely on it every day.",
+      "score": 70,
+      "comments": 30,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Nvidia NemoClaw",
+      "url": "https://news.ycombinator.com/item?id=47427027",
+      "original_url": "https://github.com/NVIDIA/NemoClaw",
+      "summary": "NVIDIA plugin for secure installation of OpenClaw. Contribute to NVIDIA/NemoClaw development by creating an account on G",
+      "score": 254,
+      "comments": 197,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training",
+      "url": "https://news.ycombinator.com/item?id=47431671",
+      "original_url": "https://github.com/alainnothere/llm-circuit-finder",
+      "summary": "I replicated Ng&#39;s RYS method and found that duplicating 3 specific layers in Qwen2.5-32B boosts reasoning by 17% and",
+      "score": 86,
+      "comments": 26,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: Will my flight have Starlink?",
+      "url": "https://news.ycombinator.com/item?id=47428650",
+      "original_url": "",
+      "summary": "",
+      "score": 186,
+      "comments": 248,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Book: The Emerging Science of Machine Learning Benchmarks",
+      "url": "https://news.ycombinator.com/item?id=47380714",
+      "original_url": "https://mlbenchmarks.org/00-preface.html",
+      "summary": "Machine learning turns on one simple trick: Split your data\n      into training and test sets. Anything goes on the trai",
+      "score": 97,
+      "comments": 4,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "An x86-64 back end for raven-uxn",
+      "url": "https://news.ycombinator.com/item?id=47387431",
+      "original_url": "https://www.mattkeeter.com/blog/2026-03-15-uxn/",
+      "summary": "Porting 2000 lines of ARM64 assembly to x86-64, with the help of a robot buddy",
+      "score": 15,
+      "comments": 1,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "What’s on HTTP?",
+      "url": "https://news.ycombinator.com/item?id=47431930",
+      "original_url": "https://whatsonhttp.com/",
+      "summary": "",
+      "score": 38,
+      "comments": 16,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "CVE-2026-3888: Important Snap Flaw Enables Local Privilege Escalation to Root",
+      "url": "https://news.ycombinator.com/item?id=47427208",
+      "original_url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root",
+      "summary": "The Qualys Threat Research Unit has identified a Local Privilege Escalation (LPE) vulnerability affecting default instal",
+      "score": 106,
+      "comments": 63,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: I built 48 lightweight SVG backgrounds you can copy/paste",
+      "url": "https://news.ycombinator.com/item?id=47427299",
+      "original_url": "https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/",
+      "summary": "👉 Our backgrounds are customizable in many ways. Each background is unique and collectively these designs explore the va",
+      "score": 183,
+      "comments": 31,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "RX – a new random-access JSON alternative",
+      "url": "https://news.ycombinator.com/item?id=47432915",
+      "original_url": "https://github.com/creationix/rx",
+      "summary": "RX encoder, decoder, and CLI data tool. Contribute to creationix/rx development by creating an account on GitHub.",
+      "score": 16,
+      "comments": 7,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Czech Man's Stone in Barn's Foundations Is Rare Bronze Age Spearhead Mold",
+      "url": "https://news.ycombinator.com/item?id=47397862",
+      "original_url": "https://www.smithsonianmag.com/smart-news/a-czech-man-used-this-stone-in-his-barns-foundations-it-turned-out-to-be-rare-bronze-age-spearhead-mold-180988339/",
+      "summary": "",
+      "score": 9,
+      "comments": 1,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "LotusNotes",
+      "url": "https://news.ycombinator.com/item?id=47385439",
+      "original_url": "https://computer.rip/2026-03-14-lotusnotes.html",
+      "summary": "I tend to focus on the origin of the computer within the military. Particularly\nin the early days of digital computing,",
+      "score": 5,
+      "comments": 0,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Kagi Translate's AI answers the question \"What would horny Margaret Thatcher say?\"",
+      "url": "https://arstechnica.com/ai/2026/03/kagi-translates-ai-answers-the-question-what-would-horny-margaret-thatcher-say/",
+      "summary": "Remember when it was fun to play around with LLMs?",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Musk’s tactic of blaming users for Grok sex images may be foiled by EU law",
+      "url": "https://arstechnica.com/tech-policy/2026/03/eu-moves-to-ban-nudify-apps-after-grok-made-them-mainstream/",
+      "summary": "Planned EU ban on nudify apps would likely force Musk to make Grok less \"spicy.\"",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Coal plant forced to stay open due to emergency order isn't even running",
+      "url": "https://arstechnica.com/science/2026/03/coal-plant-forced-to-stay-open-due-to-emergency-order-isnt-even-running/",
+      "summary": "Department of Energy's attempts to prop up coal can look pretty pointless.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Never mind Band-Aids, Neanderthals had antiseptic birch tar",
+      "url": "https://arstechnica.com/science/2026/03/never-mind-band-aids-neanderthals-had-antiseptic-birch-tar/",
+      "summary": "Our view of Neanderthal life keeps getting more complex and vibrant.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Cloudflare appeals Piracy Shield fine, hopes to kill Italy's site-blocking law",
+      "url": "https://arstechnica.com/tech-policy/2026/03/cloudflare-appeals-piracy-shield-fine-hopes-to-kill-italys-site-blocking-law/",
+      "summary": "Firm says requiring site blocks within 30 minutes breaks core Internet architecture.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "A private space company has a radical new plan to bag an asteroid",
+      "url": "https://arstechnica.com/space/2026/03/a-private-space-company-has-a-radical-new-plan-to-bag-an-asteroid/",
+      "summary": "Company has previously tested its technology on the International Space Station.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Federal cyber experts called Microsoft's cloud a \"pile of shit,\" approved it anyway",
+      "url": "https://arstechnica.com/information-technology/2026/03/federal-cyber-experts-called-microsofts-cloud-a-pile-of-shit-approved-it-anyway/",
+      "summary": "One Microsoft product was approved despite years of concerns about its security.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "A station wagon is entering one of the hardest 24-hour races in the world",
+      "url": "https://arstechnica.com/cars/2026/03/bmw-says-station-wagons-are-no-joke-so-this-ones-going-to-the-nurburgring/",
+      "summary": "Station wagons used to be family cars, but now they're for going fast, too.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Peter faces a new life cycle in Spider-Man: Brand New Day trailer",
+      "url": "https://arstechnica.com/culture/2026/03/peter-faces-a-new-life-cycle-in-spider-man-brand-new-day-trailer/",
+      "summary": "“Sometimes Spider-Man has to do the hard thing, even if it breaks Peter Parker’s heart.”",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Users hate it, but age-check tech is coming. Here's how it works.",
+      "url": "https://arstechnica.com/tech-policy/2026/03/after-discord-fiasco-age-check-tech-promises-privacy-by-running-locally-does-it-work/",
+      "summary": "On-device face scans and cross-platform age keys decrease privacy risks, but trust issues abound.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Here's BMW's first all-electric 3 series, the 2027 i3",
+      "url": "https://arstechnica.com/cars/2026/03/heres-bmws-first-all-electric-3-series-the-2027-i3/",
+      "summary": "The iX3 SUV was very good; we think the i3 sedan will be even better.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Amazon 1hr delivery 🚚, GPT-5.4 mini 🤖, how Anthropic uses Skills 👨💻",
+      "url": "https://tldr.tech/tech/2026-03-18",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "TLDR Tech",
+      "source_icon": "📨"
+    },
+    {
+      "title": "The biggest problem with AI 🤖, how Anthropic uses Skills 📜, GPT-5.4 mini and nano 🐥",
+      "url": "https://tldr.tech/dev/2026-03-18",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "TLDR WebDev",
+      "source_icon": "📨"
+    },
+    {
+      "title": "Big Tech Anti-Scam Pact 🤝, FancyBear Exposed 🕵️, Qihoo360 Leaks Private SSL Cert 🔑",
+      "url": "https://tldr.tech/infosec/2026-03-18",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "TLDR InfoSec",
+      "source_icon": "📨"
+    },
+    {
+      "title": "OFAC Sanctions DPRK IT Worker Network Funding WMD Programs Through Fake Remote Jobs",
+      "url": "https://thehackernews.com/2026/03/ofac-sanctions-dprk-it-worker-network.html",
+      "summary": "The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) has sanctioned six individuals and two ent",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Interlock Ransomware Exploits Cisco FMC Zero-Day CVE-2026-20131 for Root Access",
+      "url": "https://thehackernews.com/2026/03/interlock-ransomware-exploits-cisco-fmc.html",
+      "summary": "Amazon Threat Intelligence is warning of an active Interlock ransomware campaign that's exploiting a recently disclosed",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE",
+      "url": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
+      "summary": "Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) th",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Claude Code Security and Magecart: Getting the Threat Model Right",
+      "url": "https://thehackernews.com/2026/03/claude-code-security-and-magecart.html",
+      "summary": "When a Magecart payload hides inside the EXIF data of a dynamically loaded third-party favicon, no repository scanner wi",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "9 Critical IP KVM Flaws Enable Unauthenticated Root Access Across Four Vendors",
+      "url": "https://thehackernews.com/2026/03/9-critical-ip-kvm-flaws-enable.html",
+      "summary": "Cybersecurity researchers have warned about the risks posed by low-cost IP KVM (Keyboard, Video, Mouse over Internet Pro",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Product Walkthrough: How Mesh CSMA Reveals and Breaks Attack Paths to Crown Jewels",
+      "url": "https://thehackernews.com/2026/03/product-walkthrough-how-mesh-csma.html",
+      "summary": "Security teams today are not short on tools or data. They are overwhelmed by both. \nYet within the terabytes of alerts,",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Ubuntu CVE-2026-3888 Bug Lets Attackers Gain Root via systemd Cleanup Timing Exploit",
+      "url": "https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html",
+      "summary": "A high-severity security flaw affecting default installations of Ubuntu Desktop versions 24.04 and later could be exploi",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS",
+      "url": "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
+      "summary": "Apple on Tuesday released its first round of Background Security Improvements to address a security flaw in WebKit that",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Aura confirms data breach exposing 900,000 marketing contacts",
+      "url": "https://www.bleepingcomputer.com/news/security/aura-confirms-data-breach-exposing-900-000-marketing-contacts/",
+      "summary": "Identity protection company Aura has confirmed that an unauthorized party gained access to nearly 900,000 customer recor",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "CISA orders feds to patch Zimbra XSS flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-zimbra-xss-flaw-exploited-in-attacks/",
+      "summary": "CISA has ordered U.S. government agencies to secure their servers against an actively exploited vulnerability in the Zim",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "ConnectWise patches new flaw allowing ScreenConnect hijacking",
+      "url": "https://www.bleepingcomputer.com/news/security/connectwise-patches-new-flaw-allowing-screenconnect-hijacking/",
+      "summary": "ConnectWise is warning ScreenConnect customers of a cryptographic signature verification vulnerability that could lead t",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Ransomware gang exploits Cisco flaw in zero-day attacks since January",
+      "url": "https://www.bleepingcomputer.com/news/security/interlock-ransomware-exploited-secure-fmc-flaw-in-zero-day-attacks-since-january/",
+      "summary": "The Interlock ransomware gang has been exploiting a maximum severity remote code execution (RCE) vulnerability in Cisco'",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Marquis: Ransomware gang stole data of 672K people in cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/marquis-ransomware-gang-stole-data-of-672-000-people-in-2025-cyberattack/",
+      "summary": "Marquis, a Texas-based financial services provider, revealed this week that a ransomware gang stole the data of over 670",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "The Refund Fraud Economy: Exploiting Major Retailers and Payment Platforms",
+      "url": "https://www.bleepingcomputer.com/news/security/the-refund-fraud-economy-exploiting-major-retailers-and-payment-platforms/",
+      "summary": "Refund fraud is now a business, with methods and tutorials sold to exploit return policies for profit. Flare shows how f",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "New “Darksword” iOS exploit used in infostealer attack on iPhones",
+      "url": "https://www.bleepingcomputer.com/news/security/new-darksword-ios-exploit-used-in-infostealer-attack-on-iphones/",
+      "summary": "A new exploit kit for iOS devices and delivery framework dubbed \"Darksword\" has been used to steal a wide range of perso",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Nordstrom's email system abused to send crypto scams to customers",
+      "url": "https://www.bleepingcomputer.com/news/security/nordstroms-email-system-abused-to-send-crypto-scams-to-customers/",
+      "summary": "Customers of upscale department store chain Nordstrom received fraudulent messages from a legitimate company email addre",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "複数のHitachi Energy製品におけるセキュリティ関連の処理に対するレスポンスの違いに起因する情報漏えいの脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU98345649/",
+      "summary": "Hitachi Energyが提供する複数の製品には、セキュリティ関連の処理に対するレスポンスの違いに起因する情報漏えいの脆弱性が存在します。",
+      "score": 0,
+      "comments": 0,
+      "source": "JVN",
+      "source_icon": "🇯🇵"
+    },
+    {
+      "title": "Festo Automation Suiteで使用されるCODESYSにおける複数の脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU93719893/",
+      "summary": "Festo Automation Suiteで使用されるCODESYSには、複数の脆弱性が存在します。",
+      "score": 0,
+      "comments": 0,
+      "source": "JVN",
+      "source_icon": "🇯🇵"
+    },
+    {
+      "title": "複数のSchneider Electric製品における複数の脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU99706907/",
+      "summary": "Schneider Electricが提供する複数の製品には、複数の脆弱性が存在します。",
+      "score": 0,
+      "comments": 0,
+      "source": "JVN",
+      "source_icon": "🇯🇵"
+    },
+    {
+      "title": "GlassWorm Hides a RAT Inside a Malicious Chrome ExtensionGlassWorm RAT Delivered via Malicious Chrome Extension (Keylogger, Cookie Theft)GlassWorm deploys a multi-stage RAT that force-installs a malicious Chrome extension to log keystrokes, steal cookies, and exfiltrate data via Solana-based C2.GlassWorm deploys a multi-stage RAT that force-installs a malicious Chrome extension to log keystrokes, steal cookies, and exfiltrate data via Solana-based C2.Vulnerabilities & ThreatsIlyas Makari",
+      "url": "https://www.aikido.dev/blog/glassworm-chrome-extension-rat",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "fast-draft Open VSX Extension Compromised by BlokTrooperfast-draft Open VSX Extension Compromised by BlokTrooper (RAT & Infostealer)The fast-draft Open VSX extension was compromised to deploy a BlokTrooper RAT and infostealer via GitHub-hosted payloads. Multiple malicious versions identified.A popular Open VSX extension was compromised and used to deploy a RAT and infostealer from attacker-controlled infrastructure.\nIts version history tells the real story, with malicious releases appearing between clean ones.Vulnerabilities & ThreatsRaphael Silva",
+      "url": "https://www.aikido.dev/blog/fast-draft-open-vsx-bloktrooper",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "How does AI pentesting work with compliance?How does AI Pentesting Work with Compliance?AI pentesting is being accepted for SOC 2, ISO 27001, HIPAA, and PCI DSS. Here's what auditors actually look for, and where the real limitations are.AI pentesting is being accepted for SOC 2, ISO 27001, HIPAA, and PCI DSS. Here's what auditors actually look for, and where the real limitations are.ComplianceDania Durnas",
+      "url": "https://www.aikido.dev/blog/ai-pentesting-compliance",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Trump’s 2026 cybersecurity strategy: From compliance to consequenceTrump’s 2026 Cybersecurity Strategy: From Compliance to ConsequenceThe Trump administration’s 2026 cybersecurity strategy shifts the focus from compliance checklists to real consequences for cybercriminals. Here’s what CISOs need to know.NewsMike Wilkes",
+      "url": "https://www.aikido.dev/blog/trump-cybersecurity-strategy-2026",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "What continuous pentesting actually requiresContinuous pentesting: how it works and what it requiresContinuous pentesting promises real-time security validation, but most implementations fall short. Here’s what continuous pentesting actually requires—from change-aware testing to exploit validation and remediation loops.Continuous pentesting is widely discussed, but rarely defined clearly. This piece breaks down what it is, what it isn’t, and what it actually requires.Guides & Best PracticesSooraj Shah",
+      "url": "https://www.aikido.dev/blog/continuous-pentesting-requirements",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Rare Not Random: Using Token Efficiency for Secrets ScanningRare Not Random: Using Token Efficiency for Secrets ScanningEntropy often struggles with generic secrets and short strings. We look at how token efficiency can better identify strings that don’t look like normal text.Entropy is great at spotting randomness. But secrets aren’t always random. They’re just strings that don’t show up in normal code or text. We explore using BPE tokenization to measure that difference.Guides & Best PracticesZach Rice",
+      "url": "https://www.aikido.dev/blog/token-efficiency-secrets-scan",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Why Determinism Is Still a Necessity in SecurityWhy Determinism Is Still a Necessity in SecurityAI scanning finds what rules miss. Deterministic scanning finds it every time. Here's why the best security pipelines don't choose between them.AI-powered security tools are getting better at finding vulnerabilities. But deterministic tools give you the consistency that pipelines, compliance, and audit trails depend on. We look at what deterministic scanning does well, where AI takes over, and how the two work together for effective security.EngineeringDania Durnas",
+      "url": "https://www.aikido.dev/blog/why-determinism-is-necessary",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "WAF vs. RASP vs. ADRWAF vs. RASP vs. ADR: How Runtime Application Security WorksWAF, RASP, and ADR protect your app in completely different ways. Here's what each layer actually does, where it falls short, and which ones you need.WAF, RASP, ADR, eBPF — We're clearing up the terminology around runtime application security. Here's what each layer actually does, how they overlap, and how they fit togetherGuidesDania Durnas",
+      "url": "https://www.aikido.dev/blog/waf-rasp-adr",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Introducing Aikido Infinite: A new model of self-securing softwareAikido Infinite: Continuous AI Pentesting for Every ReleaseAikido Infinite runs AI penetration testing on every code change, validates exploitability, generates patches, and retests fixes before code hits production, making self-securing software a reality.AikidoMadeline Lawrence",
+      "url": "https://www.aikido.dev/blog/introducing-aikido-infinite",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Persistent XSS/RCE using WebSockets in Storybook’s dev serverPersistent XSS/RCE using WebSockets in Storybook (CVE-2026-27148)CVE-2026-27148 exposes a WebSocket hijacking flaw in Storybook that can escalate into supply chain compromise. Learn the attack path, impact, and how to remediate.Aikido Attack found a WebSocket hijacking vulnerability in Storybook's dev server that can lead to persistent XSS, remote code execution, and, in the worst case, supply chain compromise. We walk through how an attacker can exploit this without any user interaction at all, and a developer just has to visit the wrong website while to run into this attack.Vulnerabilities & ThreatsRobbe Verwilghen",
+      "url": "https://www.aikido.dev/blog/storybooks-websockets-attack",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Product & Company News",
+      "url": "https://www.wiz.io/blog/tag/news",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Public Sector",
+      "url": "https://www.wiz.io/blog/tag/public-sector",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Data Security",
+      "url": "https://www.wiz.io/blog/tag/datasecurity",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Understanding and Reducing AI Risk in Modern Applications",
+      "url": "https://www.wiz.io/blog/reducing-ai-risk-across-ai-applications",
+      "summary": "Identify real AI risk by connecting signals in context across the layers of AI applications.",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Introducing Wiz Tenant Manager: Multi-Tenant Management for Federated Organizations",
+      "url": "https://www.wiz.io/blog/wiz-tenant-manager-multi-tenant-security",
+      "summary": "Experience full Wiz security with zero friction, managing multiple tenants in a single console",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "OpenAIも、ついにChatGPTの料金を見直し。「使い放題プラン」廃止も示唆 | Business Insider Japan",
+      "url": "https://www.businessinsider.jp/article/2603-openai-may-drop-unlimited-chatgpt-plans-exec-says/",
+      "summary": "OpenAIのChatGPT責任者は、ChatGPTを「使い放題」できる時代が終わりを迎えつつある可能性を示唆した。Matthias Balk/picture alliance via Getty Images AI関連コストが急増し、利用",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Google Home アプリ、Gemini 機能が日本でも順次展開へ。音声操作の遅延も40%改善など | HelenTech",
+      "url": "https://helentech.jp/news-83442/",
+      "summary": "Google は 2026 年 3 月 17 日（現地時間）、今月 2 回目となる Gemini for Home の大型アップデートを展開しています。 今回のアップデートでは、音声アシスタントの応答速度が最大 40% 改善されたほか、アラ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "エアコン取り付け工事の人が作業してる間、寝そべってYouTube見るわけにはいかず所在なく立ち尽くしてしまう…共感の声や業者側からの意見が集まる",
+      "url": "https://togetter.com/li/2676312",
+      "summary": "エアコン工事中、寝転んで動画を見るわけにいかず落ち着かず立ち尽くす。別室に隠れたいが確認で呼ばれ落ち着かない。監視派やリラックス派など意見が分かれる。職人は親切な人が多いが警戒する声もある。",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "追加料金なしでの「Copilot」提供が縮小、Microsoftが2026年4月15日より仕様変更へ／大規模組織では「Microsoft 365 Copilot」追加ライセンスの購入が必要に",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2094446.html",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "【やじうまPC Watch】 バルミューダ、光で時刻を示す、針のない時計。お値段約6万円",
+      "url": "https://pc.watch.impress.co.jp/docs/news/yajiuma/2094513.html",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Mozilla、「Firefox」の新しいマスコットキャラクター「Kit」を発表／Webブラウジングに温かみと親しみをもたらす相棒",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2094474.html",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "なぜ極寒の宇宙にデータセンターを置くと「冷えない」が課題となるのか--NVIDIAのCEOも言及",
+      "url": "https://japan.cnet.com/article/35245196/",
+      "summary": "NVIDIAの半導体は既に衛星で使われているが、宇宙にデータセンターを構築するとなると、難易度は大きく異なるという。フアン氏は「言うまでもなく、非常に複雑だ」と述べた。 それでも、AI向けインフラの設置先として宇宙軌道に注目する動きは広がっ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "A18 Proチップを搭載したMacBook NeoのXcodeベンチマーク。",
+      "url": "https://applech2.com/archives/20260318-xcode-benchmark-macbook-neo-a18-pro.html",
+      "summary": "記事内に広告が含まれています。This article contains advertisements. A18 Proチップを搭載したMacBook NeoのXcodeベンチマークのまとめです。詳細は以下から。 Appleは現地時間202",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Edge.js - Run Node.js safely, anywhere, with any JS engine",
+      "url": "https://edgejs.org/",
+      "summary": "Edge.js reimagines Node: fully sandboxed, engine-agnostic, and built for AI and serverless workloads. Ubiquitous by desi",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "WebMCPについて調べて、動きを確認してみた | DevelopersIO",
+      "url": "https://dev.classmethod.jp/articles/exploring-webmcp-and-testing-it/",
+      "summary": "どうも！オペ部の西村祐二です！ Chrome 146のリリースに合わせて、Webアプリの機能をAIエージェントに公開できる新標準 WebMCP（Web Model Context Protocol） のアーリープレビューが開始されました。",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "「PowerToys 0.98」が公開、新しいキーマップエディターや「CursorWrap」のマルチモニター改善など／",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2094252.html",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Cursor Visual Editor でデザイナーがスタイル修正から PR作成まで行う開発フロー - ROXX開発者ブログ",
+      "url": "https://techblog.roxx.co.jp/entry/2026/03/19/083000",
+      "summary": "ROXXでエンジニアをしている小山です。 弊社ではAI駆動開発を進める中で、エンジニア・デザイナーが各々使いたいAIツールを使える環境があります。 その中でデザイナーにCursor Visual Editorを導入し、スタイル修正からPul",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Coding Agent時代のドキュメントについて考えていること",
+      "url": "https://nyosegawa.com/posts/docs-in-agent-era/",
+      "summary": "こんにちは！逆瀬川ちゃん (@gyakuse) です！ 今日はCoding Agent時代のドキュメントについて、最近考えていることを書いていきたいと思います。悩み中なので、荒れた内容になっていますが、ご容赦を。コード規模、チーム規模などな",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Code w/ Claude | Anthropic's developer conference",
+      "url": "https://claude.com/code-with-claude",
+      "summary": "Anthropic’s developer conferenceJoin us for a day of hands-on workshops, live demos of new capabilities and conversation",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "GitHubリポジトリが静かに書き換えられる ── GlassWormサプライチェーン攻撃の全容と防御策",
+      "url": "https://qiita.com/nogataka/items/9952280fe6fddfd14ddf",
+      "summary": "Python, GitHub, Security, supplychain, サプライチェーン攻撃",
+      "score": 6,
+      "comments": 6,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "NVIDIA GTC 2026 開発者向けまとめ ── 推論コスト1/10時代に備えるために知っておくべきこと",
+      "url": "https://qiita.com/nogataka/items/93ee0f29f572726820c5",
+      "summary": "GPU, NVIDIA, 機械学習, インフラ, AI",
+      "score": 4,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "GPT-5.4 Computer Use を実際に動かしてわかったこと ── API設計・実装パターン・セキュリティの勘所",
+      "url": "https://qiita.com/nogataka/items/1252ae527635aba34985",
+      "summary": "自動化, OpenAI, AIエージェント, ComputerUse, Gpt-5.4",
+      "score": 4,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "CLAUDE.mdを設計するとClaude Codeの生産性が別物になる — 実際の設定と運用ワークフローを公開",
+      "url": "https://qiita.com/nogataka/items/1ad4e4ccaf47816c63e0",
+      "summary": "AI, 開発効率化, 生成AI, AIエージェント, ClaudeCode",
+      "score": 9,
+      "comments": 10,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "OpenClaw（GitHub 321k★）を日本語環境で使い倒す ── セットアップから実践まで",
+      "url": "https://qiita.com/nogataka/items/34cfbee988a9cd873c91",
+      "summary": "NVIDIA, AI, OSS, AIAgent, OpenClaw",
+      "score": 4,
+      "comments": 6,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "よく寄せられた質問でフローを構築すると Power Automate（クラウドフロー）の基礎が詰まっていた",
+      "url": "https://qiita.com/eigogakuto/items/40ae74d661f412bc0bb2",
+      "summary": "PowerPlatform, PowerAutomate",
+      "score": 6,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【前編】「バグが出ました。」それは報告？相談？ ― 意識の違いでシゴデキエンジニアに！！ ―",
+      "url": "https://qiita.com/hitomin_poke/items/417b4d6f416fb188a30c",
+      "summary": "初心者, 教育, エンジニア, 新人エンジニア, エンジニアの成長",
+      "score": 45,
+      "comments": 15,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "GitHub Copilot CLI の公式ハンズオンやってみた (第0章/7章)",
+      "url": "https://qiita.com/chomado/items/6d26b6ffc11d163dfd71",
+      "summary": "ハンズオン, GitHubCopilot, githubcopilotcli",
+      "score": 17,
+      "comments": 29,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【2026年最新版】ローカルLLM（Ollama）で完全オフラインAI開発環境を作る",
+      "url": "https://qiita.com/miruky/items/026aeee6b59f78df5e9d",
+      "summary": "AWS, 生成AI, ollama, ローカルLLM, ClaudeCode",
+      "score": 6,
+      "comments": 6,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "手書き・チェック・丸印も認識できる？OCI Generative AI の VLM で伝票を読ませてみた",
+      "url": "https://qiita.com/engchina/items/7accb885f62d28b67a88",
+      "summary": "oracle, AI, 画像認識, oci, vlm",
+      "score": 6,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【JAWS DAYS 2026】基礎こそ至高。歴戦の勇士が仕掛けた「入門」という名のプレゼンバトル",
+      "url": "https://qiita.com/s_hiroi/items/5c6a9cfef9687d090484",
+      "summary": "JawsDays, JAWS-UG, 現地レポ",
+      "score": 14,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "なぜ「改善提案3件出す」はダメなのか？〜目標設定を「Why→What→How→Feedback」で考える〜",
+      "url": "https://qiita.com/Nao52/items/5b62c8047de13585e881",
+      "summary": "マネジメント, キャリア, エンジニア, 目標設定, 評価指標",
+      "score": 11,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "MCPサーバーを自作して、Claude Codeに社内DBを直接触らせてみた結果",
+      "url": "https://qiita.com/miruky/items/ea9c7e6d882502cbbf7c",
+      "summary": "AWS, AI, MCP, Claude, ClaudeCode",
+      "score": 3,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "フォーマットがバラバラな複数CSVをn8nで自動統合する",
+      "url": "https://qiita.com/YushiYamamoto/items/a0257f84f26709f8d7ff",
+      "summary": "CSV, 自動化, 業務改善, 脱Excel, n8n",
+      "score": 3,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Crashlytics 自動調査を Devin から Claude Code Actions に移行できるか検証",
+      "url": "https://qiita.com/mgre_tanabe/items/b9c2230c5cb343365876",
+      "summary": "Crashlytics, GitHubActions, Devin, Claude, ClaudeCode",
+      "score": 4,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "2026/03/17 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "url": "https://qiita.com/ennagara128/items/69ff36e49356a066d1d5",
+      "summary": "GitHub, AWS, Security, 初心者, ClaudeCode",
+      "score": 4,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "量子×クラウドはなぜ難しい？第3の壁：量子時代のセキュリティ問題",
+      "url": "https://qiita.com/imh1104/items/36c1344ae17b62086aba",
+      "summary": "Security, Cloud, TLS, 量子コンピュータ, pqc",
+      "score": 9,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "「AIっぽい」の正体は文体じゃない — 全業務をAIエージェントで回して気づいたこと",
+      "url": "https://zenn.dev/omori432/articles/ai-likeness-not-about-writing-style",
+      "summary": "",
+      "score": 36,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "DGX SparkでNemoClawをローカル実行",
+      "url": "https://zenn.dev/karaage0703/articles/8bf663501cd4bc",
+      "summary": "",
+      "score": 22,
+      "comments": 3,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Claude Codeでのふるまいから隠れたSkillを見つける",
+      "url": "https://zenn.dev/chigichan24/articles/eed4a60d102997",
+      "summary": "",
+      "score": 18,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Antigravityは(バックエンドでは)使い物にならない",
+      "url": "https://zenn.dev/beadiest_star64/articles/7e2de21fe1cfde",
+      "summary": "",
+      "score": 14,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "rmの代わりにtrashを使ってCoding Agentに安全にファイルを削除させる",
+      "url": "https://zenn.dev/lef237/articles/23f77b0dade38f",
+      "summary": "",
+      "score": 47,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "43サイトの専用パーサーを実装して分かった、日本のWebサイトの「闇」と「光」",
+      "url": "https://zenn.dev/bitsap/articles/e3701908b475f1",
+      "summary": "",
+      "score": 16,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "手動 ER 図メンテから卒業する── GitHub Actions × DBML 自動生成の実践",
+      "url": "https://zenn.dev/shilla/articles/auto-generate-dbml-from-orm",
+      "summary": "",
+      "score": 33,
+      "comments": 1,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "FBI is buying data that can be used to track people, Patel says",
+      "url": "http://politico.com/news/2026/03/18/fbi-buying-data-track-people-patel-00834080",
+      "summary": "Privacy",
+      "score": 3809,
+      "comments": 123,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Robot dogs priced at $300,000 a piece are now guarding some of the country’s biggest data centers",
+      "url": "https://fortune.com/2026/03/17/robot-dog-patrols-data-centers-ai-infrastructure-buildout/",
+      "summary": "Artificial Intelligence",
+      "score": 7922,
+      "comments": 1150,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Peter Thiel, the billionaire venture capitalist and MAGA donor, is in Rome this week for a series of private lectures on the Antichrist.",
+      "url": "https://edition.cnn.com/2026/03/16/europe/peter-thiel-antichrist-lectures-rome-intl",
+      "summary": "Society",
+      "score": 26634,
+      "comments": 2523,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "FBI is buying location data to track US citizens, director confirms",
+      "url": "https://techcrunch.com/2026/03/18/fbi-is-buying-location-data-to-track-us-citizens-kash-patel-wyden/?utm_source=dlvr.it&amp;utm_medium=twitter",
+      "summary": "Privacy",
+      "score": 4136,
+      "comments": 133,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "North Korea's 100,000-strong fake IT worker army rake in $500M a year for Kim Jong Un",
+      "url": "https://www.theregister.com/2026/03/18/researchers_lift_the_lid_on/?td=rt-3a",
+      "summary": "Security",
+      "score": 1394,
+      "comments": 69,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Meta Horizon Worlds for VR is closing down in June, less than five years after it launched",
+      "url": "https://www.pcgamer.com/games/vr/another-nail-in-the-metaverse-coffin-meta-horizon-worlds-is-shutting-down-in-three-months-for-vr-but-the-mobile-app-will-remain/",
+      "summary": "Social Media",
+      "score": 550,
+      "comments": 101,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang says gamers calling DLSS 5 AI slop are \"completely wrong\"",
+      "url": "https://www.techspot.com/news/111727-nvidia-ceo-jensen-huang-gamers-calling-dlss-5.html",
+      "summary": "Business",
+      "score": 3656,
+      "comments": 584,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "He Built the Definitive Epstein Database—and It Consumed His Life | The data engineer started as a casual reader of the Jeffrey Epstein files. Then he became obsessed, and built the most extensive network graph of the sexual predator’s shadowy world",
+      "url": "https://www.wired.com/story/he-built-the-definitive-epstein-database-and-it-consumed-his-life/",
+      "summary": "Social Media",
+      "score": 1389,
+      "comments": 29,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "'Flock Flocked up' How a license plate camera misread unraveled one man's life.",
+      "url": "https://www.businessinsider.com/flock-safety-alpr-cameras-misreads-2026-3",
+      "summary": "Society",
+      "score": 1547,
+      "comments": 119,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Britain plans to consider requiring labels on AI-generated content to protect consumers from disinformation and deepfakes, the government said",
+      "url": "https://www.reuters.com/business/media-telecom/uk-examine-labelling-ai-content-among-wider-copyright-reforms-2026-03-18/",
+      "summary": "Politics",
+      "score": 2840,
+      "comments": 115,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "JavaScript's date parser is out of control and needs to be stopped",
+      "url": "https://futuresearch.ai/blog/javascript-thinks-everythings-a-date/",
+      "summary": "I recently spent an afternoon learning that JavaScript has a very generous definition of \"date.\"\n\n    new Date(\"2020-01-",
+      "score": 323,
+      "comments": 168,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "The Data Structures of Roads",
+      "url": "https://sandboxspirit.com/blog/data-structures-of-roads",
+      "summary": "",
+      "score": 57,
+      "comments": 4,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Slug Algorithm released into public domain",
+      "url": "https://terathon.com/blog/decade-slug.html",
+      "summary": "",
+      "score": 1005,
+      "comments": 46,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "How Kernel Anti-Cheats Work: A Deep Dive into Modern Game Protection",
+      "url": "https://s4dbrd.github.io/posts/how-kernel-anti-cheats-work/",
+      "summary": "",
+      "score": 13,
+      "comments": 1,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Cap'n Web: a new RPC system for browsers and web servers",
+      "url": "https://blog.cloudflare.com/capnweb-javascript-rpc-library/",
+      "summary": "",
+      "score": 13,
+      "comments": 2,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "How to Not Get Hacked Through File Uploads",
+      "url": "https://www.eliranturgeman.com/2026/03/14/uploads-attack-surface/",
+      "summary": "",
+      "score": 201,
+      "comments": 20,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "CVE-2026-32746 GNU telnetd Buffer Overflow PoC - Critical (9.8)",
+      "url": "https://pwn.guide/free/other/cve-2026-32746",
+      "summary": "",
+      "score": 11,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "GlassWorm: Part 5 -- xorshift obfuscation, Chrome HMAC bypass, and cryptowallet seed phrase theft",
+      "url": "https://codeberg.org/tip-o-deincognito/glassworm-writeup/src/branch/main/PART5.md",
+      "summary": "As usual, in-depth sample analysis on linked files",
+      "score": 3,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "The Most Organized Threat Actors Use Your ITSM (BMC FootPrints Pre-Auth Remote Code Execution Chains) - watchTowr Labs",
+      "url": "https://labs.watchtowr.com/thanks-itsms-threat-actors-have-never-been-so-organized-bmc-footprints-pre-auth-remote-code-execution-chains/",
+      "summary": "",
+      "score": 29,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Ubtuntu 24.04+ Snapd Local Privilege Escalation (CVE-2026-3888)",
+      "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root",
+      "summary": "",
+      "score": 2,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "[Tool] I built a CVE visualization tool for fun (VulnPath) -- would love and appreciate any feedback from this community!",
+      "url": "http://vulnpath.vercel.app/app",
+      "summary": "Not sure if I'm the only one but I've always thought looking up CVEs felt archaic and outdated. I'm also a visual learne",
+      "score": 1,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "CVE PoC Search",
+      "url": "https://watchstack.io/intel/poc-search",
+      "summary": "Find PoCs related to CVEs.\n\nAt the same time, CVEs are analyzed using AI, and additional context is provided—such as whe",
+      "score": 2,
+      "comments": 2,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    }
+  ]
+}
