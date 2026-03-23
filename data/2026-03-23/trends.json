@@ -1,0 +1,1044 @@
+{
+  "date": "2026-03-23",
+  "collected_at": "2026-03-23T10:36:04.634426+09:00",
+  "total_count": 113,
+  "articles": [
+    {
+      "title": "Department of State advises Americans worldwide to exercise increased caution",
+      "url": "https://news.ycombinator.com/item?id=47484208",
+      "original_url": "https://travel.state.gov/en/international-travel/travel-advisories/global-events/worldwide-caution.html",
+      "summary": "U.S. Department of State guidance for a worldwide caution.",
+      "score": 75,
+      "comments": 30,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "PC Gamer recommends RSS readers in a 37mb article that just keeps downloading",
+      "url": "https://news.ycombinator.com/item?id=47480507",
+      "original_url": "https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/",
+      "summary": "No sense of irony.",
+      "score": 315,
+      "comments": 145,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon",
+      "url": "https://news.ycombinator.com/item?id=47480886",
+      "original_url": "https://larstofus.com/2026/03/22/the-gold-standard-of-optimization-a-look-under-the-hood-of-rollercoaster-tycoon/",
+      "summary": "Due to some lucky circumstances, I recently had the chance to appear in one of the biggest German gaming podcasts, Stay",
+      "score": 178,
+      "comments": 66,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "The future of version control",
+      "url": "https://news.ycombinator.com/item?id=47478401",
+      "original_url": "https://bramcohen.com/p/manyana",
+      "summary": "A Coherent Vision for the Future of Version Control",
+      "score": 406,
+      "comments": 235,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Reports of code's death are greatly exaggerated",
+      "url": "https://news.ycombinator.com/item?id=47476315",
+      "original_url": "https://stevekrouse.com/precision",
+      "summary": "",
+      "score": 239,
+      "comments": 205,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Why I love NixOS",
+      "url": "https://news.ycombinator.com/item?id=47479751",
+      "original_url": "https://www.birkey.co/2026-03-22-why-i-love-nixos.html",
+      "summary": "Why I love NixOS is really about the Nix package manager, reproducibility, and sane system management in the LLM coding",
+      "score": 197,
+      "comments": 140,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Intuitions for Tranformer Circuits",
+      "url": "https://news.ycombinator.com/item?id=47484227",
+      "original_url": "https://www.connorjdavis.com/p/intuitions-for-transformer-circuits",
+      "summary": "A mental model for addressing the residual stream",
+      "score": 5,
+      "comments": 0,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "GrapheneOS will remain usable by anyone without requiring personal information",
+      "url": "https://news.ycombinator.com/item?id=47482217",
+      "original_url": "https://grapheneos.social/@GrapheneOS/116261301913660830",
+      "summary": "GrapheneOS will remain usable by anyone around the world without requiring personal information, identification or an ac",
+      "score": 212,
+      "comments": 52,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Project Nomad – Knowledge That Never Goes Offline",
+      "url": "https://news.ycombinator.com/item?id=47476821",
+      "original_url": "https://www.projectnomad.us",
+      "summary": "A self-contained offline server packed with encyclopedic knowledge, local AI, and essential tools — ready when the inter",
+      "score": 360,
+      "comments": 109,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "I Reverse-Engineered the TiinyAI Pocket Lab from Marketing Photos",
+      "url": "https://news.ycombinator.com/item?id=47435127",
+      "original_url": "https://bay41.com/posts/tiiny-ai-pocket-lab-review/",
+      "summary": "A $1.7M Kickstarter campaign built on forked academic research, undisclosed MoE architectures, split memory pools behind",
+      "score": 18,
+      "comments": 4,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Flash-MoE: Running a 397B Parameter Model on a Laptop",
+      "url": "https://news.ycombinator.com/item?id=47476422",
+      "original_url": "https://github.com/danveloper/flash-moe",
+      "summary": "Running a big model on a small laptop. Contribute to danveloper/flash-moe development by creating an account on GitHub.",
+      "score": 302,
+      "comments": 105,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "LLMs predict my coffee",
+      "url": "https://news.ycombinator.com/item?id=47425874",
+      "original_url": "https://dynomight.net/coffee/",
+      "summary": "Why not benchmark with physical experiments?",
+      "score": 69,
+      "comments": 29,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "First and Lego Education Partnership Update",
+      "url": "https://news.ycombinator.com/item?id=47439031",
+      "original_url": "https://community.firstinspires.org/first-lego-education-partnership-update",
+      "summary": "LEGO Education has chosen not to renew the FIRST partnership agreement. The 2026-2027 season will be our final FIRST LEG",
+      "score": 24,
+      "comments": 7,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Five Years of Running a Systems Reading Group at Microsoft",
+      "url": "https://news.ycombinator.com/item?id=47479627",
+      "original_url": "https://armaansood.com/posts/systems-reading-group/",
+      "summary": "",
+      "score": 113,
+      "comments": 31,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "MAUI Is Coming to Linux",
+      "url": "https://news.ycombinator.com/item?id=47478687",
+      "original_url": "https://avaloniaui.net/blog/maui-avalonia-preview-1",
+      "summary": "Announcing the first release of Avalonia MAUI",
+      "score": 158,
+      "comments": 78,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "How to Attract AI Bots to Your Open Source Project",
+      "url": "https://news.ycombinator.com/item?id=47471271",
+      "original_url": "https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html",
+      "summary": "A practical guide to getting the engagement your project deserves.",
+      "score": 73,
+      "comments": 13,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Windows native app development is a mess",
+      "url": "https://news.ycombinator.com/item?id=47475938",
+      "original_url": "https://domenic.me/windows-native-dev/",
+      "summary": "I tried to build a Windows native app using Microsoft's latest technologies. Now I understand why everyone builds Electr",
+      "score": 327,
+      "comments": 339,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "They're Vibe-Coding Spam Now",
+      "url": "https://news.ycombinator.com/item?id=47482760",
+      "original_url": "https://tedium.co/2026/02/25/vibe-coded-email-spam/",
+      "summary": "The problem with making coding easier for more people is that it makes spam more conventionally attractive. Which is bad",
+      "score": 26,
+      "comments": 15,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Ordered Dithering with Arbitrary or Irregular Colour Palettes (2023)",
+      "url": "https://news.ycombinator.com/item?id=47414104",
+      "original_url": "https://matejlou.blog/2023/12/06/ordered-dithering-for-arbitrary-or-irregular-palettes/",
+      "summary": "Introduction Hello. I have recently been spending a lot of time dithering. In image processing, dithering is the act of",
+      "score": 7,
+      "comments": 0,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Building an FPGA 3dfx Voodoo with Modern RTL Tools",
+      "url": "https://news.ycombinator.com/item?id=47477284",
+      "original_url": "https://noquiche.fyi/voodoo",
+      "summary": "",
+      "score": 160,
+      "comments": 34,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "There can (still) be only one: Highlander is 40",
+      "url": "https://arstechnica.com/culture/2026/03/there-can-still-be-only-one-highlander-is-40/",
+      "summary": "Sure, it's cheesy in many respects, but its central mythology still resonates even decades later.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Mining the deep ocean",
+      "url": "https://arstechnica.com/science/2026/03/mining-the-deep-ocean/",
+      "summary": "Policymakers debate if we even need deep ocean mining and if we can do it safely.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "We keep finding the raw material of DNA in asteroids—what's it telling us?",
+      "url": "https://arstechnica.com/science/2026/03/we-keep-finding-the-raw-material-of-dna-in-asteroids-whats-it-telling-us/",
+      "summary": "This week's result is just the latest in a growing collection of discoveries.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "DOGE goes nuclear: How Trump invited Silicon Valley into America’s nuclear power regulator",
+      "url": "https://arstechnica.com/science/2026/03/doge-goes-nuclear-how-trump-invited-silicon-valley-into-americas-nuclear-power-regulator/",
+      "summary": "“Assume the NRC is going to do whatever we tell the NRC to do.”",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Meta's AI flop 🤖, Google Maps redesign 🗺️, Perplexity Agent API 🧑💻",
+      "url": "https://tldr.tech/tech/2026-03-13",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "TLDR Tech",
+      "source_icon": "📨"
+    },
+    {
+      "title": "Vimeo’s subtitle trick 🎥, AI for better code 📈, teachable AI agents 🎓",
+      "url": "https://tldr.tech/dev/2026-03-13",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "TLDR WebDev",
+      "source_icon": "📨"
+    },
+    {
+      "title": "88 NPM Backdoors 📦, APT28 Hits Ukraine 🎯, AI Models Poisoned 🤖",
+      "url": "https://tldr.tech/infosec/2026-03-13",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "TLDR InfoSec",
+      "source_icon": "📨"
+    },
+    {
+      "title": "FBI Warns Russian Hackers Target Signal, WhatsApp in Mass Phishing Attacks",
+      "url": "https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html",
+      "summary": "Threat actors affiliated with Russian Intelligence Services are conducting phishing campaigns to compromise commercial m",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Oracle Patches Critical CVE-2026-21992 Enabling Unauthenticated RCE in Identity Manager",
+      "url": "https://thehackernews.com/2026/03/oracle-patches-critical-cve-2026-21992.html",
+      "summary": "Oracle has released security updates to address a critical security flaw impacting Identity Manager and Web Services Man",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages",
+      "url": "https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html",
+      "summary": "The threat actors behind the supply chain attack targeting the popular Trivy scanner are suspected to be conducting foll",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "CISA Flags Apple, Craft CMS, Laravel Bugs in KEV, Orders Patching by April 3, 2026",
+      "url": "https://thehackernews.com/2026/03/cisa-flags-apple-craft-cms-laravel-bugs.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added five security flaws impacting Apple, Cr",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "VoidStealer malware steals Chrome master key via debugger trick",
+      "url": "https://www.bleepingcomputer.com/news/security/voidstealer-malware-steals-chrome-master-key-via-debugger-trick/",
+      "summary": "An information stealer called VoidStealer uses a new approach to bypass Chrome's Application-Bound Encryption (ABE) and",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Trivy vulnerability scanner breach pushed infostealer via GitHub Actions",
+      "url": "https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/",
+      "summary": "The Trivy vulnerability scanner was compromised in a supply-chain attack by threat actors known as TeamPCP, which distri",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Google adds ‘Advanced Flow’ for safe APK sideloading on Android",
+      "url": "https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/",
+      "summary": "Google has announced a new mechanism in Android called Advanced Flow that will allow sideloading APKs from unverified de",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Microsoft Azure Monitor alerts abused for callback phishing attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/",
+      "summary": "Microsoft Azure Monitor alerts are being abused to send callback phishing emails that impersonate warnings from the Micr",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "複数のTrane製品における複数の脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU91514047/",
+      "summary": "Traneが提供する複数の製品には、複数の脆弱性が存在します。",
+      "score": 0,
+      "comments": 0,
+      "source": "JVN",
+      "source_icon": "🇯🇵"
+    },
+    {
+      "title": "Inductive Automation製Ignition Softwareにおける信頼できないデータのデシリアライゼーションの脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU90447847/",
+      "summary": "Inductive Automation, LLC.が提供するIgnition Softwareには、信頼できないデータのデシリアライゼーションの脆弱性が存在します。",
+      "score": 0,
+      "comments": 0,
+      "source": "JVN",
+      "source_icon": "🇯🇵"
+    },
+    {
+      "title": "Honeywell製I-HIB2PI-ULにおける重要な機能に対する認証の欠如の脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU90245204/",
+      "summary": "Honeywellが提供するCCTVカメラI-HIB2PI-ULには、重要な機能に対する認証の欠如の脆弱性が存在します。",
+      "score": 0,
+      "comments": 0,
+      "source": "JVN",
+      "source_icon": "🇯🇵"
+    },
+    {
+      "title": "CanisterWorm Gets Teeth: TeamPCP's Kubernetes Wiper Targets IranCanisterWorm Gets Teeth: TeamPCP's Kubernetes Wiper Targets IranCanisterWorm Gets Teeth: TeamPCP's Kubernetes Wiper Targets IranCanisterWorm Gets Teeth: TeamPCP's Kubernetes Wiper Targets IranVulnerabilities & ThreatsCharlie Eriksen",
+      "url": "https://www.aikido.dev/blog/teampcp-stage-payload-canisterworm-iran",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Glassworm Is Back: A New Wave of Invisible Unicode Attacks Hits Hundreds of RepositoriesGlassworm Returns: Invisible Unicode Malware Found in 150+ GitHub RepositoriesThe Glassworm supply chain attack is back. Researchers uncovered malware hidden in invisible Unicode characters across 150+ GitHub repositories, plus npm packages and VS Code extensions.Glassworm is back with a new wave of invisible Unicode attacks.\nWe’re tracking a fresh campaign quietly compromising repositories across GitHub, npm, and VS Code.Vulnerabilities & ThreatsIlyas Makari",
+      "url": "https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Top RSAC 2026 Parties, Side-Events & Security MeetupsRSAC 2026 Parties & Security Events Guide | AikidoRSAC 2026 Parties & Security Events Guide | AikidoNewsRuben Camerlynck",
+      "url": "https://www.aikido.dev/blog/rsa-2026-parties",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "Aikido Security",
+      "source_icon": "🥋"
+    },
+    {
+      "title": "Twenty Years of Cloud Security Research",
+      "url": "https://www.wiz.io/blog/twenty-years-of-cloud-security-research",
+      "summary": "This post will look at the past 20 years of cloud security research, separating the two decades into eras with important",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "UUIDはなぜ重複しないのか？",
+      "url": "https://zenn.dev/kinniku_coder/articles/2025-08-19-uuid_algorithm",
+      "summary": "UUIDはなぜ重複しないのか？ Webアプリケーションなどのシステム開発では、データに一意の識別子を付与する必要があります。たとえば データベースの主キー は、ジムでいうところの「会員カード番号」。誰かと同じ番号だとパーソナルトレーナーの予",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "AIエージェントがコマンドラインでブラウザを自動操作できる「Browser Use CLI 2.0」リリース。Chrome DevToolsへの接続などで操作速度が2倍に",
+      "url": "https://www.publickey1.jp/blog/26/aibrowser_use_cli_20chrome_devtools2.html",
+      "summary": "AIエージェントがコマンドラインでブラウザを自動操作できる「Browser Use CLI 2.0」リリース。Chrome DevToolsへの接続などで操作速度が2倍に 人間やAIエージェントがコマンドラインから指示することでWebブラウ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "マスク氏、次世代半導体工場「Terafab」発表　計算リソースは宇宙空間へ",
+      "url": "https://www.itmedia.co.jp/news/articles/2603/23/news053.html",
+      "summary": "SpaceX、xAI、Teslaのオーナーであるイーロン・マスク氏は3月21日（米太平洋時間）、次世代半導体工場「Terafab」の構想を発表した。 米テキサス州オースティンに建設予定のこの施設は、ロジック半導体、メモリ、最先端のパッケージ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Claude Codeの動きをOpenTelemetryで可視化したら「何してたか分からない」が消えた",
+      "url": "https://zenn.dev/seeda_yuto/articles/otel-ai-agent-observability",
+      "summary": "AI を導入したら、逆に「何が起きてるか分からない」が増えた Claude Code を使い始めて数週間。生産性は確かに上がった。でも、こんな場面が増えた。 「なんか遅いな……」→ 何が遅いのか分からない Bash を 10 回連続で叩いて",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "見た目はNASだが中身は別もの!!　ランサムウェアにも耐えるバックアップを実現するSynology ActiveProtectアプライアンス「DP340」の正体【イニシャルB【特別編】】[Sponsored]",
+      "url": "https://internet.watch.impress.co.jp/docs/topic/shimizu_sp/2087324.html",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "エンジニアの「棚卸し」─技術・思考・行動から振り返る記事6選 - Findy Media",
+      "url": "https://findy-code.io/media/articles/feature-2603",
+      "summary": "年度末は、目の前のことに追われながらも、ふと「この1年で何が変わったんだろう」と振り返りたくなる時期です。 身についたスキル、技術を選ぶときの基準、AIとの付き合い方、少しずつ変わってきたキャリア観や仕事の進め方、なんとなく続いてきた習慣。",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "【2003年のINTERNET Watch】「Winny」流行、トラフィック増加が問題になったうえに逮捕者も。「ブログ」が話題になり国内で広がる",
+      "url": "https://internet.watch.impress.co.jp/docs/special/30th/2091414.html",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "トランプ支持者100万人を熱狂させる“夢の女性”　そのAI詐欺の手口 | 愛国美女を装ってフォロワーを獲得",
+      "url": "https://courrier.jp/news/archives/439359/",
+      "summary": "トランプ支持者のあいだで100万人以上のフォロワーを集めた“愛国美女”インフルエンサー、ジェシカ・フォスターの正体はAIが生成した架空の人物だった。愛国主義とポルノを組み合わせ、政治的なポイントまで稼ぐSNS詐欺の実態を追う。 金髪の美しい",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "GitHub - ogwata/ndlocr-lite-web-ai: NDLOCRLite Web: ブラウザ完結型日本語OCRツール（ONNX Web Runtime使用）",
+      "url": "https://github.com/ogwata/ndlocr-lite-web-ai",
+      "summary": "ブラウザ完結 — 画像・OCR結果を外部サーバーに送信しません。すべての処理がブラウザ内で完結します AI校正 — ボタン一つでAIがOCRテキストを元画像と比較し、誤認識を修正。差分をインラインハイライトで表示し、個別にaccept/re",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Git worktreeの運用をスキルに委ねる ―複雑さを隠蔽するClaude Codeスキル設計の実践― - Findy Tech Blog",
+      "url": "https://tech.findy.co.jp/entry/2026/03/23/070000",
+      "summary": "こんにちは。ファインディ株式会社でテックリードマネージャーをやらせてもらってる戸田です。 ファインディではClaude CodeのSkillやカスタムコマンドなどをPlugins経由で社内展開しています。 tech.findy.co.jp",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "cmuxで変わるClaude Codeのマルチプロジェクト開発体験",
+      "url": "https://zenn.dev/hummer/articles/cmux-ecosystem-claude-code",
+      "summary": "はじめに Claude Code、とても便利ですよね。でも使い込んでいくと、こんな不満が出てきませんか？ サブエージェントが何をやっているか見えない（Agent ツールはブラックボックス） 複数プロジェクトをまたぐ作業がつらい（Claude",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "ありとあらゆるAIモデルを組み合わせることができる「LibreChat」で「ウェブ検索」「画像自動生成」をやってみる、無料でセルフホスト可能",
+      "url": "https://gigazine.net/news/20260322-librechat/",
+      "summary": "ChatGPTやClaude、GeminiなどのAIチャットサービスは便利ですが、それぞれのサービスを行き来する手間がかかります。無料でセルフホスト可能な「LibreChat」は、ありとあらゆるAIモデルをひとつの画面でまとめて扱える統合プ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "AIで「他者の企画」を盗み、3万ビューを稼ぐ ― Unityroomで起きているAI盗用問題｜ゲーマーじゃない",
+      "url": "https://note.com/right_orchid4615/n/n3960d5b51eb2",
+      "summary": "「ゲーム制作はコンビニのアルバイトと同じくらい簡単だ」 そう断言し、他者が数週間かけて練り上げた企画を、AIを使ってわずか2日でコピーして公開した人物がいる。しかも、そのゲームは現在、Unityroomで「人気の新着」として表示され、約3万",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Everything Claude Codeを眺めてみる | oikon48",
+      "url": "https://oikon48.dev/ja/blog/everything-claude-code/",
+      "summary": "*:first-child]:mt-0\"> Everything Claude Code はAnthropicのハッカソンの優勝者が公開したリポジトリとして2026年1月に話題になりました。 GitHub - affaan-m/everyt",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "シンギュラリティとエンジニア ―我々はどう生きるべきかをネオサイバネティクスから考える",
+      "url": "https://qiita.com/miruky/items/2023621da88f643d66e6",
+      "summary": "AWS, AI, キャリア, 生成AI, Claude",
+      "score": 5,
+      "comments": 6,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "AIエージェントに「楽をさせる」設計 — 全部AIにやらせる、が最適解とは限らない",
+      "url": "https://qiita.com/katohiro_fi/items/5e25c34da0529dec71de",
+      "summary": "Microsoft, アーキテクチャ, AI, copilot, AIエージェント",
+      "score": 11,
+      "comments": 7,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude CodeのChannels機能でTelegram・Discordからリモート操作する ── セットアップから実践まで",
+      "url": "https://qiita.com/nogataka/items/0f1af785d19b18b0d9d6",
+      "summary": "MCP, discord, Telegram, Claude, ClaudeCode",
+      "score": 3,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Excelで通信Handshakeのシーケンス図を描くのが辛い人へ ― Mermaid.jsという選択肢",
+      "url": "https://qiita.com/kotai2003/items/1e87782d6fe17a4b0ac0",
+      "summary": "PLC, diagrams, mermaid, シーケンス, handshake",
+      "score": 1,
+      "comments": 6,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "なぜ「社外秘」がAIの回答に出てくるのか  ――生成AIの情報漏洩メカニズムをエンジニア目線で分解する",
+      "url": "https://qiita.com/mhamadajp/items/98efbdadd8612c142574",
+      "summary": "Security, DX, プロンプト, 情報漏洩, 生成AI",
+      "score": 18,
+      "comments": 9,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Agentic RAG 入門 ── LLMが「何を調べるか」を自分で決める時代の検索設計",
+      "url": "https://qiita.com/AI-SKILL-LAB/items/525c3e6b13f0b8744c5a",
+      "summary": "Python, AI, rag, LangChain, LLM",
+      "score": 0,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Gemini Embedding 2 実践ガイド — テキスト・画像・音声・動画を「同じ空間」に埋め込んで、マルチモーダルRAGを構築する【2026年3月最新】",
+      "url": "https://qiita.com/AI-SKILL-LAB/items/26f4f0cc1115cefaaec1",
+      "summary": "Python, 機械学習, rag, GoogleCloud, LLM",
+      "score": 0,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "OpenCode vs Claude Code、ファイ！！ OSSコーディングエージェントの実力を検証してみた",
+      "url": "https://qiita.com/miruky/items/293ad0d3bc4d0cc41b08",
+      "summary": "AWS, AI, AIエージェント, ClaudeCode, opencode",
+      "score": 8,
+      "comments": 8,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Proxmox + Ollama + Continueで作るAIアシスタント基盤",
+      "url": "https://qiita.com/ohtsuka-shota/items/48a51c38ae5a87788954",
+      "summary": "proxmox, VSCode, continue, ollama, ローカルLLM",
+      "score": 21,
+      "comments": 20,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【AWS学習の最適解】AWS全冠がお届けする、無料学習サイト「AWS認定合格ナビゲーター」のご紹介",
+      "url": "https://qiita.com/kenken38/items/1d6e71aed59920c642a4",
+      "summary": "AWS, AI, AWS認定試験",
+      "score": 32,
+      "comments": 39,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "「新人にAI禁止令を出した組織」が、どのくらい開発フローでAIを使っているか",
+      "url": "https://qiita.com/WdknWdkn/items/22e6a3faea1bdcaefef3",
+      "summary": "マネジメント, AI, 組織, エンジニアリングマネージャー, 生成AI",
+      "score": 25,
+      "comments": 9,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "[Mac Studio vs DGX Spark] 同じモデルで2倍速 — ローカルLLM×Claude Codeの最適化で見えた本当のボトルネック",
+      "url": "https://qiita.com/Humanophilic_development/items/b416c443d9f52d04eaae",
+      "summary": "AI, MacStudio, ローカルLLM, ClaudeCode, DGXSpark",
+      "score": 11,
+      "comments": 8,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "ハーネスエンジニアリングとは何か ── コンテキストエンジニアリングの次のパラダイム",
+      "url": "https://qiita.com/miruky/items/155f3b5a0dcde72fcd10",
+      "summary": "AWS, AI, プロンプトエンジニアリング, ClaudeCode, ハーネスエンジニアリング",
+      "score": 26,
+      "comments": 27,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "GitHub Copilot を “信頼できる開発パートナー” に育てるためのプロンプト設計術",
+      "url": "https://qiita.com/K_san0219/items/862f52b70acea33599e0",
+      "summary": "プロンプト, copilot, GitHubCopilot, 生成AI, プロンプトエンジニアリング",
+      "score": 2,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Unity 6.4から、Destroyされた孫オブジェクト以下でも直後にOnDisableが呼ばれるようになった",
+      "url": "https://qiita.com/RyotaMurohoshi/items/ca8081ed68a2fa3e639f",
+      "summary": "Unity, Unity6.4",
+      "score": 3,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "LLM の次に来るものは「心」かもしれない",
+      "url": "https://qiita.com/haystacker/items/7aa47c764f4f70394bed",
+      "summary": "機械学習, 意識研究, 脳科学, 世界モデル, LLM",
+      "score": 18,
+      "comments": 7,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "マクロだけでもミクロだけでもダメ ― 日本経済を立て直す“二階建て”経済政策 : Pythonで学ぶ マクロ経済学入門 (61)",
+      "url": "https://qiita.com/maskot1977/items/b2e60b1383d3e9e091cb",
+      "summary": "経済学, ChatGPT, ChatGPTに聞いてみた, マクロ経済学",
+      "score": 6,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "codexでスパコンを壊してしまった話",
+      "url": "https://zenn.dev/chizuchizu/articles/a991c61ff0d073",
+      "summary": "",
+      "score": 73,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "cmuxで変わるClaude Codeのマルチプロジェクト開発体験",
+      "url": "https://zenn.dev/hummer/articles/cmux-ecosystem-claude-code",
+      "summary": "",
+      "score": 66,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Ghostty 1.3が来たぞ",
+      "url": "https://zenn.dev/kawarimidoll/articles/5382959edf38fc",
+      "summary": "",
+      "score": 35,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "仕様駆動開発スターターキットを公開しました",
+      "url": "https://zenn.dev/sakamotchi8/articles/spec-driven-starter-introduction",
+      "summary": "",
+      "score": 49,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "コードレビューとは何か",
+      "url": "https://zenn.dev/takekazuomi/articles/what-is-a-code-review",
+      "summary": "",
+      "score": 38,
+      "comments": 1,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "方眼紙Excel→Markdown変換、結局LLMしか勝たん話【全手法比較】",
+      "url": "https://zenn.dev/ougotti/articles/houganshi-excel-to-markdown",
+      "summary": "",
+      "score": 54,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "普段コード書かない奴が落合陽一に触発されてCLIツールを作った話",
+      "url": "https://zenn.dev/takemo101/articles/b2ec3f6a8ade39",
+      "summary": "",
+      "score": 30,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "DGX Sparkで色々なローカルLLMを動かした比較結果",
+      "url": "https://zenn.dev/karaage0703/articles/fcca40c614dffd",
+      "summary": "",
+      "score": 21,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "個人開発サイトにBOTが大量アクセス → Cloudflare無料プランで撃退した話🛡️",
+      "url": "https://zenn.dev/ausssxi/articles/646f7078117847",
+      "summary": "",
+      "score": 52,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "AI 駆動開発全盛期を生き抜くために Markdown を「読む」ためだけのアプリ Arto を作った",
+      "url": "https://zenn.dev/lambdalisue/articles/introduce-arto-markdown-reader",
+      "summary": "",
+      "score": 30,
+      "comments": 1,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Unity: ECS の性能を引き出すデータ設計の勘所",
+      "url": "https://zenn.dev/ruccho/articles/unity-ecs-data-optimization",
+      "summary": "",
+      "score": 8,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "NFCタグの使い方とWeb NFC API",
+      "url": "https://zenn.dev/ohtaman/articles/nfc-guide-for-hackers",
+      "summary": "",
+      "score": 14,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Coding Agentなどについて最近書いた/作ったもののまとめ",
+      "url": "https://zenn.dev/sakasegawa/articles/cc648c792823ea",
+      "summary": "",
+      "score": 10,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "GitHub Copilot CLIでSuperpowersスキルを導入してみた",
+      "url": "https://zenn.dev/jodycraft/articles/copilot-cli-superpowers-guide",
+      "summary": "",
+      "score": 11,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "AIを使うほど、判断力が落ちる人がいる理由",
+      "url": "https://zenn.dev/cognitiveosmdl/articles/231033371a6735",
+      "summary": "",
+      "score": 31,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "「技術のキャッチアップをやめる勇気」作りながら学び、届ける",
+      "url": "https://zenn.dev/perksh/articles/8698f63c956bbf",
+      "summary": "",
+      "score": 35,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "LLMの文体について",
+      "url": "https://zenn.dev/j_m/articles/dba4be5c018925",
+      "summary": "",
+      "score": 9,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Pilot Believes He Has Found Amelia Earhart’s Long-Lost Airplane (Missing Since 1937) Via Google Earth.",
+      "url": "https://www.yahoo.com/news/articles/pilot-believes-found-amelia-earhart-181316459.html",
+      "summary": "Software",
+      "score": 11205,
+      "comments": 725,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "GrapheneOS refuses to comply with new age verification laws for operating systems — group says it will never require personal information",
+      "url": "https://www.tomshardware.com/software/operating-systems/grapheneos-refuses-to-comply-with-age-verification-laws",
+      "summary": "Privacy",
+      "score": 5103,
+      "comments": 228,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Firefox 149 adds built-in free VPN with 50GB monthly data",
+      "url": "https://www.omgubuntu.co.uk/2026/03/firefox-adding-a-free-vpn",
+      "summary": "Security",
+      "score": 12002,
+      "comments": 737,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Meta targeted older workers in layoffs, lawsuit by former senior director for company claims",
+      "url": "https://www.mercurynews.com/2026/03/20/meta-older-workers-layoffs-lawsuit/?share=aoitaemnyser0wtmumr6",
+      "summary": "Business",
+      "score": 1850,
+      "comments": 75,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Wind and solar generated a record 17% of U.S. electricity in 2025",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=67367",
+      "summary": "Energy",
+      "score": 1685,
+      "comments": 93,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "How BYD Got EV Chargers to Work Almost as Fast as Gas Pumps",
+      "url": "https://www.wired.com/story/how-byds-ev-charger-got-even-faster-and-it-might-not-matter-as-much-as-you-think/",
+      "summary": "Energy",
+      "score": 1134,
+      "comments": 168,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "OpenAI to introduce ads to all ChatGPT free and Go users in US",
+      "url": "https://www.reuters.com/business/media-telecom/openai-expand-ads-chatgpt-all-free-low-cost-users-information-reports-2026-03-21/",
+      "summary": "Business",
+      "score": 2570,
+      "comments": 340,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "China could be the world’s biggest public funder of science within two years",
+      "url": "https://www.nature.com/articles/d41586-026-00618-5",
+      "summary": "Business",
+      "score": 1399,
+      "comments": 95,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Reddit is weighing identity verification methods to combat its bot problem.  The platform's CEO mentioned Face ID and Touch ID as ways to verify if a human is using Reddit.",
+      "url": "https://www.engadget.com/social-media/reddit-is-weighing-identity-verification-methods-to-combat-its-bot-problem-195814671.html?guccounter=1&amp;guce_referrer=aHR0cHM6Ly93d3cucmVkZGl0LmNvbS8&amp;guce_referrer_sig=AQAAABRwqCwM1lixwpOzG1JOCzcnZwH25d68rPepT4aS_TgE04QvUxL4iZZOlsxMLONAueUa3a5CAjZs5fZMlqgb68jdEIMQZfB5z2XOrYUzOEpfP7Gb8QkkmLFwdEkgiVUIOi4Aiyr2GWlBmzOmKsL1yTEEBK1ddZTM7MRw4gSFlPda",
+      "summary": "Business",
+      "score": 8335,
+      "comments": 2724,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Tech leaders support California bill to stop 'dominant platforms' from blocking competition",
+      "url": "https://yro.slashdot.org/story/26/03/22/2025249/tech-leaders-support-california-bill-to-stop-dominant-platforms-from-blocking-competition",
+      "summary": "Business",
+      "score": 345,
+      "comments": 17,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Let's see Paul Allen's SIMD CSV parser",
+      "url": "https://chunkofcoal.com/posts/simd-csv/",
+      "summary": "",
+      "score": 194,
+      "comments": 10,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "my first patch to the linux kernel",
+      "url": "https://pooladkhay.com/posts/first-kernel-patch/",
+      "summary": "",
+      "score": 108,
+      "comments": 5,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Storing 2 bytes of data in your Logitech mouse",
+      "url": "https://www.timwehrle.de/blog/what-if-i-stored-data-in-my-mouse/",
+      "summary": "Out of boredom, I spent a considerable amount of time reverse engineering the protocol of my Logitech mouse to see if I",
+      "score": 1096,
+      "comments": 123,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Node.js worker threads are problematic, but they work great for us",
+      "url": "https://www.inngest.com/blog/node-worker-threads",
+      "summary": "",
+      "score": 6,
+      "comments": 1,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Traditional user-interface graphics: icons, cursors, buttons, borders, and drawing style",
+      "url": "https://peteroupc.github.io/classic-wallpaper/docs/uielements.html",
+      "summary": "This [open-source article](https://peteroupc.github.io/classic-wallpaper/docs/uielements.html) I wrote discusses aspects",
+      "score": 7,
+      "comments": 2,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Beyond Linux and Windows: A Technical Analysis for the Modern Professional | by Murilo Giatti | Mar, 2026",
+      "url": "https://medium.com/@giattim/beyond-linux-and-windows-a-technical-analysis-for-the-modern-professional-b5277a7732b1",
+      "summary": "A technical analysis of Windows vs. Linux for professionals, focusing on architecture, security, use cases, and the futu",
+      "score": 2,
+      "comments": 1,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Pessimistic vs Optimistic Concurrency Control",
+      "url": "https://pradyumnachippigiri.substack.com/p/concurrency-controls-pessimistic",
+      "summary": "",
+      "score": 1,
+      "comments": 1,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "lshaz: a static analysis tool for finding microarchitectural latency hazards",
+      "url": "https://abokhalill.github.io/lshaz-writeup/writeups/abseil-deep-dive/",
+      "summary": "",
+      "score": 2,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "YOLOv8 Segmentation Tutorial for Real Flood Detection",
+      "url": "https://eranfeit.net/yolov8-segmentation-tutorial-for-real-flood-detection/",
+      "summary": "For anyone studying computer vision and semantic segmentation for environmental monitoring.\n\nThe primary technical chall",
+      "score": 0,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "CanisterWorm Gets Teeth: TeamPCP's Kubernetes Wiper Targets Iran",
+      "url": "https://www.aikido.dev/blog/teampcp-stage-payload-canisterworm-iran",
+      "summary": "",
+      "score": 20,
+      "comments": 2,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Agent skill marketplace supply chain attack: 121 skills across 7 repos vulnerable to GitHub username hijacking, 5 scanners disagree by 10x on malicious skill rates (arXiv:2603.16572)",
+      "url": "https://raxe.ai/labs/radar/radar-2026-002#malicious-or-not-adding-repository-context-to-agent-skill-classification",
+      "summary": "**Submission URL**\n    : https://arxiv.org/abs/2603.16572\n    \n    **Repository hijacking**\n     — Skills.sh and Ski",
+      "score": 8,
+      "comments": 3,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "LLVM Adventures: Fuzzing Apache Modules",
+      "url": "https://pwner.gg/blog/2026-03-20-apatchy",
+      "summary": "",
+      "score": 3,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "It’s about time: Temporal advances, Vite accelerates",
+      "url": "https://javascriptweekly.com/issues/777",
+      "summary": "#777 — March 17, 2026Read on the WebJavaScript WeeklyTemporal: The 9-Year Journey to Fix Time in JavaScript— JavaScript",
+      "score": 0,
+      "comments": 0,
+      "source": "JavaScript Weekly",
+      "source_icon": "🟡"
+    }
+  ]
+}
