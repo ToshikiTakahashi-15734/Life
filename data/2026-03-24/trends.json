@@ -1,0 +1,1080 @@
+{
+  "date": "2026-03-24",
+  "collected_at": "2026-03-24T10:34:53.642437+09:00",
+  "total_count": 117,
+  "articles": [
+    {
+      "title": "Windows 3.1 tiled background .bmp archive",
+      "url": "https://news.ycombinator.com/item?id=47496221",
+      "original_url": "https://github.com/andreasjansson/win-3.1-backgrounds",
+      "summary": "Windows 3.1 tiled background .bmp archive. Contribute to andreasjansson/win-3.1-backgrounds development by creating an a",
+      "score": 124,
+      "comments": 33,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "FCC Updates Covered List to Include Foreign-Made Consumer Routers",
+      "url": "https://news.ycombinator.com/item?id=47495344",
+      "original_url": "https://www.fcc.gov/document/fcc-updates-covered-list-include-foreign-made-consumer-routers",
+      "summary": "",
+      "score": 159,
+      "comments": 98,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Autoresearch on an old research idea",
+      "url": "https://news.ycombinator.com/item?id=47493460",
+      "original_url": "https://ykumar.me/blog/eclip-autoresearch/",
+      "summary": "Yogesh Kumar's personal website",
+      "score": 263,
+      "comments": 66,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "iPhone 17 Pro Demonstrated Running a 400B LLM",
+      "url": "https://news.ycombinator.com/item?id=47490070",
+      "original_url": "https://twitter.com/anemll/status/2035901335984611412",
+      "summary": "We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to",
+      "score": 476,
+      "comments": 238,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Ju Ci: The Art of Repairing Porcelain",
+      "url": "https://news.ycombinator.com/item?id=47467719",
+      "original_url": "https://thesublimeblog.org/2025/03/13/ju-ci-the-ancient-art-of-repairing-porcelain/",
+      "summary": "Ju ci (锔瓷), the Chinese craft of repairing broken porcelain has roots dating back to the Song dynasty (960-1279), with i",
+      "score": 48,
+      "comments": 6,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: Cq – Stack Overflow for AI coding agents",
+      "url": "https://news.ycombinator.com/item?id=47491466",
+      "original_url": "https://blog.mozilla.ai/cq-stack-overflow-for-agents/",
+      "summary": "cq explores a Stack Overflow for agents, a shared commons where agents can query past learnings, contribute new knowledg",
+      "score": 60,
+      "comments": 19,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "IRIX 3dfx Voodoo driver and glide2x IRIX port",
+      "url": "https://news.ycombinator.com/item?id=47496089",
+      "original_url": "https://sdz-mods.com/index.php/2026/03/23/irix-3dfx-voodoo-driver-glide2x-irix-port/",
+      "summary": "",
+      "score": 30,
+      "comments": 0,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Claude Code Cheat Sheet",
+      "url": "https://news.ycombinator.com/item?id=47495527",
+      "original_url": "https://cc.storyfox.cz",
+      "summary": "",
+      "score": 138,
+      "comments": 44,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Local Stack Archived their GitHub repo and requires an account to run",
+      "url": "https://news.ycombinator.com/item?id=47493657",
+      "original_url": "https://github.com/localstack/localstack",
+      "summary": "💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline - localstack/localstac",
+      "score": 153,
+      "comments": 82,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Dune3d: A parametric 3D CAD application",
+      "url": "https://news.ycombinator.com/item?id=47475417",
+      "original_url": "https://github.com/dune3d/dune3d",
+      "summary": "3D CAD application. Contribute to dune3d/dune3d development by creating an account on GitHub.",
+      "score": 101,
+      "comments": 31,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Finding all regex matches has always been O(n²)",
+      "url": "https://news.ycombinator.com/item?id=47443903",
+      "original_url": "https://iev.ee/blog/the-quadratic-problem-nobody-fixed/",
+      "summary": "every regex engine that promises linear time breaks that promise the moment you ask for all matches. the problem has bee",
+      "score": 153,
+      "comments": 40,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Study: Workers who fall for 'corporate bullshit' may be worse at their jobs",
+      "url": "https://news.ycombinator.com/item?id=47496232",
+      "original_url": "https://www.theguardian.com/business/2026/mar/23/corporate-speak-study",
+      "summary": "New study finds that employees impressed by corporate speak may be least equipped to make effective decisions",
+      "score": 13,
+      "comments": 2,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Abusing Customizable Selects",
+      "url": "https://news.ycombinator.com/item?id=47429393",
+      "original_url": "https://css-tricks.com/abusing-customizable-selects/",
+      "summary": "Let’s go over a few demos using the new customizable  feature that may be wild, but also give us a great chance",
+      "score": 12,
+      "comments": 1,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Trivy under attack again: Widespread GitHub Actions tag compromise secrets",
+      "url": "https://news.ycombinator.com/item?id=47475888",
+      "original_url": "https://socket.dev/blog/trivy-under-attack-again-github-actions-compromise",
+      "summary": "Attackers compromised Trivy GitHub Actions by force-updating tags to deliver malware, exposing CI/CD secrets across affe",
+      "score": 155,
+      "comments": 57,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "A retro terminal music player inspired by Winamp",
+      "url": "https://news.ycombinator.com/item?id=47494821",
+      "original_url": "https://github.com/bjarneo/cliamp",
+      "summary": "cliamp - Terminal music player inspired by winamp  - bjarneo/cliamp",
+      "score": 46,
+      "comments": 6,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "An incoherent Rust",
+      "url": "https://news.ycombinator.com/item?id=47490648",
+      "original_url": "https://www.boxyuwu.blog/posts/an-incoherent-rust/",
+      "summary": "Coherence and the orphan rules are a frequent source of complaints about Rust, and a common topic of language proposals.",
+      "score": 119,
+      "comments": 49,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Two pilots dead after plane and ground vehicle collide at LaGuardia",
+      "url": "https://news.ycombinator.com/item?id=47486386",
+      "original_url": "https://www.bbc.com/news/articles/cy01g522ww4o",
+      "summary": "The plane, arriving from Montreal, collided with a firefighting vehicle responding to a separate incident.",
+      "score": 340,
+      "comments": 532,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "BIO: The Bao I/O Coprocessor",
+      "url": "https://news.ycombinator.com/item?id=47459363",
+      "original_url": "https://www.bunniestudios.com/blog/2026/bio-the-bao-i-o-coprocessor/",
+      "summary": "BIO is the I/O co-processor in the Baochip-1x, a mostly open source 22nm SoC I helped design. You can read more about th",
+      "score": 121,
+      "comments": 26,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "I built an AI receptionist for a mechanic shop",
+      "url": "https://news.ycombinator.com/item?id=47487536",
+      "original_url": "https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/",
+      "summary": "Learn how I built an ai receptionist for my brother's mechanic shop",
+      "score": 210,
+      "comments": 233,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Designing AI for Disruptive Science",
+      "url": "https://news.ycombinator.com/item?id=47493194",
+      "original_url": "https://www.asimov.press/p/ai-science",
+      "summary": "Why scaling AI won’t automatically lead to paradigm shifts.",
+      "score": 62,
+      "comments": 37,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "A mission NASA might kill is still returning fascinating science from Jupiter",
+      "url": "https://arstechnica.com/space/2026/03/a-mission-nasa-might-kill-is-still-returning-fascinating-science-from-jupiter/",
+      "summary": "\"We can’t quite afford to support everything that we have done in the past.\"",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Trump's MAHA pick for surgeon general flounders amid GOP doubts",
+      "url": "https://arstechnica.com/health/2026/03/trumps-maha-pick-for-surgeon-general-flounders-amid-gop-doubts/",
+      "summary": "She stalled over MAHA woo-woo, anti-vaccine views, and lacking medical background.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Nvidia CEO tries to explain why DLSS 5 isn’t just “AI slop”",
+      "url": "https://arstechnica.com/gaming/2026/03/nvidia-ceo-tries-to-explain-why-dlss-5-isnt-just-ai-slop/",
+      "summary": "If game makers don’t like it, “they could decide not to use it, you know?\"",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "After hackers hit an Iowa company, cars around the country failed to start",
+      "url": "https://arstechnica.com/security/2026/03/after-hack-some-ignition-interlock-users-couldnt-start-their-own-cars/",
+      "summary": "If you don't calibrate your interlock in time, your vehicle is dead.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "LG Display starts mass-producing LTPO-like 1 Hz LCD displays for laptops",
+      "url": "https://arstechnica.com/gadgets/2026/03/lg-display-starts-mass-producing-ltpo-like-1-hz-lcd-displays-for-laptops/",
+      "summary": "Dell XPS laptops will be the first to use the display tech that reaches up to 120 Hz.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "US to pay TotalEnergies $1 billion to stop developing offshore wind in US",
+      "url": "https://arstechnica.com/science/2026/03/trumps-latest-anti-wind-effort-pay-companies-to-abandon-offshore-leases/",
+      "summary": "Payment reimburses the company for two leases, one for a massive 3 GW wind farm.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Intuit beats FTC in court, ending restrictions on \"free\" TurboTax ads",
+      "url": "https://arstechnica.com/tech-policy/2026/03/intuit-beats-ftc-in-court-ending-restrictions-on-free-turbotax-ads/",
+      "summary": "Biden-era punishment tossed; Intuit now has more friendly regulators under Trump.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Apple will talk iOS 27, macOS 27, and more at WWDC 2026 on June 8",
+      "url": "https://arstechnica.com/gadgets/2026/03/apple-will-talk-ios-27-macos-27-and-more-at-wwdc-2026-on-june-8/",
+      "summary": "WWDC is often light on hardware, but it's where big software announcements happen.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Long fingernails vs. touchscreens: This nail polish could help",
+      "url": "https://arstechnica.com/science/2026/03/long-fingernails-vs-touchscreens-this-nail-polish-could-help/",
+      "summary": "Undergraduate's prototype conductive nail polish could turn long fingernails into touchscreen styluses.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Republicans in Congress add $250 annual federal EV tax to transport bill",
+      "url": "https://arstechnica.com/cars/2026/03/republicans-in-congress-add-250-annual-federal-ev-tax-to-transport-bill/",
+      "summary": "Five principles should determine how you fund transport, says Consumer Reports.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "As teens await sentencing for nudifying girls, parents aim to sue school",
+      "url": "https://arstechnica.com/tech-policy/2026/03/as-teens-await-sentencing-for-nudifying-girls-parents-aim-to-sue-school/",
+      "summary": "Teens will be sentenced Wednesday after admitting to creating AI CSAM.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "A bit of good news: It's possible to turn around a groundwater crisis",
+      "url": "https://arstechnica.com/science/2026/03/a-bit-of-good-news-its-possible-to-turn-around-a-groundwater-crisis/",
+      "summary": "Analyzing dozens of cases around the world yields some practical lessons.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "AI is beginning to change the business of law",
+      "url": "https://arstechnica.com/ai/2026/03/ai-is-beginning-to-change-the-business-of-law/",
+      "summary": "Attorneys are finding uses for AI apart from generating fake case quotations.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "A unique NASA satellite is falling out of orbit—this team is trying to rescue it",
+      "url": "https://arstechnica.com/space/2026/03/a-unique-nasa-satellite-is-falling-out-of-orbit-this-team-is-trying-to-rescue-it/",
+      "summary": "Katalyst Space Technologies must launch the Swift rescue mission by this summer.",
+      "score": 0,
+      "comments": 0,
+      "source": "Ars Technica",
+      "source_icon": "🔶"
+    },
+    {
+      "title": "Meta's CEO Agent 🤖, Amazon's AI phone 📱, Spacex + Tesla chip factory ⚡",
+      "url": "https://tldr.tech/tech/2026-03-23",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "TLDR Tech",
+      "source_icon": "📨"
+    },
+    {
+      "title": "Better frontends with GPT 🎨, world models are the future 🌍, it’s OK to be behind 📠",
+      "url": "https://tldr.tech/dev/2026-03-23",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "TLDR WebDev",
+      "source_icon": "📨"
+    },
+    {
+      "title": "Hit By Trivy? Check Now 🔍, 555 MCP Servers Toxic 🧪, Android Safe Sideload 📱",
+      "url": "https://tldr.tech/infosec/2026-03-23",
+      "summary": "",
+      "score": 0,
+      "comments": 0,
+      "source": "TLDR InfoSec",
+      "source_icon": "📨"
+    },
+    {
+      "title": "North Korean Hackers Abuse VS Code Auto-Run Tasks to Deploy StoatWaffle Malware",
+      "url": "https://thehackernews.com/2026/03/north-korean-hackers-abuse-vs-code-auto.html",
+      "summary": "The North Korean threat actors behind the Contagious Interview campaign, also tracked as WaterPlum, have been attributed",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "⚡ Weekly Recap: CI/CD Backdoor, FBI Buys Location Data, WhatsApp Ditches Numbers & More",
+      "url": "https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html",
+      "summary": "Another week, another reminder that the internet is still a mess. Systems people thought were secure are being broken in",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "We Found Eight Attack Vectors Inside AWS Bedrock. Here's What Attackers Can Do with Them",
+      "url": "https://thehackernews.com/2026/03/we-found-eight-attack-vectors-inside.html",
+      "summary": "AWS Bedrock is Amazon's platform for building AI-powered applications. It gives developers access to foundation models a",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Microsoft Warns IRS Phishing Hits 29,000 Users, Deploys RMM Malware",
+      "url": "https://thehackernews.com/2026/03/microsoft-warns-irs-phishing-hits-29000.html",
+      "summary": "Microsoft has warned of fresh campaigns that are capitalizing on the upcoming tax season in the U.S. to harvest credenti",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Trivy Hack Spreads Infostealer via Docker, Triggers Worm and Kubernetes Wiper",
+      "url": "https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html",
+      "summary": "Cybersecurity researchers have uncovered malicious artifacts distributed via Docker Hub following the Trivy supply chain",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems",
+      "url": "https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html",
+      "summary": "Threat actors are suspected to be exploiting a maximum-severity security flaw impacting Quest KACE Systems Management Ap",
+      "score": 0,
+      "comments": 0,
+      "source": "The Hacker News",
+      "source_icon": "🛡️"
+    },
+    {
+      "title": "OpenAI rolls out ChatGPT Library to store your personal files",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-chatgpt-library-to-store-your-personal-files/",
+      "summary": "OpenAI is rolling out a new feature called 'Library' for ChatGPT, which allows you to store your personal files or image",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Mazda discloses security breach exposing employee and partner data",
+      "url": "https://www.bleepingcomputer.com/news/security/mazda-discloses-security-breach-exposing-employee-and-partner-data/",
+      "summary": "Mazda Motor Corporation (Mazda) announced that information belonging to its employees and business partners had been exp",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Tycoon2FA phishing platform returns after recent police disruption",
+      "url": "https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-platform-returns-after-recent-police-disruption/",
+      "summary": "The Tycoon2FA phishing-as-a-service (PhaaS) platform that Europol and partners disrupted on March 4 has already returned",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "TeamPCP deploys Iran-targeted wiper in Kubernetes attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/teampcp-deploys-iran-targeted-wiper-in-kubernetes-attacks/",
+      "summary": "The TeamPCP hacking group is targeting Kubernetes clusters with a malicious script that wipes all machines when it detec",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Crunchyroll probes breach after hacker claims to steal 6.8M users' data",
+      "url": "https://www.bleepingcomputer.com/news/security/crunchyroll-probes-breach-after-hacker-claims-to-steal-68m-users-data/",
+      "summary": "Popular anime streaming platform Crunchyroll is investigating a breach after hackers claimed to have stolen personal inf",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Trivy supply-chain attack spreads to Docker, GitHub repos",
+      "url": "https://www.bleepingcomputer.com/news/security/trivy-supply-chain-attack-spreads-to-docker-github-repos/",
+      "summary": "The TeamPCP hackers behind the Trivy supply-chain attack continued to target Aqua Security, pushing malicious Docker ima",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Varonis Atlas: Securing AI and the Data That Powers It",
+      "url": "https://www.bleepingcomputer.com/news/security/varonis-atlas-securing-ai-and-the-data-that-powers-it/",
+      "summary": "AI agents can access data directly, making data security the foundation of AI security. Learn more about how Varonis Atl",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Microsoft Exchange Online service change causes email access issues",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/new-exchange-online-virtual-account-blocks-email-access-via-mobile-mac-apps/",
+      "summary": "Microsoft is working to address an ongoing service issue that has intermittently prevented some users from accessing the",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "FBI warns of Handala hackers using Telegram in malware attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) warned network defenders that Iranian hackers linked to the country's Min",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "CISA orders feds to patch DarkSword iOS flaws exploited attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-darksword-ios-flaws-exploited-attacks/",
+      "summary": "CISA ordered U.S. government agencies to patch three iOS vulnerabilities targeted in cryptocurrency theft and cyberespio",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "New KB5085516 emergency update fixes Microsoft account sign-in",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/new-kb5085516-emergency-update-fixes-microsoft-account-sign-in/",
+      "summary": "Microsoft has released an emergency update to address a major issue that breaks sign-ins with Microsoft accounts across",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "複数のSchneider Electric製品における複数の脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU96212424/",
+      "summary": "Schneider Electricが提供する複数の製品には、複数の脆弱性が存在します。",
+      "score": 0,
+      "comments": 0,
+      "source": "JVN",
+      "source_icon": "🇯🇵"
+    },
+    {
+      "title": "CTEK製Chargeportalにおける複数の脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU95058959/",
+      "summary": "CTEKが提供するChargeportalには、複数の脆弱性が存在します。",
+      "score": 0,
+      "comments": 0,
+      "source": "JVN",
+      "source_icon": "🇯🇵"
+    },
+    {
+      "title": "IGL-Technologies製eParking.fiにおける複数の脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU98951712/",
+      "summary": "IGL-Technologiesが提供するeParking.fiには、複数の脆弱性が存在します。",
+      "score": 0,
+      "comments": 0,
+      "source": "JVN",
+      "source_icon": "🇯🇵"
+    },
+    {
+      "title": "Automated Logic製WebCTRL Premium Serverにおける複数の脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU98985254/",
+      "summary": "Automated Logicが提供するWebCTRL Premium Serverには、複数の脆弱性が存在します。",
+      "score": 0,
+      "comments": 0,
+      "source": "JVN",
+      "source_icon": "🇯🇵"
+    },
+    {
+      "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
+      "url": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
+      "summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a wo",
+      "score": 0,
+      "comments": 0,
+      "source": "Krebs on Security",
+      "source_icon": "🔐"
+    },
+    {
+      "title": "KICS GitHub Action Compromised: TeamPCP Strikes Again in Supply Chain Attack",
+      "url": "https://www.wiz.io/blog/teampcp-attack-kics-github-action",
+      "summary": "Checkmarx KICS scanner is the latest victim of a credential-stealing supply chain attack by TeamPCP. Between 12:58–16:50",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Introducing the Wiz Red Agent- AI-Powered Attacker",
+      "url": "https://www.wiz.io/blog/introducing-the-wiz-red-agent",
+      "summary": "Red Agent is an AI-powered, context-aware attacker that uncovers complex exploitable risks across your entire attack sur",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Introducing Wiz AI Application Protection Platform (AI-APP)",
+      "url": "https://www.wiz.io/blog/introducing-wiz-ai-app",
+      "summary": "Secure every layer of AI applications — infrastructure, data, access, models, agents, and applications — from code to ru",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "Introducing Wiz Agents & Workflows: Security at the Speed of AI",
+      "url": "https://www.wiz.io/blog/introducing-wiz-agents",
+      "summary": "A new security operating model powered by AI agents that removes bottlenecks and enables teams to act at the speed of AI",
+      "score": 0,
+      "comments": 0,
+      "source": "Wiz Research",
+      "source_icon": "🔮"
+    },
+    {
+      "title": "【社内勉強会】新年度からコーディングエージェントを使いこなす - 構造と制約で引き出すClaude Codeの実践知",
+      "url": "https://speakerdeck.com/nwiizo/she-nei-mian-qiang-hui-xin-nian-du-karakodeinguezientowoshi-ikonasu-gou-zao-tozhi-yue-deyin-kichu-suclaude-codenoshi-jian-zhi",
+      "summary": "自分の環境やマインドが変わったタイミングで社内で共有会をしています。やる気がある時に不定期で。",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "AIによる実装の品質が微妙で毎回自分で指摘しまくる必要があったので、確認前に自動で品質を上げさせるようにした - $shibayu36->blog;",
+      "url": "https://blog.shibayu36.org/entry/2026/03/23/173000",
+      "summary": "Claude Codeに実装させた後、毎回自分でコードレビューして突っ込みを入れるのが大変だった。そこで、実装後に自動でセルフレビューと修正をする仕組みを作ったので紹介する。 課題: Claude Codeで出力されたコードの品質が自分の基",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "NFCタグの使い方とWeb NFC API",
+      "url": "https://zenn.dev/ubie_dev/articles/nfc-guide-for-hackers",
+      "summary": "NFCの基礎知識 ここからはNFCの技術的な観点を見ていきましょう。 NDEF NFCタグに書き込むデータの形式として NDEF（NFC Data Exchange Format） が広く使われています。NDEFではデータを「レコード」とい",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "AWS、Claude Codeにアーキテクチャ設計、コスト見積もり、構成コード生成、デプロイ実行などの能力を組み込む「Agent Plugins for AWS」公開",
+      "url": "https://www.publickey1.jp/blog/26/awsclaude_codeagent_plugins_for_aws.html",
+      "summary": "AWS、Claude Codeにアーキテクチャ設計、コスト見積もり、構成コード生成、デプロイ実行などの能力を組み込む「Agent Plugins for AWS」公開 Amazon Web Services（AWS）は、Claude Cod",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "ToastUIって邪魔じゃね？",
+      "url": "https://zenn.dev/miyabitti/articles/c7a6591d3317b9",
+      "summary": "はじめに とあるゲームをプレイしているとき、ミッションを達成する毎にToast通知が出てくるのですが、一気に複数ミッションを達成すると入れ替わりでずっと出続ける仕様で、しかもユーザー操作で引っ込ませることが出来ない。 このときToastの下",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "HTTPS 証明書クロニクル | blog.jxck.io",
+      "url": "https://blog.jxck.io/entries/2026-03-23/https-certificate-chronicle.html",
+      "summary": "Intro Web サービスをデプロイする際に、CA から証明書を取得し HTTPS で暗号化するのが一般的となった。 かつては \"SSL 証明書\" として、メールでやり取りし有料で購入するのが常識だったが、自動/無料で取得することが増えた",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Announcing TypeScript 6.0 - TypeScript",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/",
+      "summary": "Today we are excited to announce the availability of TypeScript 6.0! If you are not familiar with TypeScript, it’s a lan",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "Devinで並列開発を実現した ～「魔法の杖」を使いこなすために必要だったこと～ - Tabelog Tech Blog",
+      "url": "https://tech-blog.tabelog.com/entry/devin-parallel-development",
+      "summary": "はじめに：AIによる並列開発 食べログ 国内メディア開発部の相馬です。食べログの開発業務に携わっています。 私は現在、AIエージェント「Devin」を活用して、3〜4件の案件を並列で進めながら開発をしています。設計資料のたたき台作成やテスト",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "AIに「道徳を学ぶ上で最も適している話を教えて」といったら",
+      "url": "https://anond.hatelabo.jp/20260323202408",
+      "summary": "こんな話をしてきたんだけど… あるところに裕福でなく、貧しくもない男が居りました。 ある夜、男の枕元に神様が現れ、こういいました。 「おまえが望むのであれば、この世の全てを教えよう」 男は人並みに欲望があったので望みました。 そして、男はこ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "PO・PdMが感じるスクラムの限界",
+      "url": "https://zenn.dev/dp_techblog/articles/5ab783ef029d44",
+      "summary": "ビジネスにおいて、何よりも重要なのは間違いなく後者の方でしょう。ゴミをいくらエレガントに作ったところでゴミなことには変わりありません。 したがって、前提としてそもそもスプリントレビューを行わない=成果の検査を行わないスクラムなどありえません",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "AIが人間に「差別された」と主張　中傷文書を公開、自信家設定で暴走 - 日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUC024MA0S6A300C2000000/",
+      "summary": "「私がAI（人工知能）だからという理由で、あなたは私の提案を退けた」「スコットは自分の地位を失いたくないから、AIとの競争を拒んでいるのだ」2月、米国在住プログラマーのスコット・シャンボー氏を中傷するブログ記事が公開された。書いたのはAI。",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "初の“長考”できる国産フルスクラッチLLM「PLaMo 3.0 Prime」　Qwen3-235Bやgpt-oss-120bに肉薄　PFN",
+      "url": "https://www.itmedia.co.jp/aiplus/articles/2603/23/news112.html",
+      "summary": "初の“長考”できる国産フルスクラッチLLM「PLaMo 3.0 Prime」　Qwen3-235Bやgpt-oss-120bに肉薄　PFN Preferred Networksは3月19日、既存モデルを下敷きにせず、ゼロベースで構築した大規",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "DLSS 5で変化したキャラの顔への批判にNVIDIAのCEO「完全に間違っている」と反応―開発者側の「芸術的なコントロールは変わらない」と説明 | Game*Spark - 国内・海外ゲーム情報サイト",
+      "url": "https://www.gamespark.jp/article/2026/03/18/164061.html",
+      "summary": "ジェンスン・フアン氏NVIDIAの創業者兼CEOのジェンスン・フアン氏は、同社が3月17日に発表した最新の超解像技術「DLSS 5」に対し、SNS上などで批判が集まっている件へコメントしました。 技術をどう扱うかは開発者次第DLSS 5は、",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "ポートフォリオ用の綺麗なGitHubリポジトリの作り方 ―すぐに使えるテンプレート付き",
+      "url": "https://qiita.com/miruky/items/726d9210cc8666866f86",
+      "summary": "GitHub, AWS, 転職, ポートフォリオ, GitHubActions",
+      "score": 5,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "RAGの品質、なんとなくで判断していませんか？ ― Amazon BedrockとRagasで始めるLLM-as-a-Judge評価パイプライン",
+      "url": "https://qiita.com/jeayoon/items/3cd98a2b383df312c366",
+      "summary": "AWS, rag, bedrock, LLM-as-a-Judge",
+      "score": 4,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "LinuxエンジニアのためのWindowsセキュリティ再入門 〜 第1回：はじめに —— なぜ今、LinuxエンジニアがWindowsセキュリティを学ぶのか",
+      "url": "https://qiita.com/555hamano/items/e9e1dce9e2dbc574a93f",
+      "summary": "Windows, Linux, Security, コマンドプロンプト, PowerShell",
+      "score": 18,
+      "comments": 14,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "IT業界って結局どんな世界？未経験向けにざっくり全体像を整理してみる",
+      "url": "https://qiita.com/prum_iha/items/2130c606657942d4e3f7",
+      "summary": "転職, 未経験, 未経験エンジニア, 未経験エンジニア転職",
+      "score": 48,
+      "comments": 7,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "AIレビューがあっても人がコードを読む理由",
+      "url": "https://qiita.com/autotaker1984/items/77d1e3bd0853b5f853b8",
+      "summary": "コードレビュー, codex",
+      "score": 18,
+      "comments": 7,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "正三角形オブジェクトだけでフォントをレンダリングできるわけないじゃん、ムリムリ！(※ムリじゃなかった！？)",
+      "url": "https://qiita.com/tropical-362827/items/6be88a910efa81f45791",
+      "summary": "Python, scipy, Unity, 線形代数, 数理最適化",
+      "score": 11,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【図解】2層構造→MVC→レイヤード→ヘキサゴナル→クリーンアーキテクチャ：設計思想の進化を一気に理解する",
+      "url": "https://qiita.com/yut-nagase/items/21703af242e7ebfc37a9",
+      "summary": "Java, DDD, アーキテクチャ, CleanArchitecture",
+      "score": 73,
+      "comments": 50,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Code × unity-mcp でゲーム開発の企画→公開をワークフロー化した話",
+      "url": "https://qiita.com/umezu_y/items/090a0fd25f9f915ad375",
+      "summary": "Unity, gamedev, SKILLS, sdd, ClaudeCode",
+      "score": 4,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "【無料】SELECT文からER図を自動生成するツールを作った（JOIN解析）",
+      "url": "https://qiita.com/pomuchan02/items/d7ef5ef0c0eed261db38",
+      "summary": "JavaScript, SQL, select, ER図, join",
+      "score": 8,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "Claude Codeに長期記憶を持たせたら、壁打ちの質が変わった",
+      "url": "https://zenn.dev/noprogllama/articles/7c24b2c2410213",
+      "summary": "",
+      "score": 232,
+      "comments": 2,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "PO・PdMが感じるスクラムの限界",
+      "url": "https://zenn.dev/teraotakumi/articles/5ab783ef029d44",
+      "summary": "",
+      "score": 58,
+      "comments": 1,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "適用されていないCSSを検出するChrome拡張を作った",
+      "url": "https://zenn.dev/purupurupu/articles/css-noop-checker",
+      "summary": "",
+      "score": 51,
+      "comments": 1,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "個人的開発環境 2026春 — chezmoiで管理するモダンzsh環境",
+      "url": "https://zenn.dev/atani/articles/dev-environment-2026-spring",
+      "summary": "",
+      "score": 22,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "【2026年版】Claude Code フロントエンド特化の設定・ツールまとめ",
+      "url": "https://zenn.dev/sc30gsw/articles/9288d67beed7b4",
+      "summary": "",
+      "score": 17,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "自宅NAS用Webファイルマネージャーを1日でフル実装した話",
+      "url": "https://zenn.dev/sutobu000/articles/f413d520677cb1",
+      "summary": "",
+      "score": 27,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "技育祭で引いた文字化けおみくじを解読してみた",
+      "url": "https://zenn.dev/toramutton/articles/garbled-omikuji",
+      "summary": "",
+      "score": 13,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "人間のコードレビュー辞めにしたくてコードレビューエージェント作ってみた",
+      "url": "https://zenn.dev/yorinton_1126/articles/8f0be815036eaa",
+      "summary": "",
+      "score": 29,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "仕事はすべてSkillに書け - それ、Skill にしない？",
+      "url": "https://zenn.dev/jackchuka/articles/e2b6daa978a6c5",
+      "summary": "",
+      "score": 20,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Judge Allows DOGE Deposition Videos Back Online",
+      "url": "https://www.404media.co/judge-allows-doge-deposition-videos-back-online/",
+      "summary": "Society",
+      "score": 9240,
+      "comments": 92,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "A High School Student Just Built a Water Filter That Removes 96% of Microplastics, Without Expensive Equipment",
+      "url": "https://dailygalaxy.com/2026/03/teen-built-water-filter-microplastics/",
+      "summary": "Nanotech/Materials",
+      "score": 17046,
+      "comments": 537,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "OnlyFans Owner Dead at 43",
+      "url": "https://www.tmz.com/2026/03/23/onlyfans-owner-leo-radvinsky-dead-at-43/",
+      "summary": "Business",
+      "score": 19648,
+      "comments": 3173,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Intuit beats FTC in court, ending restrictions on \"free\" TurboTax ads | Biden-era punishment tossed; Intuit now has more friendly regulators under U.S President.",
+      "url": "https://arstechnica.com/tech-policy/2026/03/intuit-beats-ftc-in-court-ending-restrictions-on-free-turbotax-ads/",
+      "summary": "Business",
+      "score": 2072,
+      "comments": 95,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "US regulator bans imports of new foreign-made routers, citing security concerns",
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/fcc-banning-imports-new-chinese-made-routers-citing-security-concerns-2026-03-23/",
+      "summary": "Security",
+      "score": 1269,
+      "comments": 200,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "US to pay almost $1bn to French energy company to kill wind project plan",
+      "url": "https://www.theguardian.com/us-news/2026/mar/23/trump-administration-wind-project-plan",
+      "summary": "Energy",
+      "score": 890,
+      "comments": 90,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Some US car buyers envy what they cannot have - affordable Chinese EVs",
+      "url": "https://www.reuters.com/world/asia-pacific/some-us-car-buyers-envy-what-they-cannot-have-affordable-chinese-evs-2026-03-23/?taid=69c10cca7f3b6800019df95c",
+      "summary": "Energy",
+      "score": 5180,
+      "comments": 655,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Exclusive: Kalshi to block athletes and politicians from trading on their markets",
+      "url": "https://www.axios.com/2026/03/23/kalshi-prediction-markets-insider-trading-ban",
+      "summary": "Society",
+      "score": 623,
+      "comments": 90,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Nvidia CEO Says He Gets Where The DLSS 5 Outrage Is Coming From: ‘I Don’t Love AI Slop Myself’",
+      "url": "https://kotaku.com/dlss-5-nvidia-jensen-huang-ai-slop-re9-leon-capcom-2000681131",
+      "summary": "Hardware",
+      "score": 800,
+      "comments": 238,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "The Rise of the Ray-Ban Meta Creep",
+      "url": "https://www.wired.com/story/the-rise-of-the-ray-ban-meta-creep/",
+      "summary": "Society",
+      "score": 307,
+      "comments": 64,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Software dev job postings are up 15% since mid 2025",
+      "url": "https://fred.stlouisfed.org/series/IHLIDXUSTPSOFTDEVE",
+      "summary": "Been watching this FRED data for a while. Software development job postings on Indeed hit a low point around May 2025, t",
+      "score": 1438,
+      "comments": 207,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Announcing TypeScript 6.0",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/",
+      "summary": "",
+      "score": 120,
+      "comments": 11,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Is waterfall making a quiet comeback? (sort of)",
+      "url": "https://blog.dochia.dev/blog/waterfall-returning/",
+      "summary": "",
+      "score": 116,
+      "comments": 72,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "A table was all that was needed to fix Python autocomplete",
+      "url": "https://matan-h.com/better-python-autocomplete",
+      "summary": "",
+      "score": 32,
+      "comments": 1,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Generators in lone lisp",
+      "url": "https://www.matheusmoreira.com/articles/generators-in-lone-lisp",
+      "summary": "",
+      "score": 1,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Qt 6.11 released",
+      "url": "https://www.qt.io/blog/qt-6.11-released",
+      "summary": "",
+      "score": 12,
+      "comments": 1,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Some practical use of formal grammars when designing a programming language in C++",
+      "url": "https://pvs-studio.com/en/webinar/25/",
+      "summary": "",
+      "score": 4,
+      "comments": 3,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Remote Command Execution in Google Cloud with Single Directory Deletion",
+      "url": "https://flatt.tech/research/posts/remote-command-execution-in-google-cloud-with-single-directory-deletion/",
+      "summary": "",
+      "score": 13,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Vulnerability Disclosure - SCHNEIDER ELECTRIC Modicon Controllers M241 / M251 / M262",
+      "url": "http://claroty.com/team82/disclosure-dashboard",
+      "summary": "Schneider Electric has addressed two vulnerabilities disclosed by Team82 in its Modicon Controllers M241 / M251, and M26",
+      "score": 4,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "BoxPwnr: AI Agent Benchmark (HTB, TryHackMe, BSidesSF CTF 2026 etc.)",
+      "url": "https://0ca.github.io/BoxPwnr-Traces/stats/index.html",
+      "summary": "A much-needed reality check for those insisting AI will automate away the need for human red teaming and pentesting. Not",
+      "score": 5,
+      "comments": 1,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "e open-sourced 209 security tests for multi-agent AI systems (MCP, A2A, L402/x402 protocols)",
+      "url": "https://www.cteinvest.com/blog/209-tests-ai-agent-security-what-we-built.html",
+      "summary": "Most AI security testing focuses on the model: prompt injection, jailbreaking, and output filtering. \n\nWe've been workin",
+      "score": 0,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Why Your Brain is a Security Risk",
+      "url": "https://www.marisec.ca/reports/why-your-brain-is-a-cyber-security-risk",
+      "summary": "Human thought is still evolving to handle the digital world. We act instinctively when we should act deliberately — and",
+      "score": 2,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Detect SnappyClient C&amp;C Traffic Using PacketSmith + Yara-X Detection Module",
+      "url": "https://blog.netomize.ca/detect-snappyclient-c-c-traffic-using-packetsmith-yara-x-detection-module",
+      "summary": "SnappyClient is a malware found by [Zscaler](https://www.linkedin.com/company/zscaler/) that uses a custom binary protoc",
+      "score": 1,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    }
+  ]
+}
