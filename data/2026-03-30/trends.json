@@ -1,0 +1,549 @@
+{
+  "date": "2026-03-30",
+  "collected_at": "2026-03-30T09:28:56.211813+09:00",
+  "total_count": 58,
+  "articles": [
+    {
+      "title": "Claude Code runs Git reset –hard origin/main against project repo every 10 mins",
+      "url": "https://news.ycombinator.com/item?id=47567969",
+      "original_url": "https://github.com/anthropics/claude-code/issues/40710",
+      "summary": "Summary Claude Code performs git fetch origin + git reset --hard origin/main on the user's project repo every 10 minutes",
+      "score": 115,
+      "comments": 33,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "ChatGPT won't let you type until Cloudflare reads your React state",
+      "url": "https://news.ycombinator.com/item?id=47566865",
+      "original_url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/",
+      "summary": "Every ChatGPT message triggers a Cloudflare Turnstile program that runs silently in your browser. I decrypted 377 of the",
+      "score": 297,
+      "comments": 220,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "The Cognitive Dark Forest",
+      "url": "https://news.ycombinator.com/item?id=47566442",
+      "original_url": "https://ryelang.org/blog/posts/cognitive-dark-forest/",
+      "summary": "The open web with AIs is turning into a dark forest.",
+      "score": 202,
+      "comments": 95,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Voyager 1 runs on 69 KB of memory and an 8-track tape recorder",
+      "url": "https://news.ycombinator.com/item?id=47564421",
+      "original_url": "https://techfixated.com/a-1977-time-capsule-voyager-1-runs-on-69-kb-of-memory-and-an-8-track-tape-recorder-4/",
+      "summary": "Right now, more than 15 billion miles from Earth, a 48-year-old spacecraft is hurtling through interstellar space at 38,",
+      "score": 372,
+      "comments": 151,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "I'll buy your electronics to feed our robot",
+      "url": "https://news.ycombinator.com/item?id=47534812",
+      "original_url": "https://www.dayworkx.com/",
+      "summary": "Verified component recovery from retired electronics.",
+      "score": 40,
+      "comments": 6,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Coding Agents Could Make Free Software Matter Again",
+      "url": "https://news.ycombinator.com/item?id=47568028",
+      "original_url": "https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/",
+      "summary": "I've been vibe-coding a lot lately.  Like, a lot a lot",
+      "score": 82,
+      "comments": 68,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Midnight train from GA: A view of America from the tracks as airports struggle",
+      "url": "https://news.ycombinator.com/item?id=47566653",
+      "original_url": "https://isp.netscape.com/news/story/0001/20260329/e4d8ea591b3b036142c2bf2dee7dff5a",
+      "summary": "ABOARD THE CRESCENT (AP) — There’s something melodic about watching the sun rise over a rural stillness broken only by t",
+      "score": 57,
+      "comments": 49,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "There is No Spoon. A software engineers primer for demystified ML",
+      "url": "https://news.ycombinator.com/item?id=47568080",
+      "original_url": "https://github.com/dreddnafious/thereisnospoon",
+      "summary": "A machine learning primer built from first principles. For engineers who want to reason about ML systems the way they re",
+      "score": 28,
+      "comments": 7,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "The road signs that teach travellers about France",
+      "url": "https://news.ycombinator.com/item?id=47566960",
+      "original_url": "https://www.bbc.com/travel/article/20260327-the-road-signs-that-teach-travellers-about-france",
+      "summary": "From abbeys and bridges to fish soup and Resistance history, France's motorway signs offer drivers a crash course in the",
+      "score": 45,
+      "comments": 5,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Pretext: TypeScript library for multiline text measurement and layout",
+      "url": "https://news.ycombinator.com/item?id=47556290",
+      "original_url": "https://github.com/chenglou/pretext",
+      "summary": "Contribute to chenglou/pretext development by creating an account on GitHub.",
+      "score": 177,
+      "comments": 27,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "About the Atmosphere",
+      "url": "https://news.ycombinator.com/item?id=47549586",
+      "original_url": "https://toni.org/2026/03/27/about-the-atmosphere/",
+      "summary": "I’m writing this from the beautiful UBC campus in Vancouver where ATmosphereConf 2026 is taking place. It’s a gathering",
+      "score": 13,
+      "comments": 0,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "C++26 is done ISO C++ standards meeting, Trip Report",
+      "url": "https://news.ycombinator.com/item?id=47565365",
+      "original_url": "https://herbsutter.com/2026/03/29/c26-is-done-trip-report-march-2026-iso-c-standards-meeting-london-croydon-uk/",
+      "summary": "News flash: C++26 is done! 🎉 On Saturday, the ISO C++ committee completed technical work on C++26 in (partly) sunny Lond",
+      "score": 157,
+      "comments": 121,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Ohm's Peg-to-WASM Compiler",
+      "url": "https://news.ycombinator.com/item?id=47539165",
+      "original_url": "https://ohmjs.org/blog/2026/03/12/peg-to-wasm",
+      "summary": "Ohm is a user-friendly parsing toolkit for JavaScript and TypeScript. You can use it to parse custom file formats or qui",
+      "score": 36,
+      "comments": 7,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "The RISE RISC-V Runners: free, native RISC-V CI on GitHub",
+      "url": "https://news.ycombinator.com/item?id=47531576",
+      "original_url": "https://riseproject.dev/2026/03/24/announcing-the-rise-risc-v-runners-free-native-risc-v-ci-on-github/",
+      "summary": "byLudovic Henry, RISE",
+      "score": 106,
+      "comments": 28,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "More on Version Control",
+      "url": "https://news.ycombinator.com/item?id=47566332",
+      "original_url": "https://bramcohen.com/p/more-on-version-control",
+      "summary": "This may have some legs",
+      "score": 46,
+      "comments": 6,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: Crazierl – An Erlang Operating System",
+      "url": "https://news.ycombinator.com/item?id=47567049",
+      "original_url": "https://crazierl.org/demo/",
+      "summary": "You can join your friends in a dist cluster, by sharing a url with the\nsame hashtag, and enabling dist with the checkbox",
+      "score": 34,
+      "comments": 9,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Neovim 0.12.0",
+      "url": "https://news.ycombinator.com/item?id=47565316",
+      "original_url": "https://github.com/neovim/neovim/releases/tag/v0.12.0",
+      "summary": "NVIM v0.12.0\nBuild type: Release\nLuaJIT 2.1.1774638290\n\nRelease notes\n\nChangelog (fixes + features)\nNews (:help news in",
+      "score": 283,
+      "comments": 121,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Show HN: QuickBEAM – run JavaScript as supervised Erlang/OTP processes",
+      "url": "https://news.ycombinator.com/item?id=47558094",
+      "original_url": "https://github.com/elixir-volt/quickbeam",
+      "summary": "JavaScript runtime for the BEAM — Web APIs backed by OTP, native DOM, and a built-in TypeScript toolchain. - elixir-volt",
+      "score": 74,
+      "comments": 11,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "Creating West Coast Buddhism (2024)",
+      "url": "https://news.ycombinator.com/item?id=47530670",
+      "original_url": "https://letter.palladiummag.com/p/creating-west-coast-buddhism",
+      "summary": "In the 1960s, Buddhism found a new spiritual homeland in California. It was the last step in a transformation that began",
+      "score": 45,
+      "comments": 24,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
+      "url": "https://news.ycombinator.com/item?id=47564579",
+      "original_url": "https://www.righto.com/2026/03/ibm-4-pi-computer-history.html",
+      "summary": "The morning of April 12, 1981, 20 years to the day after Yuri Gagarin became the first person in space, the Space Shuttl",
+      "score": 64,
+      "comments": 19,
+      "source": "Hacker News",
+      "source_icon": "🟠"
+    },
+    {
+      "title": "FBI confirms hack of Director Patel's personal email inbox",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-confirms-hack-of-director-patels-personal-email-inbox/",
+      "summary": "The Handala hackers associated with Iran have breached the personal email account of FBI Director Kash Patel and publish",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "File read flaw in Smart Slider plugin impacts 500K WordPress sites",
+      "url": "https://www.bleepingcomputer.com/news/security/file-read-flaw-in-smart-slider-plugin-impacts-500k-wordpress-sites/",
+      "summary": "A vulnerability in the Smart Slider 3 WordPress plugin, active on more than 800,000 websites, can be exploited to allow",
+      "score": 0,
+      "comments": 0,
+      "source": "BleepingComputer",
+      "source_icon": "💻"
+    },
+    {
+      "title": "Prompt→Context→Harness、全部やった。要件だけ渡す、変わっても壊れない。整合性駆動開発CoDD爆誕",
+      "url": "https://zenn.dev/shio_shoppaize/articles/shogun-codd-coherence",
+      "summary": "2025/3/29 19:00 更新 — セクション9「5分で体験するCoDD」を大幅改善。要件定義を平文で渡すだけのフローに変更（codd init --requirements spec.txt）。フロントマターもwave_config",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "妻のパン屋のために作ったERP「Craftplan」、小ロットの受注生産を念頭にワークフローが設計されておりオープンソースでセルフホスト可能",
+      "url": "https://gigazine.net/news/20260329-craftplan/",
+      "summary": "会社の運営には給与管理・財務管理・注文管理・在庫管理などさまざまな管理が必要で、企業資源計画(ERP)と呼ばれるシステムを導入すると一元管理できますが、複雑な機能の学習コストやランニングコストなどの負担が大きいため、個人経営のお店や小規模な",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "懇親会でぼっちにならないテクニック",
+      "url": "https://zenn.dev/philosophum/articles/4bdf97acbb2299",
+      "summary": "勉強会などのイベントに参加して、懇親会でぼっちになってしまった経験はありませんか？ 私は何度もあります。知り合いがいるイベントに参加しても、わりかしぼっち感を味わってます。 色々考えると、懇親会でぼっちにならないためには、やっぱり努力と勇気",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "楽天が方針転換？　「Rakuten AI 3.0はDeepSeekベース」と認める（山口健太） - エキスパート - Yahoo!ニュース",
+      "url": "https://news.yahoo.co.jp/expert/articles/d014ddc69f3bbec265b5e5f74efca652937a8ba7",
+      "summary": "楽天グループが3月17日に発表した「Rakuten AI 3.0」が、実際には中国製のDeepSeekをベースにしているとの指摘が相次ぎ、SNSで「炎上」する騒ぎがありました。 当初、楽天はベースモデルについて非開示としていたようですが、後",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "ここんところのWeb界隈についての主観的記録",
+      "url": "https://zenn.dev/crayfisher_zari/articles/e3dfa8ca8a4a79",
+      "summary": "将来、当時（2026年当初）のWeb界隈ってこんな感じだったよな、というのを振り返られるよう残しておく備忘録です。あくまで一当事者が感じた主観的なことを綴っています（客観的なことは残りやすいと思うのであえて主観的なことを）。それってつまり私",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "なぜステータスが混在するテーブル設計が生まれるのか",
+      "url": "https://zenn.dev/tonbi_attack/articles/9cf02af8c2a4b5",
+      "summary": "はじめに 業務システムのDBを読んでいると、一つのテーブルに複数のステータスカラムが同居しているケースをよく見かけます。 CREATE TABLE orders ( id INT UNSIGNED NOT NULL AUTO_INCREME",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "さくらのクラウド、ガバメントクラウドの要件をすべて満たし、ガバメントクラウドに正式決定。デジタル庁が発表",
+      "url": "https://www.publickey1.jp/blog/26/post_309.html",
+      "summary": "さくらのクラウド、ガバメントクラウドの要件をすべて満たし、ガバメントクラウドに正式決定。デジタル庁が発表 デジタル庁は3月27日、令和8年（2026年）度におけるガバメントクラウド整備のための新規クラウドサービスが決定されたことを発表しまし",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "LLM に足りないのは能力ではない。あなたの事情だ - じゃあ、おうちで学べる",
+      "url": "https://syu-m-5151.hatenablog.com/entry/2026/03/28/202554",
+      "summary": "はじめに エディタを開いたまま、手が止まっていた。 LLM（大規模言語モデル）が書いた Rust のコードを眺めている。WAL（Write-Ahead Log、データを安全に書き込むための仕組み）のセグメント管理。所有権（データの持ち主を明",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "HashiCorp Agent Skills terraform-search-importで既存リソースをインポートしてみた(Claude Code × Terraform) | DevelopersIO",
+      "url": "https://dev.classmethod.jp/articles/terraform-search-import-skill-claude-code/",
+      "summary": "terraform-code-generationプラグインには、terraform-search-importのほかにterraform-style-guideやterraform-testなどのスキルも含まれています。 インストールスコ",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "AIがもたらす「人間のいない世界」を夢見る人たち » p2ptk[.]org",
+      "url": "https://p2ptk.org/ai/5511",
+      "summary": "以下の文章は、コリイ・ドクトロウの「A world without people」という記事を翻訳したものである。 Pluralistic ビリオネアであるとは、独我論者であるということだ。彼らはほとんどの他人は実在しないと密かに信じている",
+      "score": 0,
+      "comments": 0,
+      "source": "はてなブログ",
+      "source_icon": "📘"
+    },
+    {
+      "title": "【M365 Copilot】Teamsでチャットするだけで進捗管理ができた話",
+      "url": "https://qiita.com/yuyanz/items/5d2087dd5500d0689d7e",
+      "summary": "Microsoft, Teams, Microsoft365, copilot, AzPoc",
+      "score": 13,
+      "comments": 12,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "データアナリスト3年目が語る「教科書に載ってない」現場のリアル",
+      "url": "https://qiita.com/ktdatascience/items/001a7c7d3a35d797ddcb",
+      "summary": "初心者, ポエム, データ分析, キャリア, データアナリスト",
+      "score": 4,
+      "comments": 6,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "セキュリティコンサルタント1年目が最初に身につけるべき「情報の読み解き方」",
+      "url": "https://qiita.com/Intect-i/items/5aea1f7f87c4fc9a79f3",
+      "summary": "Security, 初心者, キャリア, 新人エンジニア, JPCERTCC",
+      "score": 3,
+      "comments": 4,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "物体検出の「最後の1マイル」を埋める — peaceofcake 🍰 という選択肢",
+      "url": "https://qiita.com/john-rocky/items/f3e59a73e4cc365875db",
+      "summary": "AI, DX, 物体検出, YOLO, ultralytics",
+      "score": 2,
+      "comments": 5,
+      "source": "Qiita",
+      "source_icon": "🟢"
+    },
+    {
+      "title": "ここんところのWeb界隈についての主観的記録",
+      "url": "https://zenn.dev/crayfisher_zari/articles/e3dfa8ca8a4a79",
+      "summary": "",
+      "score": 43,
+      "comments": 1,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Claude Codeで100個のSkillを育てた全記録 ── コンテキストエンジニアリング実践4ヶ月の軌跡",
+      "url": "https://zenn.dev/takuyanagai0213/articles/claude-code-100-skills-full-record",
+      "summary": "",
+      "score": 13,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "ローカルLLM",
+      "url": "https://zenn.dev/logbii_inc/articles/10a0bd6eec8707",
+      "summary": "",
+      "score": 4,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "GitHub Copilot CLIは無料で使えるが「50回で死ぬ」ので使い方を考える",
+      "url": "https://zenn.dev/catatsumuri/articles/92a2145f15b7b4",
+      "summary": "",
+      "score": 6,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "iOS26からSampleBufferへ安全なアクセスが可能に",
+      "url": "https://zenn.dev/noppe/articles/f6d41c3e87c433",
+      "summary": "",
+      "score": 6,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Chromeの垂直タブ機能を有効化する",
+      "url": "https://zenn.dev/naopusyu/articles/f1381ed7341574",
+      "summary": "",
+      "score": 7,
+      "comments": 0,
+      "source": "Zenn",
+      "source_icon": "📝"
+    },
+    {
+      "title": "Ryan Gosling Tells Hollywood It’s Not Moviegoers’ Job to Keep Theaters Open: ‘It’s Our Job to Make Things’ That Are ‘Worth’ Viewers Coming Out",
+      "url": "https://variety.com/2026/film/news/ryan-gosling-saving-movie-theaters-good-movies-1236697953/",
+      "summary": "Business",
+      "score": 975,
+      "comments": 84,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Police used AI facial recognition to arrest a Tennessee woman for crimes committed in a state she says she’s never visited",
+      "url": "https://www.cnn.com/2026/03/29/us/angela-lipps-ai-facial-recognition",
+      "summary": "Artificial Intelligence",
+      "score": 5040,
+      "comments": 195,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Walmart digital price labels are coming to every store shelf in U.S. by end of 2026",
+      "url": "https://www.cnbc.com/2026/03/21/walmart-digital-price-tags-will-be-in-every-us-store-by-end-of-2026.html",
+      "summary": "Business",
+      "score": 2384,
+      "comments": 556,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Big tech was embracing clean energy and turning a corner on climate change. Then AI data centers arrived",
+      "url": "https://fortune.com/2026/03/29/big-tech-climate-change-goals-data-centers-ai-fossil-fuels/",
+      "summary": "Business",
+      "score": 2627,
+      "comments": 51,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Android-Based GrapheneOS Refuses Age Verification, May Exit Regions That Enforce It",
+      "url": "https://itsfoss.com/news/grapheneos-refuses-age-verification/",
+      "summary": "Politics",
+      "score": 633,
+      "comments": 47,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Sony temporarily suspends memory card sales due to shortages",
+      "url": "https://www.theverge.com/tech/902828/sony-sd-cfexpress-memory-card-shortage",
+      "summary": "Artificial Intelligence",
+      "score": 1079,
+      "comments": 35,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Revolutionary new system developed by Microsoft can store data on glass for 10,000 years",
+      "url": "https://www.earth.com/news/new-microsoft-storage-system-can-store-data-on-glass-for-10000-years/",
+      "summary": "Hardware",
+      "score": 161,
+      "comments": 64,
+      "source": "Reddit r/technology",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "The ECMAScript spec forces V8 to leak whether DevTools is open",
+      "url": "https://svebaa.github.io/personal/blog/cdp-fingerprinting/",
+      "summary": "",
+      "score": 12,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Evolving a Translation System with Reflection in C++",
+      "url": "https://friedkeenan.github.io/posts/2026/03/28/evolving-a-translation-system-with-reflection/",
+      "summary": "",
+      "score": 6,
+      "comments": 0,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Intuiting Pratt parsing",
+      "url": "https://louis.co.nz/2026/03/26/pratt-parsing.html",
+      "summary": "",
+      "score": 2,
+      "comments": 1,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "How a Trip to the Movies Turned Into a System Design Session",
+      "url": "https://medium.com/@lightsoul/how-a-trip-to-the-movies-turned-into-a-system-design-session-542915c6aaab",
+      "summary": "",
+      "score": 6,
+      "comments": 6,
+      "source": "Reddit r/programming",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Breakdown: How TeamPCP hid malware inside WAV files using audio steganography",
+      "url": "https://pwn.guide/free/cryptography/audio-steganography",
+      "summary": "",
+      "score": 43,
+      "comments": 6,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "Please, We Beg, Just One Weekend Free Of Appliances (Citrix NetScaler CVE-2026-3055 Memory Overread Part 2) - watchTowr Labs",
+      "url": "https://labs.watchtowr.com/please-we-beg-just-one-weekend-free-of-appliances-citrix-netscaler-cve-2026-3055-memory-overread-part-2/",
+      "summary": "",
+      "score": 11,
+      "comments": 0,
+      "source": "Reddit r/netsec",
+      "source_icon": "🔴"
+    },
+    {
+      "title": "TypeScript 6.0, Next.js 16.2, and a new Node.js runtime",
+      "url": "https://javascriptweekly.com/issues/778",
+      "summary": "#778 — March 24, 2026Read on the WebJavaScript WeeklyAnnouncing TypeScript 6.0— Over six months in the making, TypeScri",
+      "score": 0,
+      "comments": 0,
+      "source": "JavaScript Weekly",
+      "source_icon": "🟡"
+    },
+    {
+      "title": "TypeScript 6.0 RC and Solid 2.0 beta arrive",
+      "url": "https://javascriptweekly.com/issues/776",
+      "summary": "#776 — March 10, 2026Read on the WebJavaScript WeeklySolid v2.0.0 Beta: Theis Over— After a long experimental",
+      "score": 0,
+      "comments": 0,
+      "source": "JavaScript Weekly",
+      "source_icon": "🟡"
+    },
+    {
+      "title": "External import maps, a big Bun release, and Node.js schedule changes",
+      "url": "https://javascriptweekly.com/issues/775",
+      "summary": "#775 — March 3, 2026Read on the WebJavaScript WeeklyBun v1.3.10 Released: A Surprisingly Big Update— Bun’s REPL has bee",
+      "score": 0,
+      "comments": 0,
+      "source": "JavaScript Weekly",
+      "source_icon": "🟡"
+    }
+  ]
+}
